@@ -1,0 +1,838 @@
+<INDIVIDUAL>
+<ID>subject851</ID>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-03-04 17:54:39 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> well I have failed to find a cleverer way. But I at least did get the correct solution to two decimal points. 
+I used Newton's method around 18^2 = 324 to solve the square root, obtaining 17.69, so x is either 12.34 or -5.34.  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-03-04 16:28:11 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Well the idea has quite a few flaws. For instance: if it is true, then why aren't there as many electrons as positrons? (Taken from Feynman). You could argue that in pair production near a black hole, the positron is absorbed though, leading to the excess electrons. 
+
+And there are also problems associated with pair production, which are best described by this comment:
+https://www.reddit.com/r/AskReddit/comments/5u0kqi/what_mindfucking_paradox_do_you_know/ddsae67/ </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-03-04 16:16:59 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> When an object falls in water, it has to displace a volume of water equal to its own volume for it to have space to fit in the water. 
+
+This results in a difference in forces: the downwards and upwards forces that are exerted on the object due to the water should be equal. However, there is a force difference: because the weight of the displaced water is not pushing the object down anymore, the upwards force from the water is larger than that of the downwards force from the water by the weight of the displaced water. 
+
+Thus the net force on the object is the weight of the water displaced minus the object's weight. Since the volumes of the displaced water and the object are equal, one can factor the volume out of the force and compare their density. If the water is denser the object rises, and if the object is denser, the object sinks. 
+
+You can cheat this rule by increasing the volume of an object without increasing the mass by much. For instance a hollow sphere of iron is larger than a solid cube of iron, even though they have the same mass and thus the same weight. You essentially lower the average density to make the density less than that of water. A car's metal and whatnot is denser than water, but it cheats by having air inside. It's the same principle as a ship: its guts are mostly empty.  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-03-04 13:08:01 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> I see. Thanks for the advice </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-03-04 13:01:47 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Not a lady but a witness of multiple wardrobe malfunctions. The school organised a ceremony for GCSE graduations. Was posh and formal, so boys wore suits and girls dresses. The dresses were about just below knee length, such that if a girl sat at a sufficient height with her legs uncrossed, she would be flashing her underwear
+
+For most of the function the graduates had to sit on a raised podium facing the parents. Quite a few girls never realised what was going on.  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-03-04 12:08:42 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Good point. It would be conditional.
+
+However, it does seem that my expression is a valid approximation:
+https://www.wolframalpha.com/input/?i=1-%5B364%2F365%5D%5E%5B365*23%5D%5B1%2B23%2F364%5D%5E365#17541320642639002802
+
+I calculated 1 - the probability, and I obtain 0.48 something, which rounded off is 0.5. The actual value is 0.5073, according to Wolfram Alpha's Birthday Calculator (http://www.wolframalpha.com/input/?i=birthday+problem+calculator rawformassumption=%22FSelect%22+-%3E+%7B%7B%22BirthdayProblem%22%7D%7D rawformassumption=%7B%22F%22,+%22BirthdayProblem%22,+%22n%22%7D+-%3E%2223%22 rawformassumption=%7B%22F%22,+%22BirthdayProblem%22,+%22pbds%22%7D+-%3E%22365%22)
+which is rather close to what I calculated. 
+
+I also graphed both equations. My equation doesn't match the actual solution for non-integer values of n and is slightly off for small values of n, but get extremely close as n becomes larger.  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-03-04 10:20:34 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Why wouldn't the probability for different days be independent? Is it due to the number of people decreasing? For instance, if there are n people, and one of them has a birthday on the second of February, then there will be only one person out of n - 1 people that could have a birthday on the 3rd of February. 
+
+However, I think it is negligible, because I tried a few sample calculations with the formula I derived and compared it to the actual values: it is relatively close.  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-03-04 09:30:55 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Sorry. I meant the number of people being born on a certain day of the year.  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-03-04 09:23:27 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> The probability of being born on a certain day of the year </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> [High School Algebra] Solving the following equation from the birthday problem. </TITLE>
+	<DATE> 2017-03-04 08:57:27 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Hello.
+
+I've given the birthday problem a try. The problem is stated thus:
+
+What is the minimum number of people necessary such that there is a 50% chance that at least two people share a birthday? Assume that a person is as likely to be born on any day and that a year has 365 days. 
+
+I modelled it using a binomial distribution. Consider any day of a year, say for instance February 2nd. The chance that someone is born on this day is 1/365, and no matter the size of the sample, this probability will not change. Therefore the problem can be modelled as a binomial distribution with probability of success 1/365 and with an n number of trials, where n is the number of people. 
+
+Now the simplest way to proceed is to calculate the probability that there are no shared birthdays. This can occur only in two ways: either no one has a birthday on that particular day, or only one person has a birthday on that day. The sum of these should be half, because I want the probability of people sharing the same birthday to be half, and thus the probability of nobody having the same birthday should be the same. 
+
+The probability that no one has a birthday on that day is (364/365)^n.
+
+The probability that only one person has a birthday on that day is (n/365)*(364/365)^(n - 1). 
+
+Now if I add the two, it gives me the probability that no one shares a birthday on only one day. But I want the probability that no one has a birthday for 365 days. Therefore, I want the probability for one day multiplied by itself 365 times, since the probability that no one shares a birthday on a given day is equal regardless of the day. Therefore I raise the sum to the power of 365. The final result is:
+
+`[; \frac 12 = ( \frac {364}{365})^{365n} (1 + \frac {n}{364})^{365}  ;]`
+
+I verified that this is the correct solution by plugging in n = 23, and it is. However, I would like to be able to solve the equation, that is manipulate the equation so that I can solve for n, rather than just verifying that it is correct. How can I solve for n from this equation? 
+
+
+Thank you for answering </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-03-04 04:43:50 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> A naked Mr. Burns </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-03-03 19:12:38 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> I never get hit on, much less by people of the same sex </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-03-03 18:17:13 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Always had a soft spot for all the Dragon ball opening songs, but Limit Break x Survivor takes the cake, the bakery, the baker and his family. The show is Dragon Ball Super </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-03-03 18:09:43 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Congratulations. </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-03-03 18:03:39 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Yeah definitely. Not exactly like I'm joyless without them, but they are the little extra spice that makes existence extra nice  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-03-03 18:00:43 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> The chocolate brown looks deliciou ... I mean awesome. I wonder how it tastes?
+
+The Oxford Blue looks very calming. It's almost as if I was staring in the deep skies and remembering my past when I used to draw a lot ( I sound old, but that was only when I was 8). 
+
+ </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-03-03 17:55:06 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Thanks for the sample.
+
+That's a nice deep blue, and I like the dual colour aspect a lot. I'll keep this one in mind. </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-03-03 17:52:23 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> The Diamine Oxblood reminds me so much of actual blood that I'm pretty sure that either a blood bank or vampire's larder was raided or that some harm was involved in making it. It's a nice colour for my darker writing. Thanks for the suggestion. The Diamine 1864 Blue-Black reminds me of the night. Also a very nice colour. 
+
+The Sailor Kiwa-guro is pretty dark, but apparently it is a pigment ink. I remember reading that pigmented inks aren't good for fountain pens, so why is this one fine? </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-03-03 17:32:58 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Thanks. You know you have an addiction when you pass over a good phone for a nice fountain pen. Not that I regret it; I'm far happier this way.
+
+And thanks for the website. I knew Gpens had a size comparator and a nib comparator, but I never knew they had ink comparators as well. 
+
+The Diamine Sunset's sheen definitely suits the name and the Herbin Perle Noire is the blackest ink I've ever seen. The Iroshizuku ku-jaku is right up my alley, I think, in terms of colour and intensity. Definitely a few inks I should investigate in. Liberty Elysium is nice, but unfortunately, I live well out of the range of Gpens. 
+
+And I realised that there is no ink called Robert Oyster. That's rather embarrassing...
+ </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-03-03 17:15:24 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Thanks for the advice; I'll do that.
+
+That's a nice shade of green. I like the sheen of it </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> Favourite inks and most saturated inks. </TITLE>
+	<DATE> 2017-03-03 14:08:55 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Hello.
+I've acquired, over time, a few pens with converters (Hero 901, Jinhao x750, Baoer 388 and Pilot VP (got this one recently. When my 5-year old phone broke (RIP) I got offered an Iphone 5 for my SAT scores, my dad had an old phone he did not use in years. Took the phone and bought this pen instead)) and I like the ability to choose ink freely, by emptying the convertor back in the bottle. I have never really adventured in the world of inks because I have, and always will be biased towards black ink for how solemn it looks. 
+So far I have tried a Lamy blue ink, Parker Quink Blue (Don't like this one too much because it fades very quickly, even when kept away from light and air), Lamy black (which is rather black and smooth), Schneider black (it's amazingly smooth and a very deep black - my favourite) and Camlin Kokuyo black (my main ink because it is the only bottled ink I have owned, not great, but it works well). 
+I wanted to venture more in inks, so I wanted to know what are your favourite inks and colours, and what are your most saturated inks (I mean blackest, bluest, reddest etc.) Sample photos would be nice. Here's a sample of my favourite inks:
+
+http://imgur.com/a/ZnOJh
+ 
+
+Thank you for sharing
+
+
+
+Also sorry for the bad quality photo and poor handwriting. It's a work in progress </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-03-03 13:32:13 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> I have only one pair of shoes; I actually own only one of everything because I find it extremely hard to justify owning more than the strict minimum. Shoes, clothes, laptop, phone, parent, shelves, mechanical pencils, erasers, sharpeners, everything  - except fountain pens. For some reason I don't feel the need to justify having multiple fountain pens, as long as they are different types (for instance, I won't get two MRs). And the thing is that I don't use them for different purposes: all my pens are meant to be used in as many conditions as possible, which is why they are all japanese medium, or western fine. I guess it is something about the joy of owning different fountain pens.  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-03-03 13:23:40 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> It might be the look too. Every time I use my Metro I find it more beautiful than before. And the quality doesn't suffer either. The classic pricey pen is MB, and the design of pens from Asian companies borrows a lot from the design, so perhaps that's why the Metro seems expensive. For instance when I saw the Lamy pens like the 2000 or the Al-Star, they did not seem very pricey because of their plastic look. The TWSBI pens also gave me the same vibe. The Metro on the other hand has this high-class look. </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-03-03 13:14:46 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Or your species. But anyway, for clarification, the person in question is a female homo sapien. The joke only works if the person is female anyway.  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-03-03 12:51:50 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> A redneck can be male or female </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> Your cousin, your son and your husband are drowning. You can only save one person, who do you save? </TITLE>
+	<DATE> 2017-03-03 12:19:49 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Answer: you are a redneck, so your brother </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-03-03 05:21:33 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> /r/fountainpens begs to differ </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-03-02 17:41:28 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> ceci n'est pas un feu </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-03-02 17:08:33 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Man suicide is always terrible, especially from kids.
+
+Takes away the fun of killing them </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-03-02 14:58:54 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Considering that my neighbour is a drug dealer, that's plausible.  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-03-02 14:58:14 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> That's true; it does not much sense. But hey you never know </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-03-02 14:57:23 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> lets find out </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-03-02 13:02:03 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> I was actually thinking that the chainsaw was lying flat on the ground, like a snow racket </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-03-02 12:02:59 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Based on that setup I would be tempted to say that under ideal conditions, the chainsaws would fall forwards like wheels. </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-03-02 11:59:53 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Partially mathematically and partially physics. Heretic112 explained how the law follows from Noether's theorem. But we also chose our definition of energy such that it was the conserved quantity given by the theorem. For instance kinetic energy used to be mv^2, but 1/2mv^2 is conserved, so that's a better definition for it.  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-03-02 11:57:28 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> If you are studying calculus as well, I also recommend reading the Feynman Lectures on Physics on the side, especially volume 1. They are available for free online </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-03-02 11:55:32 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Consider a ball made of millions of tiny balls and that is stationary. Now suppose that an explosion from inside the balls breaks off one of the tiny balls leaving the others stuck together. 
+
+From the centre of mass, the momentum cannot change since no external force was applied on the balls. Therefore, any number of situations that conserve momentum are possible: for instance, the tiny ball could just break off stationary, and the force would be due to a change in mass. However, momentum is not the only conserved quantity: energy must be conserved too. The balls must have released energy to cause the explosion, and this energy must go somewhere. That somewhere is in the kinetic energy of the balls. The only way for both momentum and energy conservation to be satisfied is to have the big ball and the tiny ball move in opposite directions. 
+
+Now consider each ball individually. In the explosion, there was a force exerted on the tiny ball, which means that there must be a change in momentum and kinetic energy (by the work-energy theorem). Thus the ball must pick up speed. By Newton's third law, the big ball exerted a force on the small ball and must thus feel a similar force. Using the same momentum and energy arguments, one can show that the big ball must also accelerate, but in the opposite directions.
+In this case, a force was applied to the large+tiny ball (the original ball) and caused a change in mass, separating it into two. However, this change in mass must also be accompanied by a change in velocity. Thus, while a force can cause a change in mass, it must also cause a change in velocity.
+
+
+The physical reason for this is that the mass is a scalar property of all objects and it is intrinsic. The mass represents the scalar multiplier in the momentum equation, that is, m is defined as p/v. Mass is, for some reason additive: you can add another object with the same mass as something else and end up with twice the mass (actually the mass is not really additive, but it is a good approximation). Objects are made of elementary particles, such as electrons, which have their own mass. Since mass is additive, the mass of objects is simply the sum of the masses of their elementary particles, and since elementary particles cannot be broken down, the mass of an object is intrinsic. Of course, you can always break the object down and down into smaller pieces, and this would change their mass, but at some point, you won't be able to do that anymore. That means that you can consider objects to be made of tiny little objects; our ball was made of the tiny ball and the large ball, and the mass of these tiny little objects cannot change. That's why the mass of the centre of mass can be constant: the centre of mass is an imaginary point particle so it cannot break any further. A force must therefore cause some acceleration </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-03-02 10:34:04 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> And can't hit one either. And can't really hurt rocks or steel </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-03-02 10:31:33 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> rock, ground.
+
+Or if mean attack, rock, fire, dragon, flash fire, thick fat, water sport. </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-03-02 10:24:30 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Sorry for being completely off-topic, but I like your username </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-03-02 10:13:37 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> That's about 1.8 million Rupees. That would be very comfortable indeed </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-03-02 09:46:28 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> As long as you don't mind widows.  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-03-02 08:36:45 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> I'd beg to differ. I've learnt how to drive from action movies, and so far nothing serious has happened. Just a few dead people and car accidents.  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-03-02 08:27:36 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Boku no Pico </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-03-02 07:31:00 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Actually, seeing that in the traditional running style, the hands intercept the air, while in the Naruto style the hands go with the wind, I'm pretty sure you experience less air resistance and thus run faster that way </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-03-02 04:02:35 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Sorry. That's not what I was getting to.  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-03-01 18:18:12 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Sure, thank you for the info.
+I'll pm the details </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-03-01 17:51:45 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Was the kid yellow, and did he have spiky hair? </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-03-01 17:48:51 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> I remember trying to figure out how the clip would interfere with my writing by using a capped metro as a reference. With my old grip, which was kind of just grabbing the pen with three fingers, the clip bothered me a lot, and the barrel step on the metro also annoyed me. 
+Then I got an Al-Star and changed my grip accordingly. The clip doesn't bother you that way, especially if you write small. In fact it is an aid if you do, as you can rest your index or your thumb on it.  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-03-01 17:43:56 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> I see that on your website, you ask for a high school transcript with your gpa. What if the school does not use a gpa system? I'm taking the IB. 
+
+And do you need your results already to apply? I'm not getting my results till the beginning of next year (Jan-Feb or so), and my predicted results aren't coming till around September of this year. Can I still apply and how?
+
+Thank you for answering </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-03-01 16:55:39 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> did it taste nice? </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-03-01 16:51:36 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> baby face </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-03-01 09:03:58 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Actually if I had a girlfriend and she yelled at my dogs, I would tie her up to a chair and lock her up in my basement and torture her for days.  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-03-01 08:28:28 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> See ya in hell, psychologists </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-03-01 08:19:26 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> More like that's what you get for being an asshole </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-03-01 04:38:46 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> I'd be wrong, but how wrong depends on the kind of situation. An approximation might be good enough for most purposes after all, though what, I don't know. 
+
+I get your point about the solution though. If only I could evaluate that square root, I would have my solution. I guess I could use the square root algorithm, but I might be able to find a cleverer way from those hints.  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-03-01 04:35:23 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Ah I think I understood what you meant. In that case, I'll need to show that both expressions are positive before raising them to the fourth power. 
+
+The fourth root of 5 must be bigger than one so the left hand side must be positive. Since zero is not a solution to the equation, the right hand side must be positive as well. Therefore, both must be positive. Therefore the solution holds.
+
+I also found a quicker way to solve it: I raise both sides to the 4th power, then I divide the left hand side by the right hand side. If x = 5^0.25, the result is 1. 
+
+
+
+Since the question was actually to show that 5^0.25 is a solution, I knew that it is a solution. Though I suppose that is cheating, because I'm assuming that 5^0.25 is a solution before showing that it is.  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-03-01 04:11:22 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Yeah, or like falling dominoes. 
+I guess it is because of its simplicity that people are confused by it </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-03-01 04:10:07 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> I'm not sure if it is about understanding something mathematical or whether it is questioning a mathematical concept. Sorry if the thread is in the wrong place. </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-03-01 04:08:42 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> What I meant by "assume" is that we show it holds for some natural number k. Usually it is 1.
+
+
+I meant that k and k + 1 don't have fixed values. No matter k is, k + 1 is always different. For instance, I thought that you could suppose k = 2. Then k + 1 = 3. But you could choose k again such that k = 3, thus making the proof invalid. But in changing the value of k, the value of k + 1 also changes, so the proof works.  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-03-01 04:04:55 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Dragon Ball Super </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-02-28 17:53:15 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> But since k is never specified, k could be anything. It holds for one specific value, but that value could be anything. But k + 1 is different from k, so my question is invalid.  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-02-28 17:12:57 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> We assume that there is some k for which P(k) holds, but k could be any natural number. There is no reason to assume P(2) holds over assuming P(3) holds (of course if you actually show that P(2) holds by plugging 2 in, then P(2) is better than P(3). But you might as well plug in 3 and see if it works). Then you can show that P(k + 1) also holds. What I meant by my question is that since k can be any natural number, it could be k + 1 just be redefining k. But k + 1 is not a value, but an expression, which is itself dependent on k. Thus k and k + 1 are different.  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-02-28 17:07:50 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> You don't assume anything overall, but the inductive step does require an assumption: that it works for k. Then you can show it works for k + 1. Of course you can define k = 1, then show it holds for one. You don't make any assumptions then.
+
+My question was basically asking whether k and k + 1 are the same thing. They aren't </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-02-28 17:05:31 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> I like this analogy. You can knock over any domino, and it will knock over the next one, but you definitely knocked over one domino, not the whole series. It illustrates how k can be anything you want it to be, but k + 1 is not the same thing as k.  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-02-28 17:03:51 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> My confusion came about by thinking of k + 1 as a number rather than an expression. An expression's value is not fixed, so it changes, and thus induction is valid.  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-02-28 17:01:14 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> The confusion was not in the analysis of the consequences if X was true, but rather in the fact that X is arbitrary, and that X + 1 could easily be taken as a new X. 
+X might be anything, but no matter what X + 1 is distinct from X. This cleared up the confusion.  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-02-28 16:58:25 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Thanks that really clears things up </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-02-28 16:57:54 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Isn't there a cleverer way of finding x? I pretty much brute forced my way through the calculation. I'm sure there must be a way </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-02-28 16:02:11 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Thanks for answering.
+
+I'm having some difficulty understanding why raising to the fourth power is incorrect. 
+In your example, when I square both sides, I obtain x^2 = (-x)^2.  The squared version of the equation has an increased number of solutions. However, if I take the positive square root on one side, shouldn't I take the positive square root on the other side as well? I can't take the positive root on one side and the negative on the other.
+
+In this case, I know that the root 5^0.25 satisfies the original equation, before I raise it to the 4th power. Thus I know that if I raise the original equation to the 4th power, then raise it to the 0.25th power, all the solutions need to satisfy the original equation, provided I don't mix them up. Thus 5^0.25 has to satisfy the original equation.
+
+Thanks for telling me the name of the field. I'll definitely check out number theory, and I have a feeling that the field would also be able to help me with questions like the first one. 
+
+ </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-02-28 15:40:35 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> I know I solved for x, but the expression is impossible to evaluate without a calculator. Also isn't there a cleverer way to find x?
+The question emphasised the fact that 1729 = 9^3 + 10^3 = 12^3 + 1^3 = 7(12 + 1)(9 + 10). Surely, this must be important? And I'm pretty sure I need to find a number for x, not just the expression. </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-02-28 15:38:09 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Hope I'm not butting in.
+The lower potential is in the direction in which a positive charge would move. In general, this will be closest to the negative charges and furthest from the positive charge: where the electric field is weakest. This means that as you get closer to the negative charges the potential will decrease. It probably is safer to think of the field when looking at how the potential changes: the potential will always decrease in the direction of the electric field, which is the direction in which a positive charge will move. Therefore, the potential is lower the further away you are from a positive charge and the closer you are to a negative charge. 
+
+ </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-02-28 13:40:04 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> The acceleration cannot be constant if the power is constant. Constant acceleration implies a constant force, and power is defined as work done over time, or Fx/t which can be written as Fv, since v = x/t. (Formally speaking, W = F . dx, so P = F . dx/dt = F . v, which gives a scalar value for the power, and works for non-constant velocity, but the above is good enough).
+ 
+
+v is not constant if there is a force being applied, so if Fv is constant, the force and thus the acceleration cannot be constant. In fact, you can show by differentiating the power and then solving the resulting differential equation that the acceleration is exponential, of the form ue^(-t), or 
+-ue^(-t) where u is the initial velocity, t is the time and e is Euler's number. Also, u must not be zero. It is physically impossible to have u = 0 and the power be constant and the object accelerating: if u = 0 then since P = Fv = Fu = 0 in this case, and that the power does not change, the object cannot gain energy to accelerate, if u = 0. However, one can approximate the power as being constant even if u = 0.
+
+
+ </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> [number theory] Express 1729 as the sum of x^3 + (7 - x)^3. </TITLE>
+	<DATE> 2017-02-28 11:31:45 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Hello.
+The title states the question, and there are a few additional details that were given in the question:
+
+1729 = 9^3 + 10^3 = 12^3 + 1^3 = 7(12 + 1)(10+9)
+
+more specifically, they tell me to note that 1729 = 7(12 + 1)(10 + 9), so I guess that's important.
+I'm supposed to use this, but I'm not sure how. I'm also not allowed to use a calculator.
+
+I expanded x^3 + (7 - x)^3, and obtained a quadratic:
+
+7^3 - (3*49)x + 21x^2 = 7(10 + 9)(12 + 1)
+
+since 7 is common everywhere, I divided to get:
+
+3x^2 - 21x + 49 = (10 + 9)(12 +1) = 120 + 10 + 108 + 9
+
+subtracting 49 on both sides gives:
+
+3x^2  - 21x - 198 = 0
+or
+
+x^2 - 7x - 66 = 0
+
+at which point one can apply the quadratic equation to give:
+
+7  313
+///////////
+      2
+
+Which is pretty much unsolvable without a calculator. And I'm pretty sure my approach is wrong, because I did not use what was given in the question. 
+
+I noticed that 7(12 + 1)(9 + 10) has 12 + 1 and 9 + 10, which are similar to 12^3 + 1^3 and 9^3 + 10^3, and I have a feeling that this is important, but I don't know how it is important.
+
+
+Thanks for any answers </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-02-28 10:52:08 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Then the next one would be Super 3DS 2. Then Super 3DS 3. Then Super 3DS God </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> [arithmetic?] Show that this expression is equal to that expression. What field of study does this belong to? </TITLE>
+	<DATE> 2017-02-28 08:57:45 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Hello.
+In the following, x represents 5^0.25
+
+Then, I have to show that:
+
+`[; \frac {x + 1}{x - 1} = ( \frac {3 + 2x}{3 - 2x})^{0.25} ;] `
+
+I rewrote the denominator on the left hand side as x^4 - 1, by multiplying it by the respective conjugates, and multiplied the numerator as well. 
+I did the same thing for the right hand side, ignoring the ^0.25. Then I raised both sides to the power of 4 and worked through the calculations, and got the answer, but it did take a lot of time to do. 
+
+My question is: is there a better way of doing this? A different approach that is faster than the one I used.
+
+Also, what field of study or what textbook tackles questions such as the above?
+Also suppose I have a question that says something like express 2017 as the sum of a^4 + b^2, where a and b are integers. What field of study does this belong to and are there textbooks that address this sort of question?
+
+Thanks for answering </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-02-28 07:54:44 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Piccolo's sons were mutated Namekians, not a different form. He was tainted by the evil of humans and his children acted in kind.  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-02-28 07:52:32 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Now Vegeta was even more of a sore loser because he transformed.
+
+Freeza was really a pussy though. Probably the biggest in the series: He tried to blow up Namek, begged for forgiveness, killed an entire race out of fear, tried to kill the person who spared him using his own energy from behind no less, tried to blow up Earth when he was losing against Trunks, tried to attack those on the sidelines vs Goku post-revival, got a soldier to strike him from the back again, and blew up the Earth when he saw he was losing. 
+
+
+Cell wasn't really that much of a pussy. He did run away from Piccolo and the others, but only so that he could become more powerful. Can't really accuse him too much of that, otherwise the whole cast of Z-fighters would be cowards during the Cell and Buu arc. More of a tactical retreat, against Piccolo and Vegeta. But he did depend too much on Vegeta to get his final form. He chickened out against the Final Flash, and attempted to destroy the Earth in order to hit Goku, and tried to blow himself up against Gohan, but that's about it.
+
+Buu's absorption doesn't really count as cowardice in my opinion. It was his ability, which he used in a fight, and it is no different than say, instant transmission or the fusion technique. If anything, his insanity and cunning make him the bravest of all foes. 
+
+
+Zamasu was not really a coward either. He did act like a coward at times, but it was more cunning and tactical action rather than just cowardice. Of course, he was immortal, so that gives him a lot more leeway, but still, he did that not to escape his opponents, but because he had a plan. Trunks was a much bigger coward in the arc. 
+
+
+ </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-02-28 07:31:04 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Thank you for all the answers </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-02-28 05:56:57 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Thanks for the reply. So if I understood well, induction works because if k changes, then so does k + 1? </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-02-28 05:54:44 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> However, there is no reason to choose to assume that you can eat 6 pancakes. You could assume that you can eat 7 pancakes directly, since in induction, the number of pancakes you can eat could be anything. Then you could show that you can eat 8 pancakes, but you could just as well assume that you can eat 8 pancakes. 
+
+Unless I'm missing your point entirely and the addition makes the difference. k +1 is a dynamic value, for if k changes, then so does k + 1. 
+It isn't so much the numerical value of k that is important, but the form of the expression. Thanks </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> Is induction a valid proof? </TITLE>
+	<DATE> 2017-02-28 05:20:24 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Hello.
+I have trouble seeing how induction, strong or weak can act as a proof.
+
+The principle of weak induction states that
+If some property P(k) were to hold for k, where P(k) is some property, and k is a natural number, and P(1) also holds, then P(k + 1) is also true. 
+
+In assuming that P(k) holds, don't we already assume that P holds for any natural number? Since k is any natural number you could choose any k, and assume that P(k) holds for it. If k is a natural number, then so is k + 1, but since k can be anything you choose it to be, you could just pick another number, lets say C, and then say C is k + 1. Then you would have P(C), where C is any natural number, but by assumption this already holds. 
+
+Strong induction seems even more guilty of this: if it holds for 1...k, then it holds for k + 1. If I choose some other number C such that C = k + 1, then by assumption the property holds for 1...C, so not only does this suggest it holds for C, it also holds for k. 
+
+What did I miss?
+
+Thank you for answering </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-02-28 04:35:40 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> I see. Though, you could also add the digits, and add that to 18.  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-02-28 04:32:28 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> 18 </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-02-28 04:32:16 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> The last two words are "a teen". Stretch the "a" for a little </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-02-28 04:30:57 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> nope, 18 </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-02-27 18:51:25 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> After the midpoint, pronounce the remainder of the phrase as if the words were slurred together.
+
+That's what I would have written at first, but it was too bulky </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-02-27 17:47:28 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> how did you get twenty seven?
+
+
+Edit: Sorry if this offended someone. I was just curious.  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-02-27 17:47:16 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> yep </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-02-27 17:12:00 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> attracting pedophiles </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-02-27 17:08:28 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Apparently the higher ups found the students to not be daring enough (one of the criteria for the ideal student was a risk-taker), so they asked the grades to organise a play about risk-taking. 
+
+Nobody in my grade wanted to do it. So when the day of the play came, the whole grade just sat for 5 minutes on stage, then went back. Guess we were risk-takers after all </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-02-27 16:56:52 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> I am a teen (pronounce the last two words as if they were one word) </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-02-27 15:50:07 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Thanks, I got it.  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-02-27 14:22:19 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> I split the series using partial fractions as:
+
+
+`[; \frac {1}{4(n - 2)}  - \frac {1}{4(n + 2)} ;]
+
+But since each term is just a copy of the harmonic series, they diverge and I cannot compute the sums separately.  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> [Series help] find the sum of 1/(n^2 - 4) to infinity, where n is an integer. </TITLE>
+	<DATE> 2017-02-27 13:51:46 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Hello.
+I have the following series:
+
+`[; \frac {1}{n^2 - 4} ;]`
+
+from n = 3, to infinity. n is an integer by the way. 
+
+I know the answer is 25/48, but I have absolutely no idea of how that was obtained. 
+
+So far I split the denominator as a difference between two squares, (n + 2)(n - 2). I also know that the difference between each denominator is 2n^2. However, I don't know what to do.
+
+Thanks for any answers </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-02-26 13:42:55 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> That's not discrete. </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-02-25 17:30:39 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Alright. Thanks for the reply </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-02-25 17:21:57 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Thanks for the reply. I'll try and use a camera zoom lens to check it. Any idea on how to realign the tines? </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> Lamy Al-Star Medium nib a bit scratchy </TITLE>
+	<DATE> 2017-02-25 16:59:13 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Hello.
+So I got a Lamy Al-Star (graphite coloured one) recently. Normally the pen has a medium nib upon sale, but I asked for a fine one (I've always been a sucker for thin  lines) , and the nice shopkeeper gave me the medium one for free as a bonus. The fine nib was sold separate from the pen so it was fresh, while the medium nib was on the pen already. I doubt it was tested often, because the pen was locked away and you had to go through a long process just to test the pen. 
+
+So I tried the fine nib first, and it felt like I had killed an angel and was eating its succulent meat. I wrote so much, I had to change the cartridge, which was a free Lamy blue one offered with the pen. I used Lamy black.
+I also swapped the nib for the medium one. 
+
+And the medium one seems to have a very small sweet spot. It seems that I need to hold it just right, or else the line is just a scratchier fine. At a certain, restrictive angle it writes very well, with lines the size of a medium, but the moment I deviate just a little bit from that, it becomes a bit scratchier, and the lines become thinner. Not so scratchy that it can't write, but it does feel unpleasant. 
+
+And when I write quickly, it skips a little or the line thins significantly, especially when curling the gs's and the ys's tails. And while the fine nib could write with the back of nib rather smoothly, the medium nib cannot even do so, unless it is at a very awkward angle, where the pen is completely upright and writes from the tip of the nib rather than the back. And even then, it skips a lot. 
+
+It cannot be the ink, because I switched the nibs to try, and the fine writes just as well. It also writes just as smoothly at angles at which the medium scratches.
+
+Anybody tried both nibs and experienced the same thing? And anyone has some advice on what to do about the nib?
+
+Thanks for the replies </TEXT>
+</WRITING>
+</INDIVIDUAL>

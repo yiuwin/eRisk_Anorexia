@@ -1,0 +1,1604 @@
+<INDIVIDUAL>
+<ID>subject3835</ID>
+<WRITING>
+	<TITLE> overview for sandlimsingwimuzzne </TITLE>
+	<DATE> 2015-12-06 23:02:16 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT>  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> overview for madunadik </TITLE>
+	<DATE> 2015-12-06 21:05:18 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT>  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> overview for ravichayalwps </TITLE>
+	<DATE> 2015-12-06 21:04:04 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT>  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> overview for pearconsrepmedechi </TITLE>
+	<DATE> 2015-12-06 21:00:39 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT>  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> overview for baked_salmon </TITLE>
+	<DATE> 2015-12-06 19:58:09 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT>  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> overview for gulugu </TITLE>
+	<DATE> 2015-12-06 19:55:46 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT>  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> overview for mitthuji </TITLE>
+	<DATE> 2015-12-06 19:45:25 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT>  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> If you asked your friends for their brutally honest opinion of you, what would you be worried that they'd say? </TITLE>
+	<DATE> 2015-12-06 03:53:48 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT>  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> overview for eawfa </TITLE>
+	<DATE> 2015-12-06 03:00:44 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT>  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> Can anyone help with this regex which tries to detect indirect imgur links? It's failing to detect the last character, and I know why but can't prevent it. </TITLE>
+	<DATE> 2015-12-06 01:37:56 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> [Here's an example of the regex working on a comment](http://i.imgur.com/2BK1O45.jpg)
+
+I want to detect imgur links which do not have a file extension:
+
+`imgur.com/abc123` should match, but
+
+`imgur.com/abc123.jpg` should not match.
+
+It's a fairly simple regex as they go, but I'm having a problem because some links have a 6-character ID while some have a 7-character ID, eg:
+
+`imgur.com/abcdef`
+
+`imgur.com/abcdefg`
+
+are both valid. My regex initially looked for exactly 6 characters in the Id, which worked fine until I found out that some 7-character IDs exist, so I changed the {6} (not pictured above) to {6,7}, but that seemed to omit the final character, so I changed it to {6,8}, which still didn't work. I finally tried {0,8}, but still the last character was omitted, even though I'm using greedy matching, and maybe you see why: I'm only looking for matches which are not immediately followed by a file extension such as .jpg.
+
+`imgur.com/abcdefg.jpg`
+
+The full 7-character ID above does not match because it ends in ".jpg". However the 6-character ID is not followed by .jpg because it is followed by the 7th character of the ID, so the match is found:
+
+`imgur.com/abcdef` | `g.jpg`
+
+The left group above is the match because it doesn't end with .jpg, whereas if you include the final character of the ID you are forced to also include the .jpg, which makes the group fail to match.
+
+I'm not sure how well I explained that so feel free to tell me that I've just confused you. Otherwise, any idea how I can match the whole ID if it is followed by an extension? It needs to prioritise matching the full ID, and **then** check whether it is followed by an extension, rather than trying to match anything it can. I think I need it to keep consuming ID characters until it hits a space or a dot and then stop to check the extension?
+
+---
+
+tl;dr I need a regex to match `imgur.com/abcdefg` but not `imgur.com/abcdef.png` </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> Table chop </TITLE>
+	<DATE> 2015-12-02 22:00:39 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT>  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> Almost everyone agrees that "Autonomous Sensory Meridian Response" is a terrible name for the tingly sensation we all love. If you could go back and change it, what would you name it? [discussion] </TITLE>
+	<DATE> 2015-12-02 10:23:48 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> I think "tingles" or "the tingles" is weak for a few reasons. A better name would be something which rolls off the tongue nicely like "ASMR" but actually means something. 
+
+Obviously it's far too late to change it now, but I think it could be fun to think about.  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> Ok google. Instant party. </TITLE>
+	<DATE> 2015-12-01 23:40:16 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT>  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> Raspberry Pi Zero - a whole computer for $5 </TITLE>
+	<DATE> 2015-12-01 20:47:24 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT>  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> (Bill MaxVoxPax) A little ramble while browsing the computer after no uploads in 9 months. [male] [unintentional] [clicking] </TITLE>
+	<DATE> 2015-12-01 00:46:36 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT>  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> I made a subreddit for those who want to have others test their app </TITLE>
+	<DATE> 2015-11-29 22:54:45 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> It's at /r/TestFlight - check it out if you're interested in testing developers' apps, or if you're looking for beta testers :) </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> Quick question - What's a "dealer bounty" tournament? </TITLE>
+	<DATE> 2015-11-28 12:55:53 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> As seen here:
+
+http://www.gentingcasinos.co.uk/club/manchester/poker/
+
+I've played a lot of casino poker in my life but I've never heard of a "Dealer bounty". Ofc I know what a regular "bounty" is.. Maybe this means the dealer plays and if you beat him you get a bounty? I seriously doubt it though. Google didn't really help either. 
+
+Anyone know? </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> I hate that they can get away with this. </TITLE>
+	<DATE> 2015-11-28 12:23:00 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT>  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> [request] a tweak to replace the two beeps on Siri with the awesome beeps from Google Now </TITLE>
+	<DATE> 2015-11-27 17:06:54 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> On android devices, the sound Google now makes when you begin and end voice input is AWESOME :)
+
+For the musically inclined, the beginning of input is marked by two quick beeps - a first and fifth. Then the end is marked by three quick beeps - a third, fifth, and eighth. 
+
+If this exists, can someone let me know the tweak name? If not, can someone make it? I think it should be a very simple sound file replacement, but I've never developed for iOS so maybe it'd be more difficult, idk. 
+
+---
+
+Edit: it wasn't the Google now tone I was thinking of! It was the Samsung S Voice tone! Similar sounds tbf. It's the one like in this video: http://youtu.be/TKAZOJ5uJFc </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> A bug doing a handstand </TITLE>
+	<DATE> 2015-11-27 00:38:27 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT>  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> How do I get the FULL submission URL from a praw submission object? submission.url seems to chop the file extension off imgur links </TITLE>
+	<DATE> 2015-11-26 21:03:05 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> I paused execution to [check the attributes of a submission object](https://imgur.com/8anwxE2), but nowhere was the full URL provided. If you go to the [submission in question](https://www.reddit.com/r/food/comments/3udre2/honey_roasted/), you'll see that the link has a ".jpg" on the end, whereas in my object watch window it just has the imgur link. There are no other attributes containing the full link.
+
+[Here's the API link to that submission](https://api.reddit.com/r/food/comments/3udre2/honey_roasted/). You can see that there's no extension under "url", and a page search for "jpg" returns no results other than thumbnail links.
+
+
+How can I get the full link in praw? I need to get the full link, then check whether or not it ends in ".jpg", ".png" etc to see whether the submission is a direct image link.
+
+---
+
+edit: [this submission seems to have the extension..](https://api.reddit.com/r/WTF/comments/3uchq3/who_needs_a_boat_when_you_got_a_car/) | [as does this one](https://api.reddit.com/r/WTF/comments/3ua3gy/a_rare_condition_called_congenital_arthrogryposis/). What's going on then?
+
+Edit2: for future people with the same problem, RES was the issue as per [this comment](https://www.reddit.com/r/redditdev/comments/3udusd/how_do_i_get_the_full_submission_url_from_a_praw/cxe19nc). Disabling RES displays the correct link in the browser. </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> What's your all-time favourite advert? </TITLE>
+	<DATE> 2015-11-26 12:08:55 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT>  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> [Request] Secret santa gift ideas with very low price limit? </TITLE>
+	<DATE> 2015-11-26 11:15:39 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> I'm in a secret santa at work, but the limit is 5 (~$8-9). I've had a few decent gift ideas but they're all more expensive than that, and things less than 5 are cruddy presents. Any ideas? </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> Why do comment objects erase themselves when I read them? </TITLE>
+	<DATE> 2015-11-25 21:38:38 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> If I execute the following code, I get the output below.
+
+    comments = r.get_subreddit("redditdev").get_comments(limit=500, fetch=True)
+    list(comments)
+    [ praw.objects.Comment object at 0x0000000003F80EB8, praw.objects.Comment object at 0x0000000003F80F60... etc]
+    list(comments)
+    []
+
+Notice the second time I try to list the comments, I get an empty list. This is true for seemingly any operation I perform on      comments - the operation works fine, but seems to erase the list when it's done.
+
+Can anyone explain what's going on, and how to read 'comments' more than once?
+
+ </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> Here's the thing.. </TITLE>
+	<DATE> 2015-11-25 19:28:10 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT>  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> What would you be fired immediately for if your boss knew about? </TITLE>
+	<DATE> 2015-11-23 17:18:53 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT>  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> [Dicsussion] What's the best way of live-cloning my hard drive internally? </TITLE>
+	<DATE> 2015-11-23 10:47:42 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> I want to buy a second hard drive of the same capacity as my current drive and attach it inside my pc such that my primary hard drive will be cloned onto the secondary, and any changes I make are also immediately cloned onto the secondary, so I have two exact copies of my data at all times. I don't want to see the secondary hard drive in Explorer, I don't want to know it's there, I want it to be completely transparent. 
+
+What's the best way to do this? Would RAID be a solution? I know of it by name only - I don't really know much about how it works - and I'm aware there are different versions eg RAID2 but again I've no idea what the difference is. 
+
+What are the drawbacks of doing something like this?
+
+Thanks :D
+
+---
+
+disclaimer: I know this isn't a backup solution - I have cloud and external backups. It's just as a protection against drive failure.
+ </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> What's the best way of live-cloning my hard drive internally? </TITLE>
+	<DATE> 2015-11-23 10:37:26 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> I want to buy a second hard drive of the same capacity as my current drive and attach it inside my pc such that my primary hard drive will be cloned onto the secondary, and any changes I make are also immediately cloned onto the secondary, so I have two exact copies of my data at all times. I don't want to see the secondary hard drive in Explorer, I don't want to know it's there, I want it to be completely transparent. 
+
+What's the best way to do this? Would RAID be a solution? I know of it by name but that's it, and I'm aware there are different versions eg RAID2 but I've no idea what the difference is. What are the drawbacks of doing something like this?
+
+Thanks :D
+
+---
+
+disclaimer: I know this isn't a backup solution - I have cloud and external backups. It's just as a protection against drive failure. </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> PsBattle: Nick and Danny from Hot Fuzz eating ice cream in their car </TITLE>
+	<DATE> 2015-11-22 21:46:25 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT>  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> PsBattle: Danny and Nick from Hot Fuzz eating Ice Cream in their police car </TITLE>
+	<DATE> 2015-11-22 19:13:45 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT>  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> The Daily Mail Song </TITLE>
+	<DATE> 2015-11-22 12:54:42 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT>  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> For my new 1440p monitor, I downloaded a few high-res backgrounds, linked. Does anyone have any other 1440p PNG backgrounds to share? </TITLE>
+	<DATE> 2015-11-21 15:41:51 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT>  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> Baby playing with puppies </TITLE>
+	<DATE> 2015-11-21 15:29:18 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT>  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> [News] Snapchat blocking rooted users on android - are jailbroken users next? </TITLE>
+	<DATE> 2015-11-21 15:21:46 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT>  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> Snapchat blocking rooted users on android - are jailbroken users next? </TITLE>
+	<DATE> 2015-11-21 15:20:55 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT>  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> Bear heart attack </TITLE>
+	<DATE> 2015-11-21 13:47:40 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT>  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> [serious] Therapists/psychiatrists of reddit: what is something that most people think they are alone in experiencing/feeling/thinking? </TITLE>
+	<DATE> 2015-11-18 12:05:25 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT>  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> What was better before it got popular? </TITLE>
+	<DATE> 2015-11-17 13:22:13 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT>  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> What's the easiest way to make the biggest change in your life? </TITLE>
+	<DATE> 2015-11-16 17:42:39 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT>  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> What do you wish was common knowledge, but most people don't know/understand? </TITLE>
+	<DATE> 2015-11-16 17:15:24 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT>  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> In what interesting way are you not like most other people? </TITLE>
+	<DATE> 2015-11-16 13:26:34 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT>  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> What misconception do most people have about your job? </TITLE>
+	<DATE> 2015-11-15 21:46:08 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT>  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> [discussion] When searching for a new video, what makes you more likely and less likely to click on a link? What makes you stop watching halfway through, versus watching till the end? </TITLE>
+	<DATE> 2015-11-15 18:54:21 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Just thought it'd be cool to see what people think affects whether they'll watch a video. How much does the thumbnail matter? What about the title? What properties put you off from or attract you to a given video before you click it? </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> Does anybody else have a TteSports MEKA G-unit keyboard? I can't get the red logo light to switch off, and it's ruining my computing experience. [help] </TITLE>
+	<DATE> 2015-11-15 18:16:35 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> The dedicated key on the keyboard to switch off the backlight works fine for all of the keys' individual lights, but the logo light at the top is stuck fading on and off. The software is buggy as hell and doesn't really work - there's a region in the software which I can sometimes click to turn off the light, but it has no effect on the actual keyboard. When I'm watching movies or otherwise need darkness, I can switch off the key lights using the dedicated key in the top right which is great, but I can't stop the logo from fading on and off and have to resort to covering it with paper. It's very distracting - it wouldn't even be so bad if it was stuck constantly on, but it fades on and off over about 5 seconds, which is very irritating in my peripheral vision. I have no idea why anyone would even want it to fade on and off temporarily, let alone permanently. 
+
+I'm on the verge of opening up the keyboard and disconnecting the LED. Can anyone help me switch it off in a less drastic manner? </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> Does anybody else have a TteSports MEKA G-unit keyboard? I can't get the red logo light to switch off, and it's ruining my computing experience. </TITLE>
+	<DATE> 2015-11-15 18:06:37 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> The dedicated key on the keyboard to switch off the backlight works fine for all of the keys' individual lights, but the logo light at the top is stuck fading on and off. The software is buggy as hell and doesn't really work - there's a region in the software which I can sometimes click to turn off the light, but it has no effect on the actual keyboard. When I'm watching movies or otherwise need darkness, I can switch off the key lights using the dedicated key in the top right which is great, but I can't stop the logo from fading on and off and have to resort to covering it with paper. It's very distracting - it wouldn't even be so bad if it was stuck constantly on, but it fades on and off over about 5 seconds, which is very irritating in my peripheral vision. I have no idea why anyone would even want it to fade on and off temporarily, let alone permanently. 
+
+I'm on the verge of opening up the keyboard and disconnecting the LED. Can anyone help me switch it off in a less drastic manner? </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> Jon Richardson on Ed Milliband and Lanyards </TITLE>
+	<DATE> 2015-11-15 13:24:13 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT>  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> Girl tries her bionic arm for the first time </TITLE>
+	<DATE> 2015-11-15 00:09:11 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT>  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> PsBattle: A cat in a wheelbarrow </TITLE>
+	<DATE> 2015-11-14 13:59:45 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT>  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> Want to browse reddit at work while looking like you're working? This website formats reddit to look like Microsoft Outlook email client. </TITLE>
+	<DATE> 2015-11-13 10:27:30 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT>  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> me irl </TITLE>
+	<DATE> 2015-11-12 22:15:46 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT>  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> Who's the one person who perfectly epitomises your country? </TITLE>
+	<DATE> 2015-11-12 11:27:48 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT>  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> Which "premium" product is worse than the "store brand" / "budget" equivalent? </TITLE>
+	<DATE> 2015-11-12 10:38:31 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> And explain why you think/know it's worse </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> How can I check if a string contains at least two substrings from a list? </TITLE>
+	<DATE> 2015-11-11 23:02:39 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> I want to define a list containing some short strings, then check a long string to see if it contains at least two of the short strings - I only need a True (=2 substrings) or False (2 substrings) return. 
+
+I can easily check for one match with 
+
+    for str in list:
+        if str in longString:
+            return True
+    return False
+
+But I need to check for any two matches. Only thing I can think of is try to remove the matched string from the list, then check again..? 
+
+    def chkList(list, longString):
+        for str in list:
+            if str in longstring
+                return chkList2(list.pop(list.index(str)),longString)
+        return False
+
+    def chkList2(list, longString):
+        for str in list:
+            if str in longstring
+                return chkList(list.pop(str),longString)
+        return False
+
+    myList = ["abc", "def", "ghi", "jkl", "mno"]
+    myString = "xyzdefmmmjklnnn" #should return true since contains def   jkl
+    print chkList(myList, myString)
+
+Surely there must be a better way. </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> I once accidentally bought a horse </TITLE>
+	<DATE> 2015-11-11 18:08:50 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT>  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> (Bill MaxVoxPax) Counting down from 10 to 0 for relaxation [intentional] [soft speaking] [male] </TITLE>
+	<DATE> 2015-11-11 00:52:40 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT>  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> What is something that most people use incorrectly, and what is the correct way to use it? </TITLE>
+	<DATE> 2015-11-10 19:57:38 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT>  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> If I have a list of length n, and repeatedly select and replace items until I have chosen every item at least once, on average how many selections will I make? </TITLE>
+	<DATE> 2015-11-10 18:38:27 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Rewording : I have a bag of n sweets. I choose a sweet at random and then put it back into the bag. On average, how many times will I have to choose and replace a sweet before I have chosen every sweet at least once? 
+
+Obviously the minimum is n selections and there is no upper bound, but say I repeat the experiment infinitely and take the mean of each result - what will the mean be? </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> "I once accidentally bought a horse" - Would I Lie To You clip [7:36] </TITLE>
+	<DATE> 2015-11-10 18:18:21 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT>  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> overview for slimcat312 </TITLE>
+	<DATE> 2015-11-10 17:34:55 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT>  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> What's the most pointless/ridiculous advice anyone has given you? </TITLE>
+	<DATE> 2015-11-09 12:05:00 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT>  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> My bot is replying to messages three times. Any idea why? </TITLE>
+	<DATE> 2015-11-09 01:05:52 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT>     def replyToMessages():
+    messages = r.get_unread()
+
+    for message in messages:
+        user = message.author.name
+        print "Message dectected from " + user
+        if "!recommend" in message.body.lower():
+            messageToSend = createReply()
+            message.reply(messageToSend)
+        message.mark_as_read()
+
+That's my code, which is called every 10 seconds to check for new messages. I tried using the unset_has_mail=True parameter for get get_unread function, but yielded the same results. I also tried using fetch=true on get_unread, but again my bot replied three times.
+
+What's weird is that it replies three times - once per 10-second call for three loops - then stops, so it's not as if it's failing to be marked as read. 
+
+Any ideas? </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> test post please ignore [meta] </TITLE>
+	<DATE> 2015-11-08 14:51:27 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> [removed] </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> Girl freaks out at baseball </TITLE>
+	<DATE> 2015-11-08 11:42:51 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT>  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> Reddiquette </TITLE>
+	<DATE> 2015-11-07 15:59:07 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT>  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> What advice do you give to other people, but not follow yourself? </TITLE>
+	<DATE> 2015-11-06 16:54:01 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT>  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> What's your favourite scene from any movie or tv show, and why? </TITLE>
+	<DATE> 2015-11-06 09:21:50 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT>  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> What's your favourite Easter Egg from a piece of software? </TITLE>
+	<DATE> 2015-11-03 16:56:32 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT>  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> What non-romantic thing did you "settle" for? </TITLE>
+	<DATE> 2015-11-02 17:48:50 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> "Settling for" a partner means you know that you could have a better partner but you'd rather have a stable relationship than keep searching and stay single. What does this idea apply to in your life (except partners)?
+
+(The scare quotes close in the wrong place in the title - it should be ..did you "settle for" - but you get the idea. ) </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> What can you not believe is acceptable behaviour? </TITLE>
+	<DATE> 2015-11-02 00:25:25 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT>  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> What is something that people think is very important, but in reality doesn't really matter at all? </TITLE>
+	<DATE> 2015-11-01 19:46:18 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT>  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> A mindblowing explanation of how computers interpret files </TITLE>
+	<DATE> 2015-11-01 18:25:20 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT>  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> When have you signed an agreement without reading it, only for some of the terms to bite you in the arse later? </TITLE>
+	<DATE> 2015-10-31 19:18:55 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT>  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> overview for djmayur </TITLE>
+	<DATE> 2015-10-29 19:40:57 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT>  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> Have you ever signed an agreement without reading it, only for some of the terms to bite you in the arse later? </TITLE>
+	<DATE> 2015-10-29 17:51:49 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> [removed] </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> What were you born just slightly too late to do? </TITLE>
+	<DATE> 2015-10-29 13:26:15 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT>  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> What's something that is very simple, but also incredibly difficult? </TITLE>
+	<DATE> 2015-10-29 10:41:17 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT>  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> Redditors who are secretly unhappy in their marriage: why are you unhappy, and why haven't you left? </TITLE>
+	<DATE> 2015-10-28 20:56:03 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT>  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> Redditors who are secretly unhappy in their marriage: why are you unhappy, and why haven't you left? </TITLE>
+	<DATE> 2015-10-28 16:41:03 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT>  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> Which job looks easy, but is actually very difficult? </TITLE>
+	<DATE> 2015-10-28 09:46:05 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT>  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> Adults of reddit: when did you first feel like an adult? </TITLE>
+	<DATE> 2015-10-27 23:22:46 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT>  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> What interesting thing did you do for the first time within the last month? </TITLE>
+	<DATE> 2015-10-27 00:09:49 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT>  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> I'm getting a HTTP Error on "r.get_subreddit('all', Fetch=True)" but I'm sure the code is correct. Can anyone help? </TITLE>
+	<DATE> 2015-10-25 20:33:46 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT>     subreddit = r.get_subreddit('all', fetch=True)
+    comments = subreddit.get_comments(limit=100)
+
+That's the code I'm using. The first line is throwing a HTTP error , and I've no idea why. If I replace the first line with **either** of the following, it works fine:
+
+    subreddit = r.get_subreddit('test', fetch=True)
+    subreddit = r.get_subreddit('all')
+
+The trouble is that PRAW caches the comments for 30 seconds, so when I query the new comments every 5 seconds I just get the same list back, even if there are new comments. My bot then recognises the comment IDs and refuses to process them (intended). 
+
+So I can only access the /r/all comments every 30 seconds, but I can access any individual subreddit's as often as I like. Does anyone know how to fix the HTTP error? I think what it's doing is passing the fetch=True parameter to Reddit instead of cutting it off internally. The full traceback is below, although I don't know how useful it is.
+
+    Traceback (most recent call last):
+      File "D:\Stuff\Visual Studio\SlashBotFinal\SlashBot.py", line 69, in module checkComments()
+      File "D:\Stuff\Visual Studio\SlashBotFinal\SlashBot.py", line 28, in checkComments subreddit = r.get_subreddit('all', fetch=True)
+      File "C:\Python34\lib\site-packages\praw\__init__.py", line 1078, in get_subreddit return objects.Subreddit(self, subreddit_name, *args, **kwargs)
+      File "C:\Python34\lib\site-packages\praw\objects.py", line 1528, in __init__ info_url, **kwargs)
+      File "C:\Python34\lib\site-packages\praw\objects.py", line 71, in __init__ self._has_fetched = self._populate(json_dict, fetch)
+      File "C:\Python34\lib\site-packages\praw\objects.py", line 157, in _populate json_dict = self._get_json_dict() if fetch else {}
+      File "C:\Python34\lib\site-packages\praw\objects.py", line 150, in _get_json_dict self._info_url, params=params, as_objects=False)
+      File "decorator-gen-8", line 2, in request_json
+      File "C:\Python34\lib\site-packages\praw\decorators.py", line 113, in raise_api_exceptions return_value = function(*args, **kwargs)
+      File "C:\Python34\lib\site-packages\praw\__init__.py", line 612, in request_json
+        retry_on_error=retry_on_error)
+      File "C:\Python34\lib\site-packages\praw\__init__.py", line 445, in _request_raise_response_exceptions(response)
+      File "C:\Python34\lib\site-packages\praw\internal.py", line 207, in _raise_response_exceptions raise NotFound(_raw=response) praw.errors.NotFound: HTTP error </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> Which video would be the hardest to explain if you were caught watching it by someone who doesn't understand asmr? [Discussion] </TITLE>
+	<DATE> 2015-10-25 00:29:36 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT>  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> Which single word most closely sums up your entire life? </TITLE>
+	<DATE> 2015-10-24 22:06:50 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT>  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> I love Daniel Kim's Pop Danthology series and Girl Talk's albums. What other similar mashups exist which use a similar style? </TITLE>
+	<DATE> 2015-10-24 16:16:40 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> I love listening to mashups while I work. I love the style of using dozens of songs all mashed together, but it's kind of hard to discover new music in this area. I love Daniel Kim's work, and I love All Day by Girl Talk, and also hi other albums. 
+
+Does anyone know any similar work I might not have heard of?
+
+---- 
+Danthology 2014: https://youtu.be/OOHYCZLmbyc
+
+Girl Talk - All Day: https://youtu.be/uWzkK7tUjaU </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> What's your favourite URL on the Internet? </TITLE>
+	<DATE> 2015-10-23 19:07:30 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> The page is largely irrelevant, I'm just interested in funny/interesting/quirky URLs </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> Another test post - please ignore [intentional] </TITLE>
+	<DATE> 2015-10-23 01:15:14 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> [removed] </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> What's the best thing you've ever got for free? </TITLE>
+	<DATE> 2015-10-22 19:17:09 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT>  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> I've defined a function which accepts a numeric parameter. It needs to throw an error if it's given a non-numeric input (eg #VALUE!). It's accepting Boolean inputs by converting them into 0 or 1 - how do I prevent this? </TITLE>
+	<DATE> 2015-10-22 17:34:03 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Edit: on re-reading my title, I didn't write it very clearly. I meant that #VALUE! would be an example of the error thrown, not an example of an input.
+
+----
+
+I have a function like this:
+
+    public function myFunct(input as double) as Boolean
+    
+If I call myFunct(True), I need it to fail - eg to fill the cell with "#VALUE!" or similar. Instead, it interprets the True as equal to 1, and runs myFunct(1). 
+
+VBA's error handling is frustratingly limited - is there any way I can prevent this behaviour, so that the function only accepts a numeric input? 
+
+Ideally it should throw some sort of type error before it even calls the function, but I can potentially use
+
+    public function myFunct(input as Variant) as Boolean
+        if isnumeric(input) then
+            my code
+        Else
+            Throw some error?
+
+Except isNumeric(Boolean) seems to be true. So that's silly.
+
+Any help would be appreciated. It's probably something simple that I've overlooked, but everyone has to learn at some point I suppose :) </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> While coding at work, management encourages us to take "microbreaks" throughout the day to reduce RSI and increase concentration. </TITLE>
+	<DATE> 2015-10-22 17:03:26 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> I honestly don't see how 3.6 milliseconds is going to make a difference though. 
+ </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> If everyone was exactly like you, how would society be different? </TITLE>
+	<DATE> 2015-10-22 14:04:22 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT>  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> If you could run a software update on your brain, what would the patch notes say? </TITLE>
+	<DATE> 2015-10-21 23:39:56 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT>  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> GO lol </TITLE>
+	<DATE> 2015-10-20 21:34:11 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT>  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> Which part of your personality do you hide? </TITLE>
+	<DATE> 2015-10-20 17:34:00 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT>  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> How can I update the vba reference to a cell when it is moved? </TITLE>
+	<DATE> 2015-10-19 12:43:38 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> If I write a formula in A1 which uses A2 (eg A1 =A2 + 1), then I drag A2 into a different cell, say A3, the formula in A1 will automatically update to reflect the moved cell (now A1 =A3+1). However, the vba code will not update - if I have a line such as 
+
+    Range("A1") = Range("A2")+1
+
+it will not update the A2 to reflect the moved cell, so will return an incorrect result after I move the cell.
+
+My question is how can I write the vba such that if the cell that it references moves arbitrarily, it will continue to reference it no matter where it moves? In my example, I need to be able to move A2 anywhere on the sheet and have A1 always show one more than its value no matter where I move it to.  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> Subway workers of Reddit: what's the most bizarre sandwhich you've been asked to make? </TITLE>
+	<DATE> 2015-10-17 18:43:25 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT>  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> What's the best thing about the worst company you've given money to? </TITLE>
+	<DATE> 2015-10-17 14:41:03 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> By "given money to" I mean you've bought their products or services, just to exclude any companies you haven't actually dealt with yourself.  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> What site did you bookmark intending to revisit later, but never went back to? </TITLE>
+	<DATE> 2015-10-15 22:11:05 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT>  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> What's the most useless fact you know from memory? </TITLE>
+	<DATE> 2015-10-15 15:46:31 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT>  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> PsBattle: Woman clearing her sinuses with water </TITLE>
+	<DATE> 2015-10-14 23:39:24 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT>  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> In 20 years, what will we look back on and say "Can you BELIEVE we used to do that?!"? </TITLE>
+	<DATE> 2015-10-14 21:23:16 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT>  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> What do you do, that you're not sure whether everyone does it or if you're just weird? </TITLE>
+	<DATE> 2015-10-13 14:02:23 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT>  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> Which job looks the most fun/enjoyable at face value? People who work in that job, why isn't is all that great in reality? </TITLE>
+	<DATE> 2015-10-11 20:13:47 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT>  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> Which job looks incredibly fun/enjoyable at face value? People who work in that job, why isn't is all that great in reality? </TITLE>
+	<DATE> 2015-10-11 13:08:10 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT>  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> Why do you like your best friend so much? </TITLE>
+	<DATE> 2015-10-09 11:35:39 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT>  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> TIL that software bugs are so prevalent and so detrimental that they cost the US economy an estimated $59 billion annually, or about 0.6 percent of the gross domestic product </TITLE>
+	<DATE> 2015-10-08 19:26:28 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT>  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> Which word doesn't mean what it sounds like it means? </TITLE>
+	<DATE> 2015-10-07 14:04:24 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT>  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> Apple and Google disagree about the length of a year </TITLE>
+	<DATE> 2015-10-05 22:59:52 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT>  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> Apple and Google disagree about the length of a year </TITLE>
+	<DATE> 2015-10-05 22:49:02 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT>  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> Google and Apple disagree about the length of a year </TITLE>
+	<DATE> 2015-10-05 22:48:11 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT>  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> If you could change the default subreddits, what would you add/remove? </TITLE>
+	<DATE> 2015-10-05 22:32:50 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Current defaults:  http://www.redditblog.com/2014/05/whats-that-lassie-old-defaults-fell.html </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> How old are you, and what mistake does everybody your age always make? </TITLE>
+	<DATE> 2015-10-05 10:36:13 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT>  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> Apple and Google disagree about the length of a year </TITLE>
+	<DATE> 2015-10-04 23:09:49 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT>  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> Redditor explains in detail how to make sure your phone's battery doesn't deteriorate over time </TITLE>
+	<DATE> 2015-10-02 17:10:10 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT>  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> Quick question: I have the option of keeping my iPhone plugged in while I'm in the office at work - should I? Or should I allow the battery to drain? </TITLE>
+	<DATE> 2015-10-02 11:35:02 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Let me know if there's somewhere more appropriate to ask this. 
+
+Please don't speculate or guess!  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> What's the most outrageous advert which was publicly broadcast? </TITLE>
+	<DATE> 2015-10-01 22:44:25 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT>  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> Virgin trains has a Dad in their PR Department </TITLE>
+	<DATE> 2015-09-29 19:37:45 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> http://i.imgur.com/Lo1qEVy.jpg </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> What word doesn't mean what it sounds like it means? </TITLE>
+	<DATE> 2015-09-28 19:00:23 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT>  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> Serve </TITLE>
+	<DATE> 2015-09-26 17:51:10 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT>  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> The 2001: Space Odyssey opening theme [music] </TITLE>
+	<DATE> 2015-09-26 14:30:50 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT>  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> A physics demonstration of a machine with wheels and a ruler [male][attention to detail][physics] [unintentional] </TITLE>
+	<DATE> 2015-09-26 13:20:42 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT>  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> What fact do you know that very few other people know? </TITLE>
+	<DATE> 2015-09-26 13:12:28 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT>  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> Someone should organise a worldwide media event which is widely documented and discussed everywhere - the documentation says that a time traveller will appear at the event from the future and be showered with fame and riches. Then we will know for sure whether time travel is ever invented. </TITLE>
+	<DATE> 2015-09-26 03:52:36 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Since the documentation will survive until time travel is invented, they'll know ~~where~~ when to go to. There's an incentive to go to that particular point in space and time due to the anticipation and the promise of fame and riches. If nobody shows up, it'll be pretty certain that (backwards, at least) time travel is never possible. If someone does show up, it'll be confirmed. Huge media event either way, so there's incentive to organise/fund it. </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> Florida Woman dies after 6 years of sitting on a couch: skin grafted to material after prolonged contact </TITLE>
+	<DATE> 2015-09-25 13:06:36 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT>  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> What word doesn't mean what it sounds like it means? </TITLE>
+	<DATE> 2015-09-25 02:29:01 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT>  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> In which area of life is it true that "the only winning move is not to play"? </TITLE>
+	<DATE> 2015-09-24 10:38:50 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT>  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> What do you wish you were really good at? </TITLE>
+	<DATE> 2015-09-24 06:23:38 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT>  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> Talking to strangers in public (r/me_irl) </TITLE>
+	<DATE> 2015-09-22 20:00:10 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT>  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> How a retractable ball-point pen works [educational] [clicking] [male] [unintentional] </TITLE>
+	<DATE> 2015-09-22 19:40:48 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT>  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> A question about Canadian labour law from a Brit. Any advice would be appreciated :) </TITLE>
+	<DATE> 2015-09-19 16:20:28 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Hey Canada! I've been in contact with a company I'd love to work for in Toronto about some employment with them. It would be very beneficial to me because it would provide invaluable experience and would look brilliant on my CV.
+
+It's a long story, but basically they're slightly tight for money, so I offered to work for free for a "trial period" of 3 months. They said that's illegal because it would be unpaid labour, which I hadn't considered when I offered. In the UK we had a "[Youth Training Scheme](https://en.wikipedia.org/wiki/Youth_Training_Scheme)" for a while, which allowed young workers to work for very little money on the grounds that they were receiving training and picking up skills for employment later in life - does Canada have something similar that would allow me to work for less than minimum wage? It's a bit of a long shot, and I couldn't find anything online. It'd just be much better for our situation if I could work for as little as possible. I should stress that this is entirely my proposal, not theirs - I'm just trying to make it work.
+
+Secondly, would there be any legal issue with me working in Canada as a UK Citizen? I'd assume it'd just be a case of getting a visa and work permit. If there's anything anyone knows that I should know about I'd be happy to hear.
+
+Thanks - I know this is a bit of a weird post. Feel free to ask for further detail on anything you're not clear aboot. </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> Only larger women should be allowed on the catwalk. Skinny models should be illegal. </TITLE>
+	<DATE> 2015-09-17 05:42:58 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT>  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> So You've Learned To Teleport - Now What? </TITLE>
+	<DATE> 2015-09-14 22:54:16 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT>  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> Where do you still feel like a newbie, even though you've been around for a long time? </TITLE>
+	<DATE> 2015-09-13 01:33:41 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT>  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> What's your favourite fact? </TITLE>
+	<DATE> 2015-09-11 19:16:18 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT>  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> Sometimes you just can't win with these people. Advanced software demonstration is SEXIST </TITLE>
+	<DATE> 2015-09-09 22:13:24 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT>  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> [media] "To invoke a response in someone's brain based on a sound" - CGP Grey explains his take on asmr videos on this week's Cortex podcast. [10 minutes] of [audio] </TITLE>
+	<DATE> 2015-09-09 14:59:22 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT>  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> What seemed like a good idea at the time, but in retrospect was a terrible idea? </TITLE>
+	<DATE> 2015-09-08 22:49:19 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT>  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> Where's my RAM gone? I have 8GB installed, and Task manager says I'm using barely 500MB, yet I'm noticing performance loss because Task Manager also says I'm at 83% RAM capacity. What's eating the RAM and not telling me? </TITLE>
+	<DATE> 2015-09-07 16:43:56 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT>  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> Software developers of reddit: what's the best comment you've ever read in someone else's code? </TITLE>
+	<DATE> 2015-09-07 01:39:54 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT>  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> I'd like to see the top posts from this subreddit please. Now, remind how I'd go about doing that..? </TITLE>
+	<DATE> 2015-09-06 03:28:23 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT>  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> overview for lade44977_qq </TITLE>
+	<DATE> 2015-09-06 00:11:17 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT>  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> "The Chaos" - poetry reading [unintentional] [female] [British accent] [slow speaking] [audio only] [HD] </TITLE>
+	<DATE> 2015-09-05 22:05:14 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT>  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> Can we make it so that removed posts can be marked as spam by a moderator? </TITLE>
+	<DATE> 2015-09-02 02:26:23 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> I'm finding that nearly all spammy posts get caught by my subreddit's automoderator rules and are removed as (removed not spam). But to mark them as spam, I the need to approve the post so I can click the **spam** button, which seems only to appear for non-removed posts. 
+
+Even if it's only for a few seconds, I don't like the idea that I have to approve posts I know are spam. Can we get a **spam** button underneath already-removed posts please? :) </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> overview for plener4892 </TITLE>
+	<DATE> 2015-09-02 02:20:51 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT>  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> overview for jostcont6801 </TITLE>
+	<DATE> 2015-09-02 01:30:12 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT>  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> overview for backpa2570 </TITLE>
+	<DATE> 2015-09-01 15:19:19 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT>  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> overview for UEE_Central_Computer </TITLE>
+	<DATE> 2015-09-01 01:36:37 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT>  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> Reminder: qualifying Content Creators can now ask the mods for a personalised flair! </TITLE>
+	<DATE> 2015-08-31 02:50:35 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> If you're a content creator who releases videos at least once a month for the past 6 months, and has over 1000 subscribers, you can now ask for a personalised flair by [simply using this link to send the mods a message](http://www.reddit.com/message/compose/?to=%2Fr%2Fasmr subject=Content Creator Flair message=Hey guys. I've got over 1000 subscribers on my ASMR Youtube channel, and I post there quite often. I also participate in the community here at /r/asmr, so could you sort me with a content creator flair please? Here's a link to my channel, including the verification message in the channel description:) adding your channel name in the message box, and clicking send! You'll also need to include a short verification mesasge in your youtube channel descritpion - something like "hey /r/asmr mods!" or similar, and your reddit username will be fine. You can remove this afterwards - it's just to make sure you are who you say you are.
+
+The flair is purely cosmetic, but marks your submissions with your official youtube channel name and gives credence and recognition to comments you make in \/r/asmr. It's entirely optional of course, but we'd like to see more flairs around the sub!
+
+Happy tingling :) </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> overview for acnia6241 </TITLE>
+	<DATE> 2015-08-31 02:07:54 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT>  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> Ultrasexy </TITLE>
+	<DATE> 2015-08-30 17:18:50 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT>  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> Anon leaves 4chan forever </TITLE>
+	<DATE> 2015-08-30 14:33:45 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT>  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> ELI5: How can disk usage be 9x higher than network usage when downloading steam games? Where's the extra data being written to disk coming from? </TITLE>
+	<DATE> 2015-08-29 03:58:49 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT>  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> Why didn't this scheduled rule work this morning? </TITLE>
+	<DATE> 2015-08-28 14:09:56 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> ###### If you edit this page, you must [click this link, then click "send"](http://www.reddit.com/message/compose/?to=AutoModerator subject=asmr message=schedule) to have AutoModerator re-load the schedule from here
+
+###### Also note that if you update anything here, you must **ALSO** update the "first" date to a date in the future, otherwise nothing will be posted.
+
+---
+
+first: '2015-09-01 06:00:00 '
+
+repeat: 2 weeks
+
+sticky: 1
+
+title: '[Meta] Tech Tuesday - Bi-Weekly ASMR Tech Help Thread! - {{date %B %d, %Y}}'
+
+text: |
+
+    Hi Everyone!  
+    Welcome to the \/r/asmr Tech Tuesday thread! This is an automatically posted bi-weekly sticky thread dedicated to the discussion of the tech side of ASMR, and creation of videos.
+    This thread will be dedicated for technical questions that can range from:
+
+    * **Audio Balancing** - How to remove white noise, loud noises, etc.
+
+    * **Video Editing** - General questions on how to film, use video editing software, etc.
+
+    * **Audio Equipment Recommendations** - Headphone quality/comfort, mic setups, etc.
+
+    * **How to start making ASMR content** - Questions on where to start, what equipment you could use, etc.
+
+    * **General questions on viewing ASMR**  - Android/iDevice app recommendation, eye strain help, etc.
+
+    * Anything else you want to ask or discuss relating to the technological side of ASMR production :)
+
+    If you have any questions similar to these, please ask them in the comments below! Content Creators have flair next to their username, so feel free to listen to their advice if they drop by the thread :)
+
+    -----
+
+    We hope everyone can stay on topic, follow the subreddit rules, and most importantly be respectful to all users! If you have any questions or concerns, please [message the moderators](https://www.reddit.com/message/compose?to=%2Fr%2Fasmr), and report anything you think breaks any rules.
+    For more info on these weekly threads, check out the announcement post [here](https://www.reddit.com/r/asmr/comments/3g6gcu/meta_new_css_update_phase_3_community_feedback/) if you haven't already.
+
+
+---
+
+first: '2015-08-28 06:00:00'
+
+repeat: 1 week
+
+sticky: 1
+
+title: '[Meta] Free-For-All Friday! Weekly Casual Hangout and Everything-Goes Thread - {{date %B %d, %Y}} '
+
+text: |
+    Hey everyone!
+
+    Welcome to the \/r/asmr weekly Free-For-All Friday - your one stop shop for images, gifs, comics, memes, art, off-topic discussions, and general ASMR fun.  
+
+    Traditionally we remove this type of content from the normal feed, but we're giving you this opportunity to have some fun for the weekend and lift that rule for **this thread alone**.
+
+    (Please note that we will still enforce all of our other rules, so please be respectful towards one another.)
+
+    -----
+
+    If you'd like to chat in real time, we have an IRC room open for you to use.   
+    You can use the webchat here [Webchat](https://kiwiirc.com/client/irc.snoonet.org/asmr) or we'd recommend using the HexChat client for the desktop [Here](http://hexchat.github.io/downloads.html) - you can also read the [HexChat guide.](http://hexchat.readthedocs.org/en/latest/getting_started.html#quick-start) </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> A detailed analysis of what happens when you tape a toothbrush to the ceiling </TITLE>
+	<DATE> 2015-08-27 21:56:08 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT>  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> I swallowed my organs again though so I'm sure I'll be fine </TITLE>
+	<DATE> 2015-08-27 20:25:23 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT>  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> Can anyone help? I bought a strip of LED lights which plug into my 4-pin molex cable inside my pc case, but they're overwhelmigly bright. Is there any way I can reduce the power going to them? </TITLE>
+	<DATE> 2015-08-24 23:16:15 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> They're currently accepting 12v DC through the molex cable but they're far too bright and dwarf rather than complement the styling of the internel components of my pc. Is there a resistor or adaptor or something I can use to reduce the current going to the lights? Obviously I can't control them with any software as they're plugged directly into the psu. At the moment I've found a temporary spot with the strip folded in half so that only half the light is emitted into the case, and some of that is blocked by the structure of the case due to where I've carefully placed them. It looks ok ish, but I'd rather put the lights at the top of the case where they'd shine on all of the inside, but just turn the brightness down a bit. Any ideas?
+
+---
+
+Edit: while I'm here, I might add an incidental point. I've just built my pc (two days ago) and the first thing I did was stress test the components to test for errors. While running at 100%, my cpu averages 99 degrees (97-100 degrees is the range it fluctuates in). I think this might be too high - I've heard it should be 85 degrees tops. I'm just using the stock cooler which came in the box with the cpu, and I'm pretty sure it's installed correctly, although it's possible I've made a mistake. It's a 4690k i5 running at stock speed (not overclocked). I was thinking of replacing the heatsink anyway to be honest, but now I'll almost certainly replace it because I'm not really happy with it running at 99 degrees (it idles around 40 degrees). Has anyone else had problems with their stock heatsink? </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> [Build Help] I bought a strip of LED lights which plug into my 4-pin molex cable inside my pc case, but they're overwhelmigly bright. Is there any way I can reduce the power going to them? </TITLE>
+	<DATE> 2015-08-24 23:04:48 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> They're currently accepting 12v DC through the molex cable, but they're far too bright and dwarf rather than complement the styling of the internel components of my pc. Is there a resistor or adaptor or something I can use to reduce the current going to the lights? Obviously I can't control them with any software as they're plugged directly into the psu. At the moment I've found a temporary spot with the strip folded in half so that only half the light is emitted into the case, and some of *that* is blocked by the structure of the case due to where I've carefully placed them. It looks ok ish, but I'd rather put the lights at the top of the case where they'd shine on all of the inside, but just turn the brightness down a bit. Any ideas?
+
+---
+
+Edit: while I'm here, I might add an incidental point. I've just built my pc (two days ago) and the first thing I did was stress test the components to test for errors. While running at 100%, my cpu averages 99 degrees (97-100 degrees is the range it fluctuates in). I think this might be too high - I've heard it should be 85 degrees tops. I'm just using the stock cooler which came in the box with the cpu, and I'm pretty sure it's installed correctly, although it's possible I've made a mistake. It's a 4690k i5. I was thinking of replacing the heatsink anyway to be honest, but now I'll almost certainly replace it because I'm not really happy with it running at 99 degrees (it idles around 40 degrees). Has anyone else had problems with the stock heatsink?  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> I think default behaviour should be "moderators_exempt: false" </TITLE>
+	<DATE> 2015-08-21 05:46:52 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> I see a lot of tech support problems on /r/automoderator and elsewhere which stem from people testing automod with their mod account, which is exempt from most rules. The mod gets confused as to why automod isn't acting on their post, and the usual solution is "oh I didn't realise I had to use moderators_exempt: false - thanks for the help". It would solve a lot of tech support and debugging headaches if the default behaviour were "moderators_exempt: false".
+
+It doesn't really change too much, I reckon it should be an easy backend change, it's a simple fix to any existing code to add "moderators_exempt: true" to any rules where you might need to require action for mods too, and I doubt there'll be any serious issues or confusion by changing the default. I just think the intuitive and sensible default should be false. Anyone agree, have anything to add, or any thoughts? </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> Adult Hearing Test Demonstration [educational] [unintentional] [beeps] </TITLE>
+	<DATE> 2015-08-17 04:32:10 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT>  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> Chiclet vs Membrane vs Mechanical Keyboard sounds | [Short] [unintentional] [keyboard clicks] </TITLE>
+	<DATE> 2015-08-15 18:05:13 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT>  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> What's your "Armchair Scientist" theory that you'd love to test if only you had the resources? </TITLE>
+	<DATE> 2015-08-15 03:35:32 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT>  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> What is something everybody thinks only they are good at? </TITLE>
+	<DATE> 2015-08-15 02:51:24 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Something everybody thinks they are good at but everybody thinks everybody else is bad at </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> What seems like a very good idea on the surface, but on examination is actually a very bad idea? </TITLE>
+	<DATE> 2015-08-14 18:43:06 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT>  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> What debugging automoderator looks like </TITLE>
+	<DATE> 2015-08-14 14:41:06 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT>  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> regex help? Match if the title contains "[question]" but not "?", both anywhere in the title </TITLE>
+	<DATE> 2015-08-14 13:59:07 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Ok, so I've got the following regex:
+
+    (?!(.*\?))\[question\](?!(.*\?))
+
+Which I want to match if the title contains "[question]" but not "?" (so automod can remove the post). But [regex101.com](http://www.regex101.com) tells me I can't use the .* in the lookbehind because it has to be fixed-length. 
+
+Any other ideas for how to scan the whole title for a ?, ONLY IF the title contains the [question] tag?
+
+I can use this:
+
+    (?!(\?))\[question\](?!(.*\?))
+
+but it only notices the preceding "?" if it's immediately before the "[", which isn't really any good. Even "? [" doesn't match due to the space.
+
+-------
+
+Edit: Solved with regex below.
+
+    ^(?=.*\[question\].*)(?!.*\?.*).* </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> /u/ironchestplate1 makes a prediction over a year ago </TITLE>
+	<DATE> 2015-08-12 21:04:55 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT>  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> Require exactly one of a few pre-defined tags in the title of a post - is this possible easily? </TITLE>
+	<DATE> 2015-08-12 02:35:42 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> I'm assuming that if this is possible, it'll be done with regex, but I'm not aware of a rule to require exactly one match within the title. 
+
+I have the following rule, which removes posts which don't contain one of the required tags. But I also want to remove the post if the title contains any two or more of the tags, eg *"[discussion][request]"* should be removed. The tags can be anywhere in the title, so *"[discussion] some text [request] some more text"* should also be removed. The post is only accepted if the title contains exactly one of the tags listed below- it can contain any number of other arbitraty tags, but must have one and only one of the required tags.
+
+\---
+
+\#required tags
+
+~title (includes): ["[Meta]", "[Intentional]", "[Unintentional]", "[Article]", "[Discussion]", "[Question]", "[Media]", "[Request]"]
+
+action: remove </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> What are you internally conflicted about? </TITLE>
+	<DATE> 2015-08-11 14:11:37 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT>  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> [Build Ready] Could anyone look over my build and let me know what you think? </TITLE>
+	<DATE> 2015-08-10 19:27:20 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> http://i.imgur.com/7GGEZ9Z.jpg
+
+I'm on a budget to spend under 1000 so I could potentially upgrade a little further if you think it'd make a significant differnece, but I'm happy with this set of specs unless anyone has any comments or concerns?. If anyone has any input about any of the parts then I'd love to hear it - especially the motherboard or PSU since i dont really know much about those parts. Is the psu sufficient/overkill? I'm not really sure. [According to this calculator](http://www.coolermaster.outervision.com/PSUEngine2) my system would be rated for 323w, so I guess I'd be fine with a 450w psu?
+
+I'm like 99% sure that all the parts are compatible but if anyone can see any incompatabilities that's mostly what i'm concerned about. After that I'd appreciate any advice for alterative parts (especially the screen - there are so many to choose from and there seems to be a lot of marketing gibberish around screens making it hard to see what's actually good and whats not. I dont know what im spending my money on with the screen! Id like 24" though, seems a good size - 27" seems too big tbh. Maybe even 21.5? I'd like something with a higher res than 1080p but I've not seen anything under 200 at 24".)
+
+Another minor concern is that [my ssd](http://www.dabs.com/products/ocz-240gb-arc-100-series-sata-6gb-s-2-5--solid-state-drive-9PH7.html?utm_source=google utm_medium=ppc%20product%20search utm_campaign=Components%20and%20Storage%20-%20Hard%20Drives%20-%20Internal%20Hard%20Drives gclid=Cj0KEQjwl6GuBRD8x4G646HX7ZYBEiQADGnzuojf7g96pJ-pdUQdvLGUlJzyAFognIhv1n5Nxt03LbgaAkAr8P8HAQ) is blue and the rest of the system is designed to be red (I'm also thinking of getting some red cables for my PSU!), so it'll stick out quite horrendously in the red design. Hopefully since it'll be tucked away in a drive bay it won't be too visible.
+
+Thanks guys :) </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> Ignored post which should have been removed - any ideas? </TITLE>
+	<DATE> 2015-08-10 17:06:13 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> The post was titled "[ ASMR - [Ear2Ear] Close up Comb Sounds](https://www.reddit.com/r/asmr/comments/3gfz4a/asmr_ear2ear_close_up_comb_sounds/)"
+
+The rule that should have caught it is below (removes any post without one of the required tags):
+
+    #Required tags - executes before flair since it includes a remove action
+
+    ~title (includes): ["[Meta]", "[Intentional]", "[Unintentional]", "[Article]", "[Discussion]", "[Question]", "[Media]", "[Request]"]
+    action: remove
+    comment: | 
+
+             Your submission has been automatically removed because the title does not include one of the required [tags]. Please check [the sidebar](https://www.reddit.com/r/asmr/wiki/config/sidebar) or the [wiki page](https://www.reddit.com/r/asmr/wiki/index#wiki_tagging_system) for information about tagging your submission properly.
+
+             Your post must be tagged with one of the following tags: [intentional], [unintentional], [discussion], [question], [article], [media], [request], or [meta].  
+
+    moderators_exempt: false
+
+Any idea why it slipped through? There are no other rules which it could have got caught in. It should have been removed with a comment explaining why, but the post wasn't removed or commented upon - automod just completely left it alone. I've never had any trouble with it before.. </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> Does anyone have any experience with the OCZ ARC SSD? I'm looking at it as quite a good-value storage solution, but I'm a little concerned that it seems too-cheap-to-be-true </TITLE>
+	<DATE> 2015-08-10 15:22:00 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> [This is the one I'm looking at](http://www.dabs.com/products/ocz-240gb-arc-100-series-sata-6gb-s-2-5--solid-state-drive-9PH7.html?utm_source=google utm_medium=ppc%20product%20search utm_campaign=Components%20and%20Storage%20-%20Hard%20Drives%20-%20Internal%20Hard%20Drives gclid=Cj0KEQjwl6GuBRD8x4G646HX7ZYBEiQADGnzuojf7g96pJ-pdUQdvLGUlJzyAFognIhv1n5Nxt03LbgaAkAr8P8HAQ). 
+
+It seems to be [well-reviewed](http://www.pcadvisor.co.uk/test-centre/storage/best-ssds-2015-best-ssd-reviews-3235200/), but 240GB for 67 ($103) seems a little on the cheap side. Is it a great deal or is it cheap for a good reason? Has anyone had any good/bad experiences with it? </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> Could anyone review my potential of build and let me know what you think? </TITLE>
+	<DATE> 2015-08-09 18:27:14 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> http://i.imgur.com/2ni3HFI.jpg
+
+I'm on a budget to spend under 1000 so I could potentially upgrade a little further if you think it'd make a significant differnece, but I'm happy with this set of specs unless anyone has any comments or concerns?. If anyone has any input about any of the parts then I'd love to hear it - especially the motherboard or PSU since i dont really know much about those parts.
+
+I'm like 99% sure that all the parts are compatible but if anyone can see any incompatabilities that's mostly what i'm concerned about. After that I'd appreciate any advice for alterative parts (especially the screen - there are so many to choose from and there seems to be a lot of marketing gibberish around screens making it hard to see what's actually good and whats not. I dont know what im spending my money on with the screen! Id like 24" though, seems a good size - 27" seems too big tbh. Maybe even 21.5? I'd like something with a higher res than 1080p but I've not seen anything under 200 at 24".)
+
+Thanks guys :) </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> [Build ready] could anyone review my build and let me know what you think? </TITLE>
+	<DATE> 2015-08-08 21:27:04 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> http://i.imgur.com/2ni3HFI.jpg
+
+I'm on a budget to spend under 1000 so I could potentially upgrade a little further if you think it'd make a significant differnece, but I'm fairly happy with this set of specs. If anyone has any input about any of the parts then I'd love to hear it - especially the motherboard or psu since i dont really know much about those parts.
+
+I'm like 99% sure that all the parts are compatible but if anyone can see any incompatabilities that's mostly what i'm concerned about. After that I'd appreciate any advice for alterative parts (especially the screen - there are so many to choose from and there seems to be a lot of market-gibberish around screens making it hard to see what's actually good and whats not. I dont know what im spending my money on with the screen! Id like 24" though, seems a good size - 27" seems too big tbh. Maybe even 21.5?)
+
+Thanks :) </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> [Build ready] could anyone review my build and let me know what you think? More info in the comments </TITLE>
+	<DATE> 2015-08-08 21:17:03 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT>  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> What song does everyone like, regardless of age or musical taste? </TITLE>
+	<DATE> 2015-08-08 18:19:53 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT>  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> What highly upvoted post/comment should, in your opinion, have been downvoted to hell? </TITLE>
+	<DATE> 2015-08-07 03:27:59 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> * To qualify as "highly upvoted" it must have a score of 2k </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> ELI5: ELI5: how can the human body be allergic to cat hair, but not other types of hair? How does it know what species the hair comes from, and hence whether or not to react? </TITLE>
+	<DATE> 2015-08-06 02:23:15 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> [removed] </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> ELI5: why is my body allergic to cat hair, but not other types of hair? How does it know what species the hair comes from, and hence whether or not to react? </TITLE>
+	<DATE> 2015-08-06 02:11:59 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> [removed] </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> me irl </TITLE>
+	<DATE> 2015-08-06 02:07:33 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT>  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> Set up automod this week and it removed a single post from 4 months ago </TITLE>
+	<DATE> 2015-08-06 01:23:11 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Automod has been working fine since I configured it a few days ago, except today it removed a post from 4 months ago. It correctly removed it since it broke one of the new rules.. But why?? Why this specific post? 
+
+https://www.reddit.com/r/asmr/comments/2ylhr8/harry_potter_and_the_methods_of_rationality/ctsmhcp </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> Your brain gets a software update. What do the patch notes say? </TITLE>
+	<DATE> 2015-08-04 21:17:08 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT>  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> What's he most hilarious misunderstanding you've ever seen? </TITLE>
+	<DATE> 2015-08-04 11:17:03 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT>  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> Ordinary, average people of reddit: what's the most remarkable thing about the last 24 hours of your life? </TITLE>
+	<DATE> 2015-08-03 23:40:50 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT>  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> Landing </TITLE>
+	<DATE> 2015-08-03 01:11:52 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT>  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> What's the difference between these two processors? Why are they incompatible with 2400mhz RAM? </TITLE>
+	<DATE> 2015-07-31 18:42:30 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT>  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> Detect tags [like this], then set flair equal to the tag *without the brackets* </TITLE>
+	<DATE> 2015-07-31 15:52:29 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> I have the following rule:
+
+type: submission
+
+title (includes): ["[SomeTag]", "[SomeOtherTag]", "[Placeholder]", "[Loreum]", "[Ipsum]"]
+
+  set_flair: ["{{match-1}}", "{{match-1}}css"]
+
+which detects tags and assigns flair based on which tag it detects. However, the assigned flair is
+[SomeTag]
+
+including the brackets. how can I assign the flair without the brackets? I just need to extract the string from within the brackets and use that for the flair
+
+
+-------
+
+**Update**: I got it working with the following config, using [Lookarounds](http://www.regular-expressions.info/lookaround.html):
+ type: submission
+
+ title(regex): ["SomeTag(?=])", "SomeOtherTag(?=])", ...]
+
+set_flair: ["{{match-1}}", "{{match-1}}css"]
+
+**BUT** this only requires a closing tag. "*This title would match with sometag]*" because the tag has a closing bracket, even though it lacks an opening bracket.
+
+I tried "(?=[)SomeTag(?=])" but it didn't work. I don't know why - I think it should match??
+
+I also tried "SomeTag(?=[)(?=])" but that also didn't work, although I didn't really expect it to. </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> [Build Ready] Could anyone have a look over my build and tell me if I can save money anywhere without losing significant performance? </TITLE>
+	<DATE> 2015-07-30 23:02:48 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> [This is the spec I'm looking at](http://i.imgur.com/Olw1cko.jpg), and I'm somewhat pleased with it. Can anyone see anywhere I could save money while experiencing no significant performance loss, or similarly use better components for roughly the same price? I'm looking at you, monitor, and at you graphics card!
+
+Also, I'm not sure about motherboards or PSUs, so I chose those semi-randomly. I have a 2TB external drive which I'll use to store my library of movies, pics, and music. I'm aware that I probably won't use the 500GB of SSD space, but I don't want to have to bother with managing two drives so I'd like to keep that. 
+
+I'd love to hear any and all feedback that you have </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> How to pull coordinates off Google Maps [unintentional][tapping][keyboard/mouse sounds][humming][accent] </TITLE>
+	<DATE> 2015-07-29 11:19:54 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT>  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> [Build help] Could anyone take a look at my potential specs and let me know what you think? </TITLE>
+	<DATE> 2015-07-28 18:06:09 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> ###Build Help/Ready:
+
+**Have you read the sidebar and [rules](http://www.reddit.com/r/buildapc/wiki/rules)? (Please do)**
+
+Yep
+
+**What is your intended use for this build? The more details the better.**
+
+Longievity - I want it to last a long time and be reliable. I'm interested in playing games, but I'm not bothered about getting ultimate top performance - 30fps is fine, I'm not looking for perfection, just something that can cope to a decent standard at reasonably good quality.
+
+**If gaming, what kind of performance are you looking for? (Screen resolution, FPS, game settings)**
+
+Guess I already answered that. 1080p, 30fps+, moderate to moderate-high settings is fine. More than this is great, but as I said I'm looking for it to be capable of coping with decent settings rather than absolute maximum insane quality.
+
+**What is your budget (ballpark is okay)?**
+
+About 1000 ($1500), although I can go a *little* higher if I get large benefits
+
+**In what country are you purchasing your parts?**
+
+UK
+
+**Post a draft of your potential build here (specific parts please).**
+
+I've been looking online, and one I'm currently looking at is here - http://www.computerplanet.co.uk/members/quotes/view_220663.html
+
+Processor: i7 4790k Haswell, 4Ghz, 8mb
+
+Heatsink Arctic cooling Freezer 7 pro V2 - Low noise
+
+Motherboard: Gigabyte Z97M-D3H (Intel Z97) - 4xUSB3/4xUSB2
+
+Memory: 8 GB Corsair Vengeance Pro Red 2400 MHz (2x4GB) - Lifetime Warranty (DDR3)
+
+Graphics: NVIDIA GeForce GTX 750 Ti - 2 GB - (ZOTAC) - (PCI-E)
+
+HDD: 500GB Samsung 850 Evo SSD SATA-III, Read 540MB/s, Write 520MB/s - Silent
+
+Power: Corsair 450W PSU - Low Noise
+
+Cooling: Standard Fans included with case
+
+Paste: Standard CPU Compound (ALTERNATIVELY: Arctic MX-4 Extreme. Is this any different? What's wrong with standard thermal paste? It's "only" 9 more than the free standard paste - will it actually give any benefit, or is it just upselling for the sake of it?)
+
+Sound Card: Motherboard Integrated HD Sound
+
+
+**Provide any additional details you wish below.**
+
+I have a computer science degree but I don't really know too much about hardware. I'd describe myself as competent but lacking in experience. With that in mind, feel free to call me an idiot for overlooking basic technical things, and also feel free to go into technical detail about any parts or anything if you want. I don't think I could ever feel informed enough! I'm just afraid of making an uninformed purchase and then regretting it later.
+
+I'd just like anyone to look over the parts list and recommend if there's anything wrong. I know nothing about sound cards, and very little about power supplies, motherboards, and cooling systems.
+
+Questions: 
+
+* Does the power supply (450w) look sufficient? Is it overkill - can I use a lower wattage psu? This is my main question really - I'd prefer the system using less power obviously, but I'm aware that if not enough is supplied it can cause damage. However, I've no idea how much power the system will use, so I'm sort of guessing. Obviously my first priority is the safety of the system, but after that there's no point in buying a higher-than-necessary wattage psu. 
+
+* I'm using the standard fans - will this be fine? I guess so, but does anyone think I'll need additional cooling?
+
+* I have no idea about the motherboard, so I just picked the second-cheapest one which was compatible with my specs (4th cheapest available from the selections.) Is there anything I should know? Or will this be fine?
+
+* I previously chose the Nvidia GeForce 970 but I could save ~100 by downgrading to the cheaper 750 Ti. I figured this is an excellent card and would be fine for my needs, easily coping with any game I can throw at it to a reasonable standard, if not the absolute best. Do you agree?
+
+Thanks in advance to anyone who offers their advice :) </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> Normal, average people of reddit: what's the most remarkable thing about the latest 24 hours of your life? </TITLE>
+	<DATE> 2015-07-28 15:37:04 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT>  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> Could anyone give some advice about choosing some components for my new PC please? </TITLE>
+	<DATE> 2015-07-27 21:47:19 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Firstly - sound card. Do I need one? If I've got motherboard integrated sound, will it add any real benefit?
+
+More seriously - I'm looking at graphics cards. I can *just about* afford a GTX 980 Ti, but I'd be much more comfortable with the price of the GTX 980. It's ~80 cheaper. Does the Ti really offer that much better performance? Is it worth the upgrade if I'm tightly budgeted? I can save *another* 140 by downgrading from the 980 6GB to the 970 4GB, so I might even consider that, and put the saved money toward as bigger SSD. Question - can the graphics card use main memory? In which case, is it even that much of an advantage to give the graphics card loads of memory? I'd imagine it's faster access time, but by what sort of factor?
+
+I'm looking at the i7 vs the i5 processors, and I'm willing to fork the extra 70 for the i7 unless anyone thinks it's really not worth it. I think they give a much increased performance so it seems a good investment.
+
+I'll be playing at 1080p. Anything above roughly 30-40 fps is fine. The more the better of course, but I'm not looking for the absolute best performance, just something that'll give me pretty decent quality.
+
+Finally, is it worth "upgrading" the cooling paste on the cpu? What's the advantage of the "Arctic cooling MX4" compound vs the standard stuff which comes free with the cpu? It's 8 to upgrade, which is fairly insignificant when I'm spending over a grand on a computer, but I don't want to buy it if it makes no difference which I suspect it might.
+
+Edit: thanks for the input guys. </TEXT>
+</WRITING>
+</INDIVIDUAL>

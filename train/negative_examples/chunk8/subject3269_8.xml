@@ -1,0 +1,126 @@
+<INDIVIDUAL>
+<ID>subject3269</ID>
+<WRITING>
+	<TITLE> Jazz [1920x1080] </TITLE>
+	<DATE> 2017-05-06 11:06:27 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT>  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-05-06 08:58:01 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Yeah someone linked the article somewhere up in the thread.  She did sound pretty proud of it and said she saw it all around lol.  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-05-06 02:16:07 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> u/MacDaddyW posted that as well </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-05-06 01:25:01 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Post it here! </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-05-06 01:13:48 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> I've had this wallpaper for a while.  I agree it does look like them but I don't think it is </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> Abstract Space [2880  1800] </TITLE>
+	<DATE> 2017-05-05 23:24:37 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT>  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-05-04 21:23:46 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Also, if you're 170 and 6'5", that's pretty skinny.  I'm a solid guy and I'm 200 and 6'2" </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-05-04 11:35:06 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> ok, so im an idiot and it wasn't working and I went back to fix the bash profile file and I must have really messed something up because now whenever I type anything at the terminal it says `-bash: ls: command not found` or `-bash: nano: command not found`.  If you could help me fix this that would be fantastic thank you
+
+Edit: I fixed the issue.  For some reason I still cant import pyqt4 from idle, but I will figure it out.  Thanks so much </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-05-04 11:13:44 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> I have idle, idle2, idle2.7, idle3 and idle3.6 at `/usr/local/bin/idle` and the following line is for the 3.6 version.  Should I just update it to be `#!/usr/local/bin/idle3.6`?
+
+`#!/usr/local/Cellar/python3/3.6.1/Frameworks/Python.framework/Versions/3.6/bin/`
+ </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-05-04 11:04:27 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> ok great thanks that all worked and now I can run python from the terminal but when I use IDLE it still doesn't recognize PyQt4.  Do I need to update the path for IDLE as well? </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-05-04 10:56:30 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> one more quick question... how do I move it to the front of my path.  I think I messed up my python installation once and its been giving me issues since then.  Thanks so much. </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-05-04 10:55:35 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT>  /usr/local/bin/python3
+
+yes </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-05-04 10:49:45 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> apparently I can't format reddit comments either </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-05-04 10:49:14 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> `which python3` returns `/Library/Frameworks/Python.framework/Versions/3.6/bin/python3` and `echo $PATH` returns `/Library/Frameworks/Python.framework/Versions/3.6/bin:/Library/Frameworks/Python.framework/Versions/3.6/bin:/Users/parker/anaconda/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/TeX/texbin` </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-05-04 10:32:22 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> also what is the cartr command it is taking a while to download </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-05-04 10:30:12 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Well I checked the 3.6 folder that python puts in my application folder, and it's not there, but when I run which python3 it's says /Library/Frameworks/Python.framework/Versions/3.6/bin/python3. 
+
+I just realized I was checking my Library folder for the frameworks folder earlier and not the one higher up in the directory.  So I did look just now and it is there.   </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-05-04 10:01:02 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> It says it's already installed but not linked. Hm. If I do brew link python it says I should remove it /usr/local/bin/2to3 with brew link --overwrite python.  This is over my head lol.  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-05-04 09:59:40 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Did you use --force?  My terminal said "qt is keg only... use brew install --force if you want to install this version" </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-05-04 09:52:10 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Right I was thinking about that. I did use --with-python3 and it didn't work. It says pyqt-5.8.2 already installed.  The weird thing is if I go into the python 2.7 folder or the python 3.6 folder pyqt is not there.  </TEXT>
+</WRITING>
+</INDIVIDUAL>

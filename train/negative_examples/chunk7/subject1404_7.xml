@@ -1,0 +1,190 @@
+<INDIVIDUAL>
+<ID>subject1404</ID>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-04-15 13:02:41 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Android ? ;( </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-04-14 21:27:59 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> That actually makes a lot of sense. Thanks a lot! </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-04-14 20:51:15 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Ok, that explains the inertial force, but shoudn't It slow down gently? </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-04-14 18:02:59 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> The guy besides:  "there he goes again...." </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> ELI5:Why when a car engine is turned off it "shakes" before it finally stops? </TITLE>
+	<DATE> 2017-04-14 17:58:39 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> 
+ </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-04-14 14:15:12 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> I will read that book because of this sentence, Thanks! </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-04-14 14:10:33 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Looks great! Any vdeo available? </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-04-14 07:54:58 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Ok, Thanks!! </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-04-13 22:47:58 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> It is an hc-6, and plugged to 3.3v
+
+Edit: the bluetooth Connects to the smartphone, the problem is with the virtual buttons </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-04-13 22:01:37 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Pure colours , great photo! </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-04-13 21:55:03 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Note: I am not the author! It is Asier Marzo </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> Help sending signal from Mega to nano via bluetooth </TITLE>
+	<DATE> 2017-04-13 21:43:49 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Hi everyone,
+
+ I have build this device:
+
+http://www.instructables.com/id/Acoustic-Tractor-Beam/?ALLSTEPS
+
+The code is available here:
+
+
+https://codebender.cc/sketch:429892
+
+or here:
+
+https://cdn.instructables.com/ORIG/F32/XCJP/IWMQUV4D/F32XCJPIWMQUV4D.ino
+
+
+It uses three buttons to control the position of a ball. I would like to use a Bluetooth to do this task. I dont have another nano, so I use a mega. This is the code I wrote:
+
+
+https://codebender.cc/sketch:429893
+
+Somehow it does not seem to work. I connected the pins to the nano and the ground as well, as the author told me.
+
+Can anyone tell me what am I doing wrong??
+
+Thanks in advance
+ </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> ELI5:Why when I turn off the engine of my car it gives a final shake? Shouldn't it just stop? </TITLE>
+	<DATE> 2017-04-13 11:31:22 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> [removed] </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> Why when I turn off the engine of my car it gives a final shake? Shouldn't it just stop? </TITLE>
+	<DATE> 2017-04-13 11:13:46 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> [removed] </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> We no speak americano ( original) </TITLE>
+	<DATE> 2017-04-12 22:04:43 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT>  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-04-12 15:30:29 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> The Ball is levitating  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> May the Force be with Arduino </TITLE>
+	<DATE> 2017-04-12 13:15:55 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT>  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> You don't speak american ( original) </TITLE>
+	<DATE> 2017-04-11 14:59:35 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT>  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-04-10 17:22:50 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Thanks for your advice! I might try that.  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-04-10 16:44:13 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> You are right, 
+
+Here is my device:
+
+https://youtu.be/6ENQO42xo1k
+
+It is a magnetic levitator. At about 20 secs you can see the graphic with the setpoint (steady line) and a moving graph (the real position  of the object, in this case the glass). That position is given by two ir sensors ( (analogread(A1)+ analogread(A2))/2. I would like to send that same graphic to an LCD or to a phone via bluethoot so anyone can see it. My setup makes about 800 calculations per second, but the graph does not need to be so accurate.  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-04-10 10:48:32 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Maybe I didn't explain myself enough, sorry. I mean if is it worth it to send the average read to a pin, and conect directly with a dupont to another mega. no serial port involved (wrong caption, sorry)
+ </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-04-10 06:19:47 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Thanks. I already have the TFT, but I Understand what you say
+ </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> Send serial read to another arduino to TFT lcd </TITLE>
+	<DATE> 2017-04-09 22:41:10 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> I have two a. Megas, one with most of the pins used. I would like to graph the output of a valuar ( an average of two ir sensors) to an TFT LCD screen. Is that posible?  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-04-09 22:35:11 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> An slippery issue, indeed </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> If we finally save polar bears and bees, what general ADDS would we have in Reddit? </TITLE>
+	<DATE> 2017-04-09 15:03:03 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT>  </TEXT>
+</WRITING>
+</INDIVIDUAL>

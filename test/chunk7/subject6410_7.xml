@@ -1,0 +1,230 @@
+<INDIVIDUAL>
+<ID>subject6410</ID>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2016-10-20 07:08:07 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> `SELECT $("tr") FROM $("#table") WHERE $("tr").html() == $(".U-Wot-M8").leftJoin($("#table2")); ` </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2016-10-17 01:37:47 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> The best part of this article is when it said:
+
+"He decided to abandon all JavaScript libraries and frameworks except **jQuery**" </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2016-10-14 07:12:36 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Knock Knock
+
+Race Condition
+
+Who's there? </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2016-10-14 00:11:53 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> that would be nice. It appears the trailer already nods to Katarns story by including what looked to me like a fallen Jedi statue from Rusaan </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2016-10-13 14:24:21 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Is that the valley of the Jedi?????? </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2016-10-13 00:06:47 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> I really like how the death star plans are overlayed over the top of Jyn. Making it look all futuristic and such </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2016-10-12 23:46:41 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Tomorrow morning in which country?
+
+Edit: Aussie here just wanting to base his schedule around the release of new trailer </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2016-10-11 00:06:34 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> I had this as a kid! fun times </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2016-10-07 06:07:13 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> No no! thanks for taking the time to contribute. Its all very useful.
+My whole day today was spent dealing with filterable, super customized drop down lists and was just wondering how our clients would even survive had we provided them with only simple select drop downs. Hence what prompted me to come to good ol reddit to get some thoughts.
+
+Way back when i had discovered the concept of `datalist` and wondered why that hadnt fully replaced `select`s then i learned safari doesnt support them </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2016-10-07 05:55:17 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> In answer to your question, yes.
+
+Interesting experience.. A lot of our clients find it annoying having to scroll through heaps of items in lists and welcomed the idea of having the list filterable. I guess its another case of whatever the customer likes most.. </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2016-10-07 05:41:40 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> I should be more clear. will edit </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> Is it even worth using select elements anymore when text inputs with autocomplete libraries provide so much more functionality? </TITLE>
+	<DATE> 2016-10-07 05:24:37 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> It seems that it has become standard practice to create "dropdowns" in UI with `input type="text"` and an accompanying JS plugin and datasource instead of plain `select`. The main reason being to overcome the issue of `selects` not having a string matching capability.
+
+If you where creating a web application from ground up in 2016, would you ever consider using `select` over text input with some kind of autocomplete library?
+
+*Edit: clarity </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2016-10-06 23:53:12 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Has the artist of these done any work on Kyle katarn and Jan Ors? </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2016-10-06 00:16:33 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Nothing wrong with adding a little bit of PHP in javascript. I especially find it useful for removing segments of js code if certain conditions are not met.  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2016-10-05 02:19:46 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Outcast? why do i feel like Kyle Katarn is slowly slowly making his way back into canon </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2016-10-04 05:27:49 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Snoke is [Snoke Loroan](http://starwars.wikia.com/wiki/Snoke_Loroan) </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2016-10-04 05:15:07 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> **Snoke is Waru** and has come to bring love and peace to the crystal star from another dimension  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2016-10-04 04:58:59 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Snoke iz aktually Dolan </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2016-10-04 03:12:02 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Does anyone here know what more than 5% of those things in this article are? I dont and ive been in the industry for some time now
+ </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2016-09-29 05:27:51 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> You mean Thnoke? Thupreme leader Thnoke? </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2016-09-29 04:14:09 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Is her name Wey? </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2016-09-29 02:42:20 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> **De wanna wanga** from TPM always made me lol and i would pause and re-wind this just to re-hear it in case i heard it wrong the first 20 times </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2016-09-29 00:59:54 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> I would be that Moff in the back chair that would be covering his mouth in [a futile attempt to contain laughter...](https://media2.giphy.com/media/w2mdIytQIgPWE/200_s.gif)
+
+ </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2016-09-26 02:17:22 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Nah thats his son.... Ben "Junior" Octorinaros
+
+ </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2016-09-24 18:05:12 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Star wars games are best made as single-player campaign type games.... Not multiplayer mobile games </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2016-09-23 04:17:31 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Does it have a souvla or rotisserie? The fastest ship in the galaxy needs the tastiest gyro too </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2016-09-21 03:31:38 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Perhaps we will see Kanan do [this](http://vignette4.wikia.nocookie.net/swfanon/images/b/bb/Kota-Vader.jpg/revision/latest?cb=20101127030810) to vader?
+
+ </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2016-09-21 02:15:34 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Hey look! its Rahm Kota </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2016-09-20 04:54:56 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> What is this Jazz and Disco Star Wars things and how can i acquire them?
+
+ps nice collection! </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> Has it been explained in the new canon if the Stormtroopers in IV (and beyond) are clones? </TITLE>
+	<DATE> 2016-09-19 04:05:44 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> wookieepedia is unclear on this matter.... All it says is that they were gradually phased out for non-clones </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2016-09-16 01:15:52 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> For us Aussies here, isnt it a bit funny that the darkside is known as the **Bogan**? 
+
+Maybe the Bogan should appear in a Star Wars: Downunder sequel... it would make my day </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2016-08-30 08:46:24 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> for a second, i thought this thread was about a NEW Thrawn trilogy.. oops haha </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> Where can I find  Lager in Giannena? </TITLE>
+	<DATE> 2016-08-12 21:20:02 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> I've been in Giannena for 2 nights now and I can't seem to find it at the restaurants and taverns. Does anyone here know a place that sells it?
+ </TEXT>
+</WRITING>
+</INDIVIDUAL>

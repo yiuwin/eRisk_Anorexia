@@ -1,0 +1,919 @@
+<INDIVIDUAL>
+<ID>subject851</ID>
+<WRITING>
+	<TITLE> How to measure the induced voltage? </TITLE>
+	<DATE> 2017-02-09 07:14:49 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Hello.
+I need a way of measuring induced emf in a circuit.
+So I set up my magnet, and I used a loop of wire with a moveable end, so that I can move that end to change the area of the loop. Think rectangle, but with one moveable side.
+
+I can't measure the induced current and deduce the emf from that. The resistance of the circuit is changing because the lengths of the wires in the circuit are changing as I move the end, so V = IR won't work to give me the voltage. 
+
+Furthermore I need the emf reading to appear as I pull the wire. I need to increase the circuit's area at a constant rate to generate a constant voltage, and the only way I'll know if I'm pulling at constant velocity is if I've got a constant reading. 
+
+Can I connect a voltmeter to do that? And how would I connect the voltmeter?
+
+ </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-02-09 04:42:48 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> For conserved quantities like energy and momentum, the values don't matter - only the differences do. For instance, take momentum. It doesn't matter at what speed an object moves -you can change your own speed, and by the same token get a different value for the speed of the object relative to you (this is not really a change in velocity. More like shifting the goalposts). What matters is the change in its speed, which is expressed by acceleration and hence by forces. In the same vein, the value for kinetic energy doesn't matter, and just like momentum, you get to pick the speed at which an object moves. Only the change in kinetic energy does. 
+Potential energy is no different, only that instead of choosing a speed against which you want to measure, you choose a point in space. With the mgh of Earth, the point of comparison is the surface of the planet. With the potential energy from Newton's law, the point of comparison is infinity. The changes are the same. 
+
+Suppose you were on the surface of the earth and you went one meter in the air. According to mgh, your energy increases. If you apply Newton's law, r is smaller on the surface than one meter up (omu). This means that the absolute value of the potential energy is larger than it will be omu. When you calculate the change in energy, its the potential energy omu minus the potential energy on the surface, but because of the minus sign, you add the energy on the surface and that is larger than the energy omu. Thus your energy change is also positive this way -and is equivalent to the mgh one as well. </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-02-08 19:59:52 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Basically energy has inertia as well: the more energy you have the harder it is to accelerate you. Since more inertia means more mass, you gain mass as your energy increases. If your speed increases you gain kinetic energy and this goes in increasing your mass. You aren't really increasing the mass of the object -its like adding little beads to something as it moves. Here the energy is the beads.
+This is in fact why objects accelerate to the speed of light: the force would rather increase their mass than their velocity.
+
+Edit: First I believe I used the wrong terminology above, and I apologise. This whole thing is really about the pedagogical value of concepts like the above; in learning relativity this makes a difference, but in doing the calculations and using it, it doesn't matter. 
+
+I probably  should clarify that there is no matter being added. The beads are just an analogy to show that the object becomes harder and harder to accelerate. The effective inertia for massive objects is defined as the energy divided by the speed of light squared. This is equal to the speed of light multiplied by your mass, divided by the square root of the speed of light squared minus its speed squared, and the factor multiplying the mass is called the gamma factor. The faster you move, the larger this product. 
+
+Now, there is some controversy regarding whether you can call the effective inertia "mass" or not. It used to be called so, under the name of relativistic mass to try and exploit the idea that if you called this thing the "mass", then you could write momentum as Mv in relativity, where M is the relativistic mass. But it was quickly realised that momentum is about the only useful quantity that you can write this way: Forces cannot be written as Ma, and to preserve this approach you needed a whole host of different masses, such as transverse mass or rest mass -which is regular Newtonian mass. Furthermore, this thing depends on speed, so it changes from observer to observer, unlike classical mass. In the end it is just simpler to call this the effective inertia and leave the concept of mass as is in Newton. The apparent increase in inertia means that the object requires more force to accelerate, has more work done depending on its velocity and more momentum than it would classically, and just leaving it at apparent inertia solves a lot of problems. 
+
+However, there is some difference between the mass in relativity and the mass in Newton: specifically, the mass here is not necessarily additive. For instance say you have some negative charges, which you bring together to form a sphere. If you calculate the sum of the masses of the electrons and compare that to the mass of the sphere, you will see that the sphere is heavier than that sum. This change in mass is known as the mass defect and comes from the energy of the electrons. When you bring the electrons together, they must gain energy because they are moving against a field (their repulsion to be exact), and when you stick them together and measure the mass of the sphere, you are also measuring the inertia brought by the energy of the electrons in the sphere. But since, for all intents and purposes you cannot differentiate between the inertia from the energy, and the inertia from the mass of the electrons, you conclude that the mass of the sphere is larger than that of the electrons. 
+
+
+
+ </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-02-08 18:31:36 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> I get what you mean, but I actually meant that at some point the evidence becomes overwhelming. Your example is based on something subjective: "the right solution". In that case it is nothing that can be settled with evidence. In the case I'm describing, experiment should be able to settle it once and for all, and thus your opinion becomes "fact" </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-02-08 15:09:12 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> I'm a monkey: I copy what I see </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-02-08 15:08:38 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> I apologise </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-02-08 15:07:42 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Not blaming. Just, well I don't know. Perhaps I should remove it seen the number of people being bothered by it. </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-02-08 14:36:32 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Not too bothered if they do. Kill the daughter before anything else and you are fine.  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-02-08 14:35:01 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> It is a fact that Newton's law is a pretty darn good approximation to gravity in the classical limit -like on Earth. GR is a complete overhaul of the system, but the end result must be nearly the same in the classical limit, plus extra stuff in the non-classical limit (non classical including massless particles).   </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-02-08 12:56:45 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> I never learnt how to write in cursive and I kind of regret it now.
+I use fountain pens because my golden rule is that everything that I consume or use, especially tools must have some sort of emotional meaning to me. I don't want to feel terrible after throwing ball points, so fountains are the way for me. They work best with cursive, but I'm super lazy when it comes to handwriting, so I would have appreciated someone to teach me.  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-02-08 12:17:02 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Pedophilia AND dishonesty? You sure do know how to blow a job interview </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-02-08 11:42:52 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Yes they are. When something is backed by science and history with a lot of evidence, like gravity, they cease being opinions and become de facto facts. Your opinion can't be gravity </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-02-08 11:40:11 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> That reminds of some sort of fantasy childhood memory that I had. I have absolutely no idea of where it came from, and I can't remember the actual thing that well but it has stayed with me. </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-02-08 11:36:34 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> "When I talk I say something useful" </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-02-08 11:25:07 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> "Sorry, ugliest and oldest."
+
+edit: Thank you Reddit for making my highest rated comment about pedophilia. I knew I could count on you </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-02-08 03:31:02 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> That looks like a very good fit. I'll try and see if I can find it.  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-02-08 03:29:54 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Thank you for the suggestion. I'll try and look into it. </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-02-08 03:28:48 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Mauritius. </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> Help with choosing a pen </TITLE>
+	<DATE> 2017-02-07 18:21:46 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Hello.
+So I've been using fountain pens for three years now, with the reasoning being that I can form an emotional attachment to pens better that way. I haven't really chosen a pen till now; I either got them from my dad, who has been using fountains a lot longer than I have, or I got small generic pens. So far, my best pens are tied: A Parker fountain pen that I cannot identify even if my life depended on it, a Hero pen and a Baoer 388. 
+
+Well I've finally decided to try and choose a pen that suits me. This will be my go-to pen, so it should be able to contain some ink. Not loads, but enough for two A4s (back and front). It shouldn't bleed or feather on basic sheets either, or at least not so much so as to make the other side unusable. The nib should also be fine enough to not leave large marks (less than a medium nib or so) but should also not be too scratchy (as in 
+
+ I would like something that looks classy like the MB 149. However, its size is an issue: its too bulky for my tastes. Ideally the size would be something of a cross between the Pilot MR Metropolitan and the Waterman perspective Black. I really don't like chunky pens, though if the rest is nice I might take it. The preferred color is a black barrel. If the pen can also accommodate archival ink, that would be great.
+
+The quality of the pen, should of course not disappoint. I would expect the pen to write well without skidding. The price is also not an issue. I'm not a millionaire, but this is a lifelong investment, so I'm willing to save well to buy it. Taking care of the pen shouldn't make me plead Satan to come take me to Hell, nor should it require me to send it to the factory. 
+
+To give you a better idea, so far the Pilot MR Metropolitan fits the bill best, but I can't get it; its not available here and I have to pay thrice the price if I ship it. If someone knows of some way I could get that that would be great
+
+Would be grateful for accompanying ink and notepad suggestions.
+
+Thank you for your advice </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-02-07 12:27:51 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> You still are. I'm just better at it </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-02-07 11:58:46 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Found out this morning school got cancelled. Forget 15 mins, my 3 pups made these 15 hours of the day the best </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-02-07 11:20:02 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Special relativity, the Hamiltonian and the Lagrangian, quantum mechanics (the basis at least) and whatever math would have to go with it. Maxwell's equations as well. The ballpoint pen. The modern piano. The modern fountain pen. The Nobel prize. The lightbulb. A time machine. I would become the man to have completely revolutionised the world, then to have re-revolutionised it.   </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-02-07 11:09:30 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Wait till he and my daughter get a kid, wait for 5 more years, then date the kid </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-02-07 11:04:38 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> there is an interesting blog post about that here:
+https://thespectrumofriemannium.wordpress.com/tag/time-derivatives-of-momentum/
+
+It goes through the derivatives and integrals of displacement, and the derivatives of the force. 
+In general the usefulness of the third or fourth derivative is very minimal. The reason is that the system becomes so complicated, you are better off using some other method, or you can find the system's equations without resorting to this, or you have a better chance with a derivative with respect to something other than time. Springs for example, are a system where the displacement has an infinite number of non-zero derivatives (that is, no derivative is constant). Yet, you only need Hooke's law to solve it. Jerk is used in designing roller coasters. In analysing a system you are more interested in finding the change in momentum anyway, so derivatives of the force are not that useful. And barely anyone bothers with the integrals of the quantities. 
+
+The derivatives of power don't have a name, nor does the integral of work done (to the best of my knowledge ...and the rest of the internet it seems). On the other hand, if you calculate the kinetic energy minus the potential energy and integrate it with respect to time, you get something called the action. The action itself is not a very useful quantity; what is useful is what you integrate with respect to time -in this case the kinetic energy minus the potential energy. In fact, for any given system, the action is the lowest possible. Based on that principle, you can deduce Newton's laws and so on from the integrand of the action. 
+
+If you are willing to look into derivatives other than time, then you can find a few things. The derivative of kinetic energy with respect to momentum is the velocity. The derivative of force with respect to area is the pressure. The derivative of the potential energy with respect to a dimension (dU/dx, or dU/dy or dU/dz) is the negative of the force in that direction (so dU/dx = -F in the x-direction). The derivative of the work done with respect to volume is the pressure. There are more, but I can't list them all.
+
+Also if you are wondering why the third and fourth derivatives are not common and have little physical value, here's why: A system with significant third or fourth derivative quantities would be extremely sensitive to changes: it would become chaotic. So for example a system where the force was proportional to the 5th derivative of position would be impossible to predict properly.  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-02-07 06:04:42 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Thank you. Yes, I meant to say that they get separated from their electrons. I probably should avoid making such slips of the tongue </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-02-07 06:03:53 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Thank you. </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> Sphere charged by hanging a charge above </TITLE>
+	<DATE> 2017-02-07 05:10:24 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Hello.
+Suppose you have a conducting sphere that is neutral. It is insulated (not earthed). Now above the sphere I attach a piece of string to the ceiling, and let a strong charge hang above the sphere from the string. They are not touching, but they are fairly close. Would the sphere turn into a dipole?
+My guess is yes. Suppose the charge is positive. Then it attracts all the negatives in the sphere, which can flow because the sphere is a conductor, and repels the positives. So the sphere should become a dipole. Can someone confirm please? Thank you.
+
+Also suppose that this time, the sphere is earthed. I'm guessing that electrons would come from the earthing to neutralise the positive charges at the bottom of the sphere, thus negatively charging the sphere. Then if I remove the earthing the sphere would remain charged with an uneven charge distribution. Is that correct? Thank you for answering </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-02-06 18:25:39 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> That's how I derived the equation. I was wondering where the force went though I already got the answer. Thank you </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-02-06 12:44:57 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> I find that tedious and boring at times, because that is not the kind of physics I want to do. I prefer working from scratch, deriving equations from the fundamental laws because that's more fun.  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-02-06 12:40:14 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> I thought it would have something to do with B moving away. That explains a lot of things I was working on, so thank you for the confirmation.  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-02-06 11:34:51 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> I do enjoy physics; I plan to follow a career in physics, so better learn it now than later. Besides, I already know my engineering physics, so I don't need to work as much on that. Thanks for the advice </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-02-06 09:19:46 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> I worked out the mathematical details, and I can see that the force is not F on B. I'm wondering from where the force on B comes from. I'm guessing the force is less than F because the force on B is due to how rigid A is? If I replaced A and B by particles with different masses, could I have the two particles accelerate at the same rate? I doubt it, because I don't see how A could apply a force less than F on B if they were both point particles. But I'm not sure, so am I right?
+ </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-02-06 08:49:02 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Thank you for replying </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-02-06 08:19:12 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> I see, thank you. I was under the impression that there was some sort of official choice because I tried to pull something similar during my IGCSEs mocks, and was promptly informed that I couldn't. 
+
+And I'll follow the class on astrophysics. I'll have to learn it sooner or later anyway, so I might as well do so now. But I don't know enough astrophysics  or like it enough to make the exams easy, so I'll wait for my undergrads to get tested on that. In the meantime, my mechanics (except quantum) and dynamics are pretty decent, so I feel more comfortable with that than the rest </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> Force between two blocks. </TITLE>
+	<DATE> 2017-02-06 07:09:44 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Hello.
+Consider the following situation:
+
+2 rigid, non-elastic blocks are adjacent to each other, say A and B. a is more massive than b. A force F is applied to a. There is no friction or air resistance. Both blocks have an acceleration of a. 
+
+Now I know the force is F = (M + m)a, where m is the mass of B and M is the mass of A. This means that the force on B is ma, and that the force on A is Ma. 
+
+When I push A, A pushes into B and B exerts a force on A because of that. This push is less than F, but why is it less than F? I would have expected A to push B with a force F, but this is obviously not the case, so what happens?
+
+Thank you for the answers. </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-02-06 06:44:46 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> The studying by myself is no problem. I don't like the way IB teaches physics, though I like their papers, so I study the subject by myself. And I probably did exaggerate a bit about how boring Astrophysics is. There is imaging, medical physics and wave communications that I find worse. But half the course is about cataloguing stars, and I find that boring and tough </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-02-06 06:39:31 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> The ideas behind are easy enough, but the subject material requires more memorisation than I would care for. I would rather do something that requires more work but that has less memorisation. Besides, I'm already used to engineering physics, so I do it better.
+Edit: Missed do </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> Choosing Option other than School </TITLE>
+	<DATE> 2017-02-06 05:05:12 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Hello.
+My school is choosing the astrophysics option for physics HL.
+But I don't want to do that because it's tough and is the most boring option in physics. 
+I opted for the Engineering physics instead. I have talked to my teacher, and she said that I can go ahead. But knowing my teacher, I need more confirmation.
+So here I am. Can I do an option other than the one school chose or is that not allowed?
+Thank you </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-02-05 20:44:54 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> I must admit that I barely stress. 
+The subjects are easy enough to deal with. Maths HL is easy, and I have the luck of having a good teacher so I don't need to go and learn stuff by myself. Physics HL is really badly taught, especially because I have a bad teacher, but I already studied the matter before IB because I wanna do physics as a career. Chemistry HL is tough, but the teacher is good and the subject matter is not hard to comprehend, just gigantic in nature. Psycho HL is probably the hardest thing I do, but with the proper resources it becomes easy to deal with. I'm not sure about how French SL is, because I don't even know what I was supposed to learn from that course, but the teacher teaches lit and lang well, and gives the information you need to get good marks on the written tasks, so I get my grades there. I ended up with a very bad teacher for English SL, but since the French and English SL are more or less the same, my French teacher helps compensate.
+
+IAs are not that tough. I got the brilliant idea of choosing IAs so that I can do the most at home, so I was able to finish my physics, chemistry and maths IAs over the Christmas holidays well in advance (to tell the truth, I did not mean to, I thought I was supposed to finish them in 2016. Found that June is the deadline.) EE is harder, but only because I can't get a damn thing in this country and because the experiment itself is hard. I was able to get it done though, two weeks before the deadline. I still need to write the paper, but knowing me, I will end up doing it on the eve of submission. TOK is a bit strange, but I was able to work my way through.
+
+I think the only thing that stresses me is CAS. I literally have only 2 activities and none for action, so I really, really need to get some stuff for this year. If anyone has any idea of how many activities I need to get good grades for CAS, I would appreciate the info. CAS is just not my cup of tea; I am the kind of person who just stays at home. 
+
+And it's not like I'm organised. I basically write papers on the eve of submission, or in the morning before going to school. Once I had an FOA for English, and I just took a random speech from Churchill, read it in the morning and analysed it on the spot during the presentation. I lost 4 points. I also learnt the extremely valuable skill of writing papers very quickly. I once had to write a book  of 12 chapters (but they were divided into two sections, so effectively 24) for my IGCSEs, and through some miracle of my laptop, I was able to write all out two days (around 40 hours) before the due date.
+
+I guess the reason I'm not stressed is because I have a great family, a great laptop and great pups. My family supports me, and my mom recognises the futility of the school, so I get to take lots of days off. My pups are what would result if God split into three and descended to Earth to bless us all. My laptop is just amazing. So amazing. Those three things are the only reason I'm not failing or stressing </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-02-05 19:50:44 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> On mass m, there are two forces: gravity and tension. On M there is only tension. The tension must be such that M must accelerate at the same rate as m. This is similar to a rod. If you push a rod on the centre of mass, every point on the rod must accelerate the same, otherwise the rod would bend. In this case, the string acts a bit like a rod, and the tension replaces the intermolecular forces in a rod. 
+
+Also note that since a  0, F 0. In other words, there is a net force on m, which is downwards. This means that W  T. Furthermore, there is only T acting on M. You have the acceleration (a) and the mass (M) of an object and the force (T) on it; you can form a relationship to find T. 
+
+As for the second question, find the net force on m using the weight and the tension, then replace for the tension with your previous answer, replace the weight, and then solve for a.  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-02-05 19:36:18 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> The velocity is a vector quantity. If you are told find the velocity, you are expected to give a magnitude and the direction. If they tell you to find the magnitude of the velocity or the speed, then you are looking for a scalar. 
+
+However if they ask you for something like, say the electric field or the force exerted or the weight then they are generally expecting a magnitude, but to be on the safe side I would also give the direction. 
+
+In the end there is no surefire way to know whether they want the vector or scalar, because different boards will ask for different things, and they aren't very careful about the terminology. You can try taking a stab at this depending on the part of the course you are doing, but in the end you just don't know. The safest method is to just give both whenever possible, because they can't dock your points for that generally.
+
+As a rule of thumb, if they ask for velocity or displacement  they want the vector. And if you are in kinematics or vectors, they want the acceleration as a vector as well. If you are in dynamics, and you are in the lower classes of high school, they generally want the force as a vector. The senior years and post-senior, they generally will ask for a scalar, but the problem will require you to use the force as a vector anyway. And in general, the rest are scalars. Again remember that this is a rule of thumb, and this is heavily dependant on your exam board, level and chapter and even then is not necessarily true. 
+
+I know this is extremely frustrating, but over time you kind of get used to it, and then you start doing it at some point yourself. </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-02-05 06:27:24 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Damn. Being told that I'm graduating this year makes me feel old </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-02-04 12:20:42 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Thank you for the occasion to win a pen + </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-02-02 03:55:17 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> It does simplify the problem, but not by much. It gives you Hooke's law for the extension directly, but then you still have to solve the differential equation.  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-02-02 03:43:44 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> That's the answer. Welcome. </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-02-01 17:06:05 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> welcome </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-02-01 17:05:55 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Well it was basically solving it with forces. I guess it's due to the nature of the techniques: I love the idea of the Lagrangian and virtual work. So much so that I use them on every occasion I get; I actually some question about a completely vertical string holding a weight, and I used virtual work to find the tension.
+
+Edit: How on Earth did this end up here? I believe this comment was meant for something else and I apologise </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-02-01 16:42:10 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Thank you for the info and for your help.
+I got it, though I don't actually know the solution to the coupled harmonic oscillator. I looked it up (and derived it on the side) and I got the answer: 2.4. I must admit that because my learning is personal it is not very linear.
+Anyway, it seems like a lot of work for something that energy gives rather easily. Thanks for your help </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-02-01 15:25:58 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> v^2 =2as is all you'll need for this. 
+
+You know v^2 (28^2 ). What happens to the right side if s is halved? What should happen to the left side? </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-02-01 15:21:59 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> To add on to the answers below, you also need to look at the amount of substance you are heating. The more particles you have the more energy you will need to heat them. This is measured by the mass. In general you will have the following equation:
+
+Q = mcT. 
+
+m is the mass, c is the specific heat capacity and T is the change in temperature. Q is the heat energy. 
+In the case of a hot object to a cold object, if the hot object loses Q, the cold one must gain Q. The mass means that if you took a 100 C 2kg piece of iron and let it transfer energy to a 1 kg piece of iron at 0C, the temperature drop for the 2kg piece of iron (33.3 C) is half the temperature rise for the 1kg(66.6 C). 
+
+  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-02-01 10:33:55 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> X is the position of the guy. x is the position of snoopy. U is the speed of the guy. u is the speed of snoopy.  M is the mass of the guy. m is the position of snoopy. k is the spring constant. l is the relaxed length. I also multiplied T - V by 2 to eliminate the half, but that should not change the solution.
+
+Establishing these we  have:
+
+ L = mu^2 + MU^2 - k(x - X - l)^2 
+
+Edit: Apparently Latex is not supported. </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-02-01 09:34:50 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Thank you for answering and don't worry about the rustiness. I am just as rusty. 
+Anyway, I set up the Lagrangian with respect to two coordinates, one representing the position of Snoopy and the other of the guy. Then I applied the Euler-Lagrange equations. 
+After solving them, I obtain Hooke's law which is quite obvious in hindsight. The problem is that with Hooke's law, I cannot calculate the extensions unless I know the accelerations. And since I have no idea of how the the extension of the spring changes with time, I cannot solve the differential equation either. How can I proceed? </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-02-01 04:39:35 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Sorry to ask, but do you think you could outline a way of using it? I'm trying to learn how to use LM, so if you could provide the example here I would be grateful.
+Thank you </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-02-01 04:21:05 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Conservation of energy prevents them from flying off. 
+Both balls start at the top of the ramp. This means that they have a certain potential energy associated with gravity. 
+
+The straight ramp ball has its potential energy converted to kinetic energy by gravity, and then it just rolls across the ramp. When it has to climb the other end, all of its kinetic energy is converted back to potential energy, so that it can reach the same height at which it was released. In other words, it has to stop at just the height it was before, because if it had any kinetic energy at that height, it would have more energy than what it started with. If it went higher than before, it would have more energy that what it started with. Thus it cannot fly off the ramp.
+
+Ditto for the curved ramp ball, because potential energy is a function of the height only and not the path you took to get there; curved or straight makes no difference energetically-speaking. It takes less time to finish the path because rather than maintain a constant kinetic energy like the straight ramp, it occasionally has a large amount of kinetic energy (where the hills are lowest) and  a small amount of kinetic energy (as it climbs the hills). It trades-off distance for speed. 
+
+In fact, the balls will reach a lower height each time and eventually stop, because of friction. The curved ramp ball will reach a lower height than the other one because it covers more distance, and thus experiences friction for a longer time. The reason it is not apparent in the gif is because the ramp has little friction, too small to be noticeable right now. As the ball completes more and more rounds, the height will decrease noticeably. </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-01-30 20:14:27 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Honestly, I doubt you can do it just by sticking with the IB Syllabus. Too often the HS science syllabus is really dumbed down to just equations and models. Physics is not some just barely science like Psycho or Bio Goddammit. In physics you do research and formulate theories like a true science. You need to develop the thinking if you want to move.
+
+IB physics is the worst when it comes to that. The questions are just advanced enough to try and motivate that kind of thinking, but the learning framework is not good enough for that. I used to be in the same position as you. Not in IB though, but in IGCSEs. I averaged a C, and then I started learning physics better and got A* on every assignment. Been in IB Physics HL for a year and have not got anything below 7 on any assignment so far. And it's not like I'm good. So what I'm saying is out of experience. I do not claim it works: it worked once, but then again I tried it only once. Hopefully it will work for you too.
+
+Learn the maths. There is no getting around it. You must learn the maths. No need to become Euler or Gauss  (If you do, teach me your ways) but you need to at least be able to take a GCSE addmaths test and pass well at any time. The basics for IB are algebra and trig. Especially resolving vectors and equation manipulation. If you want a good grade learn addmaths calculus. Actually learn Maths HL calculus. 
+If you want a better grade, learn vector calculus as well, and for best results learn the calculus of variations. Now these things are difficult learn, especially because you have to go and learn an entire syllabus worth of maths before even starting  them, but you can cheat. It's not very nice, but you can just learn the vector calculus and variation calculus not as fields of maths, but just well enough so that you can use them. It's the same way that IB physics is taught: just enough to be able to see the fundamentals but not to understand them. In due time, you can learn them properly as beautiful subjects, but for now they are your tools.
+
+Next step is to make sure you know your definitions. Definitions in physics cannot be vague. It is not the same definition as the dictionary definition where words can mean whatever you want them to, it is the same definition as 1 = 1. No room for interpretation. From definitions, you usually get to know your quantities. For instance, I tell you that the specific heat capacity is the amount of heat per unit temperature per unit mass and you can tell me it is Q/mT. Besides, definitions can often help cement concepts and can be asked for in a question.
+
+Know the fundamental concepts. Fundamental concepts in physics are conservation laws, and they are there for a reason. As a physicist, conservation laws convey an incredible amount of information at once. The two that come to mind are energy and momentum. The way physics is often taught is in terms of forces. But in fact forces are just one possible model. Energy is another model. You can do energy without ever mentioning forces in fact. In general, you can answer questions both with forces or with energy methods. 
+
+I know it sounds terrible, but some memorisation is useful. You need to be able to check your data booklet for an equation at least, and memorise more of the useful ones. a = v^2/r,  conservation of energy, conservation of momentum, Newton's laws (gravity too), Gauss\s law, Hooke's law and Coulomb's law are good ones. As you use them more and more often you will get the hang of them effortlessly, which brings me to the next point:
+
+practice. There is no way around this either. Using the concepts you have learnt helps a lot. Just speaking out loud to someone helps you a lot. Try your hand at past papers, with the notes handy at first. Or you could also try a favourite of mine: analyse things you want to. Set yourself challenges to solve, that are not about answering test questions, but about analysing the real world (with simplifications as necessary of course. Like spherical cows). This sort of analysis also helps develop your physical intuition, your ability to guess answers, or to visualise the situation and see what happens next. The fewer calculations you do, the better. This is the most invaluable tool you could ever have. With this even unfamiliar situations will mean nothing. 
+I'll try and give you a header: try and explain what is potential energy and why it is necessary. Explain the formula and all. And not just work done in bringing in a mass against gravity or what not. Ask yourself why it is defined like that. Where does this energy come from? If you answer this your physical intuition and problem solving should improve and the more you do this, the better you'll become. 
+
+Finally, read beyond the course requirements. Get some undergrad textbook because they explain things better than IB. For instance, potentials and fields. The formula to find a field from a potential will make more sense afterwards (your vector calculus is handy here). I recommend the Feynman lectures on physics. Read those books and learn physics from them. Follow all his arguments, and each time you don't, stop, and work on it until you do then move on. His books are tough and are not standard, but the reward you get from reading them is well worth it. Try your hand at some analysis or exercises afterwards. There's a set of exercises on archive.org that is meant to supplement the book.  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-01-30 19:09:45 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Depends on what part. 
+The written exams? Nah. They are easy, and I feel that it would be an insult to my intelligence to cheat on them.
+The rest of IB? Where do I sign? </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-01-30 16:27:21 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> You can take 5HLs and 2SLs? That's not fair. I'm only allowed 4HLs at the most and can only choose a maximum of 6 subjects </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-01-30 16:23:46 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> I would probably do everything the same academically speaking, but the IAs I would not rush to find a topic. Especially the EE. I've got a deadline in 11 days for my final EE and I haven't been able to do my experiment; my set-up is not working. I would make sure to get a different topic next time. 
+And I'd do CAS at the beginning. </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-01-30 04:18:54 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> I seriously was expecting this thing to turn out to be some sort of insect larvae </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-01-29 18:03:22 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> They are creepy when the guy is known to have dealt in some shady things like pyromania, when his truck is never empty, when he used to park where you live and where you found bones, when he never comes except in the middle of the night, and either leaves his lorry that is never empty parked in front of your house and when whenever he is around there is some strange glow from behind your land. Also when the garbagemen can. </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-01-29 17:59:14 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> I see. Well perhaps some doctors. In such fields you often have a mixture of people that are working because they wish to save people, and people who are in there for the prestige and money the job can bring. One should avoid the latter like the plague. They'll give you the plague.  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-01-29 17:20:04 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Legendary Super Saiyans always hated jollies. </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-01-29 17:12:20 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> It is, sort of. The Earth and the Sun rotate around a common point, the centre of mass. The centre of mass depends on the mass of the Earth and the Sun. The Earth has you on it, so you contribute some infinitesimal part of the Earth's mass along everybody else. Of course, practically, the Sun and your mom are so heavy that any contribution from anything else to the centre of mass is dwarfed by their enormous contribution.
+
+So yeah, the Earth rotates around you and everybody else. Your mom and the sun are just too big for you to make any difference. </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-01-29 17:03:37 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Doe ...does that even exist? That's awful, and probably bordering on illegal. I could understand if you refused treatment for terminal patients, because they die anyway, but that's still borderline.  At this rate everybody should get a degree in medicine to treat themselves, or at least use WebMD. Then we all get cancer </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-01-29 16:52:19 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> That's good news. If only the same could be done for whatever he did to people's minds, it would be great </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-01-29 16:51:30 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Not a medical doctor though. In my opinion, the minute a medical doctor violates the Hippocratic oath, he is not a doctor anymore </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-01-29 16:49:49 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Thank you for the encouragement, and wish you the same. And actually the Nobel prize can be won more than once, it's just near-impossible. Marie Curie did it if I recall correctly. And John Bardeen holds the distinction of being the only person in history of having won the Nobel Prize twice in the same field, one for transistors, and one for superconductor research </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-01-29 15:32:53 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Thank you for the advice. I guess I would be shooting for professor since I want to teach and do research. 
+I wonder how hard it could be to distinguish yourself in physics. I mean, surely, I don't have to go to Newton or Einstein or Feynman level to do something decent. I guess a phd is necessary, but I want that too so that's not too bad. 
+Though it is extremely difficult I must admit that I would like to get a Nobel Prize, because if you are not shooting for the top, there is no point. Besides, I find physics to be the most gratifying pursuit one could have (except maths, but I'm not good enough for that), so I don't plan to stop trying to get into the field. It's the golden age of physics after all. 
+I must admit that that will probably be tough on me. I'm not really good at it. I'm top of my year group right now, but I'm sure that in university I would be in the bottom half. I've been trying to solve one problem for a week (around 48 hours in all I guess) and it's supposed to be simple. I'm really stuck right now. I've been trying my hand at the Feynman exercises on physics, volume 1, chapter 4, and skipping the even numbered problems (there's no given solution) I've solved only 2 out of 4 problems. The 4th one is killing me. </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-01-29 09:29:53 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Definitely physics. Nothing has ever captivated my attention so much and I have never enjoyed doing anything else so much. Thinking of theoretical physics specifically. Perhaps become a professor. I really love spreading physics around to people, so I think a professor where I get my research and my spreading will be great for me. </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-01-29 09:21:24 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Heh. For some reason since yesterday this song has been ringing in my ears </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-01-29 08:55:21 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Commit suicide
+Now you can't watch me filthy putrid bags of rotting flesh </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-01-29 08:51:41 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Then again can you call someone who went against medical etiquette a doctor? </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-01-29 08:12:44 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> What did you use to calculate the sins, cosines and so on? </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-01-29 08:10:53 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Of the lounge, the cave or the bones, or the cemetery?
+
+I'm currently trapped in the house, so I can try to get the cave, but the bones are gone and the cemetery is down the road. It's barely visible. 
+
+ </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-01-29 08:08:37 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Andrew Wakefield ruined a awful lot with his paper </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-01-29 07:57:32 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> I'd like to disagree. Finding a fresh corpse in bed has always been a pleasure. </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-01-29 07:55:44 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Dodos had wings. Just not useful ones.  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-01-29 07:53:16 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> My pups sleep in the same room as me. Well, two anyway, because the third one likes the lounge, which is just the next room. So I sleep with the bedroom door open, incase he feels like coming in.
+
+Occasionally at night, he will bark for seemingly no reason. Then the pup in my room will wake up, run to the lounge and start barking. The last one will just wake up and come close to me because she's scared. They just stare into the darkness and bark. The stairs leading down are just in the lounge, and there is a part of the lounge with no floor. They just bark down into the darkness. Its super creepy because they just start unwarranted.
+
+Also car noises at night. I live in the middle of nowhere, with a cemetery down the road, and in an area that is not exactly the best. Rapists, thieves, drug dealers, high death rates, drunkards, garbagemen, presumed murderers ... you name it. It is an agricultural area so people go to bed early here. 
+When you hear a car in the middle of the night, it is not really reassuring. Plus, when you consider that the land I am living on was overgrown and was used as a dumping ground for lots of people. Actually found some bones on the land. And an underground cavern system which no one bothered to explore when clearing the land. Definitely creepy </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-01-29 07:31:04 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Donald Trump. Guy had enough charisma to become president on nothing more than unrealistic and vague ideas. (The only concrete thing he actually said is about concrete). 
+Never mind if they hate him, he'll win over them anyway </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-01-28 17:09:38 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> At this rate, we need general relativity instead </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-01-28 16:58:03 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> We need NAMBLA </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-01-28 14:26:27 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Is it possible to have some object so far away that it appears like an atom? The size of it that is. </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> Calculating the force required in a differential pulley </TITLE>
+	<DATE> 2017-01-28 14:23:26 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Hello. Can someone help me solve the following problem:
+A differential pulley carries a weight W. The chain used has N links per foot. The bigger pulley has n notches, which can hold two chain links each. The smaller pulley contains n - 1 notches, which can also hold 2 chain links. The friction is such that the ratio of the force required to lift the weight up to the force required to lower it is R. Assuming that the friction is the same in both directions, find the force to lift the weight and find the force to lower the weight. Use the principle of virtual work.
+
+The given solutions were Fup = RW/(n[R - 1] + 1) and Fdn = Fup/R.
+
+I set up the two following equations:
+
+Call the downwards force F, the radius of the big pulley X, and the radius of the smaller pulley x. I then imagine a virtual rotation of the pulleys of d. 
+I yank on the chain with F, and the chain moves a distance Xd, So I do a work of FXd. However, at the same time, the smaller pulley moves a distance xd opposite the force, so I do work of F(Xd - xd). Furthermore, the weight moves down a distance Xd/2, 
+which is a work of WXd/2. There is friction, f, which acts along both pulleys and opposite the movement each time, so it does a total work of -f(X + x)d. Virtual work states:
+
+WXd/2 + F(X - x)d = f(X + x)d.
+
+
+The situation is the same to move the weight upwards, except that the work done by gravity is negative and the force applied is RF instead of F. Thus:
+
+-WXd/2 + RF(X - x)d = f(X + x)d
+
+Equating them, and moving the weight to the right, dividing by d:
+
+RF(X - x) = WX + F(X - x)
+
+
+To determine the radius X and x, I note that they can hold 2n chain links and 2(n - 1) chain links respectively. 
+There are N links per foot, so the circumference is 2n/N. Dividing by 2 to obtain the radius I get: n/N = X. I get something similar for x, except that the numerator is (n-1). I also note that because everything in my equation contains a term in X or x, I can eliminate any factors in front of n and n - 1. 
+
+Therefore X - x = n - n + 1 = 1. The equation reduces to
+
+RF = Wn + F
+
+Solving for F I get:
+
+F = Wn/(R -1). 
+
+Which is not even close to the answer. Can someone help me get it? Thank you. </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-01-27 18:30:40 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> I get extreme battle sense, stronger after every near-death encounter, a stupid amount of power and strength, the ability to transform into a legendary warrior and a god, and the ability to move to wherever someone I know is instantly.
+
+I use the ability to travel from planet to planet blowing it up </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-01-27 13:38:29 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> welcome </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> Some help with solving textbook problem </TITLE>
+	<DATE> 2017-01-27 06:32:27 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> http://imgur.com/a/mfGSn Hello, please find the textbook image at this link. I tried solving the problem, but I did not get the values asked for in the text book. 
+
+First I note that there are four forces on the girder: gravity, tension, the normal, and friction. The girder is not moving, so the total of these forces is zero.
+Then I divide the gravity into two parts: the force perpendicular to the girder, and hence parallel to the tension, and the part parallel to the girder.
+The part perpendicular to the girder must be balanced by the tension. Therefore W sin  = T. Or W cos  = T. It doesn't really matter which angle I chose here. Say W cos  where cos  = 3/5.
+
+
+Then comes the weird part. Since the perpendicular weight is already balanced, the sum of the normal and the friction must balance the parallel weight, which is W sin . The horizontal component of W sin , W sin  cos  is equal to the friction. Since W = 15000 N, f = 7200 N which is a long way off from the book's answer.
+Anyway, using the same method gives the normal to be 5400 N, again a long way off the book's answer.
+
+And I am pretty sure of my answers, because I was able to get them in two different ways: force analysis and virtual work.
+
+ According to the book the normal is 10200 N and friction is 3.6 N. Only the horizontal component of tension, T cos  and friction are acting horizontally on the girder, hence f = T cos . The vertical forces on the girder are W, N and T sin , which means W = N + T sin . Substituting for T from f = T cos  to solve for W gives
+W = N + f tan , where tan  = 4/3
+
+Using this I can check the answers: I know that W = 15000. If I substitute the values of N and f from the book, I get something round 10.2N, which can't be right. If I substitute the values I worked out, 5400 and 7200, I get 15000. Besides, it makes sense that the friction is greater than N, since I'm dragging iron on the ground, so the coefficient of friction can't be less than 1. And even if it was, it does not make sense that it is smaller than 0.001, which the book seems to say;
+f = uN.
+
+So what did I miss here?
+Thank you. </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-01-27 06:27:49 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> In a perfect case it should be the same. You are lifting 10000 gallons of water regardless, so you do the same amount of work against gravity.
+
+However, in a non-perfect case, where the water has viscosity and the pipes have friction, you probably end up using more energy the longer you pump. Some of the energy is lost to friction and viscosity which are not necessarily linearly dependant on the amount of water you pump per hour (that is, dividing the amount of water by 5 does not mean that friction and viscosity dissipate 5 times less energy.  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-01-27 06:23:15 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Also, note that while they have the same impulse, the concrete exerts a larger force on the egg, but in a smaller time, whereas the pillow exerts a smaller force but for a longer time. </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-01-26 17:46:06 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Welcome </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-01-26 16:53:50 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> It depends. Normally you vary one thing and then another thing varies because of that. What you vary goes on the x-axis, and what varies because of that goes on y.
+Since this is current and resistance, I'm guessing you varied resistance, so resistance in on the x-axis. But I don't know the details, so I can't confirm </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-01-26 16:50:26 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> For a faster object, the force is applied for less time and thus the change in momentum, p, is smaller. In other words, v is smaller. However, energy is not proportional to v, but to (v^2), because the kinetic energy = 1/2mv^2 where m is mass.
+
+Consider a constant force F acting over a distance s. Then, F = ma by Newton's 2nd law, and Fs = W = mas. 
+But it is known from SUVAT that:
+2as = v^2 - u^2 where u is the initial velocity and v is the current velocity. From this equation you can see how the square of the velocity changes: it is simply 2as. So you end up with:
+
+W = 1/2m(v^2 - u^2) since W = mas
+But the quantity on the right is the change in kinetic energy. Thus the change in energy is the same regardless of whatever u is since v^2 changes in the same way. In fact, it is true in general that the change in kinetic energy is equal to the total work done, a fact known as the work energy theorem. 
+
+Another way to approach this is precisely to remedy the situation you have seen. While momentum itself is a useful quantity, when applying a force for a fixed distance the change in momentum is hard to calculate because the change in momentum depends on the velocity at which you apply the force, as you noted. A useful quantity would be one that could measure the effect of the force somehow without being dependant on the velocity at which you apply the force. You look for a quantity that depends only on the force you applied and the distance over which you did, not the velocity at which you applied it. 
+
+To do this, we can plot a graph of v versus p, and then measure the area under that graph, enclosed by u, which is the velocity at which you apply that force, and v, which is the velocity at which you stop applying the force.  The area under that graph should be the same for any v and any p, because if p is halved, v is doubled so the area, which is the approximately the product of (v-u)p = vp, would remain unchanged. 
+
+I say approximate because the graph is not a rectangle, it changes constantly, and the only way to calculate the area accurately is to use calculus to have vdp, where dp is p, but a p that is getting closer and closer to zero. But I'm guessing, based on where you are in your syllabus that you don't know calculus yet. 
+
+Unfortunately, this step requires calculus to calculate the area properly so sorry about that. You can sort of see the result by calculating vp = vmv = m(v)^2, but that lacks a factor of half, and the velocity is supposed to be squared before you calculate the difference. Anyway, upon integrating from u to v, you obtain:
+
+vdp = 1/2m(v)^2.
+
+Note that here it is the change in the square of the velocity and not the square of the change. This quantity is something that will express the effect of a force over a certain distance. It is defined as the change in kinetic energy, which is 1/2mv^2. So we call the effect of the force over a certain distance the kinetic energy. In fact, you should see later on that K/p = v , where K is teh change in kinetic energy is a fundamental relationship between momentum and kinetic energy. You can also show the following:
+
+vp, the quantity we just calculated to be the kinetic energy (or the integral of it) can be rewritten, since v = s/t as:
+
+s p/t
+
+but, p = mv, so p/t = mv/t = ma = F, so
+
+1/2m(v)^2 = Fs
+
+In general, because you are only interested in changes in energy and because the force is often easy to get compared to the kinetic energy, the equation on the right is more often used. Also note that the force in this analysis is the net force, not any force, but the total force felt by an object. So in fact:
+
+1/2m(v)^2 = Fs, where F is the net force.
+
+So from this, we can generalise the quantity we defined as the kinetic energy change, Fs, for any force, just not the net one. But then it does not make much sense to call it the change in kinetic energy anymore. So in fact, we define a new quantity, Fs, which we call the work done. 
+
+So you see, the work done is simply one way of measuring the effect of a force over a certain distance. Impulse is another way of measuring the effect of a force, and while it certainly is useful when you apply a force over a time interval, it changes with speed when applying a force over a certain distance. And while the work done is useful for measuring the effect of a force over a distance, it is not when it comes to the effect of a force over a time interval.
+
+
+ </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-01-19 15:18:04 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> I've tried it out, but I'm getting stuck. Could someone help please?
+
+So I dropped the weight a distance h, which is the height of the slope. This time, I take into account the rise of the slope. The edge of the slope, and thus, the pulley on that edge will rise by a distance h. The slope rotates around the pointed end. This means that the cart rises by a certain amount. The work done in it rising plus the work done by the pulley  should equal the work done on the dropping weight. However, I have been trying for heaven knows how long to calculate the height increase due to the slope rising. Anybody can help me calculate it? 
+
+Thank you </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-01-19 11:35:23 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> The fillers in DBZ were quite interesting, but they were a travesty to the franchise. Half of them are inconsistent with the actual series. Without them, DBZ is a helluva more consistent </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-01-19 11:01:27 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Current is defined as the rate of flow of charge. That is, charge passing a point over time. 
+First calculate how many electrons are passing through the point in a circuit per second. This is simply dividing the number of electrons passing in 300 s (which is 5 mins, but in seconds), by 300 s. 
+For each electron that passes in one second, 1.6x10-19 C passed through that point, since that's the charge of an electron. So to find the current, which is charge over time, simply multiply the number of electrons per second by the elementary charge. 
+You should get 0.213 or so </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-01-19 10:56:15 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Looking at the problem, you can see that the two attached springs behave as one spring, but with double the spring constant. 
+The top spring extends downwards upon adding the weight, and the bottom one is compressed downwards, by the same amount the top one is extended. Because of this, the net force felt by the ball is simply twice that of the force from one of these springs, 2kx, where x is the extension/ compression. In other words, you have a spring-mass system, with one spring but with constant 2k. 
+The period of a spring is given as 2(m/K) where m is the mass of the object and K is the spring constant.  A cycle for one spring can be divided into four equal parts: first from bottom amplitude, then to the centre, then to upper amplitude (the height) then back to centre. You want the second stage, the height, so divide you period by 2. You are looking for m/K. You just need K to work. 
+
+To find K, you use the extension given when the mass is added, namely 0.2m. Since the ball is at rest when the springs are extended/compressed by this length, the spring forces must add up to be equal to the weight. In other words 2kx = W. You can work out the weight from mg, where m is 0.5 kg. Since we are considering the equivalent to a system where you have only one spring, but with spring constant 2k, we are looking for K = 2k. So solve 2kx = W for 2k, and then plug away in the half-period formula. You should get something round 4.48, which is close enough to 0.45 </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> Factor of four missing in cart-weight virtual work system? </TITLE>
+	<DATE> 2017-01-19 10:17:11 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Hello.
+So I've been going through the proposed exercises for the Feynman lectures V. I
+ (all three volume's exercise books are on archive. Link to VI for those interested: https://archive.org/stream/ExercisesOnTheFeynmanLecturesOnPhysics_Volume1/Volume%201#page/n7/mode/2up) and I came to this question, 4.5:
+
+A cart on an inclined plane is balanced by the weight w. All parts have negligible friction. Find the weight W of the cart.
+http://imgur.com/SwA6yIS (image of the cart and weight).
+
+So I dropped the weight w by a length x. The cart would move across the hypotenuse of the slant by x.  From trig, the change in height of the cart, h = x sin , where  is supposed to represent the angle in the picture. 
+
+So, since everything is still stable afterwards, the change in energy must be zero. Therefore:
+
+wx = W x sin . 
+
+Solving for W gives w/sin . 
+
+However, when I checked the answer section at the back of the book there is a factor of 4 missing from my answer. Here is the picture of the book's answer:
+http://i.imgur.com/7Yef8EX.png
+Can anyone explain why I have missed the 4? Thank you. </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-01-19 10:03:11 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> It arises due to the fact that momentum is linearly dependant on the velocity, at least in classical mechanics. 
+The kinetic energy is defined from the work-energy theorem. Consider the work done by a force parallel to the displacement. It is:
+
+W = F dx = T
+
+By Newton's second law, F = dp/dt, so you can replace. However, you can differentiate either dp or dx, so you can choose differentiate dx instead to get v, the velocity.
+
+vdp = T.
+If the particle had zero kinetic energy in the beginning, T = T, that is, its kinetic energy is equal to the work done. Anyway, from the above theorem you have:
+
+vdp = dT
+
+The above is a fundamental relationship:  as long as the definitions of the work done and Newton's second law do not change, this will hold true. If you assume that dT/dv = p as well, then the following happens:
+
+dT = pdv = vdp
+which forms a differential equation that is easily solvable to give
+ln p = ln v + C
+
+p = mv, where m is a constant with value e^C, or as it is better known, the mass. 
+
+So as you can see, this is a consequence of the definitions kinetic energy and momentum. There is a nicer way of doing this though, which assumes two things: elastic collisions, and the principle of relativity. 
+
+Suppose two objects collide in frame S. Then
+
+T1 + T2 = K1 + K2, 
+where the Ks are the kinetic energy after the collision.
+
+Now if you look at the same collision in frame S', moving with velocity v with respect to S, by relativity:
+
+T'1 + T'2 = K'1 + K'2
+
+You should be able to get the same results by using the Galilean transformations on the velocity in S. That is, you add v to your velocities before squaring. If you expand the square you end up with the equation for Kinetic energy for S, plus some extra terms. You can ignore the Kinetic energy terms because you know they are conserved. You end up with:
+
+m1v1v + m2v2v = m1u1v + m2u2v
+where the us represent velocity post collision. Since v can be anything you want, you can ignore it, and thus end up with a conserved quantity, mv, the momentum. If you repeat the same frame transformation with momentum instead of kinetic energy, you end up with the conservation of mass. 
+
+So in fact, the relationship between kinetic energy and momentum depends on the principle of relativity and frame transformations. There is a paper you can check if you are interested, that shows how this idea can be applied, and then derives the Lagrangian, Hamiltonian, momentum and energy for both Newton and Einstein
+Here is the link:
+https://arxiv.org/pdf/physics/0402024v3.pdf
+Very interesting paper, though its hard to follow without the references and they are a pain in the neck to track. Let me know if you need help with them </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-01-18 17:52:46 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Though most of the problems aren't his, but are written by someone else. Thanks though </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-01-18 17:52:21 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> True, I was confused by that. Especially due to the wording. </TEXT>
+</WRITING>
+</INDIVIDUAL>

@@ -1,0 +1,59 @@
+<INDIVIDUAL>
+<ID>subject4160</ID>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2016-05-17 02:52:43 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Not particularly, but some people do like to monopolize the missions and take the spoils for themselves. If you have a group of people that you play with regularly, and you're vocal about it, people tend to stay away from doing squad missions until the vocal minority (the group) is finished with the squad tasks.  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2016-05-17 02:26:07 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> There's really just one thing I wish more people would follow: WAIT UNTIL ALL SQUAD TASKS HAVE BEEN DONE BEFORE DOING MISSIONS. Please don't be a dick and solo high reward missions like The Awakening or The Insects Fear while the rest of us are still cleaning up the other Squad Tasks. Or if you insist on doing those missions, at least open up a room so others have a chance to join in on the action. 
+
+Also, sign your name after you post. (This isn't really necessary, i just like to know who I'm talking to so I don't look like an idiot) </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2016-05-17 01:50:22 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> The loudest guy in XCX </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2016-05-07 16:53:08 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Everyone else already answered the ticket thing, so I'll answer the hit scaling question. Hit Scaling means how well your melee/ranged stat translates into damage per hit for an art. For example, an art with 500% hit scaling will deal 500% or x5 damage from your melee/ranged stat, whereas an art with a 900% hit scaling will deal 900% or 9x damage from your melee/ranged stat. Say you have 500 melee attack and you use Maximum Voltage, with its 250% hitscaling, you will deal (2.5 X 500) damage per hit, give or take a couple thousand damage. This doesn't sound like much, but once you consider every other independent multiplier in play..... It stacks up. Also, hitscaling is NOT the best way to choose your arts, look at secondary effects/conditions too. Hope this helped! </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2016-05-03 13:56:06 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> If you're taking about the 100% survey rate picture, it's also a decal in the Barracks, so yes, you can see it again. </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2016-04-22 05:31:06 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> HE'S BREAKING THE RULES </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2016-04-22 02:31:29 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> [So basically Yelv](/s) </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2016-04-22 02:14:12 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> This isn't really a mistake, but I thought we had debunked this already. Potential Up/Drive augments DO NOT increase chances of getting a cockpit mode. I've done 400 trials on Gradivus the Headless, on each one, I used 50 arts in order to get a decent sample size. For 200 of these trials I used a full set of Potential Drive augs, and for the other 200 I used absolutely none, restricting myself to only the Amadusia's base Potential stat. From each set of trials, the amount of time cockpit mode was triggered was roughly the same, about 1339 (non-potential) to 1137 (potential). 
+
+Since we had a massive sample size, and each trial was independent, we have essentially satisfied the conditions to do a two-sample means-test. After doing the the test and calculating your p-value (a number that tells you if your original prediction was right if its over a certain level, generally over .05), you get a p-value of around .277. This tells you that there is no significant evidence that potential augments increase chances of cockpit mode, since P is so massive. If P were smaller, perhaps we could believe that potential does affect cockpit mode, but according to these results, which are reliable if you look at that sample size (20,000 arts used is no small amount), potential simply does not factor into cockpit mode RNG.
+
+If you want, I'd be happy to send you the hard data, though I'd have to fight my Stats teacher for it, and to everyone, I hoped this saves you an extra hour or two from making a full set of Potential Drive augs to boost cockpit mode.
+
+TL; DR: POTENTIAL DOESN'T AFFECT COCKPIT MODE RNG IN ANY WAY AT ALL! </TEXT>
+</WRITING>
+</INDIVIDUAL>

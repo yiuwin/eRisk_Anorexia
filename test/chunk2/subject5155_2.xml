@@ -1,0 +1,458 @@
+<INDIVIDUAL>
+<ID>subject5155</ID>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2015-08-09 23:30:24 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> This looks *amazing*. Super useful. One issue: chemistry is missing from the university upgrades. </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2015-08-08 17:50:51 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> This is actually a reasonable civ suggestion with interesting bonuses. This is much better than your previous posts. Well done. 
+
+I'll be curious to see how this plays out in practice. </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2015-08-08 07:07:51 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> 12 seconds sounds right. I thought I remembered making something like 15 TTKs while going up to Imp, but that sounded so crazily high that I thought my memory must be tricking me. </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2015-08-08 06:27:28 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Yeah, I remember being able to mass them extremely quickly. Something like ten per castle while going up to Imp. Do you happen to know the exact creation speed? </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2015-08-08 06:06:29 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> I think your comments are on point. I have one argument with regard to the hand cannonneers: The TTK is a better alternative in early imp. Here's why:
+
+- HC requires chemistry, which takes a long time to research. On top of that, you'll want the archer armor upgrades, and at least two or three ranges to mass them decently quickly once you (finally!) get chemistry. So HCs have quite a bit of time and resource overhead costs.
+- On the other hand, you can mass TTKs in your castle while you're going from the Castle to the Imperial Age. I don't remember what the creation time per TTK is, but the 190 second wait allows you to mass quite a few per castle. 
+- Plus, once you're imp, you can pop out your TTKs and use them to protect your trebs that you'll be deploying from your castles. TTK are fairly good at that (though arguably perhaps not as good as pikes). </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2015-08-08 04:20:14 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT>  who is tankier? 
+
+The following articles cover this pretty well:  
+http://ageofempires.wikia.com/wiki/Boyar  
+http://ageofempires.wikia.com/wiki/Teutonic_Knight
+
+ Also is tk reslly useless in this meta
+
+No. potential use cases include backing up a slow-moving army -- for example, if you're doing a slow push with cavalry, the TTK will be great at taking out pikes, etc.
+
+TTK have their time and place -- though, granted, that's rare. Generally speaking, they're to be used sparingly. The Teutons are a reasonably strong civ and have better alternatives for most situations.
+ </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2015-08-05 20:11:11 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Prattle analyses all textual publications from about twenty central banks. They group all these textual publications by week. Then, for every week, they parse all the text and assign *sentiment scores* to it, depending on whether the text has a bullish or a bearish outlook on the market. 
+
+That's how they get the weekly sentiment scores.
+
+The data on Fed Sentiment went as far back as 1998, so the time horizon doesn't seem terribly short. I do agree that some out-of-sample analysis would be helpful.
+
+I am in no way affiliated with Prattle -- you should reach out to info@prattle.co if you have any further questions. </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2015-08-05 18:52:15 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Prattle presented at a conference that an acquaintance of mine was present at. They're quite friendly -- you could e-mail them and ask for the same data sample that I used. From that point, I used the Quantopian research platform to get it done. 
+
+Regarding predictive regressions: I didn't do this because it was clear from the plots that Fed sentiment was not a reliable signal. (i.e. occasionally ETF moved first). I can try it and send you the results, if you like, but I doubt it would be useful. </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> Does Federal Reserve Sentiment Predict Prices of Macro-Tracking ETFs? </TITLE>
+	<DATE> 2015-08-04 22:31:44 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> I got access to a dataset that tracks bullish/bearish sentiment at the Federal Reserve. I tried to find relationships between Fed sentiment and various macroeconomic-tracking ETFs, like GLD (gold), TLT (long-term treasury bonds), and DIA (Dow Jones). 
+
+I found that Fed sentiment correlates strongly with SPY and DIA, but that the causal relationship is unclear because both appear to respond to the same overarching macroeconomic variables. Occasionally Fed sentiment reponds first, and at other times, the ETF responds first. This makes it harder to use Fed sentiment for predictive purposes, i.e. as a signal to trade on, though not at all impossible.
+
+You can view my research project [here](https://www.quantopian.com/posts/does-federal-reserve-sentiment-predict-prices-of-macro-tracking-etfs). </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2015-08-04 07:18:54 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> I gave it a brief look and played a game against the AI -- you seem to have put a lot of work into this. Nicely done! 
+
+I'm assuming that you guys are looking for feedback at this stage in the process: I would at least temporarily drop the token-cost to host multiplayer games. The reason is that this pricing scheme can be quite discouraging to new players (even though you offer 10 tokens for free to start), and at the moment you want the game to be as attractive as possible to new players. Once you've gained substantial traction you can think about monetization, but at this stage, it's not worth trying to reclaim the small amount in hosting costs. I would suggest having a [Patreon](https://www.patreon.com/) to allow users to financially contribute if they wish, and then scaling up to an actual pricing scheme for the game once you have a few hundred or a few thousand active players. </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2015-08-03 02:24:54 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Yep, Plumes have a lot of subtle bonuses. Their base melee attack (!) makes them stand up okay against EEW as well. </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2015-08-02 03:40:20 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Good idea on the Jarque-Bera, and you have a point regarding the extra density in the lower tails. I'll think about it.
+
+I can look into the auto-correlation. Maybe there's an interesting result to be found there.
+
+And yeah, the Quantopian research platform is pretty powerful. </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2015-08-01 05:44:35 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> I'll go through all of them and give each a grade. I am assuming we're playing Forgotten Empires.
+
+Aztecs (B+): strong eco, and Atlatl makes for great skirms. The monks are potentially quite powerful, but the lack of knights makes it hard for the Aztecs to counter cavalry civs. I think the Aztecs can potentially be played very effectively in the eternal castle age, it's probably just quite difficult as it requires nonstandard tactics.
+
+Britons (A-): Great archers -- Yeomen in castle age is very powerful (very useful against mangonels). Knights lack bloodlines, but a solid archer backing makes up for that. *Note*: TheViper considers the Britons the 4th-strongest Arabia civ, afaik.
+
+Byzantines (B-): lack of bloodlines and no eco bonuses. The castle age cataphract sucks, and it's hard for them to stand out in any way.
+
+Celts (A-): excellent siege that, when massed, is *extremely* hard to take down in the castle age (as opponents will not have access to long-range siege, like bombard cannons and trebs). Woad raiders are very good as well, enough to make up for the lack of bloodlines. Woads provide an excellent meat-shield for their siege. The woodcut bonus is great too.
+
+Chinese (B+): much of the Chinese power lies in the late game. Though their castle age is nothing to complain about -- they have all the techs and bloodlines for their knights as well. 
+
+Franks (C+): their 20% cavalry hp bonus *exactly* replaces bloodlines in the castle age. Otherwise, they have nothing to write home about. Note the lack of eco bonuses and the lack of thumb ring.
+
+Goths (B-): good knights, no camels, bad archers. Lack of walls and eco bonuses is pretty inconvenient in this situation. I can see them coming out on top in some situations due to their knights and Huskarls, but not in all of them. I think their quality would depend greatly on how they're played -- a very skilled player could probably do much better with the Goths than with other civs in this situation, but an unskilled player would find them very difficult to use.
+
+Huns (A): the best.
+
+Inca (F): no useful eco bonuses, no cavalry, slinger is useless, kamayuk can only be made at the castle. [More complaints about the Inca](https://www.reddit.com/r/aoe2/comments/3by9s8/incas_listed_as_a_infantry_civ_but_they_dont_look/csqo9r8)
+
+Indians (C-): absolutely no raiding ability in the castle age due to the lack of knights. Camels are nice, but they're defensive -- the Indians have little to no offensive capability. [More complaints about the Indians](https://www.reddit.com/r/aoe2/comments/3ag9l4/spirit_of_the_law_indians_overview/csceluw)
+
+Italians (B): ok all-around. Their eco bonuses (cheaper age upgrade) give them a little rushing advantage, but aside from that, they have no bonuses that make them stand out in particular.
+
+Japanese (B+): they're not missing anything, though their bonuses aren't particularly valuable.
+
+Koreans (B+): lacking bloodlines, but their team bonus (mangonel minimum range reduced) makes up for it. I'm not sure how turtle ships impact the castle age. Eco bonus is weak, but the war wagon is a comparatively strong castle age unit.
+
+Magyars (A-): very good cavalry thanks to the Magyar Huszar, and they have a good archery range. They don't have a particularly good eco bonus, but the Magyar Huszar is a strong unit in the castle age (if you can spam it from multiple castles) that allows for good army combinations with archers.
+
+Mayans (B+): they've got a great eco and plumes. Unfortunately they don't have El Dorado in the castle age -- and they need the extra-hp EEW for their army composition. In an eternal castle age game, they would have to mass pikes + plumes, which can both be countered by skirms. If the opponent throws in a few knights, they can be a tough spot. Some may think that my grade for the Mayans is harsh, but I'm concerned that they do not have a good army composition for a long castle age.
+
+Mongols (A): great archery range -- their cav archers are very good, as are the Mangudai since they don't have an attack delay. The extra HP on light cavalry also makes a significant difference. Generally, the Mongols have an excellent castle-age army composition.
+
+Persians (A): excellent eco bonus, and they basically have a full castle age tech tree. On top of that, war elephants make a considerable castle-age siege weapon. (Compare a war elephant to a ram...) 
+
+Saracens (B+): they have a full archery range/barracks/stable. Their galley bonus is considerable. However, I'm not convinced that the Mameluke stands up in the castle age. They also don't have much of a long-term eco bonus.
+
+Slavs (A-): good knights, cheap siege, and the Boyar is probably the best castle-age unit. On the other hand, their archers are missing thumb ring. Their eco bonuses are pretty decent, too. I'm not sure if their lack of thumb ring merits a B+, but I think they would go for siege + cavalry anyway.
+
+Spanish (A/B): no crossbow means they're bound to knights and conqs, both of which are not hard to counter. In a TG they're an A due to their trade bonus, in a 1v1 I think of them as a B. They get some good bonuses in 1v1, but I'm not sure that their army comp stacks up that well, especially since much of the metagame focuses on archery.
+
+Teutons(B+): Ironclad is a useful technology, giving them much better siege. Their archery range lacks thumb ring, and their eco bonus is helpful but not top-of-the-line. Their stable is okay, in that they have knights with bloodlines, but no light cav, camels, or husbandry. On the other hand, castle-age teutonic knights are not that easy to counter. The Teutons can have a potentially powerful army composition.
+
+Turks (C-): a great stable, but unfortunately the turks really aren't much without gunpowder. You can justify the Turks' lack of trash in the imperial age, but not in the castle age.
+
+Vikings (B): great eco bonus, good archers, and good infantry, but their stable is weak. They are, of course, good on the water, but in an eternal castle age, they have a small shortcoming in that they lack fires (though their navy is still much better than average). Their competitive advantage on the water is strongest in the feudal age. 
+
+ </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> Variance in Trade Volume is Log-Normally Distributed </TITLE>
+	<DATE> 2015-07-31 23:29:42 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> I recently used Quantopian's research platform to look into variance in trade volume. I'm still investigating it as a trading signal, but one of the interesting findings I came across in the process was that the variance in trade volume is log-normally distributed. 
+
+This is a reasonably powerful result in that it allows us to make certain statistical assumptions when using variance in trade volume in trading strategies or algorithms. 
+
+You can view my research project [here](https://www.quantopian.com/posts/distribution-of-variance-in-trade-volume-is-log-normal). </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2015-07-31 01:28:38 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Fast imp with turks is an advanced strategy. If OP is just starting out, I'd suggest just walling his base, booming, and then massing gunpowder units (janissary/hand cannoneer/bombard cannon), hussars, and heavy scorpions (to kill trash). Turks also have a good navy, so going for some fires / galleons / cannon galleons on water is also often worth it. </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2015-07-30 17:50:25 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> I don't know whether it was clear from my post, but the problem, as far as I've observed it, was that clicking *once* often doesn't work. I have to click *multiple times* to get it done. </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2015-07-30 17:49:33 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Excellent, thank you. </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2015-07-30 17:49:17 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Yes, I use *pussywood* and *alignment grid*. </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> Why are my vills idle? </TITLE>
+	<DATE> 2015-07-30 04:50:50 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> I'm wondering whether this is just me or whether other people are having this problem, too. It appears to be a bug that was introduced a few weeks/months ago.
+
+The issue is basically that my vills don't do their assigned tasks. I click on a vill (or a group of vills), right-click a tree, and they walk up to the tree and then stand around. I've had similar issues with sheep and other resources: they walk there and then stand-around. I find myself having to occasionally right-click multiple times in order to get them to do their assigned task.
+
+And before you ask -- I've definitely made sure that I didn't set them to *walk there*.  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2015-07-29 03:17:30 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Yeah, I started playing tennis after finishing IJ as well. Not in any particularly literal connection to IJ though; it was just that after reading IJ and all of DFW's essays on tennis, it seemed like a neat past-time to me. I have come to find it fun, and I think it has a certain elegance to it. I certainly didn't pick up tennis in effort to better understand DFW or his characters. </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> Florida Man Finds a Million Dollars in Gold Coins </TITLE>
+	<DATE> 2015-07-28 15:42:25 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT>  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2015-07-26 17:16:11 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> If you have a 4K monitor and you want to play video games on it, you'll need an extremely powerful graphics card. Buy one. Alternatively, change your resolution. </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2015-07-26 08:30:44 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Technically yes because of their market bonus, but they do fall behind pretty quickly compared to the aztecs in the mid- and late castle age. I've seen at least one game in which the saracen monk rush was executed successfully, though I consider it a much higher-risk strategy than the aztec monk rush.
+
+Picking the saracens for the monk rush sacrifices a great deal of later game power for a slight increase in speed. Given that the monk rush is a risky strategy to begin with, I don't think this trade-off is worth it. </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2015-07-26 07:23:05 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Aztecs have the best monks by far. No other civ comes even close, neither for monks nor for monks + siege. </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2015-07-26 06:45:51 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Completely scratch the "skills" section. The things you have listed are too vague to be helpful for someone reviewing your resume.
+
+Instead, have a section that actually lists your skills. That should probably be two lines:
+- Proficient with (name software that you think will be useful, e.g. microsoft excel)
+- Programming languages: (name programming languages that you know).
+
+I'm assuming that you know programming languages because you're studying computer engineering.
+
+Scratch the summary.
+
+Instead, under education, list the degree you are getting (and the major, etc.), write down the name of the school, and when you expect to get the degree. 
+
+Since you don't have any prior work experience, it'd be worthwhile to list some activities you have participated in. Any clubs? Any leadership experience? 
+
+If you're applying for a CS/Software Engineering-type job, use your resume to briefly list your most impressive projects. (In lieu of work experience, you want to demonstrate your competency somehow). 
+
+Depending on the type of entry-level job, you might also find it helpful to list relevant classes you have taken.
+
+Remember: the purpose of the resume is to communicate, in a single page, why the company should hire you. To that end, you want to *show*, not *tell*. For example, don't say that you're a "team player", rather, use projects and other experiences to show that you can work well in a team.
+
+Finally, I think you should check out [this guide](https://github.com/cassidoo/getting-a-gig#your-resume) on crafting a decent resume, and you should also probably Google some example resumes for college students to see what it should look like.  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2015-07-24 22:32:58 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> It's funny: everything in this album is reasonable advice apart from the "16 pages" nonsense. Even a five-page "executive summary" is instant-trash material.
+
+The rule of thumb is one page for every 10 years of work experience. Industrial resumes should be **short** because people who read resumes have to go through a ton of them -- they won't bother with long ones. 
+
+Note that this differs for academia, where long lists of publications on your CV are necessary. </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2015-07-24 17:33:04 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> That the appendix is useless. Recent research has shown that the appendix essentially carries an emergency backup of your intestinal bacteria. Incidentally, medical research neglected the intestinal bacteria (aka the gut flora) for a long time -- it's only now that we're learning about it, and it seems to be very important to our well-being. </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2015-07-24 08:21:35 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> You literally repeated what SoTL said. What I complained about was that SoTL did not try to find any combat situations in which missionaries might be useful (especially in FE, where they are buffed slightly).  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2015-07-24 07:42:56 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Here are the reasons why hackers don't do this:
+
+1. There's no incentive. Hacking into a financial database is very difficult. What does the hacker get out of it? They can cross off their student loans? There are easier ways for them to make the equivalent amount of money.
+
+2. Financial databases are much better protected than celebrity twitter accounts. They're not impenetrable, but I'd guess that it's about a thousand times harder to break into a financial database than into the average A-list celebrity's social media profile or e-mail account.
+
+3. Erasing data is *hard*. Backups exist all around the world, many of them in "cold storage" (on hard drives completely disconnected from the internet). Beyond that, even if someone were to erase such a database, the contents could be pieced back together by transaction data from other banks, credit bureaus, etc.
+
+4. Coming out of point 3: there exists a *huge* amount of transaction data regarding your debt. Debt is evaluated for likelihood of it being paid off, packaged into huge lumps of similar types of debt, and sold between major banks. The large-scale formatting and sale of debt (and futures contracts, options, etc. on debt) is a massive and fascinating industry. Debt is an investment that is constantly transferred between owners. For that reason, if you have a student loan, or something like that, it probably doesn't just exist in one database, but dozens, if not far more. </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2015-07-24 07:20:53 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> He gave the Spanish monastery an A, but I wish he'd gone into more detail about the missionary (especially regarding its upgrades in FE). The missionary is rarely used and we don't know much about its performance -- this calls for analysis.There are some interesting questions he could have answered, e.g. how well do massed missionaries with a meatshield perform against paladins? That's what we don't know. That's what we want to know. Most of the rest of the video covered things that I thought were pretty common knowledge already.
+
+That aside, it was a pretty good overview. Definitely a good introduction for new players. </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2015-07-24 05:45:08 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> This isn't specific to the map type, but a lot of people completely fail to understand the pace of the game and what they need to do to win, depending on their opponents' civs.
+
+As an example, I played a 4v4 teamgame in which, for whatever reason, everyone on my team was an archer civ (mayans/britons). The other team had a goth and an aztec player -- in the late game, these civs dominate because elite eagles and huskarls both have very high pierce armor, so they hard counter archers. 
+
+The only way for us to win was to go heavy into feudal and castle-age aggression, because once the goth/aztec players reached imp, it would be game over -- there would be little we could do. (Mayan eagles roughly tie with huskarls, but are much more expensive.) But my allies just wanted to boom to imp and make mass archers. 
+
+So I was the only person doing any early-game aggression. That was basically 1v4, so I couldn't slow down my opponents. In the end my allies boomed to imp, massed archers, and we promptly lost to mass huskarls and mass EEW.  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2015-07-24 05:37:56 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> They have spears and skirms, just like everyone else for the feudal age. They also get the upgrade to light cavalry for free, so they have a good scout rush.
+
+For the castle age, they're stuck with spears and skirms, and don't get pikemen or elite skirm. However, **in the castle age the metagame demands non-trash units anyway**. The turks have knights and camels, and they have mangonels to defend against archers. If they really need to, they can make a few spears or skirms to counter an attack, though it won't be a very efficient counter.
+
+But the slightly weaker castle age is warranted, because their early imp is extremely strong. In the imperial age, the turks are one of the best civilizations. At this point, again, their entire strength lies in their offense, not in their defence.
+
+If they need to defend against opposing knights or archers, they have many good choices for doing so: camels, janissaries, and bombard cannons/towers work wonders against knights, their onagers and cavalier will take apart archers, and they're generally well equipped against infantry, since they have heavy scorpions and great gunpowder, along with bombard towers and cavalier. They can defend well, it just costs a lot of gold (which is feasible with trade in team games -- in 1v1, they need to win quickly before gold runs out).  
+
+If they had elite skirm and pike/halb, they would almost certainly be well overpowered.  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> What Stop-Loss Should I Use? An Analysis. </TITLE>
+	<DATE> 2015-07-23 17:15:33 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Many traders use stop-losses, but what's the right one? 3%? 9%? 15%? I tried to answer this question by using the Quantopian research platform to optimize stop-losses for a particular set of stocks.
+
+You can view my research project [here](https://www.quantopian.com/posts/what-stop-loss-should-i-use-an-analysis?). The TL;DR is that stop-losses aren't practically useful, and it's usually a better loss-minimizing move to just wait for the rebound and then sell. </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2015-07-23 07:02:28 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Not that I've heard of. There are a few scenarios like *CBA Front Towers* in which kills get you upgrade points that you can use to buff your troops. 
+
+The [Portuguese Civ Mod 2](https://www.youtube.com/watch?v=R42thLVG0w0) also introduces experience, though not quite in the way you mentioned. </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2015-07-23 06:26:42 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> This is not surprising when you consider things like the [great Pacific garbage patch](https://en.wikipedia.org/wiki/Great_Pacific_garbage_patch). It's a patch of floating garbage -- small metal, plastic, etc. -- roughly the size of texas. 
+
+It's a great tragedy that little pieces of plastic or metal look like food to seabirds. They fly out to fetch this debris, eat it, and feed it to their young. The effect this has on seabird populations is ruinous. </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2015-07-23 05:26:04 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Some people call that the "dilution hypothesis:" that the oceans are so big that they can take just about any form of damage. Pour in some industrial waste? No problem, the oceans are big enough to dilute it to a harmless level. Completely overfish an area? No problem, the oceans are big enough to dilute that damage -- the fish will breed elsewhere. Heat the oceans up? No problem, there'll still be cold spots toward the poles.
+
+Unsurprisingly, this approach is unsustainable in the long run, *especially* when every country on earth follows it. Treating a finite resource as if it's infinite usually doesn't go too well. </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2015-07-23 03:12:07 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Actually, a *ton* of aquatic life has gone extinct in the last century. This is the sort of thing that's hard to pick up on because it's a gradual change that we don't really notice over the course of our lifetimes. However, if we look at fishing records over the century, it's apparent that we've decimated the vast majority of fish stocks in many areas, and that the oceans are continuously becoming less hospitable to life.
+
+There's a great book on this: *The Ocean of Life: The Fate of Man and the Sea* by Callum Roberts. He's an excellent writer, and the book is very accessible. </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2015-07-22 02:46:52 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> To respond to your suggestions:
+
+**Franks**
+
+Honestly, I have no idea how the knight gold cost reduction would play out in practice. Knights remain easily countered by pikes, to which the franks have no real good answer. 
+
+Making axemen cost wood instead of gold is over-the-top insane. This would make them very OP -- you probably underestimate how powerful mass axemen are. Hint: they are excellent trash-killers. Mass axemen + knights are a very powerful army. Making the axemen cost no gold would mean *both* mass axes (since Franks already have cheaper castles) and more knights, since the player would have more gold to spare -- that'd probably be strongly overpowered.
+
+**Turks**
+
+Their pre-imp isn't actually that bad. They only have bad trash, and that's not terribly important pre-imp. Their early imp is easily one of the strongest in the game, and making age advancement cost 25% less would allow them to reach their early imp while their opponents are still midway through the castle age. They would be incredibly powerful at that stage in the game, again, to an overpowered extent.
+
+**Goths**
+
+Huskarls in any age would make them the strongest civ in the game by a long shot. They would be able to decisively win games in the feudal age, maybe even in the dark age, without a problem.
+
+Villager creation in barracks would give them the best boom of any civ. Granted, you need a castle first, but it'd still be way over-the-top. 
+
+**Koreans**
+
+No friendly fire on onagers would mean that they could spam nothing but onagers (and a few trebs/hussars to take down towers/bombard cannons) and win the game without taking any damage. 
+
+No minimum range on onagers would make that unit the most powerful in the game (after the war elephant). This should be an obvious problem, since you can mass/spam onagers quite easily.
+
+**Saracens**
+
+Your proposed bonuses buff the saracen late-game. The saracen late-game is already very strong. (How do you beat a big army made of arbalests, siege onagers, and elite mamelukes? Hint: you don't.) The saracens are quite a weak civ, but they need early-game improvements, not late-game improvements.
+
+**Vikings**
+
+A reasonable suggestion. (Though vikings are not terrible on land due to their eco bonuses.)
+
+**Concluding Remarks**
+
+Look at how AoE developers and people in the community propose balance changes. You'll find that the proposed balance changes are usually very small: fire ships are made 10% faster, two-handed swordsman gets +1 attack, etc. The reason for this is that the game's balance is quite delicate, and even small changes can have a big impact. 
+
+If you're thinking about how to buff underpowered civs, I suggest you try to isolate the ways in which the civ is *undeservedly* weak, and then make a small buff to that. Think about how the *small* bonus would impact the entire course of the game. Don't consider bonuses that would result in the civ almost invariably winning the game under certain conditions -- that'd be OP.
+
+A good example to think about is the Mongol hunting bonus. They hunt a little faster, and that's very powerful, because it allows them to advance from the dark age to the feudal age a little bit earlier -- they can spare a few vills if they need to, because they've gathered resources much more quickly. This means that they can bring out their feudal army more quickly (i.e. archer/scout rush) and will put pressure on their opponent, putting their opponent on the defensive and slowly getting a marginal advantage in the course of the feudal age. It just *slightly* twists the odds in their favor.
+
+Another small bonus that's important with the Mongols is that the Mangudai has no attack delay: you can run a mangudai, click on a target, and fire *instantly*. This is rare among ranged units, and it's one of the reasons why Mangudai are so powerful for raiding and in small groups. 
+
+Those are the sorts of balancing bonuses you should think about. </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2015-07-19 08:07:06 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Because the U.S. is by far the world's wealthiest nation, spends an incredible amount of money on schools, and has about 55 million K-12 students. We would expect the U.S. to consistently outperform its international peers in math and science, but that is not the case.  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2015-07-18 21:19:09 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Forget Herbert Hoover, let's talk about Warren G. Harding for a moment.
+
+ "I can't make a damn thing out of this tax problem," he told his secretary. "I listen to one side, and they seem right, and then  God!  I talk to the other side, and they seem just as right, and here I am where I started. I know that somewhere there is a book that will give me the truth, but, hell, I couldn't read the book." 
+
+Another gem:
+
+ Harding himself wound up doing things like answering the White House mail.  Asked whether that sort of thing wasn't beneath the president, Harding replied, "I suppose so, but I am not fit for this office and should never have been here."
+
+Harding campaigned on similar grounds of simple appeal (though with less apparent xenophobia). It might be easy to campaign with simple slogans, but the immense complexity of politics is not reconcilable with genuinely simple policy.
+
+Source: http://adamcadre.ac/calendar/15/15119.html </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2015-07-16 23:41:42 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Offtopic: is anyone else kind of freaked out that he doesn't use pussywood? He makes all these videos about efficiency, but slows his gameplay down by having unmanageably large trees... </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2015-07-16 03:22:51 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Vikings, Byz, Franks, late-game Huns </TEXT>
+</WRITING>
+</INDIVIDUAL>

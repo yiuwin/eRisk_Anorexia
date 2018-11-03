@@ -1,0 +1,133 @@
+<INDIVIDUAL>
+<ID>subject6394</ID>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2016-09-24 06:18:52 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> "Cryptsetup open" takes me to my partition scheme, viewable by lsblk after my passphrase is given. I still need to finish installing the bootloader, but it should be easy enough. I just needed a break away from it to realize how easy it was. 
+
+ETA: Downvoters can kiss my ass. Leaving this up for any other newbies who might benefit.  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> No bootloader found, missing something obvious. </TITLE>
+	<DATE> 2016-09-23 07:47:10 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Running UEFI, simple LUKS partition. All went fine. 
+
+Used: 
+
+    bootcl insall
+
+Got this famous message upon startup: 
+
+No loader found. Configuration files in \loader\entries\*.conf are needed.
+
+Now how do I get back in and edit that? CTRL+ALT+F2 or any variation doesn't get me to the command line from that screen. 
+
+It's not possible to get there from the live USB, is it? Because when I run lblsk from there it doesn't even show that my disk is partitioned like it was before the installation guide in the wiki told me to reboot. Can I chroot into the system I've set up somehow?
+
+Bit sleep deprived and been at this for hours. Just wanted to ask before I tried again tomorrow. If need be I'll keep running through this Arch install until I get it right, since I feel this was a good first attempt. Minus the fact that it won't start or anything. 
+
+
+
+ </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2016-09-16 20:12:52 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> I'm trying to upgrade with Aptitude, but it won't do it past version 1.2.3: 
+
+    Unpacking python-oauth2client (1.2-3) ...
+    Setting up python-oauth2client (1.2-3) ...
+
+The following: 
+
+    pip install --upgrade oauth2client
+
+Gives me this: 
+
+    OSError: [Errno 13] Permission denied: '/usr/local/lib/python2.7/dist-packages/oauth2client-1.4.12-py2.7.egg'
+
+I've downloaded the OAuthClient2 version I need (1.5.0), but I'm still unsure on how to use that to fix this version conflict. The ReadMe file for that directory is what gave me the last command I tried (pip install). 
+
+
+ </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2016-09-15 08:56:14 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Would I need to replace Synaptic with Aptitude as my package handler? I'm on Crunchbang Plus Plus and using Synaptic by default currently. 
+
+EDIT: A lot of internet people are saying Aptitude is the better choice anyway. Here goes. 
+ </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> OAuth 2.0 conflict when trying to authorize Google Calendar for Conky. </TITLE>
+	<DATE> 2016-09-15 00:06:59 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Following this guide to embed Google Calendar in Conky on my laptop running Debian: 
+
+http://xmodulo.com/integrate-google-calendar-linux-desktop.html
+
+I got to this: 
+
+    sudo python setup.py install 
+
+And got this: 
+
+    Installed /usr/local/lib/python2.7/dist-packages/gcalcli-3.4.0-py2.7.egg
+    Processing dependencies for gcalcli==3.4.0
+    error: Installed distribution oauth2client 1.4.12 conflicts with requirement oauth2client=1.5.0,4.0.0
+
+How can I update my OAuth 2.0 client to stop conflicting? Specifically to the version needed? 
+
+EDIT: Tried this: 
+
+    sudo pip install --upgrade oauth2client
+
+Successfully installed. Still get the same error when going back to the original command I'm trying to get past. 
+ </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2016-08-28 07:31:41 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT>  Obama is gay and Michelle is a tranny
+
+Finally someone who can see past the lies of the media in our nation.  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2016-08-23 04:47:24 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> "Ha, ha, ha! And I did all this with a wooden gun!" he bragged while leaving. 
+
+Bender from Futurama.  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2016-07-19 07:08:30 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Well, they're pissing me off because these assholes keep asking for ridiculously low prices. I guess I'll have to sell the hardware online.  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> Is it better to sell a whole PC you've built - or take it apart and sell the hardware. </TITLE>
+	<DATE> 2016-07-19 05:48:04 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> I have one I built last year for ~$750 total, and it's been difficult to sell for anything above $300. Would I make more money selling the hardware separately.
+
+List: 
+
+* **Monitor** - Acer 21.5 inch HD
+* **Tower** - Cooler Master N200
+* **Keyboard/Mouse** - Logitech MK120 Wired
+* **Motherboard** - MSI H81M-P33 Micro ATX; SATA 6Gb/s, USB 3.0
+* **Graphics** - Gigabyte R9 270X
+* **PSU** - Corsair CX500
+* **HDD** - Hitachi HUA721010KLA330 1 TB
+* **CPU** - Intel Core i3 Dual-Core
+* **RAM** - Crucial Ballistix Sports; 8 GB </TEXT>
+</WRITING>
+</INDIVIDUAL>

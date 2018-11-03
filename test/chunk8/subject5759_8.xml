@@ -1,0 +1,929 @@
+<INDIVIDUAL>
+<ID>subject5759</ID>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2016-03-22 12:37:46 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Ahh, I'm an idiot! Cool :D </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2016-03-22 12:00:33 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Nothing has been answered...? :'( </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2016-03-22 11:58:03 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> I can't offer any code example or the like, but I would look at having a system like:
+
+- User A loads page, joins websocket pool
+- User B updates $foo
+- Server receives $foo, validates it   transmits new value over socket
+- Server saves $foo in background (maybe on a timer?)
+
+That way you're not hammering your database. You could even have the node (or whatever) server serving your sockets only save every X seconds to the DB, which would mean no matter how many users are on the socket setting data your database load never really increases, keeping the load on the socket server where it should be. </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2016-03-21 17:30:40 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> It doesn't matter how much you understand compression, panning or mixing if you can't compose an interesting piece of music. 
+
+Focus on composition. Ever listen to some top 40 'backing tracks' and thought "wow, that's really simple, I could've made that" well that's because it's true, you probably can make those sounds, but can you compose that song? I know I can't. </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2016-03-21 16:23:32 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> First off, you shouldn't have your 'staging' server on your production server. There's a number of reasons for this and I'm sure you can guess most of them. So let's look past that for now. You could check if a .env variable is set before running your tasks.
+
+    if(env('run_jobs') != true){exit;}
+
+Then set that on your production sites .env file.
+
+I love using the .env file for stuff like this!
+
+ </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2016-03-18 12:14:16 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> We've moved all our clients to mailjet, no complaints and cheap over usage charges for those months with more than 1 marketable holiday:) </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2016-03-18 12:12:38 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> your URL is missing a "6" at the end :) </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2016-03-17 16:37:05 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Great looking app, completely pointless for most people though because you have to use their  @protonmail.com address and you can't add your other accounts (gmail, exchange, icloud) to the app.
+
+If you're looking for a great mail app, check out AirMail2 or UniBox </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2016-03-17 12:18:16 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> because there's really nothing interesting in these emails, besides the obvious disregard for cyber security... These were in the news not because of their content, but because of the fact that this type of discussions took place on an insecure email account </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2016-03-15 13:14:38 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> to be fair, this would allow you to easily refactor in the future by changing one function, instead of searching your whole project for array_filter. </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2016-03-13 17:03:19 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> It got the application through the weekend and a proper fix was sorted out come Monday morning grumpy pants. </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2016-03-11 17:01:27 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> I remember a story from a few years ago.
+
+A work mate of mine was rushed to finish a project full of legacy code. His job was to add our systems to their very old PHP app and in his credit he managed to do it without (much) breaking.
+
+However, there was one error message thrown by their legacy code, from what I remember it was to do with namespacing and their primitive "autoloader" and actually didn't effect anything from working. 
+
+There was just no way to get ride of this error, the code didn't use exceptions, status codes, nothing. The error was returned the same way as the successful data (plain text) and there was simply no time to refactor even a portion of their legacy app.
+
+The solution was, at the 11th hour on a Friday night, to cover the error which traipsed the bottom of the application with a giant white box.
+
+The client was ecstatic, no other agency had managed to get rid of that error.
+
+I am not too sure where I'm going with this...but I guess the hack here is, cover up your shit code with white divs. </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2016-03-11 14:54:27 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> First, really sorry for your loss and I'm sure this is making everything so much harder. Obviously reaching out on twitter, reddit etc is worth a shot but please be VERY careful with people who come to you saying they have the lighter. There's lots of scammers out there who pray on these kind of tweets and posts.
+
+Really hope you find it, stay strong Amy :) </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2016-03-08 23:25:48 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Parachutes are almost always made out of Ripstop nylon these days, but the same is true </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2016-03-08 16:01:24 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> 14.04 is php 5.5 IIRC, anything older is php 5.3? If you're already on 5.5 there's not too much to worry about moving to 7 - worth a shot on a staging server IMO! </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2016-03-08 14:14:17 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> I have 16gb and the 0.80 per month icloud package and everything works great having photos and video save to icloud and keep thumbnails. I have unlimited data so it was a no brainer!  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2016-03-08 13:00:15 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> This is interesting! Obviously there's 'suggestive' tools like skyscanner and expedia but they don't really package up a holiday, they are really just directories.
+
+Would crowd sourcing destinations and activities be attractive? </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2016-03-08 12:58:10 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Never give up! </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2016-03-08 12:57:46 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> PHONE! THE APP I WANT IS PHONE! </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2016-03-08 12:35:32 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Was a huge contributor in Second Life since it's heyday in 2006-2009 and was still (as far as I know) a regular contributor in the alternative viewer realm. Was lucky enough to have him and his close group of friends on my friendslist in 2007 and he was always kind, generous and of course, a great programmer. Rest easy Latif! </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2016-03-08 12:17:14 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Somewhere between raw hide and the skin of a British guy who spends too long at the beach in Barcelona.  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2016-03-08 12:13:30 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Phones that smell nice? Like when you put it up to your face you're all like "woah, lavender" </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2016-03-08 12:12:51 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> I've got a stick of gum, a paperclip and an expired blockbuster membership card. Will that do? </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> Entrepreneurs and shower thinkers of Reddit, what's your million dollar idea? </TITLE>
+	<DATE> 2016-03-08 12:10:29 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT>  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2016-03-07 14:33:24 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Before even listening to the tune I knew it would be that break, everyone loves the high pitched 'jungle' at the start of the bar at 174 ;) </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2016-03-07 13:57:31 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Hey man, hopefully I can help you out here!
+
+I listened to the track and while there's a lot of effects on the vocal and there's not really an isolated point to grab a sample from I think what you're after is what's referred to as a *female vocalist*
+
+A good strategy for getting this kind of vocal is to get in touch with a  **girl** who can, at least somewhat, hold a note.
+
+From there you're going to have to use all your skills to convince them you don't make trash music and that you're worth their time recording some vocals for you.
+
+Don't forget, these pesky *vocalists* will probably expect some kind of compensation for their work (I know wtf?) which would probably come in the form of a license, or possibly a writing and royalty credit.
+
+Places to find **females** who can potentially give you vocals are:
+- Facebook
+- Twitter
+- Soundcloud
+- Tinder
+- OK Cupid
+
+Give it a go, let me know if you find any of these **feamle vocalists** </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2016-03-07 13:34:28 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> 100hz is not sub only territory man and definitely not good general advice for cutting kicks. Cutting that high sounds clean because you've cleared out most of their transient no doubt. Tough to get a punchy sound cutting like that </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2016-03-04 18:11:18 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> I've removed this post as it's simply a link to stackoverflow with a very obvious answer that doesn't warrant any discussion. </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2016-03-04 17:32:04 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> It seems so backwards. Having it the other way around would be nicer. I've got quite a lot of followers and the view count means nothing compared to the likes, almost all my videos get roughly the same view count, the likes is the thing that varies and is worth actually seeing.. </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2016-03-04 17:02:24 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Intel integrated doesn't really mean what it used to in laptops 10 years ago. Those gfx processors in the new macs perform similar to a GeForce GT 750M... they're not terrible by any means - they run 4k displays.... </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2016-03-04 16:44:04 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> pound a bowl fruit and vege mate. All those vege and fruit stands you see in london aren't for show - they sell good shit! </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2016-03-04 16:43:23 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> and you're wondering why your meals are boring? </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2016-03-04 12:35:29 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Here's something I posted a few days ago about live output to the browser. This will work within a route or controller but you will hit header issues if you try to do certain things after the output has started.
+
+Here's my custom function from my util system. This wont work under all host setups, but has proven pretty reliable.
+
+Top of your function you need
+
+    ob_implicit_flush(true);
+
+And here's the function you can send your message (output) to each time you want it to echo. Change the uSleep() time to have it wait longer before processing the next message (can be set to 0 if you want)
+
+    function bSend($message)
+    {
+        echo $message."br/";
+        echo str_pad('',4096)."\n";
+        ob_flush();
+        flush();
+        usleep(1500);
+    }
+ </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2016-03-04 11:51:54 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Have tried to make a call from many of these, just to see if they work. Currently I've tried 10-12 phoneboxes around zone 1 and 2 and not a single one connected my call, just ate my 1. Not only that but 8-10 of them smelt like piss and 3 of them had shit inside. </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2016-03-02 12:48:04 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Seems like I'd be stupid not to use this, wow! </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2016-03-01 20:43:24 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Where in the UK are you and can we go flying? </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2016-03-01 19:45:56 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> coked up jack white
+
+cannot unsee </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2016-03-01 13:28:39 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Fantastic, looks like I'll be going with that package then :)
+
+Am watching your link now and what you've said makes a lot of sense. Thanks very much for taking the time to write this up for me. </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2016-03-01 13:28:00 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> The point about migrations is a good one, I don't think there would be a case where we'd need a slightly different structure or anything and it would be a big overhead to have to keep all those databases in line through upgrades </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> Multi-Tenant Design in Laravel </TITLE>
+	<DATE> 2016-03-01 12:16:43 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Hey guys, looking for peoples opinions on different ways of approaching a multi-tenant design for a Sass Application.
+
+I've been looking at this package - https://github.com/HipsterJazzbo/Landlord
+
+However it seems like (I haven't had a huge look through the codebase) this just helps you out by scoping your queries to a particular relationship.
+
+My biggest concern is the obvious, huge tables. For example I would have a 'keywords' table that clients would have 1000+ entries in. With 1000 clients that's a million row table...
+
+From my understanding, I could setup Foreign Keys on everything that relates to the 'mother' table of clients. But would that index well enough to keep query times low?
+
+My original idea  was to create a database per client. Obviously this would solve any potential large table issues, but would I run into other problems having 1000+ databases on my sql server?
+
+Interested to hear what you guys think would be best.
+
+ </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2016-02-29 16:38:19 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Well a quick google would get you somewhere. But here's my custom function from my util system. This wont work under all host setups, but has proven pretty reliable.
+
+Top of your php script you need
+
+    ob_implicit_flush(true);
+
+And here's the function you can send your message (output) to each time you want it to echo. Change the uSleep() time to have it wait longer before processing the next message (can be set to 0 if you want)
+
+    function bSend($message)
+    {
+        echo $message."br/";
+        echo str_pad('',4096)."\n";
+        ob_flush();
+        flush();
+        usleep(1500);
+    }
+
+
+edit: downvoted for helping the lad, ok.. </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2016-02-26 17:29:27 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Lots of work, lots of support, good money. </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2016-02-23 11:49:49 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Mate get yourself to an estate or council block and see people who would kill to have a new job, supportive partner and the ability to spend 1100 on rent. You've got plenty going for you and far from a dead end. Yeah we spend 1/3 our salary on rent and a pint is fookin' 4.50 but come on lad, chin up. 
+
+You can always pack it all in a run a gelato stand in spain </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2016-02-22 15:37:00 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> 700 per day HR consultant? Maybe possible with a top law degree and a partnership in a firm. </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2016-02-18 08:14:03 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> We have lots of apps on 4.2 with no plans of upgrading them. Not the end of the world by any means </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2016-02-16 17:54:14 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Yep! </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2016-02-16 10:51:38 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> No you get a root account and can SSH into it from anywhere :) </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2016-02-15 11:21:37 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> This can be very important! For example the Novation Launchkeys need powered USB and don't work from cheap USB hubs! </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2016-02-10 14:38:58 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Hilarious edit after he figured out you can straight echo the emoji XD </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2016-02-10 14:35:57 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> You can get a free 512mb VPS on http://c9.io </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2016-02-10 01:33:12 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> yes! It's whatever the street that runs parallel to Camden high Street down towards mornington crescent! hahaha glad someone else recognised it! </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> Francois Bass - Worlds - FREE DOWNLOAD </TITLE>
+	<DATE> 2016-02-07 20:02:32 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT>  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2016-01-30 13:36:12 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Mate, you like hiphop?
+
+Mate, smoke weed?
+
+Mate got a chip for a spliff?
+
+I miss working camden :( Bring me soup from Kims and I'll be yours </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2016-01-27 12:08:06 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> It's probably way too resource intensive to have your server 'watch' and record the video. Instead, you could pass this responsibility to the browser and have them send back the video (or frames) to the server.
+
+I have no decent suggestions on how to do this reliably, but my first path would be html5 canvas since it's quite straight forward to dump frames from a canvas. You might find your server still needs to turn the frames into a video - as I'm pretty sure you can't export frames as an encoded video in html5. </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2016-01-22 23:58:41 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Please do post me pics if you try it (or similar). It's one of my favs </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2016-01-22 19:17:21 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> I do lamb in the slow cooker with shawarma / doner spices
+
+http://www.sbs.com.au/food/recipes/slow-roasted-lamb-shoulder-flavours-shawarma </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2016-01-20 22:27:49 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> he fell out.. </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2016-01-20 17:53:04 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Most big companies in my city are slowly moving to Laravel. Rapid development = $$$ </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2016-01-20 09:35:09 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Viper Recordings do quite a fair bit of stuff, usually at Fire in Vauxhall which is a wicked little club under the bridge arches but I haven't seen any flyers in awhile.. 
+
+UKF is a must to find gigs - http://www.ukflive.com/ Also as someone else said Fabric has a heap of good acts coming up in jan/feb - http://www.fabriclondon.com/club/listings </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2016-01-13 17:09:05 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> You guys should be setting goals day by day in the studio, not just setting a date for COMPLETION. It should make things less stressful as people only have to think about an achievable amount of work at a time. Advice would be drop the release date and set realistic daily goals.
+
+That, and a big bag of weed. </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2016-01-13 12:53:14 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> It didn't cross your mind when you were uploading and selecting a price for somebody elses work that you were obviously breaking the law? </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2016-01-12 13:10:40 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Never ever ever use Foxtons. They're absolute CUNTS. Seriously, finding someone who had a happy move out experience with them is like finding jim morrison alive. Their minis and 22 year old viewings girls might suck you in, but boy do they spit at the end of it all. </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2016-01-11 16:06:39 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Used to live in Paddington and they definitely do not sniff for drugs ;) Drunkenly asked a handler once and yep, explosive dogs. </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2016-01-07 23:31:37 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Wow, a lot of recognisable names asking questions back in 2008 there. Pretty inspiring for someone like me who asks more questions than he answers.. </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2015-12-16 19:28:32 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> well there ya go! cool! Are we doing ok implementing bits? (I don't live in nz anymore :( ) </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2015-12-16 19:16:30 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> was that with exceptions to some clauses? I only remember the initial debates a long time ago. </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2015-12-16 16:56:55 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> For New Zealand, it has too many points that conflict with the, much debated, Treaty of Waitangi. Our government prefers to hand out lumps of money instead of anything of substance when it comes to our treatment of Maoris when we first arrived in NZ </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2015-12-15 14:43:18 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Your integrity will be rewarded mate, sounds like you know what's what. The direction you've taken the company in has been positive, and any future employers will see that loud and clear. Here's to a great 2016 coming your way! </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2015-12-15 12:44:00 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Sounds like you've written some bad PHP in your time. Perhaps it's time to do it [the right way?](http://www.phptherightway.com/) </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2015-12-14 21:26:00 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> [Like this!](https://www.youtube.com/watch?v=5EvAgS7zJPk) </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2015-12-14 17:01:08 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> haha I guess that's why they commented it out. </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2015-12-14 16:28:51 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> As long as it gets past this amazing validation apparently it works
+
+    $("#enterBtn").click(function(){
+	var riddleAns = $("#ans").val().toLowerCase();
+	if(riddleAns == "potential") {	
+		//window.location = 'http://thelifechangers.co.uk/congratulations/';	
+	} else {		
+		//$("#anserror").removeClass("no-display");
+		//$("#anserror").addClass("show-display");
+		$("#anserror").css("opacity", "1");
+        	return false;
+	}
+    }); </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2015-12-14 15:54:11 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Without a doubt man, those fonts are only used in relation to Jesus. </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2015-12-14 15:27:11 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> I'm scared the god botherers will come after me though, I guess they should have thought about some sort of rate limiting... </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2015-12-14 15:19:44 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> http://thelifechangers.co.uk/riddle/
+
+So there's a simple script that submits a 'correct' answer (potential) and decreases their counter... I've found it easy to fire 1000 requests at it at once (but have restrained myself so far). 
+
+It says something magical will happen at 1000, should I spam it?
+
+EDIT: I'm too scared to do it from work. You can setup a post request to push {answer: 'potential', enterBtn: 'enter'} and it will register. Other option is to enter 'potential' submit the form, then refresh (and redsend data). </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2015-12-10 19:34:17 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Absolutely agree! I think the scripted nature of raw (and especially old) php is a blessing and a curse for the language. </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2015-12-10 16:15:37 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Ummm, languages don't create vulnerabilities. Programmers do.
+
+Of course languages with lower barriers to entry will have more vulnerable sites, there's more incompetent people building with them!
+
+The fact that there's plenty of PHP sites without XSS or SQL vulnerabilities is proof the problem isn't with the language itself but rather the programmers education. </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2015-12-02 19:20:07 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> It doesn't even need to be forced, just a reminder on the post page to include the name of the game if it's applicable would be good start.  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2015-12-02 14:38:15 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> This is the best option here IMO. </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2015-12-01 16:11:29 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Well, you can try printing CD's and finding a record store that will sell them or try get a publisher / distributor side of a label involved. But to be honest if you're going to find one of those who are interested you're probably already doing great online.
+
+Or, alternately you admit that both you and I are '20 something shoegazers' who's biggest audience is online and put your music where the people are. Maybe Bandcamp isn't the best for your genre (or maybe it is, i dunno) but to say 'digital distribution is saturated' is ridiculous. It's accessible to all, sure, but good music shines through no problem.
+
+If you truly feel your music is joining a 'saturated' online collection, you should probably start making some different music. Because there's never an over saturation of good music.
+
+Sorry if this sounds harsh, but digital distribution is your only real option. For good reason. </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2015-12-01 15:50:32 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Very good suggestion! </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2015-11-30 14:29:00 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> I haven't looked at any packages to help with this, but the general principle would be.
+
+1. Import users with their WP passwords
+
+2. Take the WP password function and set it up somewhere in your app to validate WP passwords
+
+3. Add a check to your login that recognizes a WP password (the first few chars are probably indicative that it's a WP password or not)
+
+4. If it validates, run the plaintext password through Hash:: and store it in the database, replacing the WP one.
+
+That way, the user won't notice anything at all :) </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2015-11-27 21:02:20 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> would edit the title if I could :( don't really want to delete the thread though as there's discussion going on. sorry man! </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2015-11-27 16:47:14 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> It's now being reported that this was a genuine factory shipment that was missing some essential paperwork. Bad timing! The article has been updated with new information :) </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> 847 shotguns seized in Italy en route from Turkey to Belgium </TITLE>
+	<DATE> 2015-11-27 14:39:54 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT>  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> "Erdogan's double standards and aggressive policies are threatening a new world war," al-Maliki - Iraq Vice President </TITLE>
+	<DATE> 2015-11-26 21:00:32 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT>  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> BlackLivesMatter solidarity protesters arrested in New York City </TITLE>
+	<DATE> 2015-11-26 02:06:36 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT>  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2015-11-25 13:10:12 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Done! </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> Leaked Ankara UN letter claims the Russian Su-24's air space violation lasted only 17 seconds </TITLE>
+	<DATE> 2015-11-24 23:08:15 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT>  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2015-11-24 21:22:55 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Article updated:
+
+According to AFP, the incident may have been an attempted robbery.
+
+"This is apparently not a terrorist attack, it's apparently a robbery," a police source told Reuters. </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2015-11-24 17:46:55 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Yes you can, if you just wanted forge to provision your server securely / nginx domain / SSL cert etc etc you could kill forge after the initial setup. </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> PM David Cameron should examine ISIS terror funding by Gulf allies says Lord Ashdown </TITLE>
+	<DATE> 2015-11-24 15:19:22 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT>  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2015-11-24 14:53:49 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Seems like a pretty normal flight path if you don't want to fly over populated areas while full of bombs and missiles. </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> Video allegedly shows dead Russian pilot surrounded by armed rebels in Syria </TITLE>
+	<DATE> 2015-11-24 12:22:25 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT>  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> My bacon, egg, tomato   mozzarella breakfast muffin with hollandaise sauce. YES </TITLE>
+	<DATE> 2015-11-22 21:39:46 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT>  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2015-11-20 12:34:55 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> I'm not too sure what makes this harder to read, the font or the terrible grammar.
+
+Also, wrong subreddit, self promotion etc </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2015-11-19 11:19:04 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> I guess so.  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2015-11-19 11:10:58 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Or you could post your problem here...like everyone else. This is a community not a 1 on 1 support platform. Happy to try to help. </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2015-11-17 09:00:00 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Blues kitchen in Camden is good.
+
+As others have said, Ain't Nothing But in Soho is also good, but usually pretty full. </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2015-11-13 12:04:20 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> give them a starburst, stop giving tax payers money to scammers selling tapwater and diluted sleeping pills. </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2015-11-13 09:56:03 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> I've used this in production (yeah i know) and it's really good. It's obvious it's in such early development, missing things like attachments, static content pages   the likes but it's all under development and the way they've laid out the extension system means a lot can be handled by installable extensions.
+
+I've stopped using it for now, but will be back after a few patches. </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> I think i made too much pulled pork.. </TITLE>
+	<DATE> 2015-11-10 20:24:54 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT>  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2015-11-04 17:44:36 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> It's definitely a good experience there, I wouldn't call it anything close to a rip off either, service, sides   deserts are great!! </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2015-11-04 16:25:48 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Been to Hawksmoor a few times. They get their steaks from GingerPig,  (there's a few of them in London) and they cost 10-18 each. Go queue with the chefs from Hawksmoor one morning and get them for 1/6th the price. Steak isn't hard to do well. </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2015-10-30 16:32:42 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> fuck_that_shit_dude </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2015-10-30 16:17:04 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> I cut up breaks and use the stretch mode on the timeline like you've described and I've never had that issue before. Really strange :/ </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2015-10-30 13:16:13 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> The green line is the District line, in case anyone was curious </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2015-10-30 13:15:23 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> You can change at baker street from the circle line to the jubilee, handy! </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2015-10-30 13:14:25 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Almost forgot this one! Make sure you're walking on the left when moving through stations, except at green park because strangely there you have to walk on the right (seriously) </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2015-10-30 13:13:37 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> If you notice anything suspicious while traveling on the london underground notify a member of staff or a police officer. </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2015-10-30 13:13:11 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Don't forget to mind the gap at some stations like waterloo it can be pretty wide. </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2015-10-30 13:12:36 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Also remember to take your belongings with you when you leave the train. </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2015-10-29 23:39:42 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> These guys are talking about the other video linked above, it's a guy during the first gulf war avoiding 6 very high speed/powered rockets (SAMS). He's pulling major G's to keep them from hitting him. </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2015-10-29 16:14:12 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> I'm not sure if you have that content in the email, so apologies if you so, but emails require unsubscribe link/info in subscription style emails like this.
+
+Great little app though man :) </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2015-10-28 20:35:06 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Today I learned! Awesome :D </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2015-10-28 18:17:00 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> canals? </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2015-10-28 14:49:06 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Have you tried with a much longer string? Usually that's the factor people talk about when comparing usage of the two. </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2015-10-27 19:53:49 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> It looks to be running eZ CMS, which is PHP (symfony?) </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2015-10-27 14:36:30 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> I've removed this as while it's format is a blog post it's very obvious the point of this blog is to build SEO authority on Laravel and development related keywords. Sorry but this isn't the place for that.
+
+If your laravel devs would be interested in writing some proper content for the people of /r/laravel you'd be most welcome. </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2015-10-27 13:53:56 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> oh FFS he's done elfinder too! He might as well be on the books here! </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2015-10-27 12:04:03 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Oh amazing, fwding round the office :D
+
+Have to echo your sentiment on getting that guy drunk, he's famous in our composer repo </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2015-10-26 12:54:52 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Date and times - CARBON - https://github.com/briannesbitt/Carbon
+
+PDF creation - WKHTML -http://packalyst.com/packages/package/nitmedia/wkhtml2pdf
+
+Image manipulation  - Intervention - https://github.com/Intervention/image
+
+CSV, Excel, etc import/export - EXCEL - https://github.com/Maatwebsite/Laravel-Excel </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2015-10-26 10:26:48 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> NEVER FORGET </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2015-10-25 13:56:48 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> ? Your kick should have a controller attached to it for the automation,  nothing else is needed to sidechain your kick. Not sure how you'd get distortion from a peak controller </TEXT>
+</WRITING>
+</INDIVIDUAL>

@@ -1,0 +1,1047 @@
+<INDIVIDUAL>
+<ID>subject5759</ID>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2015-10-23 18:03:04 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Ahhh gotcha, thought you were suggesting he uses the vulnerability to add something over SSH! </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2015-10-23 17:05:08 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Ummm, he should absolutely NOT ssh into their machine... are you mad? lol </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2015-10-23 14:59:12 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> You can decode this here - http://www.unphp.net/decode/7493d05dd98d98e74abcc3d5e4a8202d/
+
+From my limited understanding it looks like, for the right person (agent/IP) it puts something on the page to give them the ability to upload a shell or similar. A pretty common attack vector IME.
+
+Hope that helps! </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2015-10-22 16:18:20 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> I've had good and bad experiences with all the big libraries for one client of ours. Eventually decided to install WKHTML on the server and use that to generate PDF from URLs it was passed, worked really well and is as close to a 1:1 conversion as I could find.
+
+http://wkhtmltopdf.org/
+
+It's a bit more involved to setup than others (and you'll need permission to install it on the server itself) but it's been my go to for a good 12 months. </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2015-10-21 20:55:39 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> that's hot! </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2015-10-21 18:03:27 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> OR A SMELTING POT!!! </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2015-10-21 17:58:32 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Or a pizza oven! Some of those are over 400C, they cook dough in 30 seconds :D </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2015-10-21 17:42:29 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> The knobs would melt! That's 750F lol! </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2015-10-21 10:02:23 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> This article and reddit post are just link building for a domain / blog. Get a good page rank and sell the domain </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2015-10-20 16:32:30 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Ajax is performed on the client side, meaning in your browser. Your browser has no real connection to your server, it only performs requests and displays responses via HTTP.
+
+It's smart enough to know that an ajax call to '/api/posts' should map to the domain you're currently browsing, but that results in the same lookup as if it were hardcoded with the full domain.
+
+This is just the nature of ajax, it's an asynchronous request to a URL over HTTP.
+
+It's worth noting that your browser / ISP / DNS performing a lookup of a domain and routing to the correct place happens in a fraction of a second.
+
+ </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2015-10-20 15:34:51 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> An ajax request is similar (bar the verb like posting data) to pasting the link into your browser and hitting enter, It resolves the domain and requests the URL just like anything else, and that's ok. In fact, it's the basis that runs the internet, it's more than ok! </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2015-10-19 17:45:56 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Changed the wording slightly because it seems like equality brigade is on duty today. As an aside, I would probably be lucky to stop her pulling my teeth out if she wanted.
+
+Go for a walk around WJ / Cricklewood at 2am and let me know if you'd be happy with your SO wandering there alone. </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2015-10-19 15:08:26 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> She can't complain </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2015-10-19 12:01:53 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Moved to the top of Kilburn (shoot up hill) last year and it's been great. Really good busses down the high road all the way to oxford street / victoria. Jubilee is by far my favorite line now too.
+
+I wouldn't want the missus walking around at night by herself but there's not many places I would...
+
+Used to pay almost double the rent in st johns wood and we still go out to the same places, baker street in 10 minutes max
+
+Go for it! </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2015-10-17 00:03:03 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> That's surge pricing, when there's a shortage of cabs. That's not them jacking up the price because they've gained a monopoly... </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2015-10-16 17:10:34 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Have you got a source to Uber 'rapidly bumping up prices'? I've used Uber in a few countries and it always seems to be near the same fare </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2015-10-15 11:32:50 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Completely unreasonable. If someone asked me to do this for a junior/mid level role I'd laugh and walk out. You're not going to learn anything more about them from them doing this than you'll learn from looking at examples of code they can give you or just talking to them. If they're juniors, it's really a stretch to get them to write something in a framework on their own...Especially if you're going to then judge them on it.
+
+Have you ever been involved in a hiring process before? Because this is seriously crazy. </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2015-10-13 14:46:47 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> My favorite, completely lost it in the office after reading that one. </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2015-10-12 13:20:51 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> London based Senior dev here and there's plenty of work for Laravel developers in contract land here. Plenty of Symf companies are happy with laravel devs too since there's good overlap </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2015-10-09 20:20:33 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> played it back in slow motion and it doesn't look like it. He was holding a pint glass which i think shattered, the doors have a brush around the outside which let his fingers out but pushed a whole lot of broken glass into his hand. deep cuts.
+
+nasty though...damn </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2015-10-07 13:12:41 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> I have friends who have worked for Ryanair, never heard of this. Got a source handy? </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2015-10-07 10:20:40 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> CMD+O will open a nice quick find. I use that quite a bit too.
+
+There's some cool stuff listed here - http://www.sitepoint.com/phpstorm-top-productivity-hacks-shortcuts/ </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2015-10-06 17:56:59 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> http://laravel.com/docs/5.1/validation#working-with-error-messages
+
+Is what you're looking for I think. There are cases where you'll come across an undocumented function, if it's not very descriptive in itself I tend to dive into the classes in PHPstorm (CMD+CLICK) to read over them.
+
+Hope that helps!! </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2015-09-23 21:24:43 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> using dd() with $order would do that, $order_check would dump all of em :) </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2015-09-23 15:34:46 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Citymapper is doing this to me at the moment too, it never shows my route to work anymore (1 bus..) instead it insists I have to bus and overground or double bus. Something must have changed on TFL this week. </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2015-09-23 12:47:05 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> You've posted a lot of threads about this bit of code..
+
+1. Your controller is trying to echo each value that gets passed to it, which is going to do nothing. If you want to debug what the controller is receiving use dd($order_check); which will dump all the values of $order_check and halt execution.
+
+2. You're using $_POST to send the form but your $request-get() method is trying to get things from $_GET, you need to use $request-input().
+
+ </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2015-09-21 16:21:52 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> If you've got any IT job in New Zealand you're doing pretty well :p
+
+My advice (from a Kiwi) is to get a 2 year visa for the UK and do Unity3d contracts over here, you'll easily clear 300 per day. </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2015-09-21 14:40:44 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Really great memories of this part of the museum growing up. Had a moment with my Gran there a few years ago remembering coming as a kid. Sad, as there's already so much WWI and WWII exhibits. But I guess all things come to an end </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> Looking for cheap USB stick run CDJ's or similar </TITLE>
+	<DATE> 2015-09-21 12:42:56 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Hey guys,
+
+I've moved overseas and left a lot of my gear behind. The biggest being a pair of CDJ-2000.
+
+Nowdays it seems standard for DJs to run off USB sticks, with CDJ's like the 2000-nexus or even the cheaper CDJ-350 working really well with high quality files from your USB stick slotting right onto the deck. I've got plenty of mixing experience but need something to practice on
+
+CDJ-350s run around 700 for a pair, which is reasonable, but I don't want to spend that on something temporary.
+
+I'm looking for the absolute cheapest pair of decks I can use with USB sticks, the kicker being without a laptop. I've got a mixer and soundcard etc if it's needed. Basically I want to practice playing on very cheap equipment via USB sticks to get into mixing without turntables. I don't want to spend much as I'll eventually get my CDJs shipped over.
+
+Does anyone have suggestions for cheap decks to run music off USB sticks? I'm going to have to pony up the CDJ-350s otherwise and my bank account would rather not. Are there any controllers that don't require a laptop?
+
+Appreciate any suggestions! </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2015-09-21 12:12:16 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> I spent a drunk evening once setting up a new template. I can still open a blank project, but I've also got a template setup which has a master pre-fader with 50~ channels already routed to it, 10 channels routing through another channel first for a drum chain (reverb, compressor channels), peak controller pattern setup for side chaining and a few wide sends setup as a hi/side low/mid splits. 
+
+It's really helped me hit the ground running with ideas that pop into my head </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2015-09-21 10:52:12 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> This zoo is actually one of the few breeding these Tigers and it's location and size means it's not exactly a tourist destination, it's very much a breeding centre first and a zoo second. Being the 4th busiest zoo in the country is not a claim to fame.
+
+On the flipside, you're the first person to ever use the word 'pleasure' in regards to Hamilton. </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2015-09-18 17:48:34 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Well there's definitely going to be germs your body isn't used to and they could get you sick while not hitting locals.
+
+Some advice I got while traveling was to find and eat good live yoghurt. Locally made if you can. It's full of good bacteria for fighting local germs / sickness. </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2015-09-18 17:31:39 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Face masks do not stop you getting sick. 90% of the time germs are contracted via your hands. Wash your hands as soon as you get to work / home and you'll be fine. Cold weather doesn't get you sick either. Eat well, rest well, getting sick 8 or 9 times in a season is an indicator of a bad immune system, not a foreign country.. </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2015-09-17 14:50:36 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> OMG FINALLY.
+
+I stopped using swiftkey when it would randomly select between the default, swiftkey and no keyboard at all. </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2015-09-17 14:39:18 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> I usually notice strange waveforms after uploading that sort themselves out. However this week I noticed something I uploaded kept this wavy image for over 24 hours. A simple reupload fixed it (replacing the file using pro) </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2015-09-16 14:26:11 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> You mean an MVC that uses a model for each action? I hope not.
+
+The most basic MVC that uses that file structure will be one you write with that file structure. Grab composer and a few packages. FastRoute + Illuminate/Database + Some template package = success </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2015-09-16 14:17:39 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> https://packagist.org/search/?tags=imap
+
+You'll want to setup an imap system to send and receive emails. It's pretty straight forward and shouldn't be a problem for exchange (as far as I know).
+
+If you want a full on email client in your app, you could look into something like this https://github.com/whiteout-io/mail-html5 </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2015-09-15 20:19:16 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> sorry i really typed that out quickly.
+
+In regards to JSON I was meaning the format in which your game server and database server communicate. For the kind of things you'd want in a database server json would be a pretty good option.
+
+I would write the database server in PHP because I'm a PHP dev by day, but it's probably not the best language to write a web API for a game in. You want this to be the fastest it can be and there's probably better options than PHP.
+
+If you run purely P2P multiplayer sessions (I don't know if you do or not) you don't need a game server at all, you could access the endpoints of your API directly from the client. In this situation the database server would take over validating the input of the methods making sure players are only doing things they should. </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2015-09-15 18:07:38 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Ahh I get ya,
+
+You're probably going to have a GameServer, which will handle things like player positions, chat, things like that and then what we can call a DatabaseServer which would hold things like usernames, passwords, inventories, logout locations etc
+
+Your client would connect to the game server and the game server would connect to the database server, getting users information as they login. The game server then can verify commands from players based on their input and update the database accordingly.
+
+The important thing here is the game server only has methods that are valid, and it verifies them before ever touching the database server.
+
+If I were to do this, I'd write the game server in Unity, using some of those amazing libraries and setup the database server as a PHP+MYSQL box, writing the methods with JSON i/o.
+
+Hope that makes sense. </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2015-09-15 17:24:20 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Not if your client is the one communicating with the database. Your game client should have ZERO database info inside it. No exceptions. 
+
+Your game client shouldn't care about SQL, it should only communicate via specific methods to a game server (via JSON, XML or similar) which runs queries, calculations etc.
+
+Your game client should have absolutely ZERO authority over the games state, user state etc.
+ </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2015-09-15 13:50:40 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> What? No.. you absolutely should be listening to music with a flat response and whoever told you the KRK will play music better for 'listening' than an HS7 should be shot. Loudness and low end boosts are a plague of electronic music gear. Loud != Good. </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2015-09-14 13:13:25 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Willing to make a good deal for someone, but have included my usual rates as an indication of work quality. It's quite hard for me to post code examples etc, as most projects would identify me and my full time employer too publicly. However I can make some available upon request </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> [For Hire] Start to finish developer. PHP (laravel), HTML, CSS, MYSQL, Laravel, Ecommerce, SEO, Blogs. Over 8 years commercial experience. Looking for a few extra dollars. </TITLE>
+	<DATE> 2015-09-14 12:02:36 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> I'm a London based developer with over 8 years experience in commercial development. I can handle your web project from start to finish. If you're an expert with no time on your hands or a new entrant to the web world we can work together to build something great.
+
+I mainly focus around PHP MVC, specifically Laravel. By doing this I can guarantee top security, code quality and performance.
+
+
+I can help with, in any capacity:
+
+-Ecommerce websites
+
+-Blogs   portfolios
+
+-Forums, communties etc
+
+-Bespoke projects of any genre
+
+-Hosting and system administration
+
+-SEO and search rankings
+
+-API consumption, Social media etc
+
+
+My base rate is around 50 p/hour however I will always finalize a price before work begins, so no unexpected billings. This isn't a bedroom developer who's done a few tutorials, I am a professional with a huge range of projects under my belt. My usual daily rate in London is 400 but don't let that put you off contacting me as I'm desperate for some extra cash and more than happy to accommodate.
+
+Give me a PM and we can discuss.
+
+Let's make your project happen! </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2015-09-11 12:49:33 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> If you don't mind being out of London a little bit you can get a good weekly deal on air bnb. Obviously outside central London.
+
+With summer ending and school back you should have no worries finding one and it's going to cost similar to a short term rental property, without all the deposits, references etc. </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2015-09-11 11:44:32 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Yeah 20% is a very low tax rate, for a business or an individual. The tax benefits of a LTD company with individual tax free allowances means paying yourself from a LTD company nets you more money. It does mean you're paying tax 'twice' but the rates and allowances mean the overall amount is actually less. </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2015-09-11 11:29:29 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Actually registering as a limited liability company gives you tax benefits compared to processing income directly as an individual. In almost every country it's better to be self employed under your own LTD than invoicing as an individual </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2015-09-09 16:04:27 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Goodfare! Yes! The sandwiches are amazingly cheap with quality ingredients.
+
+For a Friday though, their Tagliatelle Paradiso is the best thing in the world. </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2015-09-08 17:40:47 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> If anyone does go there, check upstairs. There's heaps of stuff floating around up there. Also, a bottle with an apple probably means cider. </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2015-09-08 10:42:11 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Could you explain how things are 'coupled'?
+
+If you really wanted to, everything could be composer packages tied together with nothing but a controller and a route. </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2015-09-07 14:52:33 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> http://www.cwjobs.co.uk
+
+Al the agencies in London post their jobs here, along with a few others. Almost everything on there is agencies who will then contact you about everything that comes across their desk.
+
+ </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2015-09-04 16:22:43 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Unless you have long luscious hair 65 for a mens haircut is robbery. Seriously, a good barber in your local area is going to sort you right out for under 20. The older the Turkish guy is, the better the haircut. </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> What Disneyland looked during it's opening week in 1955 - I'd love to drive those old karts! </TITLE>
+	<DATE> 2015-09-04 13:30:06 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT>  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2015-09-03 17:42:49 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Think - lyn collins
+
+that little pitched "JUNGLE" when you get it up to 174 gets me every time ;) obviously a hugely popular break because of it. 
+
+original - https://www.youtube.com/watch?v=tTdOcumz0wY 
+ </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2015-08-28 16:26:50 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> haha thought it must be something like that. Checking it out now. </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2015-08-28 16:22:47 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> May I suggest some mild text formatting? Code blocks would be a great start, it's nearly impossible to read as it is man. </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2015-08-27 18:28:05 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> ummm....he was referencing the statistic not their race... Also we don't vote republican in Europe lol. </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2015-08-26 17:35:46 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Laravel acting as an API layer with Angular (or similar) would be my choice and probably the recommendation you're going to get posting this on the Laravel subreddit. </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2015-08-26 17:02:15 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Ahhh ok, sorry I should have signed up to see if it did. Making it a bit smaller would still be good though, especially for smaller screens.
+
+Good luck with the project dude. Really nice styling there. </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2015-08-26 16:38:36 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Looks cool man. My only suggestion is the blue panel at the top of the page is way too large, it's over 50% of the fold on my 1920x1080 resolution. On my 1366x768 laptop I have to scroll over an entire screen to see any content.
+
+I would suggest making that blue bar with the registration 500% smaller!
+
+EDIT: actually looks so much better without it! http://imgur.com/CWsXUQV </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2015-08-25 23:02:17 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> I think it's going to have to come to this. As a last resort. It would really eat into service costs managing a small set of servers ourselves.  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> Decently priced external file storage? (storing audio files remotely) </TITLE>
+	<DATE> 2015-08-25 16:17:50 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> So I've looked at Amazons products and the Rackspace file storage but their pricing seems confusing and rather expensive. like $200+ pcm for 1TB when you factor in potential bandwidth. Is that right?
+
+I'm needing to store and retrieve a huge amount of HQ audio to be streamed on a new project (like 25TB). I want to host the site and database on DigitalOcean, but their pricing for high volume storage is crazy.
+
+Does anyone have a good suggestion for cloud style file serving? Or another option that would bring the price down? 
+
+ </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2015-08-25 15:47:42 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> You've nailed it mate. You've swung my vote and I couldn't agree more with you. Thanks for having a chat with me! </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2015-08-25 15:27:13 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Can definitely appreciate that and in no way would I say that I've never seen some amazing sets on NI controllers etc because I absolutely have.
+
+I guess I'm just concerned the skill in DJing is being replaced by software. DJs in bars used to at least be able to beatmix, as they only had CDJs or Turntables. These days I'm seeing more and more controllers and laptops with the DJ hitting sync and slowing dragging the crossfader across for a traincrash mix. I know that's not everybody, and these tools and features can allow for some amazing live sets but it also lowers the barrier to entry for a lot of people who should still be in their bedroom counting beats.
+
+Sorry for the rant! I'm definitely keeping an eye on NI's stuff. They've done a lot of good for the EDM scene over the years.
+
+ </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> [META] Feedback threads littering the subreddit. </TITLE>
+	<DATE> 2015-08-25 15:22:08 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> I enjoy listening to peoples work in progress and try to encourage people to get feedback from other producers but whenever I'm on this subreddit I feel like they clutter and detract away from real content and discussions.
+
+Could we have a weekly (or monthly?) feedback thread and encourage people to post there instead? /r/edmproduction do a similar thing and it works a lot better.
+
+DnB is getting bigger and bigger recently thanks to the likes of the Sigma boys and others, this subreddit has great potential and it's a shame to see discussions ignored as they get bumped off the front page by the constant influx of soundcloud links.
+
+I'm not sure if this is a popular opinion or not, what do you guys think? I'd definitely post more DnB content here if it was more of an active discussion board rather than a link spam board.
+ </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2015-08-25 14:39:30 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> I don't think we are. It's an incredible way to get 1,000,000 bootleg remixes made of your tunes.
+
+While NI are obviously partnering with lots of big artists for the initial release I can see this becoming more of a tool for producers to keep their own tracks split for their own performances. 
+
+While it's very cool, as a DJ it doesn't excite me very much. The best sets I've seen still come out of 2 turntables / CDJs and not a laptop and a bpm synced controller </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2015-08-25 11:31:07 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Citymapper, hands down. </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2015-08-21 18:06:18 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Yes you can, make sure to enable some heavy caching to reduce the overhead though. </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2015-08-21 18:01:11 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> That's a beautifully smooth looking aircraft! </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2015-08-21 14:44:29 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> The best implementation listed there as 62% for browser support, meaning we really can't do this in the real world just yet. But great solution none the less. </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2015-08-19 13:18:11 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> From what I remember (sorry not at my work machine) you need to put -o before the output else you're telling it to convert 2 files.
+
+/lib/bin/xvfb-run --server-args="-screen 0, 1280x1024x24" /lib/bin/imagemagick '/home/files/test.pdf' -o '/home/files/test.jpg' --debug </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2015-08-18 17:20:01 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Labels websites usually list an email address or similar to send demos to. The standard in EDM seems to be a PRIVATE soundcloud link in an email. 
+
+tips:
+
+-Only send 1 or 2 tunes. Mention you've got more but represent yourself and your style in one tune and try show diversity in another. If they want more, they'll ask.
+
+-Keep it short and sweet, give a small outline about your career so far, any notable achievements and try to give a reason why you'd fit into the labels style.
+
+-Use different private links for different labels, put their name in the title.
+
+-DON'T RELEASE ANYTHING IF YOU'RE GOING TO TRY GET ON A LABEL. If you've already blown half the bang by uploading your best tune to soundcloud / spotify / beatport then labels are not going to be very interested, they're looking to craft a release around their own style, audience etc. And they're definitely better at it than me or you.
+
+GOOD LUCK!  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2015-08-11 21:39:27 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> This is absolutely genius. In a sick way I'm really excited to learn what went on here in depth. Wow </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2015-08-10 19:34:25 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Really great tutorial, it's stuff like this that could improve every asset in the asset store. Thanks for sharing </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2015-08-10 10:50:18 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> This is already happening in a similar process with the 787's </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2015-08-07 17:31:06 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> It's known as Bao in China, most Asian cultures have a variation. Absolutely amazing. Pork belly has to be my favorite filling. Great choice on the prawn though! </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2015-08-07 12:26:11 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> I've never paid 5 for a pint, get to work in central within 30 minutes, can go from my place (west) to friends out east in 40 minutes. Never sneezed black shit even though I tube every day. Can get home for under a tenner 24/7 from almost anywhere, am incredibly lazy but still go to markets and popups because it doesn't take 2 hours to get home.
+
+What a load of bollix  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2015-08-07 11:12:48 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> You may need to point to the socket! My configs end up locally with this line under mysql array.
+
+'unix_socket'   = '/path/to/mysql/mysql.sock', </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2015-08-06 13:42:16 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> In that case, somewhere in your database will be a list of cities, right? And those cities have ID's from the database.
+
+Your select would look like this, generated from the database table
+
+ select name="city"
+
+ option value="1"City Number 1/option
+
+ /select
+
+Your controller would then look up the ID selected, grab the slug (also in the database) and redirect to the correct /about/{city} url. </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2015-08-06 13:03:01 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> yes, you can. I'm not sure why others have said you can't.
+
+You would have routes like this:
+
+ Route::get('/form', 'controller@get');
+
+ Route::post('/form', 'Controller@post);
+
+ Route::get('/sayhi/{name}, 'Controller@sayHi');
+
+Your form page would post to /form and the post() function in that controller would end up doing this
+
+ return redirect('/sayHi/'.$r-input('name'));
+
+This may not be the best way to achieve what you're trying to do (you didn't really explain why it needed to be like this) but it's possible to do. </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2015-08-05 16:20:53 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> **WITHOUT A DOUBT A SCAM**
+
+Gathered some info about who runs this scam site. This info is all publicly available, no dirty methods used. I'm posting this as soon after this site being shut down they will setup another one..
+
+
+DARVIS POMPEY, owns a LTD company called BETTER DEALS
+
+
+Jimmy Archie looks like an alias, which has a gmail account jimmyarchie15@gmail.com
+
+
+Registered address: 4244 FREEDOM DR, CHARLOTTE, NC, 28208
+
+
+Phone: +1 9803 3784 64 
+
+
+Website came online midway through last month and is using an online store web app / service - https://www.bigcommerce.com/
+
+
+ </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2015-08-05 11:58:21 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Hack is definitely PHP </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2015-08-04 17:13:10 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> here I am with a 5 year old DS3 looking brand new... </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2015-08-04 14:31:50 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> This thread covers making custom validation rules - https://laracasts.com/discuss/channels/general-discussion/custom-validation-function-in-laravel-5?page=1
+
+If you let us know what you're trying to validate, maybe I can point you towards a more specific example </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2015-08-04 10:00:43 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Only by virtue of the tickets being so expensive, the seats themselves are tiny! </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2015-08-03 18:11:12 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> A straight ready up in the end menu would be great - as long as it doesn't continue to match you with your old opponents </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2015-08-03 17:39:48 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> People keep saying that if exit was the first option that people would accidentally exit the game, however the exit button has a confirmation where as the replay doesn't - its very hard to accidentally exit with confirmation compared to one pressing save replay </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2015-08-03 10:45:41 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> For storing lots of data (lots of audio) digitalocean will get expensive fast! </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2015-07-30 11:07:55 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> There's no way google minify every response using regex. They minify scripts and html as part of their deployment routine, and so should you (if you want to minify at all) </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2015-07-28 22:22:26 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> holy shit, ikea is like lego for your house </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2015-07-24 12:43:05 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> L2 L2 R2 R2 L2 L1 R2 R1 L2 L1 L1
+
+PSX Original Driver, invincible car. </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2015-07-24 11:18:37 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Google analytics is going to be the easy one. It's going to give you lots of tasty data about your visitors.
+
+If you want to look like a leet hacker though, use tail on the logs. Here's a decent guide! http://www.liquidweb.com/kb/how-to-watch-server-logs-in-real-time/ </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2015-07-24 10:58:47 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> By default, it's really awesome. http://blog.jetbrains.com/webide/2013/02/using-the-rest-client-within-phpstorm/ </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2015-07-23 18:12:52 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> PHPstorm has third party plugins too, quite a lot! https://plugins.jetbrains.com/phpStorm
+
+Honestly, if I had to go back to netbeans, it wouldn't be the end of the world, I'm just enjoying PHPstorm. No bad blood for netbeans and in terms of free IDEs it's my goto recommendation! </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2015-07-23 17:53:11 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> In terms of full IDE's I've got good experience with PHPstorm and Netbeans, currently settled on the former.
+
+PHPstorm has all the things I need, a REST client, GUI for git merging, 2 key combos commit and push my code, PSR formatting to name a few.
+
+It's true that netbeans has plugins or extensions for all of these things too, I used a lot of them. I find however that everything in PHPstorm follows the same workflow or practice, as for netbeans plugins, you're at a mercy of the plugin developer and I'd often find different plugins have completely different workflows or ideas about how to achieve something. PHPstorm just feels like a more integrated experience.
+
+Just my 2c </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2015-07-17 11:20:03 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> With the money you save you could get an airbnb for those 2 weeks! </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2015-07-15 14:32:20 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> citymapper does this, in London at least </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2015-07-09 17:06:28 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> These negotiations were not about pay, but the mandatory night shifts. This is not a tactic by TFL to pay employees less.. </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2015-07-09 16:04:19 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> There's no talk about a race to the bottom, as you put it. It's simply a question of employees not wanting their work life to change, but as is the nature of technology, progress, whatever you want to call it, things change. 
+
+A few drivers have come out publicly to say this strike isn't about pay, but about the mandatory night shifts. If that's their sticking point then it's no wonder TFL couldn't reach an agreement, as the unions are fighting change within the LU system, a change that needs to happen to continue progress in many sectors of London.
+
+But now I guess you're going to say there's no value in a night tube service too.. </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2015-07-09 15:14:49 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Many of us here survive on less and there's no shortage of people who would like to have a job within London Underground. The concept TFL are proposing (night shifts to start a 24 hour tube service) is not new to anyone who does shift work. If people are really concerned about doing 54 night shifts (instead of the current 7-14 night shifts) per year they are more than welcome to leave and make space for someone who has no issue with it.
+
+Technology changes, services change, job descriptions change. If it were not for the unions this would be a pretty simple restructuring period.
+
+I have friends here who work a similar schedule of shifts for a lot less than these people get. </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2015-07-09 15:00:06 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> after tax and contributions you're looking around 3,200 </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> emmz.com  Domain Name For Sale on Flippa: 4 letter pronouncable .com </TITLE>
+	<DATE> 2015-07-09 12:52:22 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT>  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2015-06-30 22:21:13 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> I'm positive there's some seriously strong reasoning behind it. Hell, it made me download their app.
+
+Amazon aren't stupid by any means, I'm sure they must've expected some backlash from making it mobile only though. </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2015-06-30 15:18:35 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> How many of those people solely access the internet on their phone though? </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2015-06-24 12:56:22 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Your website is absolutely atrocious.  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2015-06-23 18:07:24 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> I find the pattern of starting a project and finishing it to be a great one
+
+....sorry for the sarcasm, but really, you should focus on building functional, real-world applications or functionalities. This is the best experience. </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2015-06-23 10:56:44 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Be careful strtolower on emails. While the domain will be insensitive, the email names per RFC may not always be insensitive. http://www.ietf.org/rfc/rfc2821.txt
+
+This would only be an issue when sending emails though - so if you've got another field for the unaltered email that you use for these operations - no problem. </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2015-06-19 18:28:18 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> You'll be fine! Add perhaps a little less to not run risk of it being a bit liquid. add some extra cheese (or anything else it calls for that may thicken it up) </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2015-06-19 16:09:41 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> It's laravel, with a lot (close to all) components disabled by default.
+
+Included is fastRoute, which is VERY VERY FAST at routing, however has some more restrictions than laravels router.
+
+You have to enable components as you need them, which keeps it lean. </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2015-06-16 17:29:56 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> I'm leaning towards something like this. Perhaps with a generic connector vendor creators could tap into so I wouldn't have to reinvent the wheel on vendors (or have people change vendor systems). 
+
+Tracking people only really works sim wide, AFAIK you can't track people in a particular parcel (maybe this has changed?)
+
+My other idea at the moment is to take on marketplace by offering things like a product update system, better moderation from sub-par and stolen items, stronger analytic and inworld ties. </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2015-06-16 13:53:29 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> This is something that would probably have to be included in the viewer you're using. 
+
+Love the idea! If I knew any of the talented folks that maintain the 3rd party viewers I'd be running to suggest it. </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2015-06-16 13:51:21 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Thanks very much for taking the time to write this up. Much appreciated. Seems a no brainier that skill gaming is on the decline if hoops like this have been set up.
+
+Thanks again, </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2015-06-16 12:14:06 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> I'd love to build a sales analytics tools, tie it to sensors within stores which could give breakdowns and recommendations like 'hotspots' in your store etc. 
+
+However I'm afraid I'm too late for this - people are already invested and settled in their current vendor systems and what they provide - even if I were to extend on their analytic capabilities I think the switch would be too laborious for most. </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> Is 'skill' gaming in SL dying? </TITLE>
+	<DATE> 2015-06-16 11:53:23 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> It seems the only game still available for sale is noDevil. Everyone else has taken their vendors offline while 'awaiting review from LL'
+
+Has the grip tightened on what is considered an 'approved skill game'?
+
+Coming back to SL after 4-5 years break it's shocking to see only a few games being played. Is there something I've missed in the last few years? </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2015-06-15 20:00:01 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> IT IS!
+
+https://www.youtube.com/watch?v=8umVKXfcutA </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2015-06-15 19:15:14 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> If it's possible to change the web contents URL for a single person (object owner for e.g) then this would be possible by streaming the changes to the 'client' URL that everyone sees.
+
+Great idea :) </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> What tools, systems, services are missing from SL? </TITLE>
+	<DATE> 2015-06-15 16:45:58 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> I'm looking to start a new project in SL, I've been a member for almost 9 years but I haven't been a regular for almost 5 years.
+
+I'm looking to develop something, preferably to aid business / retail in SL, I have good LSL knowledge and more than adequate web programming skills.
+
+My question is, is there anything missing from SL? Is there something you'd like to see, something that would help your business? 
+
+e.g.
+
+-rental systems
+
+-new type of vendor
+
+-new web service (analytic perhaps?)
+
+
+Basically I'm looking for other peoples ideas to turn into my own profit. Any takers? </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2015-05-29 12:00:17 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> All congress IT needs to do is block that domain they serve the JS from... Even a simple host file change would do it.
+
+127.0.0.1 blackoutcongress.org
+
+They need a server side check if they want to force them into VPN etc </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2015-05-28 15:55:04 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Those guys don't get anywhere near 100k for a set mate. Headlining tomorrowland after a huge year of record sales maybe it's possible, but DJs just don't get that much for every gig.. </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2015-05-26 19:36:16 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Uber is fixed price to airports, at least when I used it 5 or 6 months ago from zone 2 to Heathrow </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2015-05-26 11:18:00 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> It's hard to say without seeing the mixer but it sounds like you've boosted frequencies.. Things are sounding pretty square.
+
+Try aggressively cutting in your eq's - I think you'll find the sound you want and hear from each instrument is but a fraction of the space it's currently occupying. </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2015-05-24 15:38:55 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Absolutely! I wouldn't dream of adding a sub. Add volume to an Alix Perez tune and these things sound amazing. </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2015-05-24 15:32:09 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> We've got HS7's for DnB in our flat, perfect. HS8's would have been too big for us. The 7" sound seriously great, they're not very forgiving either which is a good thing compared to the low end on KRKs (oh god i hope didn't start a yamaha/krk argument). </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2015-05-21 19:05:27 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Thanks for taking the time to write this up for me dude. I'll give the demo a go tonight I think - cheers!! </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2015-05-21 17:03:00 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> I'm pretty sure you could use the soundcloud API to do a request for your followers.
+
+https://developers.soundcloud.com/docs/api/reference#users
+
+Under 'subresources' is:
+
+GET 	/users/{id}/followings 	list of users who are followed by the user
+
+that would return what you need. Wish I had time to write a little script for ya but I'm at work atm </TEXT>
+</WRITING>
+</INDIVIDUAL>

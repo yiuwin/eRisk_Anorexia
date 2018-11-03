@@ -1,0 +1,280 @@
+<INDIVIDUAL>
+<ID>subject9961</ID>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2016-06-02 05:39:01 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> What the fuck ? </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> ELI5: Is Finland education as amazing as everyone says. If it is, how did they achieve it ? </TITLE>
+	<DATE> 2016-05-25 15:24:46 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> [removed] </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> "I think this is a really forced meme and doesn't have the longevity of the Pepe" Jacksfilms </TITLE>
+	<DATE> 2016-05-23 08:10:14 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT>  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2016-05-18 10:49:30 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> I would love to know too. I use OBS but the video quality seem off </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> String length at 0 after scanf </TITLE>
+	<DATE> 2016-05-14 19:19:15 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> char str[100];
+
+scanf_s("%s", str);
+
+printf("%d, strlen(str));
+
+
+Console show 0 as the result. When i try declaring the string instead of scanf, strlen works perfectly </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> Buying a new PSU, should i be worried about compatibility ? </TITLE>
+	<DATE> 2016-05-09 01:17:03 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> I was using a FSP 500W, and it died yesterday ( giving off burning plastic smell ). So before i buy a new one, is there anything i should know about, like mainboard compatibility and stuff like that ? </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2016-04-20 03:14:05 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> thank you </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2016-04-20 02:56:18 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Thanks for the reply. I want to learn not just for this project but also later ones too. </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> I am extremely bad at drawing, will i be able learn to create pixel art for my own game ( mostly 32x32 sprite for game maker ), and where should i learn to do that ? ( </TITLE>
+	<DATE> 2016-04-20 02:37:01 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> I have never been good at drawing, so many things to consider like shading and color and pattern... I tried to draw some plants for my farming game and they turn out horrible. Not being able to create in-game art has been the biggest draw back for me, and i really don't want to hire someone just for a small student project </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2016-04-19 18:45:32 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Can someone post it on hastepin please, i get weird DNS problems with pastebin in my country </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2016-04-14 07:03:09 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> This helped me a lot, thank you </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> First year student, is it normal that i hate my university to my gut ? </TITLE>
+	<DATE> 2016-04-13 17:48:37 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> TLDR version below, also please pardon my bad English
+
+
+I have been studying in uni  (computer engineering field) for 6-7 months and i absolutely hate it. Don't get me wrong, i love what i am studying, ( never have that much fun in my love when i code my own game project ), it's just 90% of my classes are absolutely horrible. 
+
+
+Teaching methods are dreadful. Teachers don't seem to care too much about their class. 50% of my classes are literally someone reading from a slide and write anwser on previous assignment. The other half aren't that much better either. A teacher taught a relatively advance topic ( pointer ) yesterday, and i counted so many "erm..", "umm..", "maybe i just..." By the he figure things out for himself we were just looking at each other laughing because no one can understand what he just said. How can teachers not care enough to prepare before class, that's just unforgivable. In math class one time, i didn't understand a concept so i decided to ask my teacher personally, got a straight up fuck you figure it out by yourself i already taught this in class. The only reason i didn't fail Calculus and Discrete Math was because of Khan Academy and google. 
+
+This is also a problem of facility but since my uni doesn't require a lot of money, i can understand that.
+
+I tried so hard on my univesity exam to get into this place and now I lost all my motivation to go to class, What's the point really, since it doesn't do me any good. I have been skipping classes a lot lately, it's irresponsible i know but still feel so right. Please, someone tell me if this is just a first year crisis, that i am just nit-picking and complaining too much. Or my uni really is shitty and i need to find a better one
+
+TLDR: Hate university, class suck, teachers and university don't give a fuck about their teaching or student. Should i find a new university or am i just bitching too much
+
+
+ </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2016-04-11 17:53:10 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> thank you, i will try this </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> How do i change a sprite value ( luminosity), saturation and hue via code ? </TITLE>
+	<DATE> 2016-04-11 11:10:40 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> I am trying to create a glowing effect by changing the sprite's value and saturation, but i don't know how to change them in code. There's a color_get_value and color_get_saturation functions but said functions can only return the value, not change them
+
+I tried using the color_get functions to create my own the color with make_color_hsv(), but it's too complicated for me and doesn't seem to work </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> How can i change Sprite Itensity with GML </TITLE>
+	<DATE> 2016-04-09 21:06:30 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> [removed] </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2016-04-08 19:06:13 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> So it's only 2000 gems each then :P </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> A beautiful experience turn into a horrifying one </TITLE>
+	<DATE> 2016-04-08 18:57:31 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> [Headphone required]
+
+Imagine it's midnight, you're floating on a wood plank in the middle of the dark sea, and turn on this sound file
+
+https://soundcloud.com/jack-n-jil/3d-sound-the-sound-of-water
+
+ </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2016-04-08 18:41:55 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Zerg rush or zerg rush </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2016-04-08 17:12:44 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Shit </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2016-04-08 02:27:17 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Yes, sorry to say that </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2016-04-04 05:29:32 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> okay, thank you </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2016-04-03 18:41:29 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> http://www.asciitable.com/
+In the extended table: 32, 179, 180,  218, 191, 193, 194 195, 196, 197
+
+Sorry, there's a lot of them. </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2016-04-03 18:32:14 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> I am drawing a matrix for my tic-tac-toe code </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2016-04-03 18:02:39 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT>  SetConsoleOutputCP
+
+Sorry i am really new, how do i use the function ? Is it just SetConsoleOutputCP( CP_OEM (437)) ? </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> Visual studio prints Unicode character ( i think ) instead of ASCII </TITLE>
+	<DATE> 2016-04-03 15:13:38 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> printf("%c", 192) should print out a symbol in ASCII table, but instead it was a chinese character. How do i switch it ? Been searching for while, but still no luck.  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2016-03-30 06:48:18 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> and instead of doing that, i thought about setting a watering can object, then create instance at mouse_pos whenver mouseItem is 6000. But still, no idea how to draw the animation </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2016-03-30 06:45:46 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> I have an invisible mouseItem, when i click an item, mouseItem is set to a specific variable. The above code is run when mouseItem is 6000 ( id of watering can ) in my code.
+
+if i can't use image_index, is there any other way to draw all subimage in a  sprite ? </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> Sprite Animation won't run </TITLE>
+	<DATE> 2016-03-30 06:20:53 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> I created a sprite with 18 sub-images. When i click, the code should supposedly draw the animation at mouse_pos then stop, but it just stay at [0] sub-image. The sprite is not the object's sprite and is draw seperately. Please help
+
+Here's the code:
+
+        if(mouse_check_button_pressed(mb_left))
+        {
+            draw_sprite(spr_water, -1, mouse_x, mouse_y)
+        }
+        else
+        {
+            draw_sprite(spr_water, 0, mouse_x, mouse_y)
+        } </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> A way to scale sprites via code in draw event ? </TITLE>
+	<DATE> 2016-03-26 16:34:04 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> i want to make my icons scale up a bit when hovered. I searched google and found image_xscale but doesn't know how to use that in a draw event.
+
+To clarify: the icon object has no sprite, i directly draw it onto the room </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2016-03-25 17:26:47 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> This might sounds clich but what helped me the most was exercise, lots and lots of exercising. Being in uni does help with that since most of my professors  are "kind" enough to leave assignments. 
+
+But i think you can easily find those exercise online, just need to categorize your studying since they usually aim at a specific subject. Set up your own deadline and do 1 subject a week. </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2016-03-25 07:06:08 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> I figured it out, thanks. i set the alarm at the start of my draw event, therefore it kept reseting without triggering. Fix it so that the alarm is only set if i plant something on the instance </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2016-03-25 04:59:36 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT>  f you make an object for the crop item, you can make a stage variable attached to the object and set alarms for each growth period. e.g. in the Create event, set crop stage to 1, set alarm[1] to some time period. In alarm[1], set crop stage to 2, set alarm[2] to some time period. et cetera.
+
+i did that but it doesn't seem to work. I created a "stage" variable for each instance, and an alarm event that + 1 to  "stage". set alarm to 30*10 (10s), but nothing seem to happen. I debugged the game to check and the variable doesn't change  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> Need help on crop-growing script </TITLE>
+	<DATE> 2016-03-25 04:18:01 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> I am making a fairly simple farming simulator, things like inventory or planting seeds are already set up. But i have no idea how to set timer for crops to grow. My idea was to set a "stage" variable. 
+
+stage  =  0: land not yet planted with crops
+
+stage = 1: first stage of crops. Up to 3, and at 3 i will be able to harvest.
+
+I don't know how to make GMS continously check for the stage variable, and how to change it with a timer, please help </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2016-03-23 12:21:29 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> That charr looks cool, which armor was he wearing ?
+ </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2016-03-23 08:27:23 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Why the fuck does 9 or 10/10 people keep posting on this sub ? Is this a joke or something ? Been browsing this 2 hours and never seen anyone below average, it's getting annoying </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> Redditors who have met Donald Trump in real life, what is he like ? </TITLE>
+	<DATE> 2016-03-11 14:02:49 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT>  </TEXT>
+</WRITING>
+</INDIVIDUAL>

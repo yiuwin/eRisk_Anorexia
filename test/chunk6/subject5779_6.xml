@@ -1,0 +1,15 @@
+<INDIVIDUAL>
+<ID>subject5779</ID>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-04-04 14:30:23 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Those guys have a safe implements of C in addition to dynamic language implementations </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-04-04 11:02:04 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Does your observation that references (Rcs) don't work on cycles still hold? softwaredude22 did say Swift uses ARC instead of GC successfully. </TEXT>
+</WRITING>
+</INDIVIDUAL>

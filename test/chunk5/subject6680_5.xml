@@ -1,0 +1,816 @@
+<INDIVIDUAL>
+<ID>subject6680</ID>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-01-15 11:11:27 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Go to areas where there are humanoid camps. They usaully have weapon and armor racks scattered throughout the camp between the tents etcetera.
+
+Loot all the stuff of the racks and a lot of them are on the ground as well.
+
+Many of these 'white' items will be intricate or ordinate. Rinse and repeat between a couple of camps.  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-01-15 10:45:26 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> WoW refugee here, enjoy this game immensely. More so than WoW...
+
+Played Morrowind, Oblivion and Skyrim. This game is not exactly like them, it can't be due to being an MMO. In some cases it is much better, in some cases the single player TES games are better especially if you like modding and giving yourself godlike powers.
+
+All in all, ESO grew on me and I would rather play it with my friends then fire up Skyrim and wander alone. Both are excellent games though, depends what you want / need. </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-01-15 10:25:42 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Thanks, will look into it. </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-01-14 20:08:52 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Agreed, never have to worry about new DLCs and you get your subs worth of coins to spend in the game in any case.
+
+But most importantly the CRAFTING BAG :) </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-01-14 20:06:53 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Yes this, just put an up and down arrow to the right of the toon so that we may arrange them as we need. </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-01-14 16:36:41 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Thanks, I will look into it. </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-01-14 16:24:35 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> On a Windows host, which opensource drivers are available to Fedora to behave well (USB3, multiple network cards, 4K display) when running as a guest?
+
+If the host is Linux, sure then it is a perfect world, unfortunately in most of my client's setups, that is not the case.  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-01-14 16:12:14 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> My friend, I think we are misunderstanding each other here.
+
+I do not want Fedora to include any Virtualbox code at all. All I want to do is to be able to compile and install the drivers in Fedora.
+
+In order to do that these packages are needed:
+
+gcc kernel-devel kernel-headers dkms make bzip2 perl
+
+They are all from the default Fedora opensource repo. With them the guest drivers can be compiled and Fedora will run as a well behaved guest operating system.
+
+Getting those package installed when there is no network connection to the guest is a huge impairment. 
+
+Including those packages will not defile Fedora with Dark Side proprietary code. They are from the official open repo.
+ </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-01-14 15:19:22 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> I don't want Fedora to make that the default.
+
+
+My first line in my original post was:
+
+
+It need not be the default image, but I think a lot of people use Fedora in Virtualbox (due to having to have multiple test environments).
+
+
+I.E. It will be most appreciated if there was a GNOME desktop development Fedora spin optimised for virtualisation as a guest OS.
+
+I am pretty sure plenty users run Fedora and CentOS and RH in VMs and not on the bare metal purely to ease testing and development. </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-01-14 14:57:34 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> HyperV requires Windows 10 Professional, Virtualbox on the other hand don't. In my country the price difference between Windows 10 Pro and Home is about USD 126.00 when converted. Multiply that by 5 development machines for a small design company, and it adds up.
+
+Quoting from https://docs.microsoft.com/en-us/virtualization/hyper-v-on-windows/reference/hyper-v-requirements
+
+
+Operating System Requirements
+
+
+The Hyper-V role can be enabled on these versions of Windows 10:
+
+
+
+Windows 10 Enterprise
+
+Windows 10 Professional
+
+Windows 10 Education
+
+
+The Hyper-V role cannot be installed on:
+
+
+Windows 10 Home
+
+Windows 10 Mobile
+
+Windows 10 Mobile Enterprise
+
+Seeing as most clients runs Windows, having the LAMP stack on a Linux Virtualbox inside a Windows host makes testing a lot easier (yes some companies still only use Internet Explorer and won't install anything else).
+
+
+Also Virtualbox is opensource and free, and it works really well. The issue is not Virtualbox, the issue is getting all the kernel development files and gcc installed without proper guest support.
+
+
+EDIT: Reddit multi line quoting peculiarities. </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-01-14 13:56:11 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Great view right, a static image does not do it justice, especially the reflection of the lava light on the river flowing towards the sea. </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-01-14 12:20:44 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Nord, because of being of Viking decent.
+
+Also, they are seldom pretentious, what you see is what you get.
+
+Care to join me for an ale? </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> Please release a normal desktop version with GNOME that includes everything needed to build the Virtualbox guest additions Add-ons </TITLE>
+	<DATE> 2017-01-14 12:04:32 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> It need not be the default image, but I think a lot of people use Fedora in Virtualbox (due to having to have multiple test environments). 
+
+And installing all the extras from the official repos just to get display, folder sharing and in some cases networking to work is an unnecessary step, especially seeing that Fedora desktop is marketed as the developers desktop.
+
+
+EDIT: Some more information to substantiate this request:
+
+
+I do not want Fedora to include any Virtualbox code at all. All I want to do is to be able to compile and install the drivers in Fedora.
+
+In order to do that these packages are needed:
+
+
+gcc kernel-devel kernel-headers dkms make bzip2 perl
+
+
+They are all from the default Fedora opensource repo. With them the guest drivers can be compiled and Fedora will run as a well behaved guest operating system.
+
+
+Getting those package installed when there is no network connection to the guest is a huge impairment.
+Including those packages will not defile Fedora with Dark Side proprietary code. They are from the official open repo. </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-01-12 14:49:44 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> There is really a sub Reddit for everything! :) </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-01-12 12:16:34 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Great game, also a WoW refugee here. Community has been amazing. Helpful and friendly. Seems much more mature and way less toxic.  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-01-12 09:51:05 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> No that is a double edged sword indeed. </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-01-10 20:30:53 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Excellent, do you know what level one may start to craft similar looking armor? </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> Astounding walking into a dungeon before sunset and then coming out at about 04:00 (game time ofc) just in time to see the morning break. </TITLE>
+	<DATE> 2017-01-10 20:28:59 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT>  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> Where is this armour set from and is it attainable in game? </TITLE>
+	<DATE> 2017-01-10 19:40:35 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT>  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-01-10 08:02:02 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Where do you turn off the filter? </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-01-10 07:46:14 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Thanks for the smashingly good rhyme.  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-01-10 07:10:46 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Great read, was it added via a mod to one of the TES games? </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-01-10 06:16:47 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> On PC it still works to only press the row number of the response even without seeing a number in front of it. </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-01-10 06:15:38 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Does she give you the kiss to? </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-01-10 06:09:29 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> WTF? :) </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-01-10 06:05:17 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Excellent, thank you very much for this informative reply. </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> And I thought WoW's Azjol-Nerub was creepy given my arachnophobia, that all changed with Cradle of Shadows! </TITLE>
+	<DATE> 2017-01-09 20:02:27 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> What an amazingly well done dungeon. Did it for the first time just now tonight. The way the shadows move and the darkness that follows you is crazy freaky. The big ass spider bosses have great voice acting. Excellent dungeon overall :)  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-01-09 17:34:44 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Excellent, this explains it perfectly. </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-01-09 17:32:00 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Thanks for the explanation.  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> ELI5:Why do an ICBM have a minimum range? </TITLE>
+	<DATE> 2017-01-09 14:33:51 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> To quote Wikipedia: 'An intercontinental ballistic missile (ICBM) is a guided ballistic missile with a minimum range of 5,500 kilometres (3,400 mi)'
+
+Why do these misiles have a minimum range? If they can be launched vertically up, they surely can be programmed to decent straight down again, unless the amount of fuel in them has to be so much that launching vertically would make them escape the earth's gravitational pull. But is this really why? </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-01-09 14:00:36 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Pardon me, I am new to the game. Where or how do you see hireling messages? </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-01-09 13:00:10 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> While this can definitely make a web server seem offline, it seems highly unlikely that this was the actual cause. The time slot is not a typical mass user time slot unless it is a deliberate denial of service attack.
+
+My guess is that they where doing maintenance on the site. </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-01-09 12:57:00 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> I think that the site was in maintenance mode this morning (central Europe time) which would make it very early just after 00:00 Monday morning in the USA where the servers are probably hosted.
+
+For a very high trafficking site that time slot is the best time to do maintenance and take it of the web for a couple of hours as the impact to the majority of the users will be minimal. </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-01-09 10:35:26 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Great thanks, did you ever had to wait for more than 12 hours for the bounty to clear? </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-01-09 09:42:57 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Hi all
+
+There have been a couple of posts recently with awesome screenshots of this amazing beautiful world we have the joy of experiencing.
+
+It should be nice to have a thread dedicated to these screenshots. Please note that this thread is not meant to dictate that screenshots should be posted only here, this is Reddit after all, so the community will create the rules and tendencies , post wherever and however you like. Personally though I would really like a thread with multiple screenshots and stories about the screenshots to drool over :)
+
+So, here is my screenshot. It is of my Nord Dragon Knight called Hrothgar Wulfheart and his trusty companion Romulus:
+
+http://i.imgur.com/Qy52eeD.png </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-01-09 09:26:28 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Great ELI5 explanation :) </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-01-09 09:06:59 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT>  there's a very weird relationship between violence and sexuality
+
+Made me think of this: https://www.youtube.com/watch?v=j6FER3jPxzg
+ </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-01-09 08:45:23 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Great tip, how is the timer on your bounty calculated? Basically need to know how much I can steal before logging out for say a 12 hour offline period to come back to a clean slate? </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-01-09 08:44:03 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Ruthless!  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-01-09 07:55:24 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Beautiful.  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-01-09 07:45:18 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Astonishing accomplishment! 
+
+Now I truly have no excuse for not getting my fat ass of the couch and starting to exercise...   </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-01-09 06:54:49 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Very clever kid  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> It is magic. </TITLE>
+	<DATE> 2017-01-08 18:46:02 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT>  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-01-08 18:11:37 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Different part of the brain. The portion of the brain responsible for speech is a lot closer to the brain stem (most primitive part of the brain) compared to where memories are stored.
+
+See https://en.wikipedia.org/wiki/Broca's_area
+
+ </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-01-08 18:04:26 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> It is a remnant from our past evolutionary tree.
+
+Today we don't rely on the canine teeth as much as a couple of thousand years ago (perhaps couple of hundred thousand).
+
+But because evolution is very slow process especially when it comes to evolving away from a previous beneficial selection state, we still have the canines.
+
+Should we continue to eat all these highly processed soft food we may still evolve our teeth away completely :)
+
+EDIT: So the answer to your question is that we don't have them now as a necessary survival trait, but we use to depend on them in the past for defence and ripping meat off bones (like what WRSaunders said below). </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-01-08 17:58:25 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> They say it to cover themselves should something go wrong and you end up being allergic to it and go into anaphylactic shock. It becomes a bit more difficult to sue them if they warned you.
+
+https://en.wikipedia.org/wiki/Anaphylaxis
+ </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-01-08 15:58:09 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> It is there as an overflow. So if you forgot the plug in and the water open, the water should drain through there instead of overflowing the sink and onto the floors.
+
+The hole connects directly to the down drain pipe. </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-01-08 15:40:50 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> It is a combination of the volume, surface area and density of bread.
+
+Since bread has a very low density per volume, a lot of the microwaves hit the exposed surface area of the bread and due to its sponginess microwaves also travel through bread much more rapidly, than through for instance meat that is much more compact. 
+
+So the area of 500 grams of bread that can be hit by microwaves is a lot larger than the area of 500 grams of steak for instance. </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-01-08 13:42:27 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Excellent, thanks for the very informative post. </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-01-08 13:38:53 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT>  The brooming NPC's that rudely comment "Can't you see I'm busy", just because I am walking past them... Those I have "accidentally" stabbed to death as well. ;D
+
+Cool :)
+
+ </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-01-08 13:05:09 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Scary but true yes. </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-01-08 13:02:40 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> https://www.youtube.com/watch?v=jrzUsHNGZHc </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-01-08 12:52:59 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Yeah, but how did your savings information get propagated between various branches of the same bank or even worse different banks?
+
+Could you only ever draw money from your home branch? What would you do in case of an emergency while on holiday for example? </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> ELI5: How did banks keep track of legitimate withdrawals before the electronic age? </TITLE>
+	<DATE> 2017-01-08 12:14:33 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> It seems that the old paper savings booklet banks used in the past would have made bank withdrawal fraud extremely easy. 
+
+How did banks protect themselves against exploits back in the era before electronic banking? And how did your savings information get propagated between various branches of the same bank or even worse different banks?
+Could you only ever draw money from your home branch? What would you do in case of an emergency while on holiday for example?
+
+EDIT: added some more info to substantiate the question. </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> How did banks keep track of legitimate withdrawals before the electronic age? </TITLE>
+	<DATE> 2017-01-08 12:04:22 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> [removed] </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-01-08 11:00:17 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Fantastic! Just installed it now. Thank you very much :) </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-01-08 10:50:31 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Yeah, that is a great suggestion. </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-01-08 10:38:40 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> lol, exactly :)
+
+They should give like a confirmation dialog for stealing if you are not hidden and within 2 meters of an NPC. </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> The 'Sheldon Cooper' of Tamriel. </TITLE>
+	<DATE> 2017-01-08 10:36:02 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT>  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> How many times have you 'accidentally' stolen an item at a vendor? </TITLE>
+	<DATE> 2017-01-08 10:32:55 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Me, I have a couple of times. In my haste to interact with a merchant I frequently interact with the nice sword or shield very close to him instead :) </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-01-08 08:35:12 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Hi friend, I am on the PC, so not sure how to do it on all platforms. 
+
+On PC you can bind a key to hide the HUD. I made mine the Backspace key because it was bound to nothing. 
+
+So in game get the view you want and then press Backspace to hide the HUD (if that is the key you bound). With the HUD hidden you press print screen key. 
+
+Screen shot will be saved in your my documents folder.  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-01-08 08:02:25 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Oh, did not know that yet :)
+
+It will be level 20-29 light armour Nord shoes then.  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-01-08 08:00:45 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Aah ok, well that sounds interesting. Can't wait for update 13 then. </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-01-07 23:06:48 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Jip, that is what I am using. Just double click any standard style (there are quite a few) to change the hair style anywhere in the game world. </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-01-07 23:03:58 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Sorry I swapped them out while leveling, but if I recall correctly it was the cloth boots from the set crafting station closest to Davon's Watch. </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-01-07 23:02:47 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Hi, I like that style. I think it fits well with a warrior. When I feel like a change I swap it out to another style (have about three styles I rotate :) ) or make the helm not to hide.
+
+But it grows on you, I miss not running with it after a while of swapping out ;p </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-01-07 22:24:04 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> That will be great yes. </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> Possible ways of dealing with the insta-kicks from Group Finder while still levelling. </TITLE>
+	<DATE> 2017-01-07 21:43:51 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> For all the greatness and awesome in game community this game have, the one thing that ZOS needs to address is how the group finder tool works.
+
+I get it that max level characters do not want to run a *normal* dungeon with people below 50. Everybody wants a smooth quick run, and having to carry people may not be the best use of your time. However it is real douche bag invoking behaviour to just kick others as soon as the group formed.
+
+
+There are multiple ways ZOS can fix this issue, some of these may be:
+
+1. Level scale the Group Finder so that only people from level 10 - 49 will be grouped up and all level 50 toons will be only grouped with other level 50 toons. Yes it may take a bit longer to get into a group but at least you will not be insta-kicked and then sit with a 15 minute debuff.
+2. Hide every ones level so that there is no way to see each other's level when grouped for a normal dungeon.
+3. Make it work like WoW's system where it is not possible to vote kick anybody before the first boss in a dungeon was downed.
+4. Make group finder unavailable until level 50. Extreme yes, but less infuriating than having to deal with multiple 15 minute debuffs every 50 minutes continuously because  some high level douche bags where selfish.
+
+
+Apologies if this post came of as antagonistic, but the way the group finder tool currently functions is causing a very bad experience and image of the multiplayer aspect of this great game to new players. </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-01-07 21:09:38 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> It is leveling gear, I am only level 26 at the moment. Started playing a week or so ago. It is part Knightmare and part Schalks set pieces. </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-01-07 20:50:24 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Thanks will try it out. </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-01-07 20:49:55 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Yeah that is it. </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-01-07 18:20:59 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Yeah it is, but sometimes you see a sunrise or like in the screenshot above a view over a volcano with ash blowing in the wind and lava reflecting on the waves and just realise that this is an awesome moment in Tamriel :) </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> Damn this game is beautiful at times. </TITLE>
+	<DATE> 2017-01-07 17:45:00 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT>  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-01-06 15:10:18 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Thanks will do. </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-01-06 11:38:43 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Great, thanks will do. </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-01-06 11:26:02 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Thanks for the tip, will do. </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-01-06 11:10:26 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Great, thanks good to know then. </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-01-06 11:10:24 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Aah excellent news. Yeah I read that the time between researches increases exponentially, hence the reason to try and find the correct traits to research first. Did not want to be left with 128 days of research on an OP trait :) </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-01-06 11:05:45 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Not being antagonistic here but from this post I gather you will not find joy in this game that requires some input from a player's side in order to get stuff.
+
+Maybe stick to the easy games where you get all your gear and skills handed on a silver platter or perhaps even bought in P2W games? </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-01-06 11:02:50 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Because if you don't tank or heal and only stay out of the red stuff on the floor with a block here and there, all dungeons available while leveling can be easily done as DPS, as ranged DPS it is a joke how easy it is.
+
+BUT to tank or heal requires a deeper knowledge of the game and specific boss mechanics. So don't queue as tank or healer if you are new to the game (I know you didn't). </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-01-06 10:59:47 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Uhm, you give up so quickly after your very first ESO dungeon ever???
+
+Having a competent tank and healer makes all normal dungeons easy as goblin pie.
+
+Maybe the tank just needs to l2p how to tank. He is suppose to keep agro and not die. A lot of tanks skip the defensive skills for offensive skills and wonder why bosses are one shotting them. </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> What is the best method to get an item with a specific trait for research purposes? </TITLE>
+	<DATE> 2017-01-06 10:53:17 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Let's say I want to prioritize the following traits to be researched first on my weapons:
+
+* Sharpened
+* Precise
+
+
+And for armor pieces:
+
+* Divines
+* Reinforced
+* Training
+
+
+What would be the best method to obtain the required items to research from? Can other player's crafted items with this given trait be used? Will it always be 100% researchable? What determines whether I trait is researchable? </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-01-06 10:39:48 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Great, thanks for the link. </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-01-06 10:39:32 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Thanks, perfect explanation. Just one more question, does it need to be certain specific traits per item or will any 4 traits per item do? </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> How do you craft sets? </TITLE>
+	<DATE> 2017-01-06 10:18:19 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Hi all
+
+
+New to the game and have been reading up on sets and crafting.
+
+
+How exactly do you craft all items from a given set?
+
+
+All I understand thus far from what I read, is that you need to be at the specific forge out in the world where a certain set is forged.
+
+
+But what then? What comes next? Do you need to have certain materials? Certain motifs? I tried to create items but I can't. </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> Name one movie that critics loathed but you found it to be exceptional. </TITLE>
+	<DATE> 2017-01-05 11:49:14 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> [removed] </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-01-05 06:19:04 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Would be cool if fishing became a proper profession to be leveled with special rods etcetera.  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-01-04 12:36:05 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> I have a ping of about 280 - 350 ms. From South Africa and playing on the EU server. 
+
+Weird thing though is that in WoW and SWTOR I have a ping of consistently 205 - 215 ms also playing on the EU servers. 
+
+Not sure if the MegaServer technology is adding some additional latency to the game as data is send internally between the shards. 
+
+Would like to know the latency of people in EU who also played WoW or SWTOR and now ESO. 
+
+ </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-01-03 13:46:36 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT>  It felt like work.
+
+This! </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-01-03 13:40:17 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Thanks </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-01-03 13:13:53 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Aah, thanks. Will have a look there. </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> Where are Pact RP hot spots on EU PC? </TITLE>
+	<DATE> 2017-01-03 13:05:52 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Hi all
+
+Would really like to get into the RP side of this wondrous game.
+
+Where should a Nord go to in order to find some on EU PC? </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-01-03 07:21:12 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> MMOs are much more CPU intensive mainly due to: https://www.reddit.com/r/gamedev/comments/1toutc/what_makes_mmo_networking_code_so_difficult/  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-01-02 08:58:57 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Thanks will look out for it  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-01-02 07:57:50 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Lol ain't that the sad truth  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> What a lovely little tale. </TITLE>
+	<DATE> 2017-01-01 22:42:21 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT>  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-01-01 17:38:12 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> And this excludes the copies bought directly from ZOS as well as the PS4 and XBOX copies.
+
+Great game is doing great! :) </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-01-01 08:27:22 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Happy new year friend, Enjoy ESO! </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2016-12-31 22:01:07 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> That is a very sadistic request aimed at us OCB individuals  </TEXT>
+</WRITING>
+</INDIVIDUAL>

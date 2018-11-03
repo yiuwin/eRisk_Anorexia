@@ -1,0 +1,24 @@
+<INDIVIDUAL>
+<ID>subject5779</ID>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-03-21 04:24:08 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> A few guys have made languages in Rust, couldn't find a garbage collected one.  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> Host language for my GC-ed toy language </TITLE>
+	<DATE> 2017-03-20 18:28:18 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> I want to make a garbage collected language with multithreading. Right now, I'm experienced in mostly Python and Javascript for web and have never explored creating new languages seriously. I want to pick a high-level language with the richest community of language-writers to learn from. I also prefer if the community has made a production-ready product.
+
+Like I said, I prefer a high-level language with safe memory access. I think the host language having GC and multithreading will make it easier for me to implement a language with those features. It should have a multi-threaded HTTP server too. Go seems closest to meeting my requirements. I guess Rust is also close, although it has no GC itself. Which language should I pick?
+
+I plan the features:
+* imperative with first-class functions
+* dynamic typing, hosted runtime with garbage collection
+* more complex than Lisp, less complex than C
+* exceptions as fast as other control statements
+* true multithreading, no plans for thread safety </TEXT>
+</WRITING>
+</INDIVIDUAL>

@@ -1,0 +1,53 @@
+<INDIVIDUAL>
+<ID>subject2418</ID>
+<WRITING>
+	<TITLE> Remove people from an image using Photoshop </TITLE>
+	<DATE> 2017-04-29 00:09:07 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT>  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-04-28 17:49:14 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Daisy is a Chorkie and Tilly is a Mini Yorkie  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> 2 Cute hairy monsters playing :) Daisy and Tilly, the worlds cutest dogs :) </TITLE>
+	<DATE> 2017-04-28 17:48:09 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT>  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-04-28 13:44:21 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> It's Northern Ireland  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-04-28 09:51:55 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> That's exactly what I would do, when you have the person removed from the layer you can work with the background and using the patch content aware tools rebuild this and then use the liquify tool, make your adjustments to the person.  At this stage you will have a complete background layer free of warping and the layer with the person adjusted. 
+That's how I would do it :) I may do a tutorial on my YouTube channel for something like this.  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-04-28 00:26:37 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Basically I would duplicate the layer and remove the faces and then I would replicate the background using content aware, you could add a solid adjustment layer and then put your face into a new layer and adjust the opacity of the solid colour which could in theory match the org faces...  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-04-28 00:19:36 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> I would copy the layer remove the person and using content aware fully replicate the background and then using the pen tool or
+Quick selection I would copy the person out and paste them into the corrected layer.  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-04-28 00:16:39 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Use the marquee tool and select her face, copy this and paste into a new layer and then you can mess with all the adjustment options in the pasted layer.  </TEXT>
+</WRITING>
+</INDIVIDUAL>

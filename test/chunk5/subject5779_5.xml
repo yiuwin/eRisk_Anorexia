@@ -1,0 +1,16 @@
+<INDIVIDUAL>
+<ID>subject5779</ID>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-04-04 08:50:28 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> No
+ </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-04-04 08:30:14 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> My bad. Its dynamically typed. The interpreter works on the AST itself - so a runtime, but no bytecode. </TEXT>
+</WRITING>
+</INDIVIDUAL>

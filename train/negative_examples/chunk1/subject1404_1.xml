@@ -1,0 +1,161 @@
+<INDIVIDUAL>
+<ID>subject1404</ID>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-02-06 22:18:31 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Social science </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> Chinese factory replaces 90% of human workers with robots. Production rises by 250%, defects drop by 80% </TITLE>
+	<DATE> 2017-02-06 16:17:18 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT>  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-02-05 19:01:02 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> The chances of cutting at that height.... </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> Chinese factory replaces 90% of human workers with robots. Production rises by 250%, defects drop by 80% </TITLE>
+	<DATE> 2017-02-05 14:11:22 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT>  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-02-05 07:55:05 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Don't look! It's a trap! You will jump from song to song and forget about Reddit.... I warn you </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-02-04 20:26:48 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> This is mainly the only reason I would go back to the days before electric light </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-02-02 07:53:31 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Is This the real Life? </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-02-01 18:57:25 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Dunno, but u need 2 yo shoot four, apparently </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-01-30 20:20:22 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Nice! What's the range? </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-01-27 09:37:26 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> de nada! </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-01-26 21:29:09 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Good idea! Low budget tho... I might give It a try  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-01-26 16:49:35 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Thanks for your comment, but really It isn't such a big thing. Just curiosity and willing to learn  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-01-26 09:05:42 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> The code is here:
+https://codebender.cc/sketch:426102
+
+Tips: 1. Get to know how behaves your coil. Set PWM from 0 to 255 with code, and see the graph. Mine looks like a _/- flat until 30 pwm, then polinomial 3rd degree until 220, then almost flat again. (I used matlab). Then work in the "security zone"
+
+Tip 2: Have a look at my filter. I found it googling, and it smooths the signal a lot </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-01-26 09:02:18 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Here: https://codebender.cc/sketch:426102
+
+If you have any question, just ask! ;) </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-01-26 07:03:19 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> PID. I used matlab to get the bsico tuning </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-01-26 07:02:25 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT>  ok Thanks! </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-01-26 06:48:43 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> It uses a PiD library </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-01-25 23:16:47 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Thanks! Yes, I also started with Hall sensors ( one on top, other at the bottom).  But It was hard to find the Transfer function. So I used two ir leds on each side and calculated the  average. I also included a low pass filter in the code. And yes, It is less restricted  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-01-25 23:01:46 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Thanks! It has been really fun, and challenging </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-01-25 22:43:12 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Have a look at This: https://youtu.be/cdFiIUh1HN4
+Is a test  I made to see the Ranger of frequencies. There is a free software called serial oscilloscope. With it and a couple of resistiors you can use your pc sound Card to Check working frequency of Pwm pins ( pulse wave modulated). Is not a feature, nor a failure. Just physics. But I think It should not do It by default </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> Just finnished my new magnetic levitation device </TITLE>
+	<DATE> 2017-01-25 22:31:06 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT>  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-01-25 22:05:16 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> I made a levitation device with arduino and had to change the working frequency , and after that I got the same sound. Maybe you could Check with the oscilloscope </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-01-17 22:01:27 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Let that question be an entelechy itself  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> Lately I've been looking for new horizons </TITLE>
+	<DATE> 2016-12-31 23:31:36 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT>  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2016-11-20 14:46:04 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Thanks for sharing </TEXT>
+</WRITING>
+</INDIVIDUAL>

@@ -1,0 +1,169 @@
+<INDIVIDUAL>
+<ID>subject3269</ID>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-05-04 07:25:47 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Thanks so much! </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> How to install PyQt4 for python3 </TITLE>
+	<DATE> 2017-05-04 04:35:01 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> [removed] </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> "The dropout." Three Chick-fil-a Spicy Deluxes stacked on top of each other. </TITLE>
+	<DATE> 2017-05-03 04:23:19 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT>  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> This cake by Olga Noskova </TITLE>
+	<DATE> 2017-05-02 18:34:50 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT>  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-04-23 01:10:23 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> E </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> Let's make the terraria guy at 108, 620 above the minecraft pickaxe </TITLE>
+	<DATE> 2017-04-01 23:37:15 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT>  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> Green corner sucks </TITLE>
+	<DATE> 2017-03-31 23:28:43 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> That is all.  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-03-13 11:13:44 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Thank you. </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> problem installing modules </TITLE>
+	<DATE> 2017-03-13 05:30:19 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> I am trying to install pandas and Quandl, and have been having some problems.  I have run pip install pandas and pip install Quandl, and when I type 
+    pip install Quandl
+and 
+    pip install pandas 
+I get 
+
+`pip install pandas
+Requirement already satisfied: pandas in ./Library/Python/2.7/lib/python/site-packages`
+
+`Requirement already satisfied: pytz=2011k in /System/Library/Frameworks/Python.framework/Versions/2.7/Extras/lib/python (from pandas)`
+
+`Requirement already satisfied: python-dateutil in /System/Library/Frameworks/Python.framework/Versions/2.7/Extras/lib/python (from pandas)`
+
+`Requirement already satisfied: numpy=1.7.0 in ./Library/Python/2.7/lib/python/site-packages (from pandas)
+Parkers-MacBook-Pro:~ parker$ pip install quandl`
+
+`Requirement already satisfied: quandl in ./Library/Python/2.7/lib/python/site-packages
+Requirement already satisfied: inflection=0.3.1 in ./Library/Python/2.7/lib/python/site-packages (from quandl)`
+
+`Requirement already satisfied: requests=2.7.0 in ./Library/Python/2.7/lib/python/site-packages (from quandl)`
+
+`Requirement already satisfied: more-itertools in ./Library/Python/2.7/lib/python/site-packages (from quandl)`
+
+`Requirement already satisfied: ndg-httpsclient in ./Library/Python/2.7/lib/python/site-packages (from quandl)`
+
+`Requirement already satisfied: pyasn1 in ./Library/Python/2.7/lib/python/site-packages (from quandl)`
+
+`Requirement already satisfied: pyOpenSSL in /System/Library/Frameworks/Python.framework/Versions/2.7/Extras/lib/python (from quandl)`
+
+`Requirement already satisfied: numpy=1.8 in ./Library/Python/2.7/lib/python/site-packages (from quandl)`
+
+`Requirement already satisfied: pandas=0.14 in ./Library/Python/2.7/lib/python/site-packages (from quandl)`
+
+`Requirement already satisfied: six in /System/Library/Frameworks/Python.framework/Versions/2.7/Extras/lib/python (from quandl)`
+
+`Requirement already satisfied: python-dateutil in /System/Library/Frameworks/Python.framework/Versions/2.7/Extras/lib/python (from quandl)`
+
+`Requirement already satisfied: pytz=2011k in /System/Library/Frameworks/Python.framework/Versions/2.7/Extras/lib/python (from pandas=0.14-quandl)`
+
+But when I try to run a script with just the command
+    import pandas as pd
+I get an error saying 
+
+
+
+ `File "/Users/______/Documents/Machine Learning/test.py", line 1, in module
+    import quandl as qd
+ModuleNotFoundError: No module named 'quandl'`
+
+Does anyone know how to fix this issue? 
+
+Thanks.
+ </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> Every time </TITLE>
+	<DATE> 2017-02-09 06:25:33 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT>  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> What are the best threads in Reddit history? </TITLE>
+	<DATE> 2017-02-06 06:05:23 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT>  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> #45 is gonna be the best one yet! </TITLE>
+	<DATE> 2017-01-20 02:17:42 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT>  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-01-05 06:40:24 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Thank mr skeltal  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2016-12-24 23:14:57 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Every single one.  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2016-12-15 19:09:48 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> What is that even supposed to be?! </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> What an intellectual! </TITLE>
+	<DATE> 2016-12-15 07:40:32 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT>  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2016-11-06 22:02:07 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Oh sorry yes that is correct </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2016-11-06 21:22:16 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> The square root function returns one value for each value plugged in.  I'm not sure what graph you are looking at, but it's not the graph of sqrt(x) </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2016-11-06 20:47:23 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> The square root of 49 is 7.  If it were 7 and -7, the square root would not be a function, because then one input would lead to two outputs.   </TEXT>
+</WRITING>
+</INDIVIDUAL>

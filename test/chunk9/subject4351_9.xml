@@ -1,0 +1,283 @@
+<INDIVIDUAL>
+<ID>subject4351</ID>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-04-15 05:59:05 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> How do I put the vst plugins on adobe and where can I find some? </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-04-15 01:22:40 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> I am not sure </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-04-14 22:48:11 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> I tried using 2 vst amp sims so far and Ive had troubles. I just get squealing and I have two channels going at once my guitar into the direct input which is clean and the processed effect in the background and it is very low. So I have clean and distorted going on at the same time and the direct(Clean) is louder than the processed(Distorted). Someone said: The manual says "Connect a pair of headphones to the MONITOR OUTPUT 1/4" TRS jacks if you want to monitor the signal locally." That makes me worry that the headphone jack will always monitor the direct input no matter what you do. </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> [Question] Where can I find more xfm files for adobe auditon 1.5 </TITLE>
+	<DATE> 2017-04-14 22:33:02 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> I would like to find more effects files to put on adobe audition 1.5 cause there is a very limited selection. I was wondering where I could download some more of these files or if it is possible to add more to the program? </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-04-14 22:21:42 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Yeah I did </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> [question] I need help with interface/amp/recording </TITLE>
+	<DATE> 2017-04-14 21:35:00 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> I just got An ART USB Computer interface/3 channel mixer and I am having difficulty's trying to hook my amp up to it to record. When I go directly into the interface with my guitar I get clean volume and the sound level shows up on the track , when I go directly into my amp and then out from my headphone jack on my amp into ch 1 input on my interface I get a lower volume and no waveform when I try to record. The device is set up right I just don't know why when I go in directly to my amp and then out into my interface its not picking up the sound on the recording program it just doesnt make sense. </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-04-14 02:02:26 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> No it leaves the volume o the direct volume where I had it and I can hear the processed sound faintly in the background with squealing if I try and turn the effect up, then the volume completely goes away if I turn the gain down on my interface.
+The first knob which is the gain knob controls the direct input of my guitar "the direct clean sound", the second knob ch1, ch2 , ch3, turns up the effects of amplitude but only when the first gain knob is turned up and the 3rd knob is turned up which is the Main mix volume.It starts squealing when I turn up the Main mix and The level volume and in order to even hear the guitar I have to turn up the gain knob. I have not tried to write to ART support, but what are they gonna do to help me? </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-04-14 00:06:14 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> When I select the usb playback to channel 3 I hear the direct input of my guitar and the processed sound from amplitude when its off I can only hear the direct input of my guitar </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-04-13 08:04:21 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> How do I add my interface to ASIO4ALL WDM Device list? Only realtek is showing up right now </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-04-13 07:19:59 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> I am not sure how to do that </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-04-13 07:14:16 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Thanks a lot for the help. I have (hi z) On and the phantom power off. I installed the drive that came with the interface. ASIO4ALL won't mess up my interface or the driver that came with the interface "ASIO USB CODEC" that I have installed already for it? and should I uninstall the ASIO USB CODEC before I download ASIO4ALL? When I record on another program with just the interface the signal is clear and I have a clean guitar tone. </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-04-13 04:00:48 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> I already changed the audio input to my interface but I am still getting the same problem. I changed the latency, changed the input to my interface and muted my comp microphone and it is still giving me the same issue. I changed it to my interface which is ART ASIO and I changed it to 48khz and tried 44khz cause thats what the interface said. What should my settings be for my recording tab and playback tab on my computer? I have a feeling that there is just one small thing I am doing wrong I just don't know what it is </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> [Question] Going insane trying to setup my guitar on amplitube, someone please help?!!! </TITLE>
+	<DATE> 2017-04-13 03:44:51 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> I am having problems with amplitube and I would really like to use it. I am plugged in through a Art Usb Computer interface/ 3 channel mixer and I am getting feedback when I turn up the gain, the level and the main mix. When I turn up the gain and put on a distorted amp I can hear clean guitar and the amp distortion effect very faint in the background and it will just squeal and I hear crackling and popping. I changed the latency settings and I changed the other settings to the proper settings but its still doing it. I would really appreciate it if someone would help me, I would really like to try out some of the amps and effects. </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> Going insane trying to get Amplitube to work, can someone please help me?!!! </TITLE>
+	<DATE> 2017-04-13 03:33:46 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> [removed] </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-04-13 02:24:53 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> it was a tutorial on youtube, I was told to have the gain all the way down because of guitar already having a high output </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-04-12 20:18:13 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> so how do I not monitor the signal before it goes into the program? </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-04-12 20:01:13 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> ART USB Mix Three Channel Microphone, Instrument, and Line Mixer / Computer Interface
+http://artproaudio.com/mixers/product/usb_mix-ps/
+ </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-04-12 19:24:55 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> What does that mean? </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-04-12 19:00:57 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> My interface has 3 knobs: Gain, Ch1,ch2,ch3 level, Main mix knob. The only way to hear sound is turning up the gain but I was told to have it all the way down, there is no sound when it is all the way down. </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-04-12 07:21:17 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Im going directly into my interface with my guitar and it is connected to the laptop via usb, I have changed the settings and latency on amplitude and it has recognized my interface but my guitar is still clean and the effect that I use is very faint in the background when it should have changed my guitar from clean to distorted. And when I turn up my levels I get a feedback/squealing like im standing right in front of a cabinet thats cranked. </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-04-12 04:26:50 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Could you please assist me in making amplitube work, my guitar is still clean and the distortion is really faint almost like my guitars plugged in to two different amps one clean normal volume and one distorted really low volume.  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> Need help with amplitube </TITLE>
+	<DATE> 2017-04-12 03:19:48 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> I just bought a Art Usb Computer interface and I downloaded amplitube, I am having issues though. When I put an amp on I can slightly hear the distortion but it is very loud and my guitar is clean. Its like I have two amps going on one clean one that is normal volume and one with distortion that is really low, I am not sure how to fix this.  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-04-12 01:16:39 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Is there a program I can use on windows 8 that allows me to add effects to my guitar? I downloaded guitar rig and when I tried applying distortion effects, Tube drive, or any of the amp heads it would just squeal and my guitar would still be clean. </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-04-12 01:13:28 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> So if I took acid would I be sucked into virtual reality? </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-04-10 19:55:28 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> I tried guitar rig but whenever I would try to use a guitar amp or the tube screamer it would just squeal and my guitar that was connected to the usb  interface was still clean, I am not sure what I am doing wrong </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-04-10 04:01:10 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> How do I do that in audacity? </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> Need help setting up guitar and effects </TITLE>
+	<DATE> 2017-04-10 04:00:20 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT>  I have my guitar connected through a usb audio interface and It came with audacity, I would like to know how to put effects on my guitar on audacity while I record instead of applying them after is this possible and can you please help me? </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> How do you get guitar effects for your laptop and how do you enable the effects while you are recording? </TITLE>
+	<DATE> 2017-04-09 23:52:49 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> I would like to know how to get guitar effects and put them on my guitar while I record instead of putting them on afterwards. I recently got a usb audio interface and I am going directly into the interface with my guitar I was wondering how I would go about getting effects while I am recording? </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-04-09 22:24:43 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Can I use the interface in any recording progam aswell like Adobe audition? </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-04-09 06:54:38 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> I am not sure it is a "Art USB Mix Three Channel Microphone, Instrument, and Line Mixer / Computer Interface" and I am using windows 8. It came with a cd but there is no needed program for the interface it just has two different versions of audacity. Here is the exact interface http://artproaudio.com/mixers/product/usb_mix-ps/ </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> I need help( How to set up Usb Mix three channel mic-inst-line mixer computer interface </TITLE>
+	<DATE> 2017-04-08 05:51:49 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> I am having trouble setting up this new interface I bought. I followed all the instructions but when I plug in my guitar I am getting no sound when I try to record and my computer mic is still recording instead of my mixer? I changed all the recording settings to USB Audio Codec like it told me to and I plugged the usb into my computer. I am not sure what I am doing wrong. </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-03-29 11:46:47 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> I would like to buy the movie and that is why I would like to know if this one has subtitles </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> Does this movie have english subtitles? </TITLE>
+	<DATE> 2017-03-29 10:49:19 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT>  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> This was the coolest poster I have ever owned. ("The Crow" Velvet Black Light poster) </TITLE>
+	<DATE> 2017-03-29 05:47:19 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT>  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-03-26 10:16:51 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Thanks for  the reply, is it a good movie?
+ </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> What movie is this picture from? </TITLE>
+	<DATE> 2017-03-26 10:08:37 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT>  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-03-24 17:37:53 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Is Deep Red good? </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-03-22 23:21:29 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Yeah it was! such a crap movie, for some reason that one part of the movie stuck out to me though and I wanted to know what it was </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> Name this movie? </TITLE>
+	<DATE> 2017-03-22 21:58:01 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> I can't remember much at all of this movie. I just remember a mentally challenged kid kept watching this gameshow of death or something and his older brother kept stopping him from watching it but he continued to watch it and eventually commits murder. There was a pig man I am pretty sure in the gameshow  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-03-17 22:36:09 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> I live in canada and it isnt available in canada </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-03-17 08:40:45 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Why do our nuts have sacks? </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-03-17 08:36:05 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> That is pretty lame, why have they created dvds for all the other new horror movies then? </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> Why is "The Hallow" 2015 only available on blu-ray and not dvd? </TITLE>
+	<DATE> 2017-03-17 07:53:57 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> I wanted to purchase The Hallow on dvd from amazon but they only have it on blu-ray </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-03-15 19:34:53 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> I dont think this is gonna help me much when I just want my item </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-03-15 19:33:32 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Yeah the Uk ones shite, the actual movie I want to watch is the hugely anticipated one, apparently its a homage to John Carpenters "The Thing" and in the trailer it seemed like there was some pretty cool practical effects and monsters. </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-03-14 23:12:26 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> They confused me because they used the poster for the movie for the 2016 anthology movie "The Void" </TEXT>
+</WRITING>
+</INDIVIDUAL>

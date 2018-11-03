@@ -1,0 +1,991 @@
+<INDIVIDUAL>
+<ID>subject5759</ID>
+<WRITING>
+	<TITLE> Growing up on an airfield I begged my parents to take my skydiving. At 4 years old am I the youngest skydiver? </TITLE>
+	<DATE> 2017-05-19 12:50:18 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT>  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-05-17 09:47:51 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> I think it's good for shooting things that are far away </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-05-12 16:35:53 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> hey sorry guys been travelling. I don't really have the time to run this. It's been a fun learning experiment and there's plenty of better clones for /r/place out there now.
+
+If anyone wants to domain name   code, let me know </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-05-02 06:41:27 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Actually our drink driving and home accident adverts have been world award winning and are regularly nominated.
+
+This is a political party advert and is just a cheap stock footage run out that clearly nobody paid enough attention to in production. It's Nationals fault in the end but they will surely try to lay some blame on whoever produced it. </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-04-21 00:35:15 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> http://dzanime.tripod.com/games/escape1.htm </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-04-21 00:33:14 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> escape form greenville was so good! </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-04-18 23:26:57 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Sorry guys, was on a 28 hour travel leg.
+
+Back up now!
+
+placepx 2.0 coming this week! </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-04-13 22:18:55 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> TBH even if you live in EU or USA don't both with this game. </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-04-12 18:02:00 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> so much this. An open relationship almost always means one of the couple is a complete pushover. </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-04-12 11:48:58 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> I've managed to get this working by overriding the auth route and providing my own 'auth'. For exampe, allowing everyone access to global channel.
+
+    Route::post('/broadcasting/auth', function(Request $req) {
+        return 'global';
+    }); </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-04-12 11:21:39 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> WHAT
+
+Why would it do that when we've got the service provider requiring us to explicitly authenticate channels anyway?
+
+I guess I can override this function in the service provider? </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-04-12 10:41:41 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> I sort of did this, however it seems like there's some middleware blocking the /auth/broadcasting route
+
+     Broadcast::channel('global', function () {
+            return ['name' = 'guest'];
+        });
+
+So I tried to override the middleware in the service provider:
+
+    Broadcast::routes( [ 'middleware' = null ] );
+
+But that seems to not work either :( </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-04-12 10:12:51 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Why do they require it? I can easily have the authentication not return user information and instead return 'guest'. What else relies on authentication?
+
+I don't believe that this is impossible, but I'm struggling. From what I can tell it's a very common thing to show ALL users connected to a web app. For example think of a chat room that allows guests. How would I handle the connected user count of that using Laravel echo? </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> Getting guests into a presence channel using laravel echo server </TITLE>
+	<DATE> 2017-04-11 11:28:10 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> 
+I am using laravel-echo-server to run Laravel Echo to broadcast events.
+
+I have a user counter channel which shows all the users on the app. For this I am using a presence channel. This works fine for logged in users, but guests just never get connected.
+
+I've setup the below in the BroadcastServiceProvider:
+
+    Broadcast::channel('global', function () {
+            return ['name' = 'guest'];
+        });
+
+Which from what I can tell, should allow everyone in as 'guests'. I'm guessing there's some middleware or auth that's being checked before this that I need to disable for this channel.
+
+Any help on getting all clients joining this presence channel would be much appreciated!
+ </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-04-10 17:24:20 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> I've found all mods seem to impact the crafting menu quite heavily, most notably on searching for items and having large lists of item results on the left.
+
+From what I can see, the game dispatches a search query AS SOON AS the search term is changed.
+
+This means that while typing the word 'steel' the game first fires a serach query for 's' then for 'st' and so on beore finally giving me results for 'steel'
+
+Because the short term search (single character) can still be quite useful, I'd suggest that the search filter waits, perhaps 200ms when the input is changed before running the query. This would give me time to write 'steel' before the game starts searching.
+ </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-04-07 12:41:15 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> This is a SCAM - A few large traders will dictate a pump and dump
+
+Unless you're a whale trader yourself or you're VERY good at following pump and dump trends you should steer clear! </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-04-07 02:52:26 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Sorry! Should be ok now </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-04-07 02:52:09 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Sorry should be fixed now! </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> You can now clear your selected colour and see who placed each pixel! </TITLE>
+	<DATE> 2017-04-06 23:20:09 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Hey guys, just pushed a small update.
+
+You can now clear your selected colour by clicking on the small red 'x' in the palette. 
+While no colour is selected clicking on a pixel will tell you it's position, who placed it and when - woo!
+
+Thanks for your support!!!
+
+http://placepx.com
+
+ </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-04-06 21:23:10 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> I'm workin on it! Moderators coming shortly </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-04-06 21:21:28 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Rate limit by IP i think is probably the only thing I've thought of that's reasonable also :/ </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-04-06 21:07:50 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Have you essentially written an acceptance test in go? Outside of captcha I'm trying to find a way around this.. </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-04-06 20:49:52 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> ALL BACK UP! THANKS! </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-04-06 20:40:31 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> consider it compensation for this downtime :) </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-04-06 20:33:49 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> yeah whoops give me a second.. </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-04-06 20:13:22 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Hey Falgor, thanks for this.
+
+I'm pushing an update now which MAY help. The server might seem strange for a moment while everything settles.
+
+I would hate to put a captcha on placement :/ </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-04-06 20:03:17 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Doing my best to help out here too :) </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-04-06 19:33:02 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> So cool dude! It's things like this that have made this all worthwhile. Thanks for contributing  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-04-06 14:13:05 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> If anyone is keen to keep drawing now /r/place is gone check out www.placepx.com - there's more colours to choose from and only a 5 second cooldown at the moment :) </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-04-06 10:02:40 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Oh wow! Looking forward to the mini Angus!
+
+Will help out when I can :) </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-04-06 00:02:58 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> We managed to fight off the nazi! Although the dota2 logo doesn't look so hot right now. Will help someone fix it up! </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-04-05 23:49:42 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Wasn't me but I've been watching your piece come to life over the last few days and it's been so awesome.
+
+Amazing! </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-04-05 20:23:33 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Back up :) I had to reboot the server to enable the automatic restarts. Downtime should be pretty much eliminated moving forward.
+
+Tonight I'll be pushing out a few changes, pixel ownership included barring any acts of god while I finish up the remaining bits of it.
+ </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-04-05 18:59:35 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Oh didn't even look at the username ;) </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-04-05 18:56:35 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> This started as a fork of their repo and has different feature plan like live chat and more coming soon </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-04-05 16:26:11 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Thanks man! It's really encouraging seeing all you guys go for it on the canvas.
+
+There's no fad here, plan is for placepx.com is be a long term thing! Looking forward to much more art ;) </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-04-05 15:30:55 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Hey mate, I think you've got it but to be clear our roadmap is currently:
+
+
+   -  Pixel ownership info (who placed what)
+   - Live chat
+   - Toggle grid on/off
+
+But I'm definitely open to suggestions.
+
+Hopefully that helps </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-04-05 15:25:10 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Absolutely! I'm hoping to allow reddit / google logins in the next day or so. Also on my list is:
+
+- Live chat
+- Toggle a grid on/off
+- Pixel placement history (who placed what)
+
+If you've got more suggestions just let me know, I'm going to get a changelist / roadmap up on the site tonight:)
+
+Thanks for the support! </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-04-05 15:22:35 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Hey! Yep that's me! </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-04-05 15:21:50 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Hey guys, I'm the one running placepx.com
+
+I'm working on getting a nice changelist up with our updates and future plan but to quickly wet your palette coming soon is:
+
+- Live chat
+- Pixel ownership info (see who placed pixels)
+- Toggle grid on/off
+
+If anyone has suggestions, I'm listening and ready! Feel free to shoot me a PM or post it on /r/PlacePX </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> Come and /r/place with 32 colours! Get drawing now! Let's art! </TITLE>
+	<DATE> 2017-04-05 14:38:13 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT>  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-04-05 13:38:19 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Should be back now! bit of an issue with nodemon :/ </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-04-05 13:37:58 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> I really struggled to find a good palate. Definitely open to suggestions on that </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> Brothers and sisters of the road. We need more road workers on this 32 colour canvas! </TITLE>
+	<DATE> 2017-04-05 08:08:15 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT>  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-04-05 02:27:51 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> done :) sorry it's been hard to work out how to keep it hooked up to our repo while also pulling in tracked changes from yours. We're a bit messy just trying to keep up with all your guys hard work going on. Thanks for such a great OS contribution with this! </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-04-05 02:24:44 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> No I'm suggesting that our mashed together version isn't always usable out of the box, given the way it's merged with the origin. I'll be working to maintain a useful version of ours at https://github.com/KekoApp/place </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-04-05 02:23:11 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> This is underway it's just been tough with the setup we've had to pull in selective changes.
+
+It's amazing how fast you guys are flying through PR's, even just watching your repo is exciting ;) </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-04-05 01:26:22 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Whoops! I think I broke it for a second pushing some changes... It's back! </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-04-04 22:49:01 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> whoever is helping me write the giant green 'PLACEPX' I think we're soulmates.
+ </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> Come and /r/place with 32 colours! 5 second cooldown for first 24 hours. Let's art! </TITLE>
+	<DATE> 2017-04-04 22:27:26 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT>  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-04-04 21:18:38 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> This is/was a fork of https://github.com/dynasticdevelop/place which is very much in active development.
+
+I'll be taking most of their updates into this version as well as my own additions like the extra colour, chat etc
+
+You'll be able to find this version here: https://github.com/KekoApp/place. I won't be pushing every commit singular and will try keep this an actually usable version for people. </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-04-04 20:56:03 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Hey guys, excuse my mess I'm still trying to figure it all out. Very sorry if things are broken or don't look right every now and then while I keep adding features and keeping up with updates.
+
+My plans are to include live chat ASAP!
+
+edit: also there's a 5 second cooldown to encourage some half decent drawings to start with! </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> Since we're posting our /r/place clones. Here's my fork with 60s cooldown, invisible captcha and 32 colours. </TITLE>
+	<DATE> 2017-04-04 20:51:11 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT>  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-03-24 17:17:05 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Parameter hints look really nice! Looking forward to full release! </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-03-23 17:20:02 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Obviously the update looks great but I have to say thanks for such a great video! No fluff, no long winded explanations - info packed.
+
+Thanks! </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-03-23 09:52:10 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Hey mate, first of all congrats on getting your game live. Any plans for ios?
+
+One thing you should have a think about is how your app store page is digested by potential players. Currently the first 4 images in the app store are almost exactly the same - you should be showing off your gameplay and exciting screenshots ASAP to get people hooked into a download. 
+
+Best of luck with your game
+ </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-03-22 19:43:15 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Fake </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-03-22 19:15:24 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Just transfer it between a few exchanges through a few different cypto coin trades. Clean coin within minutes. </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-03-22 15:41:58 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> I guess `php artisan routes` will give you every route in the application, if you wanted to check everything in bulk. Not the massive timesaver we were hoping for though :)
+
+Best of luck! </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-03-22 15:25:52 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> That's fair enough. I see your point and I'd probably do what you've outlined in the OP.
+
+Outside of specifying the searches within *.blade.php and *Controller.php for each search I can't really think of a way to easily get this info. 
+
+An Artisan command of `php artisan usage:view partials.footer` would be pretty helpful huh! </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-03-22 15:15:18 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> You want to install Debugbar. There's a reason it's one of the most installed Laravel packages - it's indispensable during development.
+
+https://github.com/barryvdh/laravel-debugbar
+
+This will tell you which views and partial views are being loaded on a given page. Along with many other insightful features.
+
+Your workflow here seems a bit strange though, if you're modifying views of which the usage you're unsure. Really you should be identifying which views need to be updated based on the front end of the website and then finding their location via debugbar. </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-03-21 18:43:36 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> This may have changed, but in Unity 4 I'd receive a Paused event when the phone (ios) was dying, as the apple icon shutdown screen essentially takes focus of the phone. </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-03-21 11:59:07 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> :)
+
+Your game looks really really pretty man, best of luck. </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-03-21 10:50:27 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> I'd be interested in why you chose the price point you did for the game.
+
+For me (and perhaps other users) I'm not going to shell out 3 for a game which is promising to be HARD. If you're going to try get me hooked via frustration and reward, it really should be for free.
+
+You should start asking for money from players once they're hooked, have a hang of the game, etc.
+
+How about the first 5 levels free, remaining bundle of levels via IAP for 3? </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-03-20 23:19:35 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Earth is flat? Ok then explain satellites orbit. </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-03-19 20:56:34 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> ummm, yeah.
+
+Water + electricity = death
+
+Sorry but this is a bit too Darwin to offer toooo much sympathy. </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-03-18 17:13:29 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Finally a way to get arrays and objects back from json! </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-03-13 16:26:42 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> I do feel the same as you, I'm not sure it's always the animations fault as much as just general lack of feedback on weapon hits etc.
+
+The bows are by far the worst, most of the time it's impossible to know if you've actually landed the arrow. How about a hit notification within the crosshair or something?
+
+Most of the time I find myself watching my zombie kill counter to go up to know if I've actually killed the zombie or just knocked it down. </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-03-08 20:28:32 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> He rides a bike in London, being familiar of how the buses operate and what to expect from them is pretty good self preservation! </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-03-06 20:01:11 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> If you press M and open the map, anywhere with brown on that map will give clay with mining the earth (even with an axe) </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-03-02 20:32:06 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Hey me too! Cigarettes already taste like shit!
+
+The smell though...that's another story.
+
+Fuck you cigarettes! Never again! </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-03-02 15:45:49 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> sounds like a great solution! </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-03-02 14:43:48 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> I don't use Vue very often, but off the top of my head I'd imagine you'd bundle up your translations then pass them as json to your vue component? 
+
+Would probably want a quite specific structure to your translations as to only send required translation to the component but from what I understand Vue wants you to work in that way anyway (small components, isolated. etc) </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-03-02 13:14:57 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> https://laravel.com/docs/5.4/localization
+
+I'm not sure how you would cache a page if the localization were driven from the client, it's never going to be as fast as being served a flat cached page and I'm struggling to see any advantage to handling something like this in JS.
+
+It would be a pretty unique use case if users are switching between languages enough that a page reload would be inconvenient  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-03-02 11:35:29 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> What's the benefit of client side translation? How do you cache it? Why should I use this instead of the regular method? Looks quite interesting </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-02-28 20:55:11 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Step 3: Cut a hole in the box </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-02-28 16:49:15 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> A fair call to be honest. Laravel is getting faster and faster and if the requests per second is the reason you're not using laravel then Lumen probably isn't going to run you for that much longer anyway.
+
+If your API needs over 600 requests per second and can't deal with that through caching, PHP probably isn't the best choice. </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-02-28 13:07:54 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> If you're 19, I'm going to have to tell you you're yet to experience many of the adulthood horrors </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-02-26 14:53:49 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> I've seen quite a few of your posts, and the game looks so cool! Is it not a little fast though? Something inside of me wants you to half the timescale just to see what it's like. </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-02-23 20:34:10 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> WHAT! I THOUGHT I WAS THE ONLY ONE!!!! </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-02-20 14:26:37 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> This is something a lot of commenters here are missing. 
+
+When you apply for your ESTA to enter the USA (or even pass through) you waive all your rights from the moment you step off the plane til you have your passport stamped by border authority. </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-02-17 22:40:18 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Are you searing them first? It's possible, but really I'd just do them separately. You're cooking for 10 people after all and it will only add a few hours of ignoring the slow cooker :) </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-02-17 10:07:59 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Surely the cat will just come back to Nisa? Cats seem like a strange one to steal as they can find their way home from miles away. </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-02-16 21:46:51 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> I always find myself trying different sauces so can't really throw recommendations other than that I enjoy a thick sauce as the moisture from the pork always waters things down a bit. 
+
+Given that it's meant to be made from a smoker, it's nice to try different ways in the slow cooker of getting a similar flavor to the true method.
+
+You've got my mouth watering, slow cooker definitely coming out this weekend :) </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-02-16 20:47:41 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> I find a great thing to do after you've pulled the pork to bits to to empty out the slow cooker, throw it on high and mix the pork in here with your sauce.
+
+Tends to make it a bit less sloppy in parts with a nice warm BBQ taste throughout.
+
+I like to use quite chunky smokey BBQ sauce with my pulled pork, but I'm sure it works for any type. Really helps the pork not feel so wet. Looks like a great sandwich though! And I'm with you on the no slaw, however pickle is a must for me! </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-02-07 14:58:32 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> I can't find ANY proof of this, let alone discussion on it. Furthermore, they've test launched these before and the crew didn't die. </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-02-04 23:07:21 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Definitely possible....Will give it a go, however I'm having trouble with verts or something not holding their 'seal'. hmm </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-02-02 19:50:08 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> to be fair, if you're anywhere near able to bowl a 300 game noise shouldn't put you off. This isn't golf, bowling alleys are loud at the best of time. </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-02-01 14:53:29 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Worth it for the bar inside the complex, 50p pool and table football! </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-01-30 21:15:14 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> The unsung heroes, far too often. Smooth service! </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-01-25 10:04:30 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> For the money, it seems like a good idea to run the project through this service before I even look at manually upgrading bits. Seen some good reviews of it on reddit but never checked pricing. </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-01-25 01:57:31 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> I'm about to dive into this myself (from 4.2 - 5.3). Any advice? </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-01-20 17:02:45 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Try a quick find/grep combo for '\\?php'
+
+A core file may have a rouge backslash </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-01-12 16:33:51 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> This feels like it's been written from a Google search. Not one single Camden mainstay listed. In 15 seconds I will build a better list of places to go in Camden.
+
+1. Kims vietnamese hut near the canal courtyard for amazing lunchtime pho 
+2. Tanakatsu inside stables market for made to order japanese katsu
+3. Our Black Heart (for beer and pop up kitchens)
+4. Falla   Mocaer on Parkway for the best coffee in camden
+5. BANG BANG CHICKEN AFTER 5+ PINTS, NO EXCUSES </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-01-10 16:08:59 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Everyone up in arms that Apple wants you to lose your airpods when really this app was removed because it violated Apple trademarks with it's name. </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-01-10 04:16:18 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> think this will be out before fresh start is back up? </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-01-06 19:54:57 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> If they could 'lock' their hinges to make it feel like you're actually grabbing the object of the size you are, that'd be pretty rad.  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-01-05 01:23:19 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> I stayed in this hotel with a friend of mine while travelling the states, while she was in the water tank.
+
+I drank and bathed in her death water.
+
+Still haunts me a bit... </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-01-03 17:31:28 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Same here, london also. You can't be in zone1 anymore with being on surge...
+
+I've also had to wait in the pouring rain for an uber pool more than once because of their shitty new 'pick up point' which for half the time are absolutely terrible places for a car to stop (middle of a bridge, at a roundabout exit, etc) and not covered for weather...
+
+I used to uber every day, but now it's such a chore and the price point means it's better to suck up tube dust </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2016-12-21 22:06:26 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Yes! The suggestions especially for CSS, are really terrible.
+
+How about it remembers common usage on a per project basis and suggests common usage first? </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2016-12-06 18:16:13 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Your linter / CI process should be scanning files for any absolute namespaces in your templates. 
+
+You shouldn't have \App\Model::foo() anywhere in your project, because it's very hard to mock for testing. </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2016-12-01 14:56:49 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> darkhobo666 here.... FML </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2016-12-01 14:53:40 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> You'd be surprised! As long as there's consistency even absolutely terrible art (or cheap generic art) can go a long way. Once your game is fun and playable, you'll have a lot easier time finding inspiration / help to spruce things up </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2016-11-29 18:12:34 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Wow this looks great!
+
+Previously, I have tried to get all my private keys out of QT and load them into multidoge - However multidoge syncs and then thinks I only have 9k doge (should be 150k).
+
+I guess that's because I missed exporting one of my addresses? Ive literally done it 4 times and I'm sure I got all the addresses :(
+
+That's why I'm reallllly hoping the QT wallet finds my coin :(
+
+Cheers for tip!
+
++accept </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2016-11-29 18:09:10 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Yup, got it directly from dogecoin website. 1.10 </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2016-11-29 14:02:22 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Hey thanks for this however I'm already running off the bootstrap.dat file - it's indexing from disk which is still taking days and days. At this rate my average math suggests it's going to take 18 days to sync... </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> 3 days into a sync and still 2 years 20 weeks behind... </TITLE>
+	<DATE> 2016-11-29 10:21:40 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> I've been trying to sync my wallet for almost 4 days now. I'm on a 1gb connection and have used bootstrap.dat to speed it up.
+
+I'm on OSX, if it makes a difference. It seems to get through maybe 20 weeks of data every 12 hours.
+
+I would use multidoge however my wallet sync on multidoge constantly gives me the wrong balance so I'm trying to recover my coins using QT.
+
+Any suggestions to make this feasible?  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2016-11-11 18:27:50 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Oh agreed! We're a PHP agency and are getting there with our legacy clients / php 7 and real frameworks :)
+
+Loving mature PHP in recent years :) </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2016-11-11 17:24:18 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Pretty sure the above is the case at almost any dev shop that's more than 5 years old. Given PHPs history... </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2016-11-09 14:57:04 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Almost certainly it will be a clone style 'emu' machine much like all the others. </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2016-10-21 12:42:00 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> What happens here is when you then want to use your model 'Blog' inside your 'Blog' Controller you're going to have to alias it in the use statement, which can create confusion and kind of forces you back to a different name on your model anyway. Far more annoying.
+
+For example
+
+    namespace App\Http\Controllers;
+
+    use App\Blog as BlogModel;
+
+    class Blog extends Controller {}
+
+So it's best to probably keep a convention for naming controllers, because to me at least, you want to keep your models being called by their actual class name instead of an alias. 
+
+
+Just my 2c </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2016-10-17 19:12:14 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> With the exception of bats. They've not found rabies in UK wildlife in generations. </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2016-10-06 10:00:30 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> There's a bar behind a fake fridge in shoreditch. You should try that. </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2016-10-04 13:55:16 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Because their handheld scanners simply 'register' that card to be checked when they reconcile their card payments overnight. What will happen here is your second card will come back as 'no entry point' come 4am and it will charge you the biggest fare from your station. Not a good idea. </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2016-10-04 13:53:34 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> This! The worst thing you can do is give them a different card! It will get hit for max fare of that journey come reconcile time </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2016-09-29 13:40:18 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Congratulations guys! </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2016-09-29 09:45:36 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> I did wonder that when I was setting it, but assumed it was the same as others in that it boosts the persons 'ranged cooldown' stat (higher = faster). If I'm wrong let me know and I'll update it to 75% :) </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2016-09-29 00:58:12 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> I've pushed an update which:
+
+- Remove shooting accuracy buff
+- Remove Mine Tech buff
+- Add Ranged Cooldown buff (150%)
+- Add Plasteel x125
+- Add Gold x35
+
+Let me know your thoughts! </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2016-09-29 00:47:16 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> waiting around for traders for plasteel is a nightmare! Update coming shortly </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2016-09-28 14:42:20 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> That's a good idea actually, as it won't unbalance some weapons like the current settings do - will try this in an update tonight :) </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2016-09-28 13:49:12 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> That's another point, else your colonists only get half the 'shooting' time when being approached by raiders etc :) </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2016-09-28 11:56:40 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Because of the quicker work speeds and starting resources the raids that come, even in the beginning, are pretty intense (much higher worth). I found that without the aim boost my 3 crashlanders couldn't get past the second raid.
+
+Definitely open to changing this based on feedback if people feel it's making things too easy :) </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> I've created a Crashlanded Turbo Mode. Taking the default scenario and tweaking it to make it play faster while remaining as balanced as possible! Open to suggestions! </TITLE>
+	<DATE> 2016-09-28 11:12:28 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT>  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2016-09-20 14:14:13 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> This is a style / visual question and is probably better suited to /r/webdev or /r/css
+
+To get you started though, try 
+
+body { 
+    width:50%; 
+} </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2016-09-20 12:26:53 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Sure, but the first thing he suggests is adding this to your VM options:
+
+-Dawt.useSystemAAFontSettings=lcd
+-Dawt.java2d.opengl=true
+
+So I have to pause the video, and copy across bit by bit what he's written in the video.. </TEXT>
+</WRITING>
+</INDIVIDUAL>

@@ -1,0 +1,155 @@
+<INDIVIDUAL>
+<ID>subject3269</ID>
+<WRITING>
+	<TITLE> Yeah I'm sure this would be very helpful! </TITLE>
+	<DATE> 2017-05-13 19:23:22 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT>  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> Snapchat article about how phones were better before the smartphone. </TITLE>
+	<DATE> 2017-05-11 17:56:04 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT>  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> What do you guys think of Sentdex's machine learning videos with python? </TITLE>
+	<DATE> 2017-05-10 04:31:58 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> [removed] </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> Fixed problem installing sklearn </TITLE>
+	<DATE> 2017-05-09 09:36:57 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> I was getting an error when installing sklearn saying that it failed with error code 1.  I then installed scipy first and then installed sklearn and it worked fine. Anyways, hope this helps someone. </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> Alps [3264  2448] </TITLE>
+	<DATE> 2017-05-09 08:36:27 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT>  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> Pygame freezing on launch </TITLE>
+	<DATE> 2017-05-08 06:06:49 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Pygame was working earlier.  I'm just printing out a basic some objects to the screen.  The script doesn't have any bugs, but when I run it, the application window pops up but freezes and I have to force quit the application.  When I run the application from the command line, I get a segmentation fault (11).  Anyone know why it is doing this?  It was working fine earlier.  Here is the code: 
+
+    import pygame
+
+    pygame.init()
+
+    white = (255,255,255)
+    black = (0,0,0)
+    red = (255,0,0)
+    green = (0,255,0)
+    blue = (0,0,255)
+    magenta = (239, 0, 255)
+    lightBlue = (0,196,255)
+
+    gameDisplay = pygame.display.set_mode((800,600))
+    gameDisplay.fill(black)
+
+    pixAr = pygame.PixelArray(gameDisplay)
+    pixAr[10][20] = lightBlue
+ 
+    pygame.draw.line(gameDisplay, lightBlue, (80,80), (300, 400),8) </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> M1 [1920  1281] From Rain Prisk </TITLE>
+	<DATE> 2017-05-08 02:42:19 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT>  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-05-08 02:38:59 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Higher resolution image: https://images.designtrends.com/wp-content/uploads/2015/11/06085041/Red-and-White-Mercedes-Benz-Background.jpg </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> If planes took selfies [2048  1536] </TITLE>
+	<DATE> 2017-05-08 02:34:19 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT>  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> E30 M3 [4407  2926] </TITLE>
+	<DATE> 2017-05-08 01:49:37 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT>  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-05-08 00:24:01 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> oh right </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-05-08 00:16:03 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Is that in the movies? </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-05-08 00:08:55 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Maybe, I have the Star Destroyer from 2005 and I think that one is very good.  I know most people don't like the prequel ships, but an ARC-170 or a Clone Turbo Tank would be interesting.  The only thing is that they have very little screen time and are not known that well.  I think an AT-AT UCS set would be awesome. </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-05-07 23:45:39 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> That's a good point. What set do you think they should do next? </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> Does anyone else want to see a UCS version of Kylo Ren's Shuttle? </TITLE>
+	<DATE> 2017-05-07 23:29:27 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> I've been thinking about possible UCS TFA sets, and I think Kylo Ren's Shuttle would be really neat. </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> Shanghai at night [4485  2659] </TITLE>
+	<DATE> 2017-05-07 22:12:18 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT>  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> G O O D G I R L E does a fluff </TITLE>
+	<DATE> 2017-05-07 11:50:32 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT>  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> Just looking off into the distance </TITLE>
+	<DATE> 2017-05-07 11:39:45 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT>  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-05-07 11:23:15 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> My name is Rod, and I like to party. </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> Aston Martin Vanquish [2880x1800] </TITLE>
+	<DATE> 2017-05-07 11:15:03 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT>  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> Spiral Galaxy [2880x1800] </TITLE>
+	<DATE> 2017-05-07 11:10:17 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT>  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> Whale [2880x1800] </TITLE>
+	<DATE> 2017-05-07 11:07:05 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT>  </TEXT>
+</WRITING>
+</INDIVIDUAL>

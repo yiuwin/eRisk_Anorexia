@@ -1,0 +1,213 @@
+<INDIVIDUAL>
+<ID>subject3944</ID>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2016-02-25 23:36:30 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> yeah, i figured. i actually don't have to worry about that, i'm switching to intel stuff. but yeah i'll obviously have to reset the bios when i sell it :P </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> (Build help, kind of) just a quick question, are OC settings saved on the mobo or CPU? </TITLE>
+	<DATE> 2016-02-25 20:09:48 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> If I had to take an educated guess, I'd say that the OC settings have nothing to do with the CPU, but here's my question:
+
+If I remove my OCd CPU, and sell it to someone, it'll be stock when they get it right? Like, the CPU is overclocked only when it's in my motherboard? </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2016-02-24 15:36:32 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Oh, I actually got the MOBOs mixed up. This one is a minimum of 2133, 2400 is OC. The other one I was looking at said the lowest supporter speed was 2400, which didn't require overclocking. Ha. My bad. I'm not really sure how much that matters though :P (the AMD MOBOs I've used in the past only went up to 2133 max, so these higher speed RAMs are also new to me) </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2016-02-24 08:10:08 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> yeah, i already have a H110i GTX, as the FX-8350 gets super hot when you overclock it apparently, but at 4.5GHz and 1.5v, it never gets past 34c haha.
+
+so long as the stuff I have picked out is adequate, i'm happy. I picked this mobo in particular because I don't have to "overclock" to get 2400mhz RAM, and it has an LGA1151 set, or something like that. I've never even gone near intel stuff, so this is kind of new to me. </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2016-02-24 06:25:47 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> well, i'm also a certified graphic artist, take that for what you will, so having more cores for rendering etc is helpful, and while I don't like overclocking, I do like having the option... :/
+
+so i mean, if money wasn't an issue, this is a good setup?
+
+edit: yeah, i'm aware an i5 has slightly better single thread performance :P but i would hope an I7 is good enough to not bottleneck my GPU if I am playing a single thread game </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2016-02-24 04:25:09 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> i really don't want to overclock, hence the switch to Intel stuff ha, I might do the "turbo" mode on the CPU, to get it to 4.5GHz, but who knows </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> Would you change anything about these 3 items? (Build Help) </TITLE>
+	<DATE> 2016-02-24 04:03:47 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> I literally just bought a CPU and GPU less than a month ago, the FX-8350 was not able to keep my new R9 390 at full usage, so now I'm about to shell out $600 on:
+
+ASUS Z170-A motherboard - http://www.amazon.com/gp/product/B012NH05UW?psc=1 redirect=true ref_=ox_sc_act_title_1 smid=ATVPDKIKX0DER
+
+Intel I7 6700k - http://www.amazon.com/gp/product/B012M8LXQW?psc=1 redirect=true ref_=ox_sc_act_title_2 smid=ATVPDKIKX0DER
+
+16 GB Crucial Ballistix Sport- http://www.amazon.com/gp/product/B00MTSWMVQ?psc=1 redirect=true ref_=ox_sc_act_title_3 smid=ATVPDKIKX0DER
+
+Is this good? </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> Minecraft asterisms, were they ever confirmed or denied? I found a few stars that resembled figures pretty well. </TITLE>
+	<DATE> 2016-02-11 01:13:23 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT>  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> Anyone else have severe sponge lag? </TITLE>
+	<DATE> 2016-02-08 04:43:39 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Sooooo here's the story... I had a bad CPU, the FX-8120, and an old video card, the R9 270. I upgraded both of these things to FX-8350 and R9 390 respectively, and ever since the upgrade, sponges are taking (I kid you not) upwards of 10 seconds to absorb water. What. The. Crap. I also updated to Windows 10, this shouldn't be logically possible, I upgraded everything to relatively high spec, and minecraft is playing like crap. Anyone have any clue why? I have 8GB RAM @ 1866, not that I feel it should matter. The CPU is also overclocked to 4.6ghz. (From 3.1, my old CPU) </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2016-02-02 16:14:27 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> I got the green line to stabilize, I enabled "unified gpu monitoring" despite the fact I only have one video card... it only goes up to 40% though... CPU usage only goes to like 60-80% as well. But I can only think of it being a CPU bottleneck, I know the 8120 is pretty crappy. </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2016-01-31 23:51:52 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> http://www.coolermaster.com/case/full-tower/cosmos-1000/
+
+switching slots did nothing :/ </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2016-01-31 19:30:30 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> I already ran DDU prior to making this post, Radeon Settings (Crimson, whatever you want to call it) has nothing enabled to overwrite game settings, or "improve" performance. Raptr is uninstalled.. My performance hasn't changed since upgrading from my R9 270, just throwing that out there, and instinct would say my CPU is bottlenecking the GPU, but I need to be sure it isn't a defective GPU, or my power supply isn't actually putting out 600 watts as labeled.
+
+And yeah, I have Crimson 16.1 </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> R9 390 GPU usage zigzags from 0-100%, also underperforming.. </TITLE>
+	<DATE> 2016-01-31 18:45:40 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Motherboard: 990FXA Gaming   
+CPU: FX-8120 Black Edition   
+CPU Cooler: Corsair Hydro Series H100i   
+GPU: R9 390   
+OS: Windows 10 64 bit (running DX12 of course, and I ran DDU and reinstalled everything)   
+Power Supply: Thermaltake 600w TR2   
+RAM: 4, 2x4GB 2400mhz G.Skill Ripjaws (underclocked to 2133 and 1.59 volts)   
+BIOS is up to date   
+Can anyone explain the screenshot? Of course, my frames are low... Much lower than I feel they should be.   
+Edit: In case you're unfamiliar with Afterburner, the GPU usage goes from 0-100 CONSTANTLY, (that green line)   
+http://imgur.com/reuOuSA </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2016-01-31 18:39:15 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Updated my BIOS from 1.2 to 1.4, made no difference in the GPU load behaving sporadically. </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> [ISO Build Help] You guys are my last hope, my GPU usage goes completely crazy, CPU temps low. </TITLE>
+	<DATE> 2016-01-31 17:22:19 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Motherboard: 990FXA Gaming
+
+CPU: FX-8120 Black Edition
+
+CPU Cooler: Corsair Hydro Series H100i
+
+GPU: R9 390
+
+OS: Windows 10 64 bit (running DX12 of course, and I ran DDU and reinstalled everything)
+
+Power Supply: Thermaltake 600w TR2
+
+RAM: 4, 2x4GB 2400mhz G.Skill Ripjaws (underclocked to 2133 and 1.59 volts)
+
+Can anyone explain the screenshot? Of course, my frames are low... Much lower than I feel they should be.
+
+Edit: In case you're unable to recognize what I mean, the GPU usage goes from 0-100 CONSTANTLY, (that squiggly green line)
+
+http://imgur.com/reuOuSA </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2016-01-30 07:36:05 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> http://www.newegg.com/Product/Product.aspx?Item=N82E16819113284
+
+think switching to this one would help? (well obviously, but would it be adequate?) </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2016-01-30 07:32:09 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> benchmark valley went up to 70ish, low as 17 (during the black screens)
+
+but.. when i enabled V-sync, my fps would get capped at 30 in the benchmark. (but i'm using a 60 hz TV?) </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2016-01-30 07:31:17 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Windows 7.. so no Directx12, when I tried to upgrade to windows 10 long ago, everything just keeled over and died, and had to reinstall windows 7, lost everything. Kind of scared to try to go to 10 again </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2016-01-30 07:29:56 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> http://www.newegg.com/Product/Product.aspx?Item=N82E16817153166
+
+certainly not my first choice, it's super old, but it's definitely not "bad", it's just bad. </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2016-01-30 03:46:35 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> i actually just ran DDU and removed everything, just got done reinstalling them from the disk... nothing seems to have changed, game even crashed again, twice.
+
+i'm about to do a complete reinstall of it, and try out other games in the meantime to look for fps issues, i know blizzard games are dependent on CPUs, so.. i don't know.
+
+something else worth noting, HOTS never crashed before i changed my hardware. i went from a 1440x720 to a 1920x1080 monitor... maybe that's part of the problem? </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> [In Need of Build Help] R9 390 getting disgustingly low frames... honestly no idea why. </TITLE>
+	<DATE> 2016-01-30 02:20:13 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> My R9 270 used to run Heroes of the Storm on ultra settings with around 45 FPS, now, with my 390 and new 16gb of RAM at 2133mhz, (from 1600mhz), Heroes of the Storm is running at 50 frames, with it going as low as 25 frames during fights... My CPU is an FX-8120 8 core @ 3.1ghz (overclocked to 4.0)
+
+Why is this happening? I watched some heroes gameplay using the same video card and lower RAM and they were getting incredibly smoother results than me... is my CPU bottlenecking the GPU? I'm using a 600W power supply, the motherboard is a MSI 990fxa gaming. I seriously am at my wit's end, I spent ~$410 on the RAM sticks and GPU alone, and my performance didn't even move.
+
+I've had a bunch of crashes (google chrome, windows explorer, every game, but it fixed stopped when I reseated the memory sticks, even ran the memory diagnostic tool, nothing came up with an error)
+
+But even still, Heroes of the Storm crashed twice, with nothing explaining why...  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2016-01-28 02:08:28 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> the brackets are perfect squares, while the alignment of those screws are rectangular.. :/
+
+none of the three brackets that came with it can possibly fit, I'd think. </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> Can an R9 390 crossfire with an R9 270? </TITLE>
+	<DATE> 2016-01-27 15:52:41 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> msi 990fxa gaming mobo
+
+*literally* about to checkout an R9 390x, to replace my R9 270.
+
+If I bought a 390 (-x) could I run it with my R9 270 to outperform the 390x?
+
+(I'm aware ideally you should get two of the same cards, but $400 GPU, etc) </TEXT>
+</WRITING>
+</INDIVIDUAL>

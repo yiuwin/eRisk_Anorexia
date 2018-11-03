@@ -1,0 +1,471 @@
+<INDIVIDUAL>
+<ID>subject6951</ID>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2015-08-11 15:00:26 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> The sunflower is malfunctioning. An outcast of society. </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> How to change the font size on Microsoft Word </TITLE>
+	<DATE> 2015-08-11 14:45:06 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT>  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2015-08-09 15:47:31 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> My two squids back home told me. 
+
+ </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2015-08-09 15:39:31 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> how? I posted this shit a few months ago. </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2015-08-09 15:31:30 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> #neverforget </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> Let's NEVER forget about this reddit. I feel kinda prophetic. </TITLE>
+	<DATE> 2015-08-09 15:29:36 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT>  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> Pewdiepie is probably the youtuber with the most dead subscribers. </TITLE>
+	<DATE> 2015-08-08 06:37:25 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT>  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2015-08-03 04:37:38 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> I remember watching the stream yesterday, was funny haha </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> Girls DotA 2 Team for next year's International? </TITLE>
+	<DATE> 2015-07-25 04:43:34 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> [removed] </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2015-06-29 14:49:26 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> same not working for me </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> [SERIOUS] Friendly Fire should be enabled in ranked games </TITLE>
+	<DATE> 2015-06-10 05:01:05 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> [removed] </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> Treant Protector should have an ability that makes him an actual tree. </TITLE>
+	<DATE> 2015-06-09 08:18:29 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> [removed] </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2015-06-01 06:36:06 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Cutie
+
+ </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> Dear people of reddit, why do you kill people? </TITLE>
+	<DATE> 2015-06-01 06:21:39 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT>  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> Dear Icefrog, we need a refresher rune implemented into the game. </TITLE>
+	<DATE> 2015-06-01 01:53:16 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> [removed] </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2015-05-14 04:22:17 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Thanks for helping! So you are saying that the enhanced recognition would make the recognition faster? I looked up Dragon 3.0 and I'm not sure if I'd be able to script it in applescript. Do you think I could? Have you tried the program I sent, is the response time from the program slow as well? </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2015-05-13 11:43:05 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> YES! we need this as a subject at school! </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> Why are we only being taught history? We should be taught future instead! </TITLE>
+	<DATE> 2015-05-13 03:08:07 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT>  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2015-05-13 02:13:48 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Yes I do have speech recognition on and ready for offline use. However, I basically made a somewhat "Siri" for computer that responds to you when ask him questions. I doubt it's my hardware because I have a mac book retina. Do you mind reading the code I wrote and maybe tell me what might be making the response time of the program so long (ranges from 6s to 10s):
+
+    set good_list to {"Good", "Fine", "I'm fine", "OK", "Okay"} 
+    set bad_list to {"Bad", "Irritated", "Fustrated", "Depressed"}
+    set var_list to {"Hey Vector"}
+    set var1_list to {"Hey Vector"}
+    set variable_list to var_list   var1_list
+    set complete_list to good_list   bad_list
+    set safari_list to {"open Safari", "safari"}
+    set chrome_list to {"Chrome", "open Chrome", "Open Google Chrome", "Google Chrome"}
+    set school1_list to {"Teacher App", "open Teacher app", "Teacher", "school"}
+    set gmail_list to {"Gmail", "open Gmail", "go to Gmail"}
+    set moodle_list to {"moodle", "open moodle", "go to moodle"}
+    set powerteacher_list to {"powerteacher", "open powerteacher", "go to powerschool"}
+    set daily_list to {"daily bulletin", "go to daily bulletin"}
+    set school_list to gmail_list   moodle_list   powerteacher_list   daily_list
+    set close_list to {"Thank you", "Bye", "Good bye", "close"}
+    set fire_list to {"open Firefox", "Firefox"}
+    set app_list to safari_list   chrome_list   close_list   fire_list
+    set joke_list to {"Who's there", "Who is there"}
+    set time_list to {"time", "what time is it"}
+    set date_list to {"date", "what date is it", "what date is it today"}
+    set misc_list to time_list   date_list
+    set yes_list to {"yes", "yeah", "sure", "ok", "definitely"}
+    set no_list to {"no", "nope", "nah", "niet", "nein", "fuck off"}
+    set askjoke1_list to yes_list   no_list
+    set app1_list to {"Application"}
+    set misc1_list to {"Information"}
+    set joke1_list to {"A joke", "joke"}
+    set joke2_list to {"Boo who"}
+    set combine_list to app1_list   misc1_list   joke1_list   school1_list
+
+
+    set myhour to get the (hours of (current date)) as string
+    set myminutes to get the (minutes of (current date)) as string
+    set minuteslength to (length of myminutes)
+    if minuteslength  2 then
+	    set myminutes to "O"   myminutes
+    end if
+    set myday to day of (current date)
+    set mymonth to month of (current date)
+    set myyear to year of (current date)
+
+
+    tell application "SpeechRecognitionServer"
+	set theResponse to listen for complete_list with prompt "Hello Mister Brown, my name is Vector, I am an    artificially intelligent English Speaking computer, how are you?"
+	if (good_list contains theResponse) then
+		set theResponse to listen for app_list with prompt "Wonderful. What do you want to do. You have the choice between Applications, Information,Teacher App or a Joke"
+	else if (bad_list contains theResponse) then
+		set theResponse to listen for askjoke1_list with prompt "Oh no! Is it Oscar's fault? Shall I tell you a joke to   cheer you up?"
+		if (yes_list contains theResponse) then
+			
+			tell application "SpeechRecognitionServer"
+				set theResponse to listen for joke_list with prompt "Knock, Knock"
+				if (joke_list contains theResponse) then
+					tell application "SpeechRecognitionServer"
+						set theResponse to listen for joke2_list with prompt "Boo"
+						if (joke2_list contains theResponse) then
+							say "It's okay, don't cry"
+							tell application "SpeechRecognitionServer"
+								set theResponse to listen for app_list with prompt "What do you want to do. You have the choice between Applications, Information or Teacher App"
+								
+							end tell
+							
+						else if say "ok good bye" then
+							tell application to close
+						end if
+					end tell
+				else if say "ok good bye" then
+					tell application to close
+				end if
+			end tell
+			
+		else if (no_list contains theResponse) then
+			tell application "SpeechRecognitionServer"
+				set theResponse to listen for app_list with prompt "Ok then, What do you want to do. You have the choice between Applications, Information or Teacher App"
+				
+			end tell
+		end if
+		
+		
+	else if (close_list contains theResponse) then
+		say "Goodbye Sir, have a nice day"
+		tell application to close
+	    end if
+    end tell
+
+    tell application "SpeechRecognitionServer"
+	
+	set theResponse to listen for combine_list
+	if (app1_list contains theResponse) then
+		tell application "SpeechRecognitionServer"
+			set theResponse to listen for app_list with prompt "What application do you want to open? You have the choice between Safari, Google Chrome and Firefox"
+			if (safari_list contains theResponse) then
+				tell application "Safari" to launch
+			else if (chrome_list contains theResponse) then
+				tell application "Google Chrome" to launch
+			else if (fire_list contains theResponse) then
+				tell application "Firefox" to (activate)
+			else if (close_list contains theResponse) then
+				say "Goodbye Sir, have a nice day"
+				tell application to close
+			end if
+		end tell
+		
+	else if (misc1_list contains theResponse) then
+		tell application "SpeechRecognitionServer"
+			set theResponse to listen for misc_list with prompt "What do you want to know, time or date"
+			if (time_list contains theResponse) then
+				say "The time is "   myhour   ":"   myminutes
+			else if (date_list contains theResponse) then
+				say "Today is "   myday   mymonth   myyear
+			end if
+		end tell
+		
+		
+	else if (school1_list contains theResponse) then
+		tell application "SpeechRecognitionServer"
+			set theResponse to listen for school_list with prompt "What Teacher App do you want to open? You have the choice between Gmail. Moodle. Powerteacher. or Daily bulletin"
+			if (gmail_list contains theResponse) then
+				tell application "Google Chrome"
+					activate
+					open location "https://mail.google.com"
+					
+				end tell
+			else if (moodle_list contains theResponse) then
+				tell application "Google Chrome"
+					activate
+					open location "http://applications.iskl.edu.my/moodle/login/index.php"
+					
+				end tell
+			else if (powerteacher_list contains theResponse) then
+				tell application "Google Chrome"
+					activate
+					open location "https://ps.iskl.edu.my/teachers/pw.html"
+					
+				end tell
+			else if (daily_list contains theResponse) then
+				tell application "Google Chrome"
+					activate
+					open location "https://sites.google.com/a/iskl.edu.my/hs/home"
+					
+				end tell
+			else if say "ok good bye" then
+				tell application to close
+			end if
+		end tell
+		
+		
+		
+	else if (joke1_list contains theResponse) then
+		tell application "SpeechRecognitionServer"
+			set theResponse to listen for joke_list with prompt "Knock, Knock"
+			if (joke_list contains theResponse) then
+				tell application "SpeechRecognitionServer"
+					set theResponse to listen for joke2_list with prompt "Boo"
+					if (joke2_list contains theResponse) then
+						say "It's okay don't cry"
+					else if say "ok good bye" then
+						tell application to close
+					end if
+				end tell
+			else if say "ok good bye" then
+				tell application to close
+			end if
+		end tell
+	end if
+    end tell
+ </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> Is it normal that speechrecognitionserver is slow on applescript (the program takes a relatively long time to respond). </TITLE>
+	<DATE> 2015-05-12 08:54:16 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Does anyone have an idea to make the response time on the computer's side faster? </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> Every time someone presses the button, someone dies somewhere in the world. </TITLE>
+	<DATE> 2015-05-11 04:34:08 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> MIND BLOWING </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2015-05-04 06:36:08 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> love it! </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2015-05-04 06:31:37 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Awesome Artwork! This is how zeus' arcana should look like </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2015-05-03 18:33:10 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> You haven't see the [chicken](https://www.youtube.com/watch?v=NYRjnMIDYcY) one yet ! 
+ </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2015-05-03 10:17:38 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Great minds think alike </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2015-05-03 08:35:04 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Not really, I was just reading my mythology textbook and when I saw zeus on a cloud, I thought It'd be a great idea to have it in dota </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2015-05-02 17:30:18 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> That would be Amazing! </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> If Zeus gets an Arcana, it should be him riding a cloud. </TITLE>
+	<DATE> 2015-05-02 16:54:37 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Thoughts? </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> What happens when you mix an asian and a manatee? </TITLE>
+	<DATE> 2015-04-14 01:47:47 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT>  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2015-04-13 07:07:32 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> she might wanna start learning how to cook </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> This guy has his own version of "wiggle wiggle" </TITLE>
+	<DATE> 2015-04-09 15:53:09 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT>  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2015-04-08 13:00:56 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> lol </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> Youtube added a "music" option next to video setting and subtitles. When pressed you can listen to darude sandstorm. ONLY DARUDE SANDSTORM !!! </TITLE>
+	<DATE> 2015-04-01 13:15:51 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT>  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2015-03-25 07:39:25 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> unemployment rate will increase :(  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> Rich muslim making it rain on a baby </TITLE>
+	<DATE> 2015-02-22 05:47:05 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT>  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> You inner anus is so big that when you skydive it acts as a parachute. </TITLE>
+	<DATE> 2015-02-05 13:54:58 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT>  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2015-02-04 13:17:14 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> LOL </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> A wannabe VEVO rapper on a wannabe video clip [CRINGE TO THE MAX] </TITLE>
+	<DATE> 2015-02-04 13:03:37 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT>  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2015-01-21 14:07:06 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> JACK OFF ON IT ! </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2014-11-24 14:51:10 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Get a life, fuck bitches, steal people's virginity and smoke weed every day. </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2014-11-24 14:43:08 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Sorry, I didn't understand, too busy trying to "block'in all the haters" </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2014-11-24 14:20:09 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> I hope you'll get your goats back soon </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2014-11-24 14:17:15 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> OMG OMG, this is such an emotional story </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2014-11-11 04:52:54 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> You should see a doctor </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2014-10-13 06:49:56 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Hahaha 
+ </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> How to shave a cat's butt </TITLE>
+	<DATE> 2014-10-13 06:41:34 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> I won't tell you, you dirty person ! </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> Could we use the Earth as a Spaceship? </TITLE>
+	<DATE> 2014-10-12 14:46:52 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> [removed] </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> Me and my bae, we had a wonderful night ! </TITLE>
+	<DATE> 2014-10-08 11:50:23 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT>  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2014-10-08 11:12:47 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Omg this is so cool everybody should watch it 1  </TEXT>
+</WRITING>
+</INDIVIDUAL>

@@ -1,0 +1,134 @@
+<INDIVIDUAL>
+<ID>subject6394</ID>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2016-10-15 03:33:51 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Printers.
+
+In Bizarro World.  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> [Ubuntu 16.04.1] Lineart won't work running gcalcli in Conky for Google Calendar. </TITLE>
+	<DATE> 2016-10-12 06:18:45 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Ran this in my conky config: 
+
+    ${execpi gcalcli --conky calm}
+
+Seems to give me broken lineart as shown here: http://imgur.com/27xiLgX
+
+Did some searching and found this bash script advertised to fix the lineart issue:
+
+    #!/bin/sh
+
+    gcalcli --conky calw 4 |
+        sed -e 's/(0\x71(B/-/g' \
+            -e 's/(0\x78(B/|/g' \
+            -e 's/(0\x6A(B/-/g' \
+            -e 's/(0\x6B(B/|/g' \
+            -e 's/(0\x6C(B/-/g' \
+            -e 's/(0\x6D(B/|/g' \
+            -e 's/(0\x6E(B/-/g' \
+            -e 's/(0\x74(B/|/g' \
+            -e 's/(0\x75(B/-/g' \
+            -e 's/(0\x76(B/|/g' \
+            -e 's/(0\x77(B/-/g' \
+            -e 's/(0\x78(B/|/g' \
+            -e 's/(0\x6A(B/-/g' \
+            -e 's/(0\x6B(B/|/g' \
+            -e 's/(0\x6C(B/-/g' \
+            -e 's/(0\x6D(B/|/g' \
+            -e 's/(0\x6E(B/-/g' \
+            -e 's/(0\x74(B/|/g' \
+            -e 's/(0\x75(B/-/g' \
+            -e 's/(0\x76(B/|/g' \
+            -e 's/(0\x77(B/-/g'
+Saved as gcal.sh in my /etc/conky/ folder. I don't think that matters, but I could be wrong. 
+
+Ran the following in place of my first command: 
+
+    ${execpi /etc/conky/gcal.sh}
+
+Which did nothing.  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2016-10-12 05:12:58 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Oh yeah, I guess that's a pretty good reason you recommended it. Thanks. </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2016-10-12 02:53:17 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Thank you, this solved it. Do you know why exactly? I knew I was probably missing something essential, but I didn't want to download all the bloatware of a normal Ubuntu.iso in order to fix it.  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2016-10-12 02:47:42 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Ah. I'm right there with you.  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2016-10-12 02:43:33 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Are you telling me there's a way to do this with a package manager? Because I would love to, except there isn't a way I've seen. 
+
+I have Synaptic, but keep Aptitude installed in case of dependency issues.  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> Can't install DuckieTV on Ubuntu Minimal </TITLE>
+	<DATE> 2016-10-11 08:22:33 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Built a very basic Ubuntu Minimal system with Openbox. Downloaded DuckieTV (x64 archive) from: https://github.com/DuckieTV/Nightlies/releases
+
+Extracted it to: 
+
+    /home/me
+
+Then: 
+
+    cd /home/me/DuckieTV
+    sudo ./setup 
+
+Seemed to run everything fine. Now: 
+
+    sudo DuckieTV
+
+Gives me: 
+
+    mkdir: cannot create directory /opt/DuckieTV/lib: File exists
+    /usr/bin/DuckieTV: error while loading shared libraries: libnss3.so: cannot open shared object file: No such file or directory
+
+I did the following to try and fix it: 
+
+    cd /home/me/DuckieTV
+    sudo ./setup --uninstall
+    sudo apt autoremove
+    sudo apt autoclean 
+
+Then ran the installation as I first specified. Same issue persists.  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2016-10-08 03:46:35 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> I don't understand how that could be causing my system to avoid booting to grub, though. 
+
+It's LVM if that matters. Used the encryption method that was offered during the minimal install process.  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> My system won't always boot to the grub menu. </TITLE>
+	<DATE> 2016-10-08 02:02:13 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Minimal Ubuntu with Openbox and a startx script. 
+
+It only boots to the grub menu to put in my encryption key half the time. The other half, I have to restart and press F12 at startup to boot specifically from my hard drive, despite my HDD being set as the first boot priority. 
+
+Won't run at all if I run UEFI only, but running Legacy or Both it gives me this issue. Being able to boot into UEFI isn't a concern for me, just giving what information I can. 
+
+If needed I can outline the install process I took on this old Lenovo ThinkPad x220, as I made it as minimal and simplistic as possible.  </TEXT>
+</WRITING>
+</INDIVIDUAL>

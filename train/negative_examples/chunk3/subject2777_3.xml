@@ -1,0 +1,313 @@
+<INDIVIDUAL>
+<ID>subject2777</ID>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2016-12-25 09:47:05 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Where's the Kofi spot? </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2016-12-24 23:58:11 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> "Kinda sucks"
+
+Riiight. </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2016-12-24 22:49:00 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> 3 </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2016-12-24 22:44:10 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Great Furnace, Lotus Petal, Mox Opal, Lightning Bolt, Chain Lightning, Lava Spike, Gut Shot. </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2016-12-24 21:56:07 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> If it's becoming sentient, you should probably see a doctor. </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2016-12-24 21:43:40 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> The way I understand it is that according to WOTC's definition of functionality, Snow Duals WOULD be identical to Alpha Duals.  From the Official Reprint Policy:
+
+ Reserved cards will never be printed again in a functionally identical form. A card is considered functionally identical to another card if it has the same card type, subtypes, abilities, mana cost, power, and toughness.
+
+[link](http://magic.wizards.com/en/articles/archive/official-reprint-policy-2010-03-10)
+
+Notice that this list of relevant characteristics does not include Supertypes like Snow or Legendary. </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2016-12-24 07:38:02 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> That kinda defeats the point. </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2016-12-24 07:30:07 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Stormstorm Crow? </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2016-12-23 21:51:58 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Zurgo vs Bladewing is also a battle of second versions. </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2016-12-23 13:56:16 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Captain Tickles, Captain Tickles, swinging in the red zone for my team. </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2016-12-23 06:00:20 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> I'd still vote for Quirion Trailblazer over Wild Wanderer if ot came in The Magic Bracket. </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2016-12-21 15:24:07 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> ELI5 how Judge foils are distributed and the rate they hit the market. Specifically I want the new Mystic Confluence. I see a couple on eBay already with $50 starting bids, but my observation on a couple past cards is that they start very high (For instance I believe both Force of Will and Mana Drain were double their current prices).
+
+TLDR: When will Mystic Confluence be $25? </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2016-12-21 07:57:25 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Damn I love how you just errata all the white creatures to be rebels. </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2016-12-20 22:16:48 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> I have two stories from the Modern Gauntlet after PTOGW, that highlight the quirks of MTGO play.
+
+1) It's a long game of Company vs Chord. My opponent has Spike Feeder, I have Murderous Redcap. They topdeck Archangel of Thune, gain a bunch of life and pass the turn threatening lethal with the Angel. I topdeck Collected Company and find Melira and Viscera Seer. If it were paper I would win this game because I begin my combo and the first thing I do is kill the Spike. My opponent could gain a bunch of life before it dies but that fine because I would then deal them infinite damage. What happened here though was that my opponent gained like 600 life before his Spike died.  If you're familiar wiith these combos on MTGO you'll know that the Spike/Angel combo involves far fewer clicks than the Melira/sac/persist combo, in particular because you can actually yield to the triggers in the former.  So basically my opponent was playing the clock by executing their faster combo 300 times, where my way out would be to execute my more clunkier combo 300 times as well. I decided to go for it rather than concede and got about 50 iterations in before I made a mistake.  I don't begrudge my opponent though, I think it was a smart thing to do.
+
+2) My opponent cast Scapeshift and I'm dead to rites. I think to myself "maybe they'll accidentally click the wrong thing and just sac all their lands"--and then it happened! They asked me to concede but I think that would've been an insult to the universe obliging my thoughts there. </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2016-12-20 05:45:05 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> (If you assume the damage needs to be dealt in increments of 9, the formula I find below is quite nice.  It will give an overestimation some of the time, but it shouldn't be by too much.)
+
+Cast Breya. Sac her and a token. Cast again. Sac two tokens. Sac Breya and a token.
+
+That's 9 damage for 16 mana. (4+2+(4+2)+2+2)
+
+If you want to repeat this process it costs an additional 6 mana each time. So the second 9 damage costs 22 mana, the third 9 damage costs 28 mana, and so on. This gives us an arithmetic sequence (an ordered list):
+
+ 16, 22, 28, 34, 40, 46, . . .
+
+Let's say we need to deal 45 damage. This will cost us 16+22+28+34+40=140 mana. You may notice that 45 is the fifth multiple of 9 and that we added up the first 5 numbers in the list.  In general, the sum of the first N terms of an arithmetic sequence can actually be found quickly by this equation:
+
+S_N =N[a_1 +a_N ]/2
+
+where a_N is the Nth term in the list above (For example, a_5 =40). a_N can also be found by the formula
+
+ a_N =a_1+D(N-1)
+
+where D is the difference in each number in the list. For us D=6.
+
+Using these facts we get
+
+ S_N =N[16+16+6(N-1)]/2
+
+which simplifes to the mana-formula we want **(TLDR:)**
+
+ S_N =13N+3N^2 
+
+[Note] to get N: Round each opponents life up to a multiple of 3; add up those numbers and then divide by nine; round up to the nearest integer to get N.
+
+Let's do an example. Say we have three opponents at 21, 34 and 83 life.  Round these numbers to 21, 36 and 84. Then 21+36+84=141. Then 141/9 =15.67 so we round up to get N=16. Then we just use the formula to find out how much mana we need:
+
+ S_16 =13(16)+3(16)^2 =976 </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2016-12-19 11:13:06 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> I almost accidentally didn't vote for Deep Analysis.  The Torment version has one of my favorite flavor texts. </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2016-12-18 10:59:24 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Siege Rhino so good he's even insulated from his controller's mistakes. </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2016-12-17 11:35:39 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> That's Rogue Two :P </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2016-12-17 01:02:27 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Inb4 Pack Rat is Mythic in MMA17 </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2016-12-16 04:49:51 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> I like the design space the second ability is exploring, granting feelings. </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2016-12-14 12:43:44 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Tbf, it's still weird to me that me and my opponent could have the same card. </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2016-12-14 10:44:26 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Is Crosis's Attendant Ironman? </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2016-12-13 22:59:15 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> That shortlist wasn't as short as I thought it'd be. </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2016-12-13 08:56:00 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> I like to keep playsets in penny sleeves. </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2016-12-13 08:36:01 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> My friend like to joke along the same line that Goyf has been "pre-printed" and reprinted, but never printed. </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2016-12-11 21:40:00 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> I didn't realize Eldritch Evolution exiled itself and I kept wondering why no one had thought to go from 3 to 7 just by having a Goblin Dark Dwellers in their deck. </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2016-12-10 03:18:43 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> It's creepy and it's cooky . . . </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2016-12-09 22:27:46 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Is this in the same vein as Living Twin? </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2016-12-08 20:46:38 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Don't call me . . . </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2016-12-08 20:45:58 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> In contrast, I once had five Darkheart Slivers in 3x Planar Chaos draft with no other slivers. It doesn't exactly synergize with itself.  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2016-12-07 19:10:36 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> What is slush art? </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2016-12-07 12:09:31 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Maybe the progression should be untap draw upkeep. The first two are so natural to start the turn with once you've played a while. Is there any reason this would be a bad idea? </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2016-12-07 11:51:43 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Looks like Gloom has errata to affect all white enchantments. </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2016-12-06 21:11:20 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> "Then take a breath" </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2016-12-06 11:25:25 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Fire Dragon is so basic, I love it.
+
+I like Auriok Gaivemaster's style, flipping off Halimar Wavewatch, who's just looking away wantin' none of that.
+
+Also voting for Kami of the Painted Road because it reminds me of Thing from the Adams Family. Sorry Hootie.
+
+Toughest vote for me so far is Cryoclasm vs Resounding Thunder.  The former was sweet in a world of shock lands, but I do enjoy the design of "cycling for more".
+
+I should probably vote for Storage Matrix, but isn't Messenger Drake just everything I want in a Magic card?
+
+SWAMP! </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2016-12-06 10:12:25 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Why is this not a rebel? </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2016-12-06 07:20:54 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> If you have multiple copies of this card, Nicol will get an extra counter for each. </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2016-12-05 23:53:10 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> My friend has conspiracies in his Cube. Last time we played I got Sovereign's Realm and Worldknit first two picks, along with exactly 3 other conspiracies. It was glorious. </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2016-12-05 10:37:48 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> This was years ago. My roommate cast Terastadon, I play Gather Specimens in response. I get the 9/9 and use the trigger to destroy three of his things, then I also get the tokens.
+
+We don't live together anymore. </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2016-12-05 03:25:29 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> I was just thinking today during an edh game that I needed a double wide playmat. </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2016-12-05 03:17:28 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Let's just get rid of pile-shuffling altogether. If you want to count your deck, then just count it--it takes me 15 seconds. </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2016-12-04 12:24:26 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> The opponent could just tap all their lands in response to Piracy, right? </TEXT>
+</WRITING>
+</INDIVIDUAL>

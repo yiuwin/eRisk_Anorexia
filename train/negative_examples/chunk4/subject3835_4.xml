@@ -1,0 +1,1546 @@
+<INDIVIDUAL>
+<ID>subject3835</ID>
+<WRITING>
+	<TITLE> I wrote a python script to attempt the Collatz conjecture (link inside) - any pointers to improve my algorithm efficiency? </TITLE>
+	<DATE> 2016-08-08 21:57:08 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> The [Collatz Conjecture](https://en.wikipedia.org/wiki/Collatz_conjecture) states that any seed to the following algorithm will aways eventually lead to the number 1. The algorithm is repeated, always feeding the output back in as the next input.
+
+   * if the number is even, divide it by two
+   * if the number is odd, multiply by three and add 1
+
+Any seed (starting number) will eventually lead to the loop 1-4-2-1, and maths has checked all seeds up to 2^60.
+
+I had a go at checking seeds, and started using Threading to add a little multithreading but I'm VERY new to parallel algorithms so I expect there's a lot I could do in that area. I don't think there's a huge amount I can do in terms of streamlining the algorithm though. I'm currently checking around 4886 numbers per second (on my i7 5600U; I'll move execution to my i5 4690k overnight to see what happens. I'm obviously not expecting to make any actual mathematical progress with this, it's more just for fun and a learning excersise. At my current execution rate it'd take me 4 million years to catch up with the current number of checks that have been done... so like I said, it's purely for fun!) 
+
+Here's my current code:
+
+    import threading
+    import time
+
+    known_fails = set()
+
+    current_test = 1
+
+    def test(i):
+        result = i
+        while result != 1:
+            known_fails.add(result)
+            result = next_iteration(result)
+
+
+    def next_iteration(i):
+        if (i%2)==0: # num is even
+            r = i//2 
+        else: # num is odd
+            r = (3*i+1)//2
+    
+        if r in known_fails:
+            return 1
+        else:
+            return r
+
+    def next_test(i):
+        while True:
+            if i in known_fails:
+                i+=1
+            else:
+                return i
+
+    class print_to_file(threading.Thread): # make note of progress
+        def run(self):
+            while True:
+                f=open("numbers.txt", "w")
+                f.write(str(current_test) + "\n")
+                f.close()
+                time.sleep(10)
+
+    task = print_to_file().start()
+    while True:
+        current_test = next_test(current_test)
+        test(current_test)
+        print(current_test)
+        known_fails.add(current_test)  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> I am a god </TITLE>
+	<DATE> 2016-08-07 13:22:46 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT>  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> Did you hear the one about the ugly disabled singer? | David Mitchell </TITLE>
+	<DATE> 2016-08-07 12:10:57 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT>  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> PsBattle: Hillary Duff giving a thumbs up </TITLE>
+	<DATE> 2016-08-05 11:16:18 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT>  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> Is there a peripheral to "read" the commands from my apple earpods and relay play/pause commands to my computer? </TITLE>
+	<DATE> 2016-08-04 14:54:45 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> I'm imagining perhaps a USB to 3.5mm active adapter which recognises when I click the middle button on my apple earpods (or other earphones with volume and play/pause buttons). Is this a thing? Surely it must exist. All I want is to be able to control volume and play/pause music with the dedicated control panel on my earphones which is currently useless! I know for a fact there's an OS api (or whatever) for it because my bluetooth headphones' play/pause/volume buttons work great. </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> What question would you love to know the answer to, but it would be illegal to find out? </TITLE>
+	<DATE> 2016-07-30 12:18:33 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT>  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> PsBattle: Ellen 'Miring Katy Perry </TITLE>
+	<DATE> 2016-07-29 10:47:11 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT>  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> What's your "secret to happiness"? What makes you happy in life? </TITLE>
+	<DATE> 2016-07-25 12:32:06 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT>  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> What word/phrase does everyone think has a different meaning to its actual definition? </TITLE>
+	<DATE> 2016-07-18 17:03:35 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT>  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> Jump </TITLE>
+	<DATE> 2016-07-10 17:16:34 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT>  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> overview for ahsan145ali </TITLE>
+	<DATE> 2016-07-02 14:51:05 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT>  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> Why is your job different to how most people imagine/perceive it? </TITLE>
+	<DATE> 2016-06-30 12:01:19 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT>  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> Fanboys </TITLE>
+	<DATE> 2016-06-29 21:23:14 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT>  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> Kerning </TITLE>
+	<DATE> 2016-06-29 17:17:43 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT>  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> A rare sight: the empty Aperture warehouse </TITLE>
+	<DATE> 2016-06-27 21:44:34 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT>  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> Unicorns Killed my Girlfriend </TITLE>
+	<DATE> 2016-06-24 11:22:23 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT>  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> A swarm of wasps took an interest in my co-worker's car </TITLE>
+	<DATE> 2016-06-21 14:47:06 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT>  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> What's the best game for getting exercise? </TITLE>
+	<DATE> 2016-06-19 17:50:13 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> I've played Space Pirate Trainer a fair bit and notice that I can work up quite a sweat while running around and dodging lasers. This got me thinking that the Vive could be a great opportunity to burn a few extra calories and have some fun at the same time (like the Wii *tried* to do.. and sort-of-ish worked a bit sometimes maybe). So what are some other games where you can "accidentally" work up a decent sweat?  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> Can it be a thing that the game automatically pauses if the headset loses tracking? </TITLE>
+	<DATE> 2016-06-19 17:33:02 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> More than a couple of times, I've pulled out the wire with my foot, or one of the controllers loses tracking or something, and I've subsequently lost all the progress in the game I was playing. It just happened today where I was very close to beating my highscore in longbow, then out yanked the wire as I moved my foot and my gate was immediately destroyed because I couldn't pause the game. 
+
+Surely the game should recognise that the headset has lost tracking and pause for you? Has this happened to anyone else? </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> [light] Is it really possible for a tree to own land? </TITLE>
+	<DATE> 2016-06-17 11:15:35 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Regarding the story in the link below.. I'm very skeptical. For example, someone could "invade" that land and claim it as their own and nobody wouldn challenge them because the "owner" can't issue legal proceedings against them. I just have incredible trouble believing that a tree can own land. Surely there's a clause somewhere that says only people can own things.
+
+Although the post is in the US, but I'd be interested in hearing whether this is possible anywhere.
+
+https://np.reddit.com/r/interestingasfuck/comments/4oeno7/the_tree_that_owns_itself/
+
+So is this another internet fable or is there a genuine nugget of truth? </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> Is it possible to open a game in my headset and disable the "desktop" view so that ONLY that game can be played? </TITLE>
+	<DATE> 2016-06-15 21:23:33 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> I want to let my brother use my Vive when I'm not, but he's got a history of going through my stuff and doing weary "trolls" like leaving my browser open on gay porn and changing my desktop background.
+
+I don't want to have to supervise him while he uses it - I'd like to be able to go off and do my own thing while he does - but I don't want him having access to anything outside the game I leave him with, and maybe Steam too to switch games. Especially not my whole unlocked computer. Is this possible?
+ </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> Redditors who fix computers - what was the simplest "problem" a customer brought for you to fix? </TITLE>
+	<DATE> 2016-06-15 13:32:25 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT>  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> How are you unique? </TITLE>
+	<DATE> 2016-06-14 14:17:22 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT>  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> Redditors who have hired someone, how did you choose who to hire from the candidates? Did you make the right choice? </TITLE>
+	<DATE> 2016-06-14 12:34:04 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT>  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> The solution to Grey's Euro truck needs! </TITLE>
+	<DATE> 2016-06-13 00:09:34 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT>  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> How is the base of a mountain defined when measuring how tall it is? </TITLE>
+	<DATE> 2016-06-12 16:03:25 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> When "they" measure how tall mountains are, how do they decide where the bottom is? I know about how they measure how tall it is with satellietes and radar and clever triangulation, but all that is to determine exactly where the top is.. But where's the bottom? The base just sort of merges with the landscape, so how do they decide which parts are mountain and which parts are just surrounding land? Where's the line drawn? </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> Gymnastics </TITLE>
+	<DATE> 2016-06-11 20:25:28 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT>  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> Can we please remove the ability for a moderator to mark their own posts as spam? </TITLE>
+	<DATE> 2016-06-11 18:48:15 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> I very nearly just marked my own submission as spam. I can't see any situation that you'd ever want to do this, so can we remove the option please? Although a minor point, I don't think it's a good idea to allow mods to indicate to the spam filter that their own posts are spammy. This could easily be abused if the account was hacked (although again, you'd have bigger worries if your account was hacked) and could end up with accidents like I nearly had. Unless there's some use for it being there, I think the button should be removed.
+
+Just for clarity, I should reiterate them I'm **only** talking about the "Spam" button under my own comments/submissions. Obviously moderators should be able to spam anybody else's stuff, just not their own. </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> I won The Auracle's Sleep Headphones competition last week, so I took some quick photos of my "unboxing" to show you what I won. Thanks The Auracle :D [fluff] </TITLE>
+	<DATE> 2016-06-11 18:38:46 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT>  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> overview for puhvc - nothing but pushing his own website </TITLE>
+	<DATE> 2016-06-10 16:00:57 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT>  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> overview for Cranky_Wizard (twenty submissions in ten minutes) </TITLE>
+	<DATE> 2016-06-06 00:38:03 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT>  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> overview for jacklam08 (spamming links to his kickstarter everywhere) </TITLE>
+	<DATE> 2016-06-03 15:00:21 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT>  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> [Poetry] The Most dangerous device in the world </TITLE>
+	<DATE> 2016-06-03 14:14:54 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT>  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> I need a great game demo to show off the Vive to my Gran, who is old and therefore not agile or quick </TITLE>
+	<DATE> 2016-05-31 00:17:16 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> My Vive will arrive in a few weeks and I'm looking into games for it. I promised to show it to my Gran who is quite old but was enthusiastic to give it a try. She can't really do any games which require speed or precision or nimbleness or quick reaction times. The human body demo in the steam workshop is perfect, as is the catapult game in the Portal factory. She couldn't for example do the space invaders game with the blaster and the shield you pull from over your shoulder (I love that one! I tried it in Scan's in-store demo). The archery game (which I also LOVED) also wouldn't really be possible for her, as another example. 
+
+Ideally I'd like something creative, like some sort of sandbox, but any suggestions at all would be welcome.  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> [help] How much would you (honestly) value my build? </TITLE>
+	<DATE> 2016-05-28 23:10:58 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Here are my specs. How much would you say it's worth today?
+
+Processor: Intel i5-4690K overclocked to 4.3GHz
+
+Cooling: Cooler Master Hyper 212 EVO single fan
+
+Memory: 8GB DDR3 2133MHz
+
+Motherboard: MSI Gaming 5 Z97 Full-ITX (in-built networking, sound card, USB ports, video out etc)
+
+Graphics: Nvidia GTX 960 (MSI)
+
+Storage: 256GB OCZ SSD + 2TB WD HDD
+
+PSU: 550W (80+ Gold Rated)
+
+OS: Windows 10
+
+Bluetooth + Wifi card
+
+Total of 8x USB ports (6x USB3.0, 2x USB 2. Room for further USB expansion on MB)
+
+2x 120mm fans (one front intake, one rear exhaust)
+
+Internal Red LEDs (looks awesome :D )
+
+I'm ***thinking of*** selling it to start a fresh build so I'd like to know how much it's depreciated since I built it last July. </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> How much would you (honestly) value my build? </TITLE>
+	<DATE> 2016-05-28 23:09:32 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Here are my specs. How much would you say it's worth today?
+
+Processor: Intel i5-4690K overclocked to 4.3GHz
+
+Cooling: Cooler Master Hyper 212 EVO single fan
+
+Memory: 8GB DDR3 2133MHz
+
+Motherboard: MSI Gaming 5 Z97 Full-ITX (in-built networking, sound card, USB ports, video out etc)
+
+Graphics: Nvidia GTX 960 (MSI)
+
+Storage: 256GB OCZ SSD + 2TB WD HDD
+
+PSU: 550W (80+ Gold Rated)
+
+OS: Windows 10
+
+Bluetooth + Wifi card
+
+Total of 8x USB ports (6x USB3.0, 2x USB 2. Room for further USB expansion on MB)
+
+2x 120mm fans (one front intake, one rear exhaust)
+
+Internal Red LEDs (looks awesome :D )
+
+I'm ***thinking of*** selling it to start a fresh build so I'd like to know how much it's depreciated since I built it last July. </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> Anyone else getting "This driver is not compatible with this version of Windows" for their GTX 1080 installing on Windows 10? </TITLE>
+	<DATE> 2016-05-27 22:21:46 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> I've downloaded the correct driver from the Nvidia website (win10 64 bit gtx 1080 driver) and it failed to install because it's "not compatible with this version of windows". I downloaded the GeForce Experience program and had it automatically detect and install the driver for me, and got the same error. Weird.
+Anyone else?
+Update: the windows 8.1 driver give the same error. </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> I was very disappointed to see that the MSI version of the GTX 1080 will have a memory clock speed of just eighteen MHz </TITLE>
+	<DATE> 2016-05-24 11:48:45 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT>  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> Mod of 110k+ subreddit with lots of experience with Automod and custom bot mods. Looking to mod your subreddit! </TITLE>
+	<DATE> 2016-05-22 22:46:35 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> I can make a killer python bot or configure automoderator to do your bidding, but I have very little experience with CSS so I can't do stylesheets. I've got a year of modding experience on a medium-sized subreddit (/r/asmr) so I'm very familiar with all the mod tools. I'm not really interested in modding low-traffic or small subreddits since there probably won't be much to do. </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> (The Auracle) Live stream 21st May with whispering, tapping etc [intentional] [female] [British accent] </TITLE>
+	<DATE> 2016-05-22 16:08:52 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT>  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> [Serious] What are you insecure about? </TITLE>
+	<DATE> 2016-05-17 11:06:15 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT>  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> Movie-watchers of reddit: In your opinion, what is the most underrated movie? </TITLE>
+	<DATE> 2016-05-17 10:40:15 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT>  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> Apple and Google disagree about the length of a year </TITLE>
+	<DATE> 2016-05-16 15:57:38 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT>  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> "Jar Jar was my favourite character" - Hillary Clinton, 2016 </TITLE>
+	<DATE> 2016-05-16 14:35:03 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT>  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> Google and Apple disagree about the length of a year </TITLE>
+	<DATE> 2016-05-15 17:40:00 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT>  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> Why even bother replying to my message? </TITLE>
+	<DATE> 2016-05-14 12:59:39 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Fuck off you ratty piece of shit, if you aren't even going to make one singular attempt at making sense then why even bother replying to my message? I didn't even originally reply to you anyway, so at least if /u/GlobalProsperity replied some complete gibberish I would at least sort of on this here day understand, but you doing it with just some stupid idiotic boardgame that I threw away the instant I got it you can go shit yourself you fucking cunt.
+Please do not reply, you have already on this here day made a decent attempt at purely aggravating me for what seems to be no apparent reason other than just to rustle some jimmies. I've lived a good life and I hope that you get to see how you have wronged me and to overcome it through the good words of our savior Jesus Christ, amen. </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> I'm interested in hosting a simple utility to format strings - what would be the best way to do this? </TITLE>
+	<DATE> 2016-05-13 12:15:33 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> I work with a bit of software which uses some custom scripting, but the scripts are capped at 15,000 characters (please don't ask why). As such sometimes its necessary to look through the script and save characters wherever possible - strip out comments, reduce spacing/indentation etc - to reclaim characters for use with actual commands. This is pretty time-consuming and I reckon I could write something to automate it! It would just be some basic text processing/regex stuff, which I have a fair amount of experience in.
+
+I'd like to host it as a simple web service. I'm imagining something very similar to [this site](http://text-compare.com/), with a large text area for pasting input into, and a large text area in which the output will appear. I've never really done any web development before, however (I did a module in uni where I wrote some basic html/css/js so I know the very basic ideas.. but I'm effectively a newbie).
+
+If I were doing it locally I'd do it in python without even thinking. I've got a lot of experience in python and could do it no problem. What I'm wondering is, would I be able to **easily** do it in python via a web service, or would you recommend some other language/method? What I'm imagining is that I'll get a domain name (probably from Hover) and host it via squarespace, then I'll have a bit of js which calls my python script with the input from the text area, and puts the output onto the webpage (or even better onto the clipboard). I doubt that I'd be able to get it to run entirely client-side though, which would be greatly preferable. 
+
+As I said I've never done any web development before so please feel free to tell me this is a dumb idea, or suggest anything that might be better. At the moment it's just an idea, so I'd be open to any suggestions/improvements to my concept. </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> PsBattle: Boris Johnson pointing at a brick </TITLE>
+	<DATE> 2016-05-12 12:21:14 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT>  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> Redditors who aren't famous: what's your very tenuous claim to fame? </TITLE>
+	<DATE> 2016-05-11 12:26:59 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT>  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> PsBattle: Boris Johnson pointing at a brick </TITLE>
+	<DATE> 2016-05-10 18:54:08 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT>  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> The nvidia team got into an argument on stage during the reveal of their new product (starts at 1:25:05) </TITLE>
+	<DATE> 2016-05-07 11:53:30 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT>  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> What object is incredibly valuable to you, but worthless to anybody else? [serious] </TITLE>
+	<DATE> 2016-05-03 12:50:57 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT>  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> Aladdin </TITLE>
+	<DATE> 2016-05-03 11:56:17 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT>  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> Look at this anarchy that I totally did. </TITLE>
+	<DATE> 2016-05-03 11:28:23 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT>  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> Does anyone know anything about a coach fire on the M62 this evening? (02/05/16) </TITLE>
+	<DATE> 2016-05-03 00:50:35 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> I was driving eastbound on the M62 around 6:30pm (+/- 1 hour..ish.) and a coach just randomly caught fire in front of me. It started with just a lick of flame near the bottom at the centre on the back, but there were some worryingly big flames pretty quickly. Crazy. It pulled over on the hard shoulder and that's the last I saw of it as I drove past. ROUGHLY [here](https://www.google.co.uk/maps/place/53%C2%B038'16.6%22N+1%C2%B058'32.6%22W/@53.6372805,-1.9794491,15.5z/data=!4m2!3m1!1s0x0:0x0) +/- a few miles (around rochdale I THINK).
+
+I tried a few news searches but didn't find anything. Does anyone know anything about what happened? I'm guessing I'd have found it in my searches if it was anything serious (i.e.deaths), so I guess it worked out ok. The coach had a load of people on it as far as I saw. I'd just be interested if anyone's heard anything. </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> What object is incredibly valuable to you, but worthless to anybody else? [serious] </TITLE>
+	<DATE> 2016-05-02 21:28:52 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT>  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> Cube </TITLE>
+	<DATE> 2016-05-01 17:50:23 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT>  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> [unintentional] Ars Technica's review of the Oculus Rift </TITLE>
+	<DATE> 2016-05-01 15:44:29 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT>  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> [PRAW] Could someone explain how the fetch=True parameter works? It doesn't seem to work for me. </TITLE>
+	<DATE> 2016-05-01 13:47:03 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> For example:
+
+     r = login()
+     me = r.get_me()
+     comments = me.comments(limit=500, fetch=True)
+     comments
+    generator object get_content at 0x03292C90
+     comments = list(comments)
+     len(comments)
+    500
+
+It seems to ignore the fetch=True parameter, just returning a generator object instead of actually fetching the data. I can never get it to work, and I can only usually fetch content by listing it from a generator object. All of my fetches look like:
+
+    submissions = list(r.get_subreddit("xxx").get_new(limit=250))
+
+because omitting the list results in various errors because the generator object doesn't fetch the data when I try to access it. Looping through it works fine, but trying to access a single item never does:
+
+     sub = r.get_subreddit("asmr")
+     submissions = sub.get_new(limit=250, fetch=True)
+     submissions
+    generator object get_content at 0x03292C60
+     submissions[0].title
+    Traceback (most recent call last):
+      File "stdin", line 1, in module
+    TypeError: 'generator' object is not subscriptable
+    
+     for s in submissions:
+    ...     print(s.title) #works fine
+    ...
+
+
+
+Am I doing something wrong?
+     </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> How to communicate between developers and management </TITLE>
+	<DATE> 2016-04-30 19:25:45 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT>  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> A physics demonstration of a machine with wheels and a ruler [male][attention to detail][physics] [unintentional] </TITLE>
+	<DATE> 2016-04-29 22:19:09 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT>  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> Last week's Reconcilable Differences podcast started off with an imprompu discussion of ASMR [media] </TITLE>
+	<DATE> 2016-04-29 13:31:54 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT>  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> (Nature flight) Describing a Safe Space [female] [intentional] [softly spoken] </TITLE>
+	<DATE> 2016-04-27 23:56:42 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT>  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> (The Auracle) Close up Eating Dried Figs [Mouth Sounds] [crinkles] [intentional] [female] </TITLE>
+	<DATE> 2016-04-27 12:12:34 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT>  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> What's the first joke you understood in a different language? </TITLE>
+	<DATE> 2016-04-26 20:37:00 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT>  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> What sounds like a great idea at first, but turns out to be a terrible idea in practice? </TITLE>
+	<DATE> 2016-04-26 15:58:49 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT>  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> The Wasting Battle - Swedish Humour - Vaskduellen </TITLE>
+	<DATE> 2016-04-25 16:50:38 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT>  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> What isn't intended as food, but actually tastes great? </TITLE>
+	<DATE> 2016-04-24 17:47:15 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT>  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> I'm not sure how well-known it is, but learnxinyminutes was invaluable to me to quickly pick up the basics of a new language </TITLE>
+	<DATE> 2016-04-24 16:23:34 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> It assumes you've already got experience in programming in general, but it just lays out the basic ideas for you when you're learning a new programming language. I use it all the time as a reference when I think "oh what was the syntax for declaring this thing again..?"
+
+www.learnxinyminutes.com
+
+I'm not sure how well-known it is, but it's so incredibly useful to me so I thought I'd share it in case you've not heard of it :) </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> If you could give your brain a software update, what bugs would you fix and what features would you add? </TITLE>
+	<DATE> 2016-04-23 00:19:40 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT>  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> [Request] Desktop sites by default on iPhone </TITLE>
+	<DATE> 2016-04-22 15:11:43 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> I use the reddit website a lot on my phone. Yes, I've tried all the apps. But I prefer the desktop website because reasons.
+
+However in the last day or so reddit have defaulted to the mobile site, meaning after every link I click I need to go to `share - request desktop site`, because out of all of the mobile apps and terrible experiences I've had, none are equalled by the complete and utter shittyness of the m.reddit.com experience. It's literally unusable. 
+
+I've found that many website that offer a "mobile site" tend to do an awful job, and I almost always prefer to browse the desktop site. 
+
+I imagine it should be easy to include a desktop site request every time a page is loaded with safari? Does this tweak exist? If not, would someone be willing to make it? I'd pay quite a lot for this. I'm sick of mobile sites. </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> What's your favourite TED talk? </TITLE>
+	<DATE> 2016-04-20 23:05:23 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT>  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> [PRAW] - when removing a submission, I get "AttributeError: 'Session' object has no attribute 'validate_certs'" - Any ideas? </TITLE>
+	<DATE> 2016-04-19 22:48:48 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT>     sublist = data["userSubmissions"][submission.author.name]
+    for s in sublist:
+        submissionlinks += s.permalink + "\n\n"
+        s.remove(False)
+
+The line `s.remove(False)` is giving the exception in the title - `AttributeError: 'Session' object has no attribute 'validate_certs'`. The submission isn't already removed or deleted, and the script is logged in as a moderator using the oauth2 login.
+
+`data` is a [Shelve](https://docs.python.org/3.5/library/shelve.html) object (basically a dict but lives on disk instead of in memory. I said basically please don't kill me).
+
+`data["userSubmissions"]` is a dict with usernames as keys and a list of Submission objects as a value. I've checked that the submission objects in here are correct far more than is rational.
+
+`data["userSubmissions"][submission.author.name]` is a list of submission objects submitted recently by a single user to a single subreddit. Again, I've checked far more than is rational that this list is correct. I know for a fact that `s` is not the problem because line 3 in my example adds the correct permalink to `submissionlinks`, so the Submission object is fine. I've also inspected it using Visual Studio's fantastic debugging tools, and again found no problems.
+
+I have other lines elsewhere in my script that say `submission.remove(False)` and they work perfectly. I've tried `s.remove()` and `s.remove(True)`, but it's not my line of code that's failing - it's PRAW's, and I don't know why. 
+
+My full stack trace is [here](http://i.imgur.com/2fcUwFQ.jpg). All I can conclude is that this is an issue with PRAW. I've run the code multiple times and that one line keeps giving that same exception. I'm completely stuck, and any help would be greatly appreciated.
+
+I'm using python 3.5.1 on Windows 7, with the latest (non-beta) version of PRAW, as confirmed by `pip install praw --upgrade` </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> [question] test post please ignore? </TITLE>
+	<DATE> 2016-04-19 14:44:47 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT>  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> [intentional] test post please ignore </TITLE>
+	<DATE> 2016-04-19 14:43:52 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> [removed] </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> What's the greatest piece of design you know of? </TITLE>
+	<DATE> 2016-04-18 23:47:35 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT>  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> What's the greatest piece of design you know of? </TITLE>
+	<DATE> 2016-04-18 20:23:41 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT>  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> [Request] Custom settings toggles via activator gesture / homescreen shortcut / control centre button? </TITLE>
+	<DATE> 2016-04-18 14:05:08 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> I'd like to be able to toggle a defined setting without having to find it in the settings menu, by either an icon on the homescreen, an activator gesture, or a control/notification centre button/widget. For example, I'd like to toggle the screen autolock between "never" and "1 minute", which is something I do somewhat frequently (long story), but every time I do it I have to go to e.g. settings  general  auto-lock  1 minute, which is a lot of steps for a frequently-used setting. It'd be cool to be ale to do that from the homescreen. I'm thinking that a notification banner is displayed when it's toggled to confirm the action.
+
+I'd also like to generalise the process to allow any toggle to be flipped though. 
+
+Is this possible with an existing tweak? Or would it be simple to create? </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> How can I import custom scripts by just their name rather than their filepath? </TITLE>
+	<DATE> 2016-04-18 11:53:55 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> I want to be able to start a python script in any location on my disk, including the command line interpreter, and just have an `import my_script` statement at the top, rather than have to `import c:/users/subject3835/python/my_script.py` or similar. Is there somewhere I can put the script to allow me to import it by just its filename? </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> [request] What are the best things available in the US Netflix but not in the UK? </TITLE>
+	<DATE> 2016-04-18 10:46:45 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT>  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> What's the most embarrassing thing about your country? </TITLE>
+	<DATE> 2016-04-16 20:23:33 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT>  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> I installed a bluetooth/wifi card into my custom build with windows 10. The wifi works but the bluetooth doesn't exist. Any ideas? </TITLE>
+	<DATE> 2016-04-15 22:32:14 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> The bluetooth/wifi card is a Gigabyte GC-WB867DI (I remember because of the catchy name). It came with a disk, which ran [this installation software](http://i.imgur.com/OHEvkoK.jpg). I started by installing the Killer drivers, and when they didn't work I did the Intel ones. The wiki works great, but I can't find any bluetooth options at all (Windows 10), which seems to be what happens when you don't have a driver installed. 
+Device Manager shows no bluetooth devices installed. 
+
+I'm using an MSI Gaming 5 motherboard, which comes with this crazy Killer Networking bloatware which seems to be doing some shit with my internet traffic to "manage" it, however I attempted to get rid of it when I'd first built the pc, which made all networking stop working, so I put it back.
+
+It could be I'm just not finding the right bluetooth switch, although I doubt it. If I go to Windows  Settings  Devices (bluetooth, printers, mouse)  connected devices, there's no mention of bluetooth anything. Searching for bluetooth options yields no results.
+
+I'd assume it was a hardware problem if the wifi wasn't working..
+
+I've re-installed the drivers from the CD more times than I can count, so that's definitely not the problem. Any ideas? Please feel free to assume that I'm an idiot and that I've missed something very basic if I've not mentioned it.  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> "Aren't I lucky?" - is this correct? </TITLE>
+	<DATE> 2016-04-15 16:40:57 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> I've never heard anybody say "Amn't" ever, and I'm sure it's not an acceptable word. But to say "aren't I", as in "Aren't I the one she told?" sounds incorrect. You'd say "Am I not the one..", but "aren't I the one" seems to be accepted. 
+
+My question is, is it actually incorrect to say "Aren't I..", and if so what's the correct way to say this? Perhaps there's just no valid contraction, and the correct phrasing is "Am I not.." </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> Is the menstruation cycle linked with the moon cycle somehow, or is their shared frequency a coincidence? </TITLE>
+	<DATE> 2016-04-13 11:19:27 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> [removed] </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> What's the worst thing that has happened to you as a result of somebody else's innocent mistake? </TITLE>
+	<DATE> 2016-04-12 21:40:19 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT>  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> What's the worst thing that has happened to you as a result of somebody else's innocent mistake? </TITLE>
+	<DATE> 2016-04-12 21:30:09 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> [removed] </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> You can't control me </TITLE>
+	<DATE> 2016-04-07 16:56:23 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT>  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> [S2] Could someone please give me a tl;dr of what happens in Series 1 2 of the show? </TITLE>
+	<DATE> 2016-04-05 16:32:24 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> I watched series 1 and 2 about a year ago, and I'd like to get back into it. But my options are:
+
+* begin where I left off, and have only a vague memory of the plot so far and probably lose interest because I don't know what's going on
+
+* begin at S01E01 and sink 30-odd hours into watching the first two series again, and probably being bored for a lot of it because I know bits of what happens, and risking losing interest because I know too much of what's going on
+
+So I'd like it if someone could point me toward a resource which gives an overview/tl;dr of what happens in series 1 2 without spoiling anything which happens in series 3+, so I can resume the series and enjoy it properly. Just the major/relevant plot points for the series. I don't know exact;y which episodes I watched, but I saw up to the [section of plot](#s "Red Wedding")
+
+---
+
+To avoid spoilers, as I've somehow managed to do for the past few years, my strategy for this thread will be to not look at it until a few days time. If I'm continually checking it, I risk some troll spoiling the rest of the plot, whereas if I check back at a random time over the next week or so, I'd hope any troll spoilers have been reported/removed/at least downvoted by that time. So please forgive me for not replying straight away. </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> ASMR Angel was featured on the UK panel show Would I Lie To You as the mystery guest [media] </TITLE>
+	<DATE> 2016-04-03 00:27:22 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT>  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> I'm out of control! </TITLE>
+	<DATE> 2016-04-01 14:33:17 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT>  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> I graduated with a 2:2 in Sports Journalism </TITLE>
+	<DATE> 2016-03-30 13:08:23 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> It would have been a 2:1 but they equalised at the last minute. </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> Ear to Ear whispered Countdown From 100 [female] [whispered] [intentional] [7:30] </TITLE>
+	<DATE> 2016-03-29 11:31:00 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT>  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> Redditor tells tells a story of raising $85k over a year to pay for Neil DeGrasse Tyson to lecture at their university, but he spent the time being an asshole and delivering a bad lecture </TITLE>
+	<DATE> 2016-03-25 23:41:48 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT>  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> I cut my jawbreaker in half </TITLE>
+	<DATE> 2016-03-23 19:05:53 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT>  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> [discussion] Who's your favourite up-and-coming/under-recognised/lesser-known content creator? </TITLE>
+	<DATE> 2016-03-17 00:39:21 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> I'm interested in discovering new CC's who're lesser-known or underrated. Who's your favourite? </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> Non-virgins of reddit: what's the worst sexual experience you've ever had? </TITLE>
+	<DATE> 2016-03-16 23:34:36 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT>  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> An explanation of the difference between binaural and stereo sound [male] [soft-spoken] [intentional] [11:49] </TITLE>
+	<DATE> 2016-03-14 15:34:01 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT>  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> Non-virgins of reddit: what's the worst sexual experience you've ever had? </TITLE>
+	<DATE> 2016-03-14 15:23:01 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT>  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> CGP Grey's Letter to Jake from Vsauce [Audio] </TITLE>
+	<DATE> 2016-03-11 16:40:32 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT>  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> [Request] Is there a tweak to reduce my data usage by selectively refusing to load webpage elements such as images? </TITLE>
+	<DATE> 2016-03-11 15:33:17 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Basically the title. I'm abroad and I'm charged 17p(~25c)/Mb - I'd still like to browse the web, eg Reddit/Wikipedia/Google etc while I'm not using the hotel's wifi, but there's a lot of data being wasted loading ads, images etc. Is there a tweak to help out by stopping those elements being loaded? I'm imagining something like Reader View but for every webpage. Is this a thing?
+
+Thanks :) </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> overview for MirrorNinja2 </TITLE>
+	<DATE> 2016-03-09 20:01:03 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT>  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> Oh boo-hoo, poor men </TITLE>
+	<DATE> 2016-03-09 19:47:26 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Oh boo-hoo, poor men. They finally find something women are naturally better at and feel bad that they don't get enough upvotes? 
+
+Men get enough already. All the presidential elections of US history, majority of high paying jobs, the patriarchy, more youtube subscriptions on average, and not to mention significant advantage in the dental field. 
+
+Can't cis women get ONE thing without you guys getting your boxers in a twist? I mean I'm over here STRUGGLING like hell to make it in the dentistry business but keep getting snubbed because they choose men over me. That's a real problem. 
+
+So go out and get your awesome dentistry jobs and have the patriarchy but just let us women enjoy one thing that we are actually good at. 
+
+---
+
+https://www.reddit.com/r/asmr/comments/49o9tg/discussion_with_the_exception_of_a_few/d0tj8fo
+
+https://web.archive.org/web/20160309184744/https://www.reddit.com/r/asmr/comments/49o9tg/discussion_with_the_exception_of_a_few/ </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> I'm travelling to Amsterdam at the weekend - can anyone suggest some great places to visit, things to do/see for free/cheap? </TITLE>
+	<DATE> 2016-03-09 16:01:04 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> [removed] </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> LPT: If you're looking for your cursor on the screen but can't find it, rather than wiggling it just right-click. This almost always bring up a nice big menu which will draw your eye to the cursor far better than a small wiggling movement. </TITLE>
+	<DATE> 2016-03-09 15:46:22 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> The "I can't find my cursor" wiggle is usually ineffective and can take *seconds* to find the cursor. Think of the productivity wasted in those precious seconds! 
+
+Instead, just right click to bring up the right-click menu. The big right-click menu is hard to miss, and much more visible than the slight wiggle of the mouse, usually the same colour as the background. Mac heathens can cmd-click for the same effect. It'll save you many milliseconds, possibly even seconds!
+
+Most windows keyboards come with a "right click button" between the spacebar and the arrow keys. You can even use this key if you don't even want to reach for your mouse, you lazy fuck.
+
+---
+
+This is particularly problematic on large screens - I believe that the cursor always remains the same pixel size, meaning that as you increase the resolution and physical size of your monitor, you decrease the relative size of the mouse (because it stays the same pixel size). This leads to lost cursors more often, in my experience anyway. </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> I'm travelling to Amsterdam at the weekend - can anyone suggest some great places to visit, things to do/see for free/cheap? </TITLE>
+	<DATE> 2016-03-09 15:31:00 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> [removed] </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> Police officers of reddit: how do people behave differently around you when you're in your uniform vs when you're off-duty? </TITLE>
+	<DATE> 2016-03-09 14:13:05 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT>  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> William Ledbetter's 'proposal' to his future stepdaughter </TITLE>
+	<DATE> 2016-03-08 19:02:49 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT>  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> A quick discussion about a "fastest growth" problem </TITLE>
+	<DATE> 2016-03-07 12:13:24 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> I was bored at work. VERY bored. Like **REALLY** bored. I was playing with some text and copy-pasting a single character to see how fast I could fill the screen on notepad. I basically started with one character (usually "a" - I don't know why.) and defined the following operations:
+
+    COPY  :-- CTRL-A, CTRL-C
+
+    PASTE :-- CTRL-V
+
+You'll notice that a copy takes two "steps", while a paste takes only one. My question is, what's the best algorithm to use to fill the screen in as few steps as possible? A copy exponentially increases the value of the subsequent pastes (because you copy EVERYTHING you've pasted so far), but has a cost of 2 and adds nothing to the file. A paste adds whatever was last copied to the file. You have to start with a copy and then a paste, because otherwise you wouldn't get anywhere, but after that I'm interested in what will cause the fastest growth. I'm thinking that for this particular setup the optimum algorithm is probably COPY, PASTE, PASTE, REPEAT, but I have no evidence for this at all. I'd be interested in something more formal to prove it. 
+
+And, even more interestingly, what about the general case? What if, rather than a copy taking 2 steps and a paste taking 1 step, a copy takes K steps and a paste takes N steps? 
+
+It doesn't really matter how large the screen is because presumably I'm just looking for the algorithm which produces the fastest growth, once the screen is sufficiently large. We can assume that "a step" takes a fixed time.  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> What seems very simple on the surface but is actually very complicated when examined more closely? </TITLE>
+	<DATE> 2016-03-06 17:22:48 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT>  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> Women of reddit: what men's products do you enjoy using? </TITLE>
+	<DATE> 2016-03-03 17:23:47 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT>  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> What new types of crime will there be in 100 years that don't exist today? </TITLE>
+	<DATE> 2016-03-03 00:30:50 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT>  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> Unboxing broccoli [unintentional] </TITLE>
+	<DATE> 2016-03-01 22:40:34 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT>  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> What new types of crime will there be in 100 years that don't exist today? </TITLE>
+	<DATE> 2016-03-01 19:20:09 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT>  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> What's the cleverest advert you've ever seen? </TITLE>
+	<DATE> 2016-03-01 01:16:33 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT>  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> [Request] An overly-detailed tutorial of a piece of software </TITLE>
+	<DATE> 2016-02-29 13:47:53 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> I'd like to see a very deep tutorial for a piece of software - maybe the audio editing software the content creator uses to make their videos - in which every button and UI element is explained in great detail in a softly spoken voice. Does something like this exist? Or would someone be able to make it with 3d audio? Not necessarily ear-to-ear, but just the awareness of the location of the sound is tingly :) </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> I created a subreddit, /r/TestFlight, to match Developers with beta testers. If you need beta testers for your iOS app or would like to beta test someone else's app, check it out. </TITLE>
+	<DATE> 2016-02-29 00:57:30 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT>  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> I created a subreddit, /r/TestFlight, to match Developers with beta testers. If you need beta testers for your iOS app or would like to beta test someone else's app, check it out. </TITLE>
+	<DATE> 2016-02-29 00:56:23 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT>  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> Pouring a beer </TITLE>
+	<DATE> 2016-02-27 15:05:29 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT>  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> overview for elfa82 </TITLE>
+	<DATE> 2016-02-25 10:59:09 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT>  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> Does anyone have any experience with these wireless headphones or similar? </TITLE>
+	<DATE> 2016-02-22 21:43:36 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> [removed] </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> The Reddit Filter </TITLE>
+	<DATE> 2016-02-22 20:32:00 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT>  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> [Request] Tweak to demote app location services privileges? </TITLE>
+	<DATE> 2016-02-21 22:44:44 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> I have an app which won't run unless I grant it access to my location at all times, even when the app isn't running. I want to give it my location only when it's open, but that's not an option (even thought it'd work fine). 
+
+They have literally no reason to request all of my location data, but the company is known to be scummy, harvesting and selling user information. It needs my location when it's open, but there's only one choice: always give it my location, or never. I'd like to override this and add the option of "only while app is open" like with most other apps - would this be possible with a tweak? </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> [discussion] I have two 2TB HDDs in RAID0 to protect against drive failure - how will I know if one fails? </TITLE>
+	<DATE> 2016-02-21 02:05:18 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Edit: I meant RAID1, not RAID0.
+
+---
+I'm using the built-in Windows 10 volume manager to manage the RAID1. It seem to be working, but how will I know if one drive fails? Will there be some kind of notification on my desktop? </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> [video] pilot lands plane perfectly with broken landing gear </TITLE>
+	<DATE> 2016-02-21 01:36:25 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT>  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> Why can't I use a try without an except? </TITLE>
+	<DATE> 2016-02-19 21:34:22 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> I want to do this:
+
+    try:
+        action()
+    some_other_stuff()
+
+I want to do action, and if there are any errors just move on and ignore them. Instead, it makes me use
+
+    try:
+        action()
+    except Exception:
+        pass
+    some_other_stuff()
+
+Which seems exactly the same to me: "If you encounter an exception, do nothing". Why isn't it allowed to forgo the except block? </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> Hopeless romantic is hopeless </TITLE>
+	<DATE> 2016-02-19 01:56:08 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT>  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> Porsche's Don't Text and Drive commercial </TITLE>
+	<DATE> 2016-02-19 00:19:28 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT>  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> What behaviour is accepted online which would never be tolerated "in real life"? </TITLE>
+	<DATE> 2016-02-18 23:57:51 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT>  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> Apple CEO Tim Cook speaks out against US Government request to add a backdoor to iOS, and calls for customers to support their stance </TITLE>
+	<DATE> 2016-02-17 11:25:04 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT>  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> US Government asks Apple to build a backdoor into iOS to allow them access to anyone's iPhone data </TITLE>
+	<DATE> 2016-02-17 11:07:50 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT>  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> Bush Finds Error In Fermilab Calculations </TITLE>
+	<DATE> 2016-02-16 11:22:32 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT>  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> [Poetry] Classical hip hop </TITLE>
+	<DATE> 2016-02-16 00:22:42 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT>  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> overview for YT_Reddit_Bot </TITLE>
+	<DATE> 2016-02-15 14:14:22 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT>  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> YSK that if you own a MacBook, your USB-C charger cable could be faulty and Apple will replace it for free </TITLE>
+	<DATE> 2016-02-14 14:45:21 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> The cables shipped with a design fault which has since been fixed, so Apple are replacing cables at no cost. This only applies to Macbooks, not MacBook Airs or MacBook Pros 
+
+http://forums.macrumors.com/threads/apple-launches-usb-c-charge-cable-replacement-program-for-retina-macbook.1956078/ </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> YSK that if you own a Macbook, your USB-C charger cable could be faulty and Apple will replace it for free </TITLE>
+	<DATE> 2016-02-14 12:54:51 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> [removed] </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> [Request] Tweak to demote app privileges? </TITLE>
+	<DATE> 2016-02-13 00:38:49 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> I have an app which won't run unless I grant it access to my location at all times, even when the app isn't running. I want to give it my location only when it's open, but that's not an option (even thought it'd work fine). 
+
+They have literally no reason to request all of my location data, but the company is known to be scummy, harvesting and selling user information. It needs my location when it's open, but there's only one choice: always give it my location, or never. I'd like to override this and add the option of "only while app is open" like with most other apps - would this be possible with a tweak? 
+
+---
+
+edit: it's not facebook </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> [Meta] PSA: Reports now actually mean something </TITLE>
+	<DATE> 2016-02-10 12:49:08 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> So I've finally gotten around to using reddit's new [custom reports](https://www.reddit.com/r/modnews/comments/42o2i0/moderators_subreddit_rules_now_available_for_all/) system, allowing users to specify which rule the reported comment/post is breaking. Click `report` on any submission or comment to choose which rule it's breaking, and feel free to test out your new powers on this post. A summary of our rules can be found [here](https://www.reddit.com/r/asmr/about/rules), while the full page of rules and guidelines can always be found at /r/asmr/wiki
+
+As always, reports are really helpful to the mods so **please report anything which breaks any rules**, even if you're not sure. It doesn't have to break the word of a rule - if it feels wrong, report it so we can review it. I'd much rather have too many false reports than not enough reports! Reporting is a huge help and gets rule-breaking content removed much quicker. If the report reason isn't listed you can still specify your own reason in the text box provided like before.
+
+While I'm here, I want to mention that we've been getting a lot of reports through of Content Creators who've posted their own videos on the subreddit. **This is completely fine**, and we don't remove submissions where Content Creators post their own work, as long as they're following [reddiquette](https://www.reddit.com/wiki/reddiquette) and reddit's [self-promotion guidelines](https://www.reddit.com/wiki/selfpromotion). It's rare for us to remove self-promoting content.
+
+Thanks to you all for being awesome and happy tingling :) </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> My phone corrects fucking to ducking every time, and ducking to fucking every time </TITLE>
+	<DATE> 2016-02-10 12:14:42 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT>  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> Free Cash </TITLE>
+	<DATE> 2016-02-09 19:09:19 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT>  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> Is it possible to have multiple python3 interpreter windows using the same data set? </TITLE>
+	<DATE> 2016-02-09 14:34:44 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> I'd like to be able to open two cmd windows (or similar) with python running and accepting commands, with a shared pool of global variables which both windows can access and modify simultaneously. Is this possible? </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> I'm looking for a self-learning text classifier based on examples </TITLE>
+	<DATE> 2016-02-09 14:20:08 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> I have two categories (we can say "spam" and "not spam" for the purpose of this post), and a few hundred examples of text for each category. I'd like to use my training set to classify new entries and decide whether they're spam. Can anyone point me to something I could use? I'd really rather not try to implement some classifier myself, but if I have to I can.  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> Unable to see comment replies unless I get them from submission.comments. Help? </TITLE>
+	<DATE> 2016-02-08 12:10:56 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Using praw on python 3.5.1
+
+I'm trying to get a comment tree of all replies to a given comment. If I say `get_info(id=commentID)`, I get the comment object but the replies attribute is always `[]` even when I know the comment has replies (the rest of the data, eg `comment.body`, checks out). I can get the same comment object by doing `comment.submission.comments` and picking the right top-level comment - doing this gives me the list of replies in `.replies`... ?!?! I tried using the get_content method instead but I couldn't get it to work - I kept getting `AttributeError: 'generator' object has no attribute 'replies'`. I tried using fetch=True and even list() on the generator but couldn't get it to fetch the actual comment.
+
+Is there an API rule which stops comment replies showing up if you directly request a comment from its `thing_id`?
+
+----
+
+Example in case I wasn't clear:
+
+     r = login() # I'm logged in with mod authority, not that it should make a difference
+     c = r.get_info(thing_id="t1_czrxngy")
+     c.body
+    "huh, I went..." # the expected body of the comment
+     c.replies
+    [] # there should be a tree of replies here
+     s = c.submission
+     c = s.comments[0] #I know that my comment happens to be s.comments[0] now, but if I didn't I'd have to iterate over s.comments searching for the correct comment.body
+     c.body
+    "huh, I went..." #the correct body, same as before
+     c.replies
+    [praw.objects.Comment object at 0x030F9310, praw.objects.Comment object at 0x030F9590, praw.objects.Comment object at 0x030F92B0]
+
+What gives? What did I do wrong? I don't want to implement the "search for the comment in comment.submission.comments" method because that's a terrible way to do it, and it also only works on top-level comments which is no good for me. Is it a bug in praw? A bug in the reddit API? Or did I do something wrong?  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> When managers and programmers meet </TITLE>
+	<DATE> 2016-02-04 22:02:13 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT>  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> Can we get proper capitalisation in ban messages please....? </TITLE>
+	<DATE> 2016-02-04 13:21:06 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Here is the verbatim message that gets sent when you're banned from a subreddit:
+
+you have been temporarily banned from posting to /r/subreddit. this ban will last for 7 days.
+note from the moderators:
+
+ban message
+
+you can contact the moderators regarding your ban by replying to this message. warning: using other accounts to circumvent a subreddit ban is considered a violation of reddit's site rules and can result in being banned from reddit entirely.
+
+It'd take about 30 seconds to capitalise the first letters of each sentence (ie "you have..", "this ban..", "warning" etc) and looks very sloppy without them. Simple thing unfixed for 10 years! Not sure if it's a stylistic decision to match the lower-case "reddit" style, but if it is I disagree with it and really think it would be better with correct capitalisation.
+
+^(Probably the most minor complaint ever submitted to this sub?) </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> Help with filters in python3 </TITLE>
+	<DATE> 2016-02-03 19:36:18 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> I'm converting a script from python2 to python3. It has the below line:
+
+    return filter(lambda x: x in string.printable,  message)
+
+This used to remove non-printable characters from a string (or rather, create a new string using the printable characters in `message`, but anyway..) - now it's returning some "filter object", which str() doesn't recognise. How can I convert it into a string? I guess it's very easy, I'm just not familiar with filters in python3. Thanks :) </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> YouTuber reveals MIND BOGGLING secret of how to get 400,000 views in 1 easy step! You'll never believe it! </TITLE>
+	<DATE> 2016-02-03 00:03:13 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT>  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> (ASMattR) Binaural Walter White impression [ear to ear][male][Breaking Bad][intentional] [36:48] </TITLE>
+	<DATE> 2016-02-02 23:22:33 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT>  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> I want to check if any word in a list of strings appears in a paragraph. What's the most efficient way to do this? </TITLE>
+	<DATE> 2016-02-01 16:48:17 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> I currently have something like this:
+
+    my_list = [] # populated with about ~100 words, and could grow massively in the future
+    long_parag = "" # expected to be 10-400 words long, probably won't grow too much
+
+    match = False
+    for word in my_list:
+        if (not match) and (word in long_parag):
+            match = true
+
+This doesn't seem like a great way to do it, but I can't really think of any better way. It's doing 100 checks, and I'd imagine each "check" is taking at least (half the length of long_para) sub-checks. Any suggestions to improve? I could use regex, but I don't know how the efficiency compares - I'd imagine it'd perform worse?
+
+I'm running this check hundreds of times per day so any minor efficiency gain would be multiplied into a major time/energy gain (I'm trying to keep energy usage at a minimum as a priority, but time gains are nice too). </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> Even as a Brit, I've never had to queue to get into a website before.. </TITLE>
+	<DATE> 2016-01-27 18:43:39 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT>  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> How crashSafari.com crashes Safari | Tom Scott </TITLE>
+	<DATE> 2016-01-26 00:56:25 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT>  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> test post please ignore [intentional] </TITLE>
+	<DATE> 2016-01-25 19:21:10 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT>  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> What did you do that made you happy at the time, but you deeply regret in retrospect? [Serious] </TITLE>
+	<DATE> 2016-01-25 16:27:39 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT>  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> Why do we need get and set functions inside a class? </TITLE>
+	<DATE> 2016-01-25 14:40:16 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Say I have a class like this:
+
+    class Human:
+        age = 20
+    
+        def getAge():
+            return self.age
+    
+        def setAge(age):
+            self.age = age
+
+Why can't I just have the age property and no methods, then just read/write the age directly to the property? Like:
+
+    Class Human:
+        age = 20
+
+    user = Human()
+    print user.age
+    user.age = 99
+
+This applies to any OO language, so I'm asking "in general" rather than relating to a specific language. My lecturer at uni said that it's "just bad practice" (to use the method-free way above), but didn't give a solid reason why. I'm not into doing things just because I'm told to without understanding why, so is there an actual reason to do this? </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> Test post please ignore? [meta] [question] </TITLE>
+	<DATE> 2016-01-24 12:21:34 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> [removed] </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> test post please ignore [meta] [question] </TITLE>
+	<DATE> 2016-01-24 00:33:00 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> [removed] </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> Question about the optimisations by the python compiler </TITLE>
+	<DATE> 2016-01-24 00:31:10 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> If I compile this:
+
+    if False:
+        do stuff
+
+will the compiler basically comment that whole block out? It will never be executed, so there's no point in running it every time the code is called. Similarly, although slightly different, if I compile
+
+    myVar = False
+    if myVar:
+        do stuff
+
+would that be compiled, or would it also be "commented out"?  I'm just wondering because I'd like to include a "debug" mode in my python script which includes a global
+
+    debug = False
+
+and many lines in the form of
+
+    if debug:
+        print value
+
+so I can turn on/off debug mode easily, but lots of ifs are being run unnecessarily and probably make it slightly slower unless they're being optimised away by the compiler. </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> How can I access the specific HTTP code in an HTTPException in praw? </TITLE>
+	<DATE> 2016-01-23 23:08:05 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT>     try:
+        user = r.get_redditor("skldjhfgksdjhfg", fetch=True)
+    except praw.errors.HTTPException as e:
+        if e.response.status_code == 404:
+            print "404"
+        elif e.response.status_code == 503:
+            print "503
+        else:
+            print "Other HTTPError"
+
+
+I've tried the above, as suggested by previous posts, but it doesn't work. I can catch a generat HTTPException fine, but I want to distinguish between a 404 exception and a 503 exception and take different action. However the above line crashes with "AttributeError: 'NotFound' object has no attribute 'response'". What should I do? </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> Armed and Operational </TITLE>
+	<DATE> 2016-01-19 19:16:09 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT>  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> X doesn't even exist. </TITLE>
+	<DATE> 2016-01-18 20:13:23 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Know what I love? How ignorant you are. You think that you know the answers to the world just because you \_\_\_\_\_? Well let me tell you something.  \_\_\_\_\_ doesn't even exist. It's meaningless gestures and motions that don't have any purpose. Maybe when you've gone to school and actually educated yourself, you'll understand what I do. You won't change a thing by ___\__ing. Not one damn thing.
+
+---
+
+[Source](https://i.imgur.com/d5ZKP.png) </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> The Star Wars opening theme gets me every time. [music] </TITLE>
+	<DATE> 2016-01-18 19:51:20 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT>  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> Girl talks for 4 minutes about how attractive she is </TITLE>
+	<DATE> 2016-01-18 19:04:11 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT>  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> overview for inex78806 </TITLE>
+	<DATE> 2016-01-17 22:40:01 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT>  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> overview for LEGO_not_LEGOS_ </TITLE>
+	<DATE> 2016-01-17 12:11:48 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT>  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> me irl </TITLE>
+	<DATE> 2016-01-17 01:18:35 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT>  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> In this London pub, drink prices rise and fall in response to Supply and Demand as if they're on the Stock Exchange </TITLE>
+	<DATE> 2016-01-07 16:23:39 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT>  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> In this London pub, drink prices rise and fall in response to Supply and Demand as if they're on the Stock Exchange </TITLE>
+	<DATE> 2016-01-07 16:08:42 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT>  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> What's the greatest headline you've ever seen? </TITLE>
+	<DATE> 2016-01-06 01:18:23 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT>  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> What the best piece of design that most people never even notice? </TITLE>
+	<DATE> 2016-01-05 01:46:11 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT>  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> PsBattle: a man drinking water from a distance </TITLE>
+	<DATE> 2016-01-03 23:28:17 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT>  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> Anon stands in a club </TITLE>
+	<DATE> 2016-01-03 12:12:41 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT>  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> [UK] [H] MSI Nvidia GTX 960 2GB, [W] Nvidia GTX 970 4GB or VISA/Paypal/bitcoin </TITLE>
+	<DATE> 2015-12-30 01:03:16 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> I have an MSI GTX 960 graphics card. I want to upgrade to a 970 and upgrade my VRAM a little. I've used the 960 for about 4 months so it's pretty new, and I have the original box. I bought it for 170 so I'm willing to sell it for a bit less - I'll consider any offers. In the very unlikely event that you happen to be selling a 970 4GB, I'll send you the difference in price by bank transfer only.
+
+If you want to pay by paypal it'll be extra to cover the paypal fees. I'd greatly prefer to receive money by bank transfer, or *maybe* bitcoin.
+
+If you're interested PM me or comment :D </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> Nvidia Pascal (next gen) graphics card myths BUSTED </TITLE>
+	<DATE> 2015-12-30 00:31:07 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT>  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> Clinical Cardiac Examination [unintentional] [male] </TITLE>
+	<DATE> 2015-12-28 01:09:02 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT>  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> How to charge your phone with a hand-cranked flashlight </TITLE>
+	<DATE> 2015-12-26 18:02:39 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT>  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> [question] FlipControlCenter "error loading switches to configure"? </TITLE>
+	<DATE> 2015-12-21 11:39:31 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> I only have flipcontrolcenter, bioprotect, and phantom installed. I've reinstalled all three and no effect - I also reinstalled applist. 
+
+Any ideas? I just want to hide the toggle for phantom from control centre but I can't from the FCC settings because it won't load the switch list. 
+
+http://www.imgur.com/8cYkunL,FgmUody </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> What's major news in your country/local region right now that the wider world is clueless about? </TITLE>
+	<DATE> 2015-12-20 00:56:16 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT>  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> Jump rope </TITLE>
+	<DATE> 2015-12-19 21:13:32 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT>  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> Which seemingly-minor occurrence would most people consider insignificant, but is actually an early warning sign of a disaster later on? </TITLE>
+	<DATE> 2015-12-17 21:36:03 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT>  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> Which seemingly-minor occurrence would most people consider insignificant, but is actually an early warning sign of a disaster later on? </TITLE>
+	<DATE> 2015-12-17 20:39:00 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT>  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> The reasoning behind my flag vote </TITLE>
+	<DATE> 2015-12-17 01:32:01 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT>  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> Sword defence demo </TITLE>
+	<DATE> 2015-12-14 00:35:55 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT>  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> I'm an excellent multi-tasker </TITLE>
+	<DATE> 2015-12-13 19:49:29 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT>  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> You die suddenly and without warning, and the Grim Reaper offers you the chance to delete a single file from your hard drive before you move on. Which file do you delete? </TITLE>
+	<DATE> 2015-12-13 17:39:01 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT>  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> Gym Technique </TITLE>
+	<DATE> 2015-12-12 17:09:50 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT>  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> What's the oldest thing you own, and what is the story behind it? </TITLE>
+	<DATE> 2015-12-12 01:44:03 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT>  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> Dot </TITLE>
+	<DATE> 2015-12-12 01:37:08 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT>  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> [Question] What's the best Snapchat tweak which won't get my account banned? </TITLE>
+	<DATE> 2015-12-11 22:11:12 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> I'm returning to a jailbroken device after many months. Last time I used Phantom I got two accounts banned for it - is this still an issue?  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> There should be an adblock website into which you can enter a URL and it shows you the webpage but strips out all of the ads. </TITLE>
+	<DATE> 2015-12-10 20:30:30 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> That way you'd be able to link to a single webpage and know the recipient wouldn't see the ads. You could also view ad-heavy pages as a one-off in the dedicated webpage rather than having to install a browser extension or specialised browser. </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> What do you have very high standards for? </TITLE>
+	<DATE> 2015-12-10 00:17:41 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT>  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> overview for zyabin101 </TITLE>
+	<DATE> 2015-12-09 20:33:33 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT>  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> What's the greatest piece of design you encounter on a daily basis? </TITLE>
+	<DATE> 2015-12-08 11:20:36 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT>  </TEXT>
+</WRITING>
+</INDIVIDUAL>

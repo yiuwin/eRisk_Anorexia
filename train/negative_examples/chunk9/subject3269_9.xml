@@ -1,0 +1,155 @@
+<INDIVIDUAL>
+<ID>subject3269</ID>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-05-07 11:05:34 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> 100 percent agree.  The RX-7 is such a great looking car. </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-05-07 07:08:12 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> That's pretty neat! </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> Mazda RX-7 [5616  3744] </TITLE>
+	<DATE> 2017-05-07 04:36:50 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT>  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-05-07 03:22:42 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> my post was tongue in cheek; sorry no one understood that </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-05-07 03:11:45 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> uh oh </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-05-07 03:11:21 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> thank you I appreciate it. </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-05-07 02:38:17 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Here is my output from the command line:
+
+` import sys
+ print(sys.executable)
+/usr/local/opt/python3/bin/python3.6
+ print(sys.version)
+3.6.1 (default, Apr  4 2017, 09:40:21) 
+[GCC 4.2.1 Compatible Apple LLVM 8.1.0 (clang-802.0.38)]
+ print(sys.path)
+['', '/usr/local/Cellar/python3/3.6.1/Frameworks/Python.framework/Versions/3.6/lib/python36.zip', '/usr/local/Cellar/python3/3.6.1/Frameworks/Python.framework/Versions/3.6/lib/python3.6', '/usr/local/Cellar/python3/3.6.1/Frameworks/Python.framework/Versions/3.6/lib/python3.6/lib-dynload', '/usr/local/lib/python3.6/site-packages']
+ import PyQt4
+ print(PyQt4)
+module 'PyQt4' from '/usr/local/lib/python3.6/site-packages/PyQt4/__init__.py'`
+ </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> When I turn 365, I'll have spent a whole year having birthdays. </TITLE>
+	<DATE> 2017-05-07 02:35:58 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT>  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> Jazz [1920x1080] </TITLE>
+	<DATE> 2017-05-07 02:18:36 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT>  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-05-07 02:07:02 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> My python 3 install is at `/usr/local/bin/python3` according to which python3.  Here is the output from what you said:
+
+`import sys
+ print(sys.executable)
+/Library/Frameworks/Python.framework/Versions/3.6/bin/python3.6
+ print(sys.version)
+3.6.1 (v3.6.1:69c0db5050, Mar 21 2017, 01:21:04) 
+[GCC 4.2.1 (Apple Inc. build 5666) (dot 3)]
+ print(sys.path)
+['', '/Users/_____/Documents', '/Library/Frameworks/Python.framework/Versions/3.6/lib/python36.zip', '/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6', '/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/lib-dynload', '/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages']
+ import PyQt4
+Traceback (most recent call last):
+  File "pyshell#4", line 1, in module
+    import PyQt4
+ModuleNotFoundError: No module named 'PyQt4'
+ print(PyQt4)
+Traceback (most recent call last):
+  File "pyshell#5", line 1, in module
+    print(PyQt4)
+NameError: name 'PyQt4' is not defined`
+
+I just don't know how to have idle look in `/usr/local/bin/python3`. </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> Mount Fuji [2560x1440] </TITLE>
+	<DATE> 2017-05-06 22:08:53 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT>  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> Abstract Space [2880x1800] </TITLE>
+	<DATE> 2017-05-06 19:11:41 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT>  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-05-06 19:02:44 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Hey man, sick analogy, and I'm sure you're super smart, but I don't think it's asking too much to have idle import a module.  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-05-06 15:05:30 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> What did the leper say to the prostitute?
+
+Keep the tip.  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> Krysten Ritter </TITLE>
+	<DATE> 2017-05-06 14:59:19 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT>  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-05-06 14:30:01 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> They are. I'm really stumped I've added the PYTHONPATH variable to my bash_profile with the path to python and idle still doesn't recognize it.   </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE>   </TITLE>
+	<DATE> 2017-05-06 14:19:23 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> I have pycharm as well but I would like to figure this problem out. I'll take a look and see if pycharm has this issue as well.  </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> Help fixing IDLE </TITLE>
+	<DATE> 2017-05-06 13:36:19 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT> Hi,
+
+So I am trying to install PyQt and use it in IDLE.  When I run python3 from the terminal and type import PyQt4, it imports fine, but when I go to IDLE and write `import PyQt4`, I get 'No module named PyQt4'.  My path is set up correctly and python works fine from the terminal.  I am just wondering if I need to edit the IDLE file in `/usr/local/bin` or something to get IDLE to use the right version of python.  Thanks. </TEXT>
+</WRITING>
+<WRITING>
+	<TITLE> Whale [2880x1800] </TITLE>
+	<DATE> 2017-05-06 11:08:06 </DATE>
+	<INFO> reddit post </INFO>
+	<TEXT>  </TEXT>
+</WRITING>
+</INDIVIDUAL>
