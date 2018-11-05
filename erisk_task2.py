@@ -40,68 +40,74 @@ include features like "number of words / submission"?
 
 
 
-def process_chunk():
+def process_chunks():
 
-    # ------------ PROCESS CHUNK 1
-    negative = [f for f in listdir('train/negative_examples/chunk1') if isfile(join('train/negative_examples/chunk1', f))] # negative - 132
-    positive = [f for f in listdir('train/positive_examples/chunk1') if isfile(join('train/positive_examples/chunk1', f))] # positive - 20
+    # ----------------------------------------------------------------------------------------
+    # ----------------------------------- NEGATIVE CHUNKS ------------------------------------
+    # ----------------------------------------------------------------------------------------
 
-
-
-    # ----------------------- create dataframe for NEGATIVE data
+    chunks = [f for f in listdir('train/negative_examples/')] # negative - 132
     frames_neg = []
-    for n in negative:
-        (tmp_subj_id, tmp_date, tmp_info, tmp_text) = readfile('train/negative_examples/chunk1/'+n)
 
-        # -- create NEGATIVE dataframe
-        df = {'date' : tmp_date, 'info' : tmp_info, 'text' : tmp_text}
-        df = pd.DataFrame(data=df)
+    for c in chunks:
+        path = 'train/negative_examples/' + c
+        negative = [f for f in listdir(path) if isfile(join(path, f))]
 
-        # --
-        frames_neg.append(df)
+        for n in negative:
+            (id, text) = readfile('train/negative_examples/'+c+'/'+n)
+
+            # -- create NEGATIVE dataframe
+            df = {'text' : text}
+            df = pd.DataFrame(data=[df])
+
+            # --
+            frames_neg.append(df)
+
 
     result_neg = pd.concat(frames_neg)
-    print(result_neg.shape)
 
     # - append target feature
     target = [0] * result_neg.shape[0]
     result_neg['target'] = target
 
 
-
-
-    # ---------------------- create dataframe for POSITIVE data
+    # ----------------------------------------------------------------------------------------
+    # ----------------------------------- POSITIVE CHUNKS ------------------------------------
+    # ----------------------------------------------------------------------------------------
+    chunks = [f for f in listdir('train/positive_examples/')] # negative - 132
     frames_pos = []
-    for p in positive:
-        #print ('train/negative_examples/chunk1/'+n)
-        (tmp_subj_id, tmp_date, tmp_info, tmp_text) = readfile('train/positive_examples/chunk1/'+p)
 
-        # --- create NEGATIVE dataframe
-        df = {'date' : tmp_date, 'info' : tmp_info, 'text' : tmp_text}
-        df = pd.DataFrame(data=df)
+    for c in chunks:
+        path = 'train/positive_examples/' + c
+        positive = [f for f in listdir(path) if isfile(join(path, f))]
 
-        # ---
-        frames_pos.append(df)
+        for p in positive:
+            (id, text) = readfile('train/positive_examples/'+c+'/'+p)
+
+            # -- create NEGATIVE dataframe
+            df = {'text' : text}
+            df = pd.DataFrame(data=[df])
+
+            # --
+            frames_pos.append(df)
+
 
     result_pos = pd.concat(frames_pos)
 
-    # -- append target feature
+    # - append target feature
     target = [1] * result_pos.shape[0]
     result_pos['target'] = target
 
-
-
-
-
-
-    # ------------ COMBINE NEGATIVE AND POSITIVE dataframes
+  
+    # ----------------------------------------------------------------------------------------
+    # ------------------------------------ COMBINE CHUNKS ------------------------------------
+    # ----------------------------------------------------------------------------------------
     result = pd.concat([result_neg, result_pos])
     print(result)
 
-    
 
-    # --- build model
-    X_train, X_test, y_train, y_test = train_test_split(result.text, result.target, test_size=0.2)
+    # ---------------------------------------- build model ------------------------------------
+    X_train, X_test, y_train, y_test = train_test_split(result.text, result.target, test_size=0.05)
 
     
     ''' test print the X_train, X_test, y_train, y_test values
@@ -114,74 +120,90 @@ def process_chunk():
     print('-------------------- y_test ------------------')
     #print(y_test, end=' ') # actual test values
     for x in y_test:
-        print (x,end='  ')
+        print (x,end=' ')
     #print((y_test).shape)
+
+    print(X_train.shape) 
+    print(y_train.shape) 
+    
+    print(X_test.shape)
+    print((y_test).shape)
     '''
 
+    print('\n')
     # -
     cvec = CountVectorizer().fit(X_train)
     df_train = pd.DataFrame(cvec.transform(X_train).todense(),columns=cvec.get_feature_names())
     df_test = pd.DataFrame(cvec.transform(X_test).todense(),columns=cvec.get_feature_names())
 
-
+    print(df_train.shape)
+    print(y_train.shape)
+    print(df_test.shape)
+    print(y_test.shape)
     # - pass data to classifier after using tfidftransformer
     lr = LogisticRegression()
     model = lr.fit(df_train, y_train)
-    #print(model.predict_proba(df_test)) # what the machine predicts is the possibility of class 0 vs. class 1, respectively
+    prediction = model.predict_proba(df_test)
+    #print(prediction) # what the machine predicts is the possibility of class 0 vs. class 1, respectively
     #print( type(model.predict_proba(df_test)) )
 
-    #for x in np.nditer(model.predict_proba(df_test)):
-    #    print (x)
+
+    '''
+    # ----------- TESTING AND EVALUATION STAGE
+
+    # --- open a file
+    f = open("usc_1.txt", "a")
+
+    # --- loop over predictions and print 
+    for i in range(prediction.shape[0]):
+        if (prediction[i][0] < 0.95 and prediction[i][1] < 0.95 ):
+            f.write()
+
+    print(prediction[0][0], prediction[0][1])
 
 
-    #print(model.predict(df_test)) # what the machine predicts are the test values
+    print(model.predict(df_test)) # what the machine predicts are the test values
     #print((model.predict(df_test)).shape)
 
     '''
-    confidence = model.decision_function(df_test)
-    print(confidence)
-    print(confidence.shape)
-    '''
-
-
-    
     print(lr.score(df_test, y_test)) # accuracy of the prediction
 
 
 
-
-    '''
-    # --- loop through model's predict_proba and print decision
-    f = open("usc_1.txt",a)
-    f.write()
-    '''
-  
-
-
 def readfile (file):
-    tmp_subj_id=[]
-    tmp_date=[]
-    tmp_info=[]
-    tmp_text=[]
+    result = ''
 
     dom = ElementTree.parse(file)
+    tmp_subj_id = dom.find('ID').text
     writing = dom.findall('WRITING')
 
     for w in writing:
         title = w.find('TITLE').text
-        date = w.find('DATE').text
-        info = w.find('INFO').text
         text = w.find('TEXT').text
 
         # print('* {} - {} - {} - {}'.format(title,date,info,text))
-        tmp_date.append(date)
-        tmp_info.append(info)
-        tmp_text.append(title + text)
+        result = result + title + text
 
-    return tmp_subj_id, tmp_date, tmp_info, tmp_text
+    return tmp_subj_id, result
 
 
 
 np.set_printoptions(threshold='nan') # --- display whole numpy array
 pd.set_option('display.expand_frame_repr', False) # --- display whole dataframe
-process_chunk()
+process_chunks()
+
+'''
+chunks = [f for f in listdir('train/negative_examples/')] # negative - 132
+for c in chunks:
+    path = 'train/negative_examples/' + c
+    negative = [f for f in listdir(path) if isfile(join(path, f))] # negative - 132
+    for n in negative:
+        (id, text) = readfile(path + '/' + n)
+        print(id)
+
+'''
+
+
+# test
+#(id, result) = readfile('train/negative_examples/chunk1/subject31_1.xml')
+#print(result)
