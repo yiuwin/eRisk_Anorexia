@@ -37,8 +37,7 @@ include features like "number of words / submission"?
 
 '''
 
-def build_df():
-
+def train_svm():
 
     # ----------------------------------------------------------------------------------------
     # ----------------------------------- NEGATIVE CHUNKS ------------------------------------
@@ -104,12 +103,7 @@ def build_df():
     #print(result)
     #print(type(result.iloc[1]), (result.iloc[1]).shape)
 
-    return result
 
-
-def train_svm(df):
-
-    result = df
     # ---------------------------------------- build model ------------------------------------
     X_train, X_test, y_train, y_test = train_test_split(result.text, result.target, test_size=0.005) # for personal testing (will not be passed on / used)
 
@@ -393,10 +387,10 @@ pd.set_option('display.expand_frame_repr', False) # --- display whole dataframe
 
 
 # ------ Build model using logistic regression
-df = build_df()
+
 
 #model, cvec, lr = train_lr()
-train_svm(df)
+train_svm()
 
 # ------ Test
 #test_lr(model, cvec, lr)
