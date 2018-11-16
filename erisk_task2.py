@@ -74,8 +74,11 @@ def build_df():
 
     blob1 = TextBlob("I hate Mondayy")
     print(format(blob1.sentiment))
+    print(blob1.sentiment.polarity)
+    print(blob1.sentiment.subjectivity)
 
-    print(TextBlob("I hate Mondau").correct())
+
+    print(TextBlob("lol i know right i kno idk").correct())
 
 
     # ----------------------------------------------------------------------------------------
@@ -142,42 +145,7 @@ def build_df():
     print(result)
     #print(type(result.iloc[1]), (result.iloc[1]).shape)
 
-
-    '''
-    try:
-        _create_unverified_https_context = ssl._create_unverified_context
-    except AttributeError:
-        pass
-    else:
-        ssl._create_default_https_context = _create_unverified_https_context
-    '''
-
-    # --------------------- stop word removal
-    nltk.download("stopwords")
-    stop = stopwords.words('english')
-    #print(stop)
-    result['text'] = result['text'].apply(lambda x: " ".join(x for x in x.split() if x not in stop))
-    
-
-    # --------------------- common word removal
-    common = list((pd.Series(' '.join(df['text']).split()).value_counts()[:10]).index)
-    print(common)
-    result['text'] = result['text'].apply(lambda x: " ".join(x for x in x.split() if x not in common))
-
-    # --------------------- rare word removal
-    rare = list((pd.Series(' '.join(df['text']).split()).value_counts()[-10:]).index)
-    print(rare)
-    result['text'] = result['text'].apply(lambda x: " ".join(x for x in x.split() if x not in rare))
-    #print((pd.Series(' '.join(df['text']).split()).value_counts()[:10]).index) # Index([u'it', u'the', u'i', u'you', u'a', u'and', u'of', u'to', u'im',u'that'],dtype='object')
-
-
-
-    '''
-    '''
-    # --------------------- stemming
-    st = PorterStemmer()
-    result['text'] = result['text'].apply(lambda x: " ".join([st.stem(word) for word in x.split()])) #result['text'][:5] is a <class 'pandas.core.series.Series'>
-
+    result = preprocess(result)
 
     print(result)
 
@@ -282,25 +250,75 @@ def train_lr(df):
     return model, cvec
 
 
+def preprocess(df):
+
+    '''
+    try:
+        _create_unverified_https_context = ssl._create_unverified_context
+    except AttributeError:
+        pass
+    else:
+        ssl._create_default_https_context = _create_unverified_https_context
+    '''
+
+    # --------------------- stop word removal
+    nltk.download("stopwords")
+    stop = stopwords.words('english')
+    #print(stop)
+    df['text'] = df['text'].apply(lambda x: " ".join(x for x in x.split() if x not in stop))
+    
+
+    # --------------------- common word removal
+    common = list((pd.Series(' '.join(df['text']).split()).value_counts()[:10]).index)
+    print(common)
+    df['text'] = df['text'].apply(lambda x: " ".join(x for x in x.split() if x not in common))
+
+    # --------------------- rare word removal
+    rare = list((pd.Series(' '.join(df['text']).split()).value_counts()[-10:]).index)
+    print(rare)
+    df['text'] = df['text'].apply(lambda x: " ".join(x for x in x.split() if x not in rare))
+    #print((pd.Series(' '.join(df['text']).split()).value_counts()[:10]).index) # Index([u'it', u'the', u'i', u'you', u'a', u'and', u'of', u'to', u'im',u'that'],dtype='object')
+
+
+
+    '''
+    '''
+    # --------------------- stemming
+    st = PorterStemmer()
+    df['text'] = df['text'].apply(lambda x: " ".join([st.stem(word) for word in x.split()])) #result['text'][:5] is a <class 'pandas.core.series.Series'>
+
+    return df
 
 
 def test(model, cvec):
-    for c in range(10): #process chunk
-        text_list = []
-        id_list = []
+    print("enter test")
+    text_list = []
+    id_list = []
+
+    ''' UNDO: RANGE(10) '''
+    for c in range(10): # for each chunk c, c
 
         path = 'test/chunk' + str(c+1)
-        test_file = [f for f in listdir(path) if isfile(join(path, f))] 
+        test_file = [f for f in listdir(path) if isfile(join(path, f))] # test_file: list of file names in the directory
         
         # for each subject file in chunk c
-        for t in test_file:
+        for index,t in enumerate(sorted(test_file)):
             (id, text) = readfile(path + '/' + t)
-            id_list.append(id)
-            text_list.append(text)
 
+            if (len(text_list)<=index):
+                id_list.append(id)
+                text_list.append(text)
+            else:
+                id_list[index] = id
+                text_list[index] = text_list[index] + ' ' + text
 
+        #print('[' + id_list[0] + ', ' + id_list[1] + ']')
+        #print('[' + text_list[0] + ', ' + text_list[1] + ']')
+
+        
         dict = {'id' : id_list, 'text' : text_list}
         result = pd.DataFrame(data=dict)
+        result = preprocess(result)
         #print(result)
 
         X_test = result.loc[:, 'text']
@@ -318,13 +336,13 @@ def test(model, cvec):
             #print(prediction_proba[i][0], prediction_proba[i][1])
 
             #if (c!=9): # emit a decision regardless of prediction score
-            if (c<2 and prediction_proba[i][0] < 0.96 and prediction_proba[i][1] < 0.96): # 0,1,2
+            if (c<3 and prediction_proba[i][0] < 0.99 and prediction_proba[i][1] < 0.99): # 0
                 f.write(id + '\t\t0\n')
-            elif (c<4 and prediction_proba[i][0] < 0.90 and prediction_proba[i][1] < 0.90): # 3
+            elif (c<4 and prediction_proba[i][0] < 0.95 and prediction_proba[i][1] < 0.95): # 3
                 f.write(id + '\t\t0\n')
-            elif (c<6 and prediction_proba[i][0] < 0.85 and prediction_proba[i][1] < 0.85): # 4,5
+            elif (c<7 and prediction_proba[i][0] < 0.85 and prediction_proba[i][1] < 0.85): # 4,5,6
                 f.write(id + '\t\t0\n')
-            elif (c<9 and prediction_proba[i][0] < 0.80 and prediction_proba[i][1] < 0.80): # 6,7 - if less than 97% sure, do not decide
+            elif (c<9 and prediction_proba[i][0] < 0.80 and prediction_proba[i][1] < 0.80): # 7,8 - if less than 97% sure, do not decide
                 f.write(id + '\t\t0\n')
             else: # emit a decision
                 if (prediction[i] == 0): # if the machine predicted 0 then write 2 to the file
@@ -332,18 +350,10 @@ def test(model, cvec):
                 else: # write 1 because machine predicted 1
                     f.write(id + '\t\t1\n')
 
-            '''
-            else: # chunk 9 - emit a decision regardless of prediction score
-                if (prediction[i] == 0): # if the machine predicted 0 then write 2 to the file
-                    f.write(id + '\t\t2\n')
-                else: # write 1 because machine predicted 1
-                    f.write(id + '\t\t1\n')
-            '''
-
             i=i+1
 
 
-
+        
 
 
 # ----------------------------------------------------------------------------------------
@@ -366,3 +376,4 @@ model, cvec = train_lr(df) # --- logistic regression
 
 # ------ Testing stage
 test(model, cvec)
+#test()
