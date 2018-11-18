@@ -25,6 +25,13 @@ import nltk, ssl
 
 from nltk.stem import PorterStemmer
 
+
+
+# Pipelining
+from sklearn.pipeline import Pipeline
+from sklearn.metrics import f1_score
+
+
 '''
 NOTE:
 The program currently processes all chunks from the training data, combines them in a pandas dataframe,
@@ -176,7 +183,6 @@ def train_adaboost(df):
     print(model.score(df_test, y_test)) # accuracy of the prediction for personal testing (will not be used in final program)
     return model, cvec
 
-
 def train_svm(df):
 
     # ---------------------------------------- build model ------------------------------------
@@ -208,8 +214,6 @@ def train_svm(df):
     print(model.score(df_test, y_test)) # accuracy of the prediction for personal testing (will not be used in final program)
     return model, cvec
 
-
-
 def train_lr(df):
 
     # ---------------------------------------- build model ------------------------------------
@@ -218,21 +222,16 @@ def train_lr(df):
     X_train = df.loc[:, 'text']
     y_train = df.loc[:, 'target']
 
-    ''' test print the X_train, X_test, y_train, y_test values
-    print('-------------------- X_train ------------------') # X_train and Y_train must have same columns in order to run logistic regression
-    print(X_train) # shape is (19, 6)
-    print('-------------------- Y_train ------------------')
-    print(y_train) # shape is (19,)
-    print('-------------------- X_test ------------------')
-    print(X_test)
-    print('-------------------- y_test ------------------')
-    #print(y_test, end=' ') # actual test values
-    for x in y_test:
-        print (x,end=' ')
-    #print((y_test).shape)
-    '''
+    pipeline = Pipeline([
+        ('vect',CountVectorizer()),
+        #('tfidf',TfidfTransformer()),
+        ('clf', LogisticRegression())
+    ])
 
-    # -
+    model = pipeline.fit(X_train, y_train)
+    cvec=''
+
+    '''
     #cvec = CountVectorizer(stop_words='english').fit(X_train) # alternatively, use TfidfVectorizer()
     cvec = CountVectorizer().fit(X_train)
     df_train = pd.DataFrame(cvec.transform(X_train).todense(),columns=cvec.get_feature_names())
@@ -247,6 +246,8 @@ def train_lr(df):
     #print( type(model.predict_proba(df_test)) )
 
     print(lr.score(df_test, y_test)) # accuracy of the prediction for personal testing (will not be used in final program)
+    '''
+    
     return model, cvec
 
 
@@ -291,7 +292,7 @@ def preprocess(df):
 
 
 def test(model, cvec):
-    print("enter test")
+    
     text_list = []
     id_list = []
 
@@ -323,10 +324,20 @@ def test(model, cvec):
 
         X_test = result.loc[:, 'text']
 
+        pipeline = Pipeline([
+            ('vect',CountVectorizer()),
+            #('tfidf',TfidfTransformer()),
+            ('clf', LogisticRegression())
+        ])
+        prediction_proba = model.predict_proba(X_test)
+        prediction = model.predict(X_test)
+
+        '''
         df_test = pd.DataFrame(cvec.transform(X_test).todense(),columns=cvec.get_feature_names())
         prediction_proba = model.predict_proba(df_test)
         prediction = model.predict(df_test)
         #print(prediction)
+        '''
 
         # --- open file
         f = open("decisions/usc_" + str(c+1) + ".txt", "a")
